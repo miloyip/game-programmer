@@ -235,13 +235,11 @@ digraph {
         }
 
         windowsgp2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="windowsgp2.jpg"/></TD></TR><TR><TD>Tricks of the Windows<br/>Game Programming<br/>Gurus 2nd Ed (2002)</TD></TR></TABLE>>]        
-        gamecodingcomplete4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamecodingcomplete4.jpg"/></TD></TR><TR><TD>Game Coding Complete<br/>4th Ed (2012)</TD></TR></TABLE>>]
-        {
-            rank=same
-            gpalgorithmstechniques [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpalgorithmstechniques.jpg"/></TD></TR><TR><TD>Game Programming<BR/>Algorithms and<BR/>Techniques (2013)</TD></TR></TABLE>>]
-            gameprogrammingpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameprogrammingpatterns.jpg"/></TD></TR><TR><TD>Game Programming<br/>Patterns (2014)</TD></TR></TABLE>>]
-        }
+        gamecodingcomplete4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamecodingcomplete4.jpg"/></TD></TR><TR><TD>Game Coding<br/>Complete<br/>4th Ed (2012)</TD></TR></TABLE>>]
+        gpalgorithmstechniques [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpalgorithmstechniques.jpg"/></TD></TR><TR><TD>Game Programming<BR/>Algorithms and<BR/>Techniques (2013)</TD></TR></TABLE>>]
+        gameprogrammingpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameprogrammingpatterns.jpg"/></TD></TR><TR><TD>Game Programming<br/>Patterns (2014)</TD></TR></TABLE>>]
         multiplayergp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="multiplayergp.jpg"/></TD></TR><TR><TD>Multiplayer Game<br/>Programming (2015)</TD></TR></TABLE>>]
+        crossplatformgp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="crossplatformgp.jpg"/></TD></TR><TR><TD>Cross-Platform Game<br/>Programming (2005)</TD></TR></TABLE>>]
  
         introtogdprodev [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="introtogdprodev.jpg"/></TD></TR><TR><TD>Introduction to Game<br/>Design, Prototyping,<br/>and Development (2014)</TD></TR></TABLE>>]
         unityinaction [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unityinaction.jpg"/></TD></TR><TR><TD>Unity in Action (2015)</TD></TR></TABLE>>]
@@ -251,11 +249,7 @@ digraph {
 
         cocos2dxbyexample2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cocos2dxbyexample2.jpg"/></TD></TR><TR><TD>Cocos2d-X<br/>by Example (2015)</TD></TR></TABLE>>]
 
-        {
-            rank=same
-            gpmisc
-            gpgemsbest [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgemsbest.jpg"/></TD></TR><TR><TD>Best of Game<br/>Programming Gems (2008)</TD></TR></TABLE>>]
-        }
+        gpgemsbest [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgemsbest.jpg"/></TD></TR><TR><TD>Best of Game<br/>Programming<br/>Gems (2008)</TD></TR></TABLE>>]
 
         {
             rank=same
@@ -276,6 +270,8 @@ digraph {
         scratch -> gamecodingcomplete4 -> gpintermediate[penwidth=2, arrowhead=normal]
         scratch -> windowsgp2
 
+        windowsgp2 -> gamecodingcomplete4[style=invis]
+
         unity -> introtogdprodev -> unityinaction -> gpintermediate
 
         unreal -> learninguegd -> blueprintsvisualscripting -> gpintermediate
@@ -283,15 +279,13 @@ digraph {
         cocos2dx -> cocos2dxbyexample2 -> gpintermediate
 
         gpintermediate -> gpalgorithmstechniques -> gameprogrammingpatterns -> gpmisc [penwidth=2, arrowhead=normal]
-        gpintermediate -> multiplayergp
+        gpintermediate -> { multiplayergp; crossplatformgp }
 
-        gpmisc -> gpgemsbest
-        gpgemsbest -> gpgems [constraint=false]
+        gpmisc -> gpgemsbest [penwidth=2, arrowhead=normal]
+        gpgemsbest -> gpgems
         gpgems -> gpgems2 -> gpgems3 -> gpgems4
         gpgems4 -> gpgems5
         gpgems5 -> gpgems6 -> gpgems7 -> gpgems8
-
-        gpgemsbest -> gpgems3 [style=invis]
 
         gametop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
         gamebottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
