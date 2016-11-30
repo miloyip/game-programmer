@@ -201,10 +201,15 @@ digraph {
 
         {
             node [shape="box", style="rounded,filled", color="#ebebc6"]
-            sebegin [label="Beginning Software Development"]
-            dp [label="Design Pattern"]
+            rank=same
             uml [label="UML"]
+            sepractice [label="Practice"]
+            dp [label="Design Pattern"]
         }
+
+        umldistilled3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="umldistilled3.jpg"/></TD></TR><TR><TD>UML Distilled<br/>3rd Ed (2003)</TD></TR></TABLE>>]
+        umluserguide2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="umluserguide2.jpg"/></TD></TR><TR><TD>The Unified Modeling<br/>Language User Guide<br/>2nd Ed (2005)</TD></TR></TABLE>>]
+        ooadwa3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="ooadwa3.jpg"/></TD></TR><TR><TD>Object-Oriented Analysis and<br/>Design with Applications 3rd Ed (2007)</TD></TR></TABLE>>]
 
         codecomplete2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="codecomplete2.jpg"/></TD></TR><TR><TD>Code Complete 2 (2004)</TD></TR></TABLE>>]
         apidesignforcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="apidesignforcpp.jpg"/></TD></TR><TR><TD>API Design for C++ (2011)</TD></TR></TABLE>>]
@@ -214,22 +219,19 @@ digraph {
         cleancode [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cleancode.jpg"/></TD></TR><TR><TD>Clean Code (2008)</TD></TR></TABLE>>]
         refactoring [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="refactoring.jpg"/></TD></TR><TR><TD>Refactoring (1999)</TD></TR></TABLE>>]
 
-        umldistilled3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="umldistilled3.jpg"/></TD></TR><TR><TD>UML Distilled<br/>3rd Ed (2003)</TD></TR></TABLE>>]
-        umluserguide2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="umluserguide2.jpg"/></TD></TR><TR><TD>The Unified Modeling<br/>Language User Guide<br/>2nd Ed (2005)</TD></TR></TABLE>>]
-        ooadwa3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="ooadwa3.jpg"/></TD></TR><TR><TD>Object-Oriented Analysis and<br/>Design with Applications 3rd Ed (2007)</TD></TR></TABLE>>]
+        sepractice -> codecomplete2 -> practiceofprogramming -> cleancode -> refactoring -> apidesignforcpp  [penwidth=2, arrowhead=normal]
 
-        sebegin -> codecomplete2 -> cleancode -> refactoring -> apidesignforcpp  [penwidth=2, arrowhead=normal]
-        sebegin -> practiceofprogramming
-
-        codecomplete2 -> dp -> designpatterns [penwidth=2, arrowhead=normal]
+        dp -> designpatterns [penwidth=2, arrowhead=normal]
         dp -> headfirstdesignpatterns -> designpatterns
 
-        codecomplete2 -> uml -> umldistilled3 -> umluserguide2 -> ooadwa3
+        uml -> umldistilled3 -> umluserguide2 -> ooadwa3
+
+        sepractice -> { designpatterns; umldistilled3 } [style=invis]
 
         setop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
         sebottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        setop -> sebegin [style=invis]
-        ooadwa3 -> sebottom [style=invis]
+        setop -> sepractice [style=invis]
+        apidesignforcpp -> sebottom [style=invis]
     }
 
     subgraph cluster_math {
@@ -294,7 +296,7 @@ digraph {
         introtogdprodev [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="introtogdprodev.jpg"/></TD></TR><TR><TD>Introduction to Game<br/>Design, Prototyping,<br/>and Development (2014)</TD></TR></TABLE>>]
         unityinaction [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unityinaction.jpg"/></TD></TR><TR><TD>Unity in Action (2015)</TD></TR></TABLE>>]
 
-        learninguegd [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="learninguegd.jpg"/></TD></TR><TR><TD>Learning Unreal Engine<br/>Game Development (2015)</TD></TR></TABLE>>]
+        learninguegd [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="learninguegd.jpg"/></TD></TR><TR><TD>Learning Unreal Engine<br/>Game Development<br/>(2015)</TD></TR></TABLE>>]
         blueprintsvisualscripting [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="blueprintsvisualscripting.jpg"/></TD></TR><TR><TD>Blueprints Visual Scripting<br/>for Unreal Engine (2015)</TD></TR></TABLE>>]
 
         cocos2dxbyexample2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cocos2dxbyexample2.jpg"/></TD></TR><TR><TD>Cocos2d-X<br/>by Example (2015)</TD></TR></TABLE>>]
@@ -317,7 +319,8 @@ digraph {
         }
 
         gpbegin -> { scratch; unity; unreal; cocos2dx }
-        scratch -> gamecodingcomplete4 -> gpintermediate[penwidth=2, arrowhead=normal]
+        scratch -> gamecodingcomplete4 [penwidth=2, arrowhead=normal, tailport=se]
+        gamecodingcomplete4 -> gpintermediate [penwidth=2, arrowhead=normal]
         scratch -> windowsgp2
 
         windowsgp2 -> gamecodingcomplete4[style=invis]
@@ -333,6 +336,7 @@ digraph {
 
         gpmisc -> gpgemsbest [penwidth=2, arrowhead=normal]
         gpgemsbest -> gpgems
+        gpgemsbest -> gpgems4 [style=invis]
         gpgems -> gpgems2 -> gpgems3 -> gpgems4
         gpgems4 -> gpgems5
         gpgems5 -> gpgems6 -> gpgems7 -> gpgems8
