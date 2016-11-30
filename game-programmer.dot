@@ -113,8 +113,11 @@ digraph {
         effectivemoderncpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="effectivemoderncpp.jpg"/></TD></TR><TR><TD>Effective Modern<br/>C++ (2014)</TD></TR></TABLE>>]
         optimizedcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="optimizedcpp.jpg"/></TD></TR><TR><TD>Optimized C++ (2016)</TD></TR></TABLE>>]
 
-        cpptemplates [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cpptemplates.jpg"/></TD></TR><TR><TD>C++ Templates (2002)</TD></TR></TABLE>>]
         insidecppobjectmodel [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="insidecppobjectmodel.jpg"/></TD></TR><TR><TD>Inside the C++<br/>Object Model (1996)</TD></TR></TABLE>>]
+        imperfectcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="imperfectcpp.jpg"/></TD></TR><TR><TD>Imperfect C++ (2004)</TD></TR></TABLE>>]
+        cpptemplates [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cpptemplates.jpg"/></TD></TR><TR><TD>C++ Templates (2002)</TD></TR></TABLE>>]
+        elementsofprogramming [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="elementsofprogramming.jpg"/></TD></TR><TR><TD>Elements of<br/>Programming (2009)</TD></TR></TABLE>>]
+        frommathtogeneric [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="frommathtogeneric.jpg"/></TD></TR><TR><TD>From Mathematics<br/>to Generic Programming<br/>(2014)</TD></TR></TABLE>>]
         moderncppdesign [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="moderncppdesign.jpg"/></TD></TR><TR><TD>Modern C++ Design (2001)</TD></TR></TABLE>>]
 
         programminginlua4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="programminginlua4.jpg"/></TD></TR><TR><TD>Programming in Lua<br/>4th Ed (2016)</TD></TR></TABLE>>]
@@ -127,14 +130,18 @@ digraph {
         cppbegin -> cppprimer5 -> cpppractice [penwidth=2, arrowhead=normal]
 
         cppbegin -> tcpppl4
-        { cppprimer5; tcpppl4 } -> cpplibrary
+        cppprimer5 -> cpplibrary [penwidth=2, arrowhead=normal]
+        tcpppl4 -> cpplibrary
         cpplibrary -> cppstandardlibrary2 [penwidth=2, arrowhead=normal]
         cppstandardlibrary2 -> effectivestl
         cppstandardlibrary2 -> boostcpplibraries2
         cpppractice -> effectivecpp3 -> moreeffectivecpp3 -> effectivemoderncpp [penwidth=2, arrowhead=normal]
         effectivemoderncpp -> optimizedcpp -> cppadvance
         cpppractice -> exceptionalcpp -> moreexceptionalcpp -> exceptionalcppstyle -> cppcodingstandard
-        cppadvance -> { insidecppobjectmodel; cpptemplates; moderncppdesign }
+        cppadvance -> elementsofprogramming -> frommathtogeneric
+        cppadvance -> { insidecppobjectmodel; cpptemplates }
+        insidecppobjectmodel -> imperfectcpp
+        cpptemplates -> moderncppdesign
 
         lua -> programminginlua4 -> luaprogramminggems
 
