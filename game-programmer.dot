@@ -99,6 +99,7 @@ digraph {
         cppprimer5 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppprimer5.jpg"/></TD></TR><TR><TD>C++ Primer<br/>5th Ed (2012)</TD></TR></TABLE>>]
         tcpppl4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpppl4.jpg"/></TD></TR><TR><TD>The C++ Programming<br/>Language 4th Ed (2014)</TD></TR></TABLE>>]
         cppstandardlibrary2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppstandardlibrary2.jpg"/></TD></TR><TR><TD>The C++ Standard<br/>Library 2nd Ed (2012)</TD></TR></TABLE>>]
+        boostcpplibraries2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="boostcpplibraries2.jpg"/></TD></TR><TR><TD>The Boost<br/>C++ Libraries<br/>2nd Ed (2014)</TD></TR></TABLE>>]
 
         effectivestl [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="effectivestl.jpg"/></TD></TR><TR><TD>Effective STL (2001)</TD></TR></TABLE>>]
 
@@ -129,6 +130,7 @@ digraph {
         { cppprimer5; tcpppl4 } -> cpplibrary
         cpplibrary -> cppstandardlibrary2 [penwidth=2, arrowhead=normal]
         cppstandardlibrary2 -> effectivestl
+        cppstandardlibrary2 -> boostcpplibraries2
         cpppractice -> effectivecpp3 -> moreeffectivecpp3 -> effectivemoderncpp [penwidth=2, arrowhead=normal]
         effectivemoderncpp -> optimizedcpp -> cppadvance
         cpppractice -> exceptionalcpp -> moreexceptionalcpp -> exceptionalcppstyle -> cppcodingstandard
