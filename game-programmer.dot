@@ -289,9 +289,6 @@ digraph {
 
         windowsgp2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="windowsgp2.jpg"/></TD></TR><TR><TD>Tricks of the Windows<br/>Game Programming<br/>Gurus 2nd Ed (2002)</TD></TR></TABLE>>]        
         gamecodingcomplete4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamecodingcomplete4.jpg"/></TD></TR><TR><TD>Game Coding<br/>Complete<br/>4th Ed (2012)</TD></TR></TABLE>>]
-        gpalgorithmstechniques [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpalgorithmstechniques.jpg"/></TD></TR><TR><TD>Game Programming<BR/>Algorithms and<BR/>Techniques (2013)</TD></TR></TABLE>>]
-        gameprogrammingpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameprogrammingpatterns.jpg"/></TD></TR><TR><TD>Game Programming<br/>Patterns (2014)</TD></TR></TABLE>>]
-        crossplatformgp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="crossplatformgp.jpg"/></TD></TR><TR><TD>Cross-Platform Game<br/>Programming (2005)</TD></TR></TABLE>>]
  
         introtogdprodev [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="introtogdprodev.jpg"/></TD></TR><TR><TD>Introduction to Game<br/>Design, Prototyping,<br/>and Development (2014)</TD></TR></TABLE>>]
         unityinaction [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unityinaction.jpg"/></TD></TR><TR><TD>Unity in Action (2015)</TD></TR></TABLE>>]
@@ -301,7 +298,20 @@ digraph {
 
         cocos2dxbyexample2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cocos2dxbyexample2.jpg"/></TD></TR><TR><TD>Cocos2d-X<br/>by Example (2015)</TD></TR></TABLE>>]
 
-        gpgemsbest [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgemsbest.jpg"/></TD></TR><TR><TD>Best of Game<br/>Programming<br/>Gems (2008)</TD></TR></TABLE>>]
+        gpalgorithmstechniques [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpalgorithmstechniques.jpg"/></TD></TR><TR><TD>Game Programming<BR/>Algorithms and<BR/>Techniques (2013)</TD></TR></TABLE>>]
+        gameprogrammingpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameprogrammingpatterns.jpg"/></TD></TR><TR><TD>Game Programming<br/>Patterns (2014)</TD></TR></TABLE>>]
+        crossplatformgp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="crossplatformgp.jpg"/></TD></TR><TR><TD>Cross-Platform Game<br/>Programming (2005)</TD></TR></TABLE>>]
+        androidndkgdcookbook [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="androidndkgdcookbook.jpg"/></TD></TR><TR><TD>Android NDK Game<br/>Development Cookbook<br/>(2013)</TD></TR></TABLE>>]
+        buildingfpsgameunity [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="buildingfpsgameunity.jpg"/></TD></TR><TR><TD>Building an FPS<br/>Game with Unity (2015)</TD></TR></TABLE>>]
+        unityvrprojects [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unityvrprojects.jpg"/></TD></TR><TR><TD>Unity Virtual<br/>Reality Projects (2015)</TD></TR></TABLE>>]
+        agumentedreality [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="agumentedreality.jpg"/></TD></TR><TR><TD>Agumented Reality<br/>(2016)</TD></TR></TABLE>>]
+
+        {
+            rank=same
+            gpgemsbest [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgemsbest.jpg"/></TD></TR><TR><TD>Best of Game<br/>Programming<br/>Gems (2008)</TD></TR></TABLE>>]
+            beginninggp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="beginninggp.jpg"/></TD></TR><TR><TD>Beginning Game<br/>Programming (2009)</TD></TR></TABLE>>]
+            advancedgp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="advancedgp.jpg"/></TD></TR><TR><TD>Advanced Game<br/>Programming (2009)</TD></TR></TABLE>>]
+        }
 
         {
             rank=same
@@ -332,11 +342,14 @@ digraph {
         cocos2dx -> cocos2dxbyexample2 -> gpintermediate
 
         gpintermediate -> gpalgorithmstechniques -> gameprogrammingpatterns -> gpmisc [penwidth=2, arrowhead=normal]
-        gpintermediate -> crossplatformgp
+        gpintermediate -> crossplatformgp -> androidndkgdcookbook
+        gpintermediate -> buildingfpsgameunity -> unityvrprojects
+        gpintermediate -> agumentedreality
 
         gpmisc -> gpgemsbest [penwidth=2, arrowhead=normal]
         gpgemsbest -> gpgems
-        gpgemsbest -> gpgems4 [style=invis]
+        gpmisc -> beginninggp -> advancedgp
+        beginninggp -> gpgems2 [style=invis]
         gpgems -> gpgems2 -> gpgems3 -> gpgems4
         gpgems4 -> gpgems5
         gpgems5 -> gpgems6 -> gpgems7 -> gpgems8
@@ -375,6 +388,7 @@ digraph {
         languageimplpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="languageimplpatterns.jpg"/></TD></TR><TR><TD>Language Implementation<br/>Patterns (2010)</TD></TR></TABLE>>]
         garbagecollectionhandbook [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="garbagecollectionhandbook.jpg"/></TD></TR><TR><TD>The Garbage Collection<br/>Handbook (2011)</TD></TR></TABLE>>]
 
+        unity5gameoptimization [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unity5gameoptimization.jpg"/></TD></TR><TR><TD>Unity 5 Game<br/>Optimization (2015)</TD></TR></TABLE>>]
         videogameoptimization [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="videogameoptimization.jpg"/></TD></TR><TR><TD>Video Game<br/>Optimization (2010)</TD></TR></TABLE>>]
         hackersdelight2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="hackersdelight2.jpg"/></TD></TR><TR><TD>Hacker's Delight<br/>2nd Ed (2012)</TD></TR></TABLE>>]
         gpgpu [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgpu.jpg"/></TD></TR><TR><TD>GPGPU Programming<br/>for Games and Science<br/>(2014)</TD></TR></TABLE>>]
@@ -388,13 +402,13 @@ digraph {
         gameenginearchitecture2 -> "3dgameenginearchitecture" -> gameenginedesign2
         gearticles -> gameenginegems1 -> gameenginegems2 -> gameenginegems3
         gescript -> gamescriptingmastery -> languageimplpatterns -> garbagecollectionhandbook
-        geoptimization -> videogameoptimization -> hackersdelight2 -> gpgpu
+        geoptimization -> unity5gameoptimization -> videogameoptimization -> hackersdelight2 -> gpgpu
         getool -> gamedevtools -> designinguxgamedevtools
 
         getop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
         gebottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
         getop -> gebegin [style=invis]
-        garbagecollectionhandbook -> gebottom [style=invis]
+        gpgpu -> gebottom [style=invis]
     }
 
     subgraph cluster_cg {
