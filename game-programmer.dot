@@ -101,7 +101,7 @@ digraph {
         modernos4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="modernos4.jpg"/></TD></TR><TR><TD>Modern Operating<br/>System 4th Ed (2014)</TD></TR></TABLE>>]
         
         clrs3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="clrs3.jpg"/></TD></TR><TR><TD>Introduction to<br/>Algorithms 3rd Ed (2009)</TD></TR></TABLE>>]
-        algorithms4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="algorithms4.jpg"/></TD></TR><TR><TD>algorithms<br/>4th Ed (2011)</TD></TR></TABLE>>]
+        algorithms4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="algorithms4.jpg"/></TD></TR><TR><TD>Algorithms<br/>4th Ed (2011)</TD></TR></TABLE>>]
         
         concretemaths2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="concretemaths2.jpg"/></TD></TR><TR><TD>Concrete Mathematics<br/>2nd Ed (1994)</TD></TR></TABLE>>]
         computationalscieng [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="computationalscieng.jpg"/></TD></TR><TR><TD>Computational Science<br/>and Engineering (2007)</TD></TR></TABLE>>]
@@ -138,12 +138,12 @@ digraph {
         cppprimer5 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppprimer5.jpg"/></TD></TR><TR><TD>C++ Primer<br/>5th Ed (2012)</TD></TR></TABLE>>]
         tcpppl4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpppl4.jpg"/></TD></TR><TR><TD>The C++ Programming<br/>Language 4th Ed (2014)</TD></TR></TABLE>>]
         cppstandardlibrary2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppstandardlibrary2.jpg"/></TD></TR><TR><TD>The C++ Standard<br/>Library 2nd Ed (2012)</TD></TR></TABLE>>]
-        boostcpplibraries2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="boostcpplibraries2.jpg"/></TD></TR><TR><TD>The Boost<br/>C++ Libraries<br/>2nd Ed (2014)</TD></TR></TABLE>>]
+        boostcpplibraries2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="boostcpplibraries2.jpg"/></TD></TR><TR><TD>The Boost C++<br/>Libraries 2nd Ed (2014)</TD></TR></TABLE>>]
         cppconcurrencyinaction [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppconcurrencyinaction.jpg"/></TD></TR><TR><TD>C++ Concurrency<br/>in Action (2012)</TD></TR></TABLE>>]
 
         effectivestl [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="effectivestl.jpg"/></TD></TR><TR><TD>Effective STL (2001)</TD></TR></TABLE>>]
 
-        exceptionalcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="exceptionalcpp.jpg"/></TD></TR><TR><TD>Exceptional C++ (1999)</TD></TR></TABLE>>]
+        exceptionalcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="exceptionalcpp.jpg"/></TD></TR><TR><TD>Exceptional C++<br/>(1999)</TD></TR></TABLE>>]
         moreexceptionalcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="moreexceptionalcpp.jpg"/></TD></TR><TR><TD>More Exceptional<br/>C++ (2001)</TD></TR></TABLE>>]
         exceptionalcppstyle [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="exceptionalcppstyle.jpg"/></TD></TR><TR><TD>Exceptional C++<br/>Style (2004)</TD></TR></TABLE>>]
         cppcodingstandard [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppcodingstandard.jpg"/></TD></TR><TR><TD>C++ Coding<br/>Standards (2004)</TD></TR></TABLE>>]
@@ -151,7 +151,7 @@ digraph {
         effectivecpp3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="effectivecpp3.jpg"/></TD></TR><TR><TD>Effective C++<br/>3rd Ed (2005)</TD></TR></TABLE>>]
         moreeffectivecpp3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="moreeffectivecpp.jpg"/></TD></TR><TR><TD>More Effective<br/>C++ (1996)</TD></TR></TABLE>>]
         effectivemoderncpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="effectivemoderncpp.jpg"/></TD></TR><TR><TD>Effective Modern<br/>C++ (2014)</TD></TR></TABLE>>]
-        optimizedcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="optimizedcpp.jpg"/></TD></TR><TR><TD>Optimized C++ (2016)</TD></TR></TABLE>>]
+        optimizedcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="optimizedcpp.jpg"/></TD></TR><TR><TD>Optimized C++<br/>(2016)</TD></TR></TABLE>>]
 
         insidecppobjectmodel [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="insidecppobjectmodel.jpg"/></TD></TR><TR><TD>Inside the C++<br/>Object Model (1996)</TD></TR></TABLE>>]
         imperfectcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="imperfectcpp.jpg"/></TD></TR><TR><TD>Imperfect C++ (2004)</TD></TR></TABLE>>]
