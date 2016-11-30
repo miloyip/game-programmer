@@ -1,0 +1,614 @@
+digraph {
+    compound=true
+    fontname="Inconsolata"
+    fontsize=20
+    margin="0,0"
+    ranksep=0.25
+    nodesep=0.15
+    penwidth=0.5
+    labeljust="left"
+    imagepath="images"
+
+    style="rounded,filled"
+    color="none"
+    fillcolor=""
+    node [fontname="Inconsolata", fontsize=10, shape=none, penwidth=0.5]
+    edge [fontname="Inconsolata", fontsize=10, arrowhead=vee]
+
+    subgraph cluster_toc {
+        style=invis;
+
+        toctop [fixedsize=true,width=8, height=1, shape=plaintext,fontsize=30,label=<<TABLE BORDER="0"><TR><TD>Game Programmer's Study Path</TD></TR></TABLE>>]
+        tocbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+
+        {
+            node [shape="box", style="rounded,filled", fixedsize=true, width=3, height=0.75, fontsize=15]
+
+            cs          [color="#eac7c7", label="1. Computer Science"]
+            proglang    [color="#eddac5", label="2. Programming Languages"]
+            softwaredev [color="#ebebc6", label="3. Software Development"]
+            math        [color="#d9ebc6", label=<4. Mathematics for<br/>Game Porgramming>]
+            gameprog    [color="#c5edc5", label="5. Game Programming"]
+            gameengine  [color="#c5ede1", label=<6. Game Engine<br/>Development>]
+            cg          [color="#c5e1ed", label="7. Computer Graphics"]
+            audio       [color="#c5cbed", label="8. Game Audio"]
+            phyanim     [color="#d7c5ed", label=<9. Game Physics and<br/>Animation>]
+            ai          [color="#edc5ed", label=<10. Game Artificial<br/>Intelligence>]
+            gameserver  [label=<11. Game Server<br/>Programming>]
+        }
+        cs -> proglang -> softwaredev -> math -> gameprog -> gameengine
+        cg -> audio -> phyanim -> ai -> gameserver [style=invis]
+        gameengine -> { cg; phyanim; ai; audio; gameserver }
+        cg -> audio [style=invis]
+
+        toctop -> cs [style=invis]
+        gameserver -> tocbottom [style=invis]
+    }
+
+    subgraph cluster_cs {
+        fillcolor="#f8ecec"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>1. Computer Science</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled" color="#eac7c7"]
+            rank=same
+            foundation [label="CS Foundation"]
+            algorithm [label="Algorithm"]
+            csmath [label="Mathematics for CS"]
+        }
+
+        csapp3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="csapp3.jpg"/></TD></TR><TR><TD>Computer Systems:<br/>A Programmer's<br/>Perspective 3rd Ed (2015)</TD></TR></TABLE>>]
+        comparch5 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="comparch5.jpg"/></TD></TR><TR><TD>Computer Architecture<br/>5th Ed (2011)</TD></TR></TABLE>>]
+        modernos4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="modernos4.jpg"/></TD></TR><TR><TD>Modern Operating<br/>System 4th Ed (2014)</TD></TR></TABLE>>]
+        
+        clrs3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="clrs3.jpg"/></TD></TR><TR><TD>Introduction to<br/>Algorithms 3rd Ed (2009)</TD></TR></TABLE>>]
+        algorithms4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="algorithms4.jpg"/></TD></TR><TR><TD>algorithms<br/>4th Ed (2011)</TD></TR></TABLE>>]
+        
+        concretemaths2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="concretemaths2.jpg"/></TD></TR><TR><TD>Concrete Mathematics<br/>2nd Ed (1994)</TD></TR></TABLE>>]
+        computationalscieng [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="computationalscieng.jpg"/></TD></TR><TR><TD>Computational Science<br/>and Engineering (2007)</TD></TR></TABLE>>]
+
+        foundation -> csapp3 -> { comparch5; modernos4 }
+        algorithm -> { clrs3; algorithms4 }
+        csmath -> concretemaths2 -> computationalscieng
+
+        cstop [fixedsize=true,width=8,height=0.1,style=invis, label=""]
+        csbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        cstop -> csmath [style=invis]
+        comparch5 -> csbottom [style=invis]
+    }
+
+    subgraph cluster_proglang {
+        fillcolor="#f9f3ec"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>2. Programming Languages</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled" color="#eddac5"]
+
+            {
+                rank=same
+                cppbegin [label="Beginning C++"]
+                lua [label="Lua"]
+                csharp [label="C#"]
+            }
+
+            cpppractice [label="C++ Practice"]
+            cpplibrary [label="C++ Standard Library"]
+            cppadvance [label="Advanced C++"]
+        }
+
+        cppprimer5 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppprimer5.jpg"/></TD></TR><TR><TD>C++ Primer<br/>5th Ed (2012)</TD></TR></TABLE>>]
+        tcpppl4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpppl4.jpg"/></TD></TR><TR><TD>The C++ Programming<br/>Language 4th Ed (2014)</TD></TR></TABLE>>]
+        cppstandardlibrary2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppstandardlibrary2.jpg"/></TD></TR><TR><TD>The C++ Standard<br/>Library 2nd Ed (2012)</TD></TR></TABLE>>]
+
+        effectivestl [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="effectivestl.jpg"/></TD></TR><TR><TD>Effective STL (2001)</TD></TR></TABLE>>]
+
+        exceptionalcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="exceptionalcpp.jpg"/></TD></TR><TR><TD>Exceptional C++ (1999)</TD></TR></TABLE>>]
+        moreexceptionalcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="moreexceptionalcpp.jpg"/></TD></TR><TR><TD>More Exceptional<br/>C++ (2001)</TD></TR></TABLE>>]
+        exceptionalcppstyle [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="exceptionalcppstyle.jpg"/></TD></TR><TR><TD>Exceptional C++<br/>Style (2004)</TD></TR></TABLE>>]
+        cppcodingstandard [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppcodingstandard.jpg"/></TD></TR><TR><TD>C++ Coding<br/>Standards (2004)</TD></TR></TABLE>>]
+
+        effectivecpp3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="effectivecpp3.jpg"/></TD></TR><TR><TD>Effective C++<br/>3rd Ed (2005)</TD></TR></TABLE>>]
+        moreeffectivecpp3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="moreeffectivecpp.jpg"/></TD></TR><TR><TD>More Effective<br/>C++ (1996)</TD></TR></TABLE>>]
+        effectivemoderncpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="effectivemoderncpp.jpg"/></TD></TR><TR><TD>Effective Modern<br/>C++ (2014)</TD></TR></TABLE>>]
+        optimizedcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="optimizedcpp.jpg"/></TD></TR><TR><TD>Optimized C++ (2016)</TD></TR></TABLE>>]
+
+        cpptemplates [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cpptemplates.jpg"/></TD></TR><TR><TD>C++ Templates (2002)</TD></TR></TABLE>>]
+        insidecppobjectmodel [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="insidecppobjectmodel.jpg"/></TD></TR><TR><TD>Inside the C++<br/>Object Model (1996)</TD></TR></TABLE>>]
+        moderncppdesign [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="moderncppdesign.jpg"/></TD></TR><TR><TD>Modern C++ Design (2001)</TD></TR></TABLE>>]
+
+        programminginlua4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="programminginlua4.jpg"/></TD></TR><TR><TD>Programming in Lua<br/>4th Ed (2016)</TD></TR></TABLE>>]
+        luaprogramminggems [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="luaprogramminggems.jpg"/></TD></TR><TR><TD>Lua Programming<br/>Gems (2008)</TD></TR></TABLE>>]
+
+        mvcsharpstepbystep8 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="mvcsharpstepbystep8.jpg"/></TD></TR><TR><TD>Microsoft Visual C#<br/>Step by Step<br/>8th Ed (2015)</TD></TR></TABLE>>]
+        csharpindepth3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="csharpindepth3.jpg"/></TD></TR><TR><TD>C# in Depth<br/>3rd Ed (2013)</TD></TR></TABLE>>]
+        clrviacsharp4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="clrviacsharp4.jpg"/></TD></TR><TR><TD>CLR via C#<br/>4th Ed (2012)</TD></TR></TABLE>>]
+
+        cppbegin -> cppprimer5 -> cpppractice [penwidth=2, arrowhead=normal]
+
+        cppbegin -> tcpppl4
+        { cppprimer5; tcpppl4 } -> cpplibrary
+        cpplibrary -> cppstandardlibrary2 [penwidth=2, arrowhead=normal]
+        cppstandardlibrary2 -> effectivestl
+        cpppractice -> effectivecpp3 -> moreeffectivecpp3 -> effectivemoderncpp [penwidth=2, arrowhead=normal]
+        effectivemoderncpp -> optimizedcpp -> cppadvance
+        cpppractice -> exceptionalcpp -> moreexceptionalcpp -> exceptionalcppstyle -> cppcodingstandard
+        cppadvance -> { insidecppobjectmodel; cpptemplates; moderncppdesign }
+
+        lua -> programminginlua4 -> luaprogramminggems
+
+        csharp -> mvcsharpstepbystep8 -> csharpindepth3 -> clrviacsharp4
+
+        progtop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        progbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        progtop -> cppbegin [style=invis]
+        moderncppdesign -> progbottom [style=invis]
+    }
+
+    subgraph cluster_se {
+        fillcolor="#f8f8ec"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>3. Software Development</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled", color="#ebebc6"]
+            sebegin [label="Beginning Software Development"]
+            dp [label="Design Pattern"]
+            uml [label="UML"]
+        }
+
+        codecomplete2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="codecomplete2.jpg"/></TD></TR><TR><TD>Code Complete 2 (2004)</TD></TR></TABLE>>]
+        apidesignforcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="apidesignforcpp.jpg"/></TD></TR><TR><TD>API Design for C++ (2011)</TD></TR></TABLE>>]
+        designpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="designpatterns.jpg"/></TD></TR><TR><TD>Design Patterns (1994)</TD></TR></TABLE>>]
+        headfirstdesignpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="headfirstdesignpatterns.jpg"/></TD></TR><TR><TD>Head First<br/>Design Patterns (2004)</TD></TR></TABLE>>]
+        practiceofprogramming [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="practiceofprogramming.jpg"/></TD></TR><TR><TD>The Practice of<br/>Porgramming (1999)</TD></TR></TABLE>>]
+        cleancode [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cleancode.jpg"/></TD></TR><TR><TD>Clean Code (2008)</TD></TR></TABLE>>]
+        refactoring [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="refactoring.jpg"/></TD></TR><TR><TD>Refactoring (1999)</TD></TR></TABLE>>]
+
+        umldistilled3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="umldistilled3.jpg"/></TD></TR><TR><TD>UML Distilled<br/>3rd Ed (2003)</TD></TR></TABLE>>]
+        umluserguide2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="umluserguide2.jpg"/></TD></TR><TR><TD>The Unified Modeling<br/>Language User Guide<br/>2nd Ed (2005)</TD></TR></TABLE>>]
+        ooadwa3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="ooadwa3.jpg"/></TD></TR><TR><TD>Object-Oriented Analysis and<br/>Design with Applications 3rd Ed (2007)</TD></TR></TABLE>>]
+
+        sebegin -> codecomplete2 -> cleancode -> refactoring -> apidesignforcpp  [penwidth=2, arrowhead=normal]
+        sebegin -> practiceofprogramming
+
+        codecomplete2 -> dp -> designpatterns [penwidth=2, arrowhead=normal]
+        dp -> headfirstdesignpatterns -> designpatterns
+
+        codecomplete2 -> uml -> umldistilled3 -> umluserguide2 -> ooadwa3
+
+        setop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        sebottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        setop -> sebegin [style=invis]
+        ooadwa3 -> sebottom [style=invis]
+    }
+
+    subgraph cluster_math {
+        fillcolor="#f2f8ec"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>4. Mathematics for Game Porgramming</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled", color="#d9ebc6"]
+            mathbegin [label="Beginning Mathematics for Game Programming"]
+            mathadvanced [label="Advanced Mathematics for Game Programming"]
+        }
+
+        foundationsgedmath [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="foundationsgedmath.jpg"/></TD></TR><TR><TD>Foundations of Game<br/>Engine Development,<br/>Vol 1: Mathematics<br/>(2016)</TD></TR></TABLE>>]        
+        math3dcpcg3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="math3dcpcg3.jpg"/></TD></TR><TR><TD>Mathematics for 3D<br/>Game Programming and<br/>Computer Graphics<br/>3rd Ed (2011)</TD></TR></TABLE>>]
+        "3dmathprimer2" [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="3dmathprimer2.jpg"/></TD></TR><TR><TD>3D Math Primer for<br/>Graphics and Game<br/>Development 2nd Ed (2011)</TD></TR></TABLE>>]
+        essentialmaths3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="essentialmaths3.jpg"/></TD></TR><TR><TD>Essential Mathematics<br/>for Games and<br/>Interactive Applications<br/>3rd Ed (2011)</TD></TR></TABLE>>]
+
+        geometrictools [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="geometrictools.jpg"/></TD></TR><TR><TD>Geometric Tools for<br/>Computer Graphics<br/>(2002)</TD></TR></TABLE>>]
+        geometricalgebra [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="geometricalgebra.jpg"/></TD></TR><TR><TD>Geometric Algebra for<br/>Computer Science (2007)</TD></TR></TABLE>>]
+        visualizingquaternions [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="visualizingquaternions.jpg"/></TD></TR><TR><TD>Visualizing Quaternions<br/>(2006)</TD></TR></TABLE>>]
+        divgradcurl4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="divgradcurl4.jpg"/></TD></TR><TR><TD>Div, Grad, Curl<br/>and all That<br/>4th Ed (2004)</TD></TR></TABLE>>]
+
+        mathbegin -> foundationsgedmath
+        mathbegin -> math3dcpcg3 -> mathadvanced [penwidth=2, arrowhead=normal]
+        mathbegin -> "3dmathprimer2"
+        mathbegin -> essentialmaths3
+
+        { foundationsgedmath; "3dmathprimer2"; essentialmaths3 } -> mathadvanced
+
+        mathadvanced -> geometrictools [penwidth=2, arrowhead=normal]
+        mathadvanced -> geometricalgebra
+        mathadvanced -> visualizingquaternions
+        mathadvanced -> divgradcurl4
+
+        mathtop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        mathbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        mathtop -> mathbegin [style=invis]
+        geometrictools -> mathbottom [style=invis]
+    }
+
+    subgraph cluster_gameprog {
+        fillcolor="#ecf9ec"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>5. Game Porgramming</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled", color="#c5edc5"]
+            gpbegin [label="Beginning Game Programming"]
+            scratch [label="From Windows/DirectX"]
+            unity [label="From Unity"]
+            unreal [label="From Unreal"]
+            cocos2dx [label="From Cocos2d-X"]
+            gpintermediate [label="Intermediate Game Programming"]
+            gpmisc [label="Game Programming Articles"]
+        }
+
+        windowsgp2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="windowsgp2.jpg"/></TD></TR><TR><TD>Tricks of the Windows<br/>Game Programming<br/>Gurus 2nd Ed (2002)</TD></TR></TABLE>>]        
+        gamecodingcomplete4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamecodingcomplete4.jpg"/></TD></TR><TR><TD>Game Coding Complete<br/>4th Ed (2012)</TD></TR></TABLE>>]
+        {
+            rank=same
+            gpalgorithmstechniques [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpalgorithmstechniques.jpg"/></TD></TR><TR><TD>Game Programming<BR/>Algorithms and<BR/>Techniques (2013)</TD></TR></TABLE>>]
+            gameprogrammingpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameprogrammingpatterns.jpg"/></TD></TR><TR><TD>Game Programming<br/>Patterns (2014)</TD></TR></TABLE>>]
+        }
+        multiplayergp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="multiplayergp.jpg"/></TD></TR><TR><TD>Multiplayer Game<br/>Programming (2015)</TD></TR></TABLE>>]
+ 
+        introtogdprodev [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="introtogdprodev.jpg"/></TD></TR><TR><TD>Introduction to Game<br/>Design, Prototyping,<br/>and Development (2014)</TD></TR></TABLE>>]
+        unityinaction [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unityinaction.jpg"/></TD></TR><TR><TD>Unity in Action (2015)</TD></TR></TABLE>>]
+
+        learninguegd [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="learninguegd.jpg"/></TD></TR><TR><TD>Learning Unreal Engine<br/>Game Development (2015)</TD></TR></TABLE>>]
+        blueprintsvisualscripting [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="blueprintsvisualscripting.jpg"/></TD></TR><TR><TD>Blueprints Visual Scripting<br/>for Unreal Engine (2015)</TD></TR></TABLE>>]
+
+        cocos2dxbyexample2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cocos2dxbyexample2.jpg"/></TD></TR><TR><TD>Cocos2d-X<br/>by Example (2015)</TD></TR></TABLE>>]
+
+        {
+            rank=same
+            gpmisc
+            gpgemsbest [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgemsbest.jpg"/></TD></TR><TR><TD>Best of Game<br/>Programming Gems (2008)</TD></TR></TABLE>>]
+        }
+
+        {
+            rank=same
+            gpgems [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgems.jpg"/></TD></TR><TR><TD>Game Programming<br/>Gems (2000)</TD></TR></TABLE>>]
+            gpgems2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgems2.jpg"/></TD></TR><TR><TD>Game Programming<br/>Gems (2001)</TD></TR></TABLE>>]
+            gpgems3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgems3.jpg"/></TD></TR><TR><TD>Game Programming<br/>Gems (2002)</TD></TR></TABLE>>]
+            gpgems4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgems4.jpg"/></TD></TR><TR><TD>Game Programming<br/>Gems (2004)</TD></TR></TABLE>>]
+        }
+        {
+            rank=same
+            gpgems5 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgems5.jpg"/></TD></TR><TR><TD>Game Programming<br/>Gems (2005)</TD></TR></TABLE>>]
+            gpgems6 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgems6.jpg"/></TD></TR><TR><TD>Game Programming<br/>Gems (2006)</TD></TR></TABLE>>]
+            gpgems7 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgems7.jpg"/></TD></TR><TR><TD>Game Programming<br/>Gems (2008)</TD></TR></TABLE>>]
+            gpgems8 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgems8.jpg"/></TD></TR><TR><TD>Game Programming<br/>Gems (2010)</TD></TR></TABLE>>]
+        }
+
+        gpbegin -> { scratch; unity; unreal; cocos2dx }
+        scratch -> gamecodingcomplete4 -> gpintermediate[penwidth=2, arrowhead=normal]
+        scratch -> windowsgp2
+
+        unity -> introtogdprodev -> unityinaction -> gpintermediate
+
+        unreal -> learninguegd -> blueprintsvisualscripting -> gpintermediate
+
+        cocos2dx -> cocos2dxbyexample2 -> gpintermediate
+
+        gpintermediate -> gpalgorithmstechniques -> gameprogrammingpatterns -> gpmisc [penwidth=2, arrowhead=normal]
+        gpintermediate -> multiplayergp
+
+        gpmisc -> gpgemsbest
+        gpgemsbest -> gpgems [constraint=false]
+        gpgems -> gpgems2 -> gpgems3 -> gpgems4
+        gpgems4 -> gpgems5
+        gpgems5 -> gpgems6 -> gpgems7 -> gpgems8
+
+        gpgemsbest -> gpgems3 [style=invis]
+
+        gametop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        gamebottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        gametop -> { gpbegin; unity } [style=invis]
+        gpgems7 -> gamebottom [style=invis]
+    }
+
+    subgraph cluster_engine {
+        fillcolor="#ecf9f5"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>6. Game Engine Development</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled", color="#c5ede1"]
+            gebegin [label="Beginning Game Engine Development"]
+            gearticles [label="Game Engine Articles"]
+            gescript [label="Script Engine"]
+            geoptimization [label="Optimization"]
+            getool [label="Tool Development"]
+        }
+
+        {
+            rank=same
+            gameenginearchitecture2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameenginearchitecture2.jpg"/></TD></TR><TR><TD>Game Engine<br/>Architecture<br/>2nd Ed (2014)</TD></TR></TABLE>>]
+            "3dgameenginearchitecture" [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="3dgameenginearchitecture.jpg"/></TD></TR><TR><TD>3D Game Engine<br/>Architecture (2004)</TD></TR></TABLE>>]
+            gameenginedesign2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameenginedesign2.jpg"/></TD></TR><TR><TD>Game Engine<br/>Design 2nd Ed (2014)</TD></TR></TABLE>>]
+        }
+        
+        gameenginegems1 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameenginegems1.jpg"/></TD></TR><TR><TD>Game Engine<br/>Gems 1 (2010)</TD></TR></TABLE>>]
+        gameenginegems2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameenginegems2.jpg"/></TD></TR><TR><TD>Game Engine<br/>Gems 2 (2011)</TD></TR></TABLE>>]
+        gameenginegems3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameenginegems3.jpg"/></TD></TR><TR><TD>Game Engine<br/>Gems 3 (2016)</TD></TR></TABLE>>]
+        
+        gamescriptingmastery [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamescriptingmastery.jpg"/></TD></TR><TR><TD>Game Scripting<br/>Mastery (2002)</TD></TR></TABLE>>]        
+        languageimplpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="languageimplpatterns.jpg"/></TD></TR><TR><TD>Language Implementation<br/>Patterns (2010)</TD></TR></TABLE>>]
+        garbagecollectionhandbook [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="garbagecollectionhandbook.jpg"/></TD></TR><TR><TD>The Garbage Collection<br/>Handbook (2011)</TD></TR></TABLE>>]
+
+        videogameoptimization [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="videogameoptimization.jpg"/></TD></TR><TR><TD>Video Game<br/>Optimization (2010)</TD></TR></TABLE>>]
+        hackersdelight2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="hackersdelight2.jpg"/></TD></TR><TR><TD>Hacker's Delight<br/>2nd Ed (2012)</TD></TR></TABLE>>]
+        gpgpu [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgpu.jpg"/></TD></TR><TR><TD>GPGPU Programming<br/>for Games and Science<br/>(2014)</TD></TR></TABLE>>]
+
+        gamedevtools [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamedevtools.jpg"/></TD></TR><TR><TD>Game Development<br/>Tools (2011)</TD></TR></TABLE>>]
+        designinguxgamedevtools [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="designinguxgamedevtools.jpg"/></TD></TR><TR><TD>Designing the User<br/>Experience of Game<br/>Development Tools (2015)</TD></TR></TABLE>>]
+
+        gebegin -> gameenginearchitecture2 [penwidth=2, arrowhead=normal]
+        gameenginearchitecture2 -> { gearticles; gescript; geoptimization; getool }
+
+        gameenginearchitecture2 -> "3dgameenginearchitecture" -> gameenginedesign2
+        gearticles -> gameenginegems1 -> gameenginegems2 -> gameenginegems3
+        gescript -> gamescriptingmastery -> languageimplpatterns -> garbagecollectionhandbook
+        geoptimization -> videogameoptimization -> hackersdelight2 -> gpgpu
+        getool -> gamedevtools -> designinguxgamedevtools
+
+        getop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        gebottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        getop -> gebegin [style=invis]
+        garbagecollectionhandbook -> gebottom [style=invis]
+    }
+
+    subgraph cluster_cg {
+        fillcolor="#ecf5f9"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>7. Computer Graphics (CG)</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled", color="#c5e1ed"]
+            cgbegin [label="Beginning CG Programming"]
+            cgtheory [label="Beginning CG theory"]
+            cgadvanced [label="Advanced CG"]
+            realtimerendering [label="Real-Time Rendering"]
+            offlinerendering [label="Offline Rendering"]
+            d3d [label="Direct3D"]
+            ogl [label="OpenGL"]
+            cgtech [label="CG Technologies"]
+            cgmisc [label="CG Articles"]
+        }
+
+        rt3drendering [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="rt3drendering.jpg"/></TD></TR><TR><TD>Real-Time 3D<br/>Rendering with DirectX<br/>and HLSL (2014)</TD></TR></TABLE>>]
+        "3dgpdx12" [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="3dgpdx12.jpg"/></TD></TR><TR><TD>Introduction to <br/>3D Game Programming<br/> with DirectX 12 (2016)</TD></TR></TABLE>>]
+        oglguide9 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="oglguide9.jpg"/></TD></TR><TR><TD>OpenGL Programming<br/>Guide 9th Ed (2016)</TD></TR></TABLE>>]
+
+        fundamentalscg4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="fundamentalscg4.jpg"/></TD></TR><TR><TD>Funadmentals of<br/>Computer Graphics<br/>4th Ed (2015)</TD></TR></TABLE>>]
+        cgpp3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cgpp3.jpg"/></TD></TR><TR><TD>Computer Graphics<br/>Principles and Practice<br/>3rd Ed (2013)</TD></TR></TABLE>>]
+        pdis [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="pdis.jpg"/></TD></TR><TR><TD>Principles of Digital<br/>Image Synthesis (1995)</TD></TR></TABLE>>]
+        digitalimageprocessing3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="digitalimageprocessing3.jpg"/></TD></TR><TR><TD>Digital Image<br/>Processing 3rd Ed (2007)</TD></TR></TABLE>>]
+
+        graphicsshaders2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="graphicsshaders2.jpg"/></TD></TR><TR><TD>Graphics Shaders<br/>2nd Ed (2011)</TD></TR></TABLE>>]
+        glsl3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="glsl3.jpg"/></TD></TR><TR><TD>OpenGL Shading<br/>Language 3rd Ed (2009)</TD></TR></TABLE>>]
+        oglsuper7 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="oglsuper7.jpg"/></TD></TR><TR><TD>OpenGL Super Bible<br/>7th Ed (2015)</TD></TR></TABLE>>]
+        ogles3guide2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="ogles3guide2.jpg"/></TD></TR><TR><TD>OpenGL ES 3.0<br/>Programming Guide<br/>2nd Ed (2014)</TD></TR></TABLE>>]
+        oglinsights [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="oglinsights.jpg"/></TD></TR><TR><TD>OpenGL Insights (2012)</TD></TR></TABLE>>]
+        vulkanguide [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="vulkanguide.jpg"/></TD></TR><TR><TD>Vulkan Programming<br/>Guide (2016)</TD></TR></TABLE>>]
+
+        practiald3d11 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="practiald3d11.jpg"/></TD></TR><TR><TD>Practical Rendering<br/>and Computation<br/>with Direct3D 11 (2011)</TD></TR></TABLE>>]
+
+        rtr3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="rtr3.jpg"/></TD></TR><TR><TD>Real-Time Rendering<br/>3rd Ed (2008)</TD></TR></TABLE>>]
+        tricks3dgpgurus [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tricks3dgpgurus.jpg"/></TD></TR><TR><TD>Tricks of the 3D<br/>Game Programming<br/>Gurus (2003)</TD></TR></TABLE>>]
+        realtimeshadows [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="realtimeshadows.jpg"/></TD></TR><TR><TD>Real-Time<br/>Shadows (2011)</TD></TR></TABLE>>]
+        rtvolumegraphics [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="rtvolumegraphics.jpg"/></TD></TR><TR><TD>Real-Time Volume<br/>Graphics (2006)</TD></TR></TABLE>>]
+        graphicsprogrammingmethods [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="graphicsprogrammingmethods.jpg"/></TD></TR><TR><TD>Graphics Programming<br/>Methods (2003)</TD></TR></TABLE>>]
+        gpugems [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpugems.jpg"/></TD></TR><TR><TD>GPU Gems (2004)</TD></TR></TABLE>>]
+        gpugems2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpugems2.jpg"/></TD></TR><TR><TD>GPU Gems 2 (2005)</TD></TR></TABLE>>]
+        gpugems3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpugems3.jpg"/></TD></TR><TR><TD>GPU Gems 3 (2007)</TD></TR></TABLE>>]
+        gpupro [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpupro.jpg"/></TD></TR><TR><TD>GPU Pro (2010)</TD></TR></TABLE>>]
+        gpupro2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpupro2.jpg"/></TD></TR><TR><TD>GPU Pro 2 (2011)</TD></TR></TABLE>>]
+        gpupro3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpupro3.jpg"/></TD></TR><TR><TD>GPU Pro 3 (2012)</TD></TR></TABLE>>]
+        gpupro4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpupro4.jpg"/></TD></TR><TR><TD>GPU Pro 4 (2013)</TD></TR></TABLE>>]
+        gpupro5 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpupro5.jpg"/></TD></TR><TR><TD>GPU Pro 5 (2014)</TD></TR></TABLE>>]
+        gpupro6 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpupro6.jpg"/></TD></TR><TR><TD>GPU Pro 6 (2015)</TD></TR></TABLE>>]
+        gpupro7 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpupro7.jpg"/></TD></TR><TR><TD>GPU Pro 7 (2016)</TD></TR></TABLE>>]
+
+        pbrt3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="pbrt3.jpg"/></TD></TR><TR><TD>Physically Based<br/>Rendering 3rd Ed (2016)</TD></TR></TABLE>>]
+        raytracingfromgroundup [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="raytracingfromgroundup.jpg"/></TD></TR><TR><TD>Ray Tracing from<br/>the Ground Up (2007)</TD></TR></TABLE>>]
+        advancedgi2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="advancedgi2.jpg"/></TD></TR><TR><TD>Advanced Global Illumination<br/>2nd Ed (2006)</TD></TR></TABLE>>]
+        productionvolumerendering [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="productionvolumerendering.jpg"/></TD></TR><TR><TD>Production Volume<br/>Rendering (2012)</TD></TR></TABLE>>]
+
+        texturingmodeling3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="texturingmodeling3.jpg"/></TD></TR><TR><TD>Texturing and Modeling<br/>(2002)</TD></TR></TABLE>>]
+        lod [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="lod.jpg"/></TD></TR><TR><TD>Level of Detail<br/>for 3D Graphics (2002)</TD></TR></TABLE>>]
+        "3denginedesignvirtualglobes" [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="3denginedesignvirtualglobes.jpg"/></TD></TR><TR><TD>3D Engine Design<br/>for Virtual Globes (2011)</TD></TR></TABLE>>]
+        polygonmeshprocessing [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="polygonmeshprocessing.jpg"/></TD></TR><TR><TD>Polygon Mesh<br/>Processing (2010)</TD></TR></TABLE>>]
+        isosurfaces [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="isosurfaces.jpg"/></TD></TR><TR><TD>Isosurfaces (2013)</TD></TR></TABLE>>]
+        npr [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="npr.jpg"/></TD></TR><TR><TD>Non-Photorealistic<br/>Rendering (2001)</TD></TR></TABLE>>]
+        npcg [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="npcg.jpg"/></TD></TR><TR><TD>Non-Photorealistic<br/>Computer Graphics (2002)</TD></TR></TABLE>>]
+
+        graphicsgems [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="graphicsgems.jpg"/></TD></TR><TR><TD>Graphics Gems (1990)</TD></TR></TABLE>>]
+        graphicsgems2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="graphicsgems2.jpg"/></TD></TR><TR><TD>Graphics Gems II (1991)</TD></TR></TABLE>>]
+        graphicsgems3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="graphicsgems3.jpg"/></TD></TR><TR><TD>Graphics Gems III (1994)</TD></TR></TABLE>>]
+        graphicsgems4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="graphicsgems4.jpg"/></TD></TR><TR><TD>Graphics Gems IV (1994)</TD></TR></TABLE>>]
+        graphicsgems5 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="graphicsgems5.jpg"/></TD></TR><TR><TD>Graphics Gems V (1995)</TD></TR></TABLE>>]
+
+        blinn1 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="blinn1.jpg"/></TD></TR><TR><TD>Jim Blinn's Corner (1997)</TD></TR></TABLE>>]
+        blinn2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="blinn2.jpg"/></TD></TR><TR><TD>Jim Blinn's Corner (1998)</TD></TR></TABLE>>]
+        blinn3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="blinn3.jpg"/></TD></TR><TR><TD>Jim Blinn's Corner (2002)</TD></TR></TABLE>>]
+
+        glassenernotebook1 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="glassenernotebook1.jpg"/></TD></TR><TR><TD>Andrew Glassner's<br/>Notebook (1999)</TD></TR></TABLE>>]
+        glassenernotebook2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="glassenernotebook2.jpg"/></TD></TR><TR><TD>Andrew Glassner's<br/>Other Notebook (2002)</TD></TR></TABLE>>]
+
+        magiccg [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="magiccg.jpg"/></TD></TR><TR><TD>The Magic of<br/>Computer Graphics (2011)</TD></TR></TABLE>>]
+
+        cgbegin -> "3dgpdx12" 
+        cgbegin -> { rt3drendering; oglguide9 }
+
+        { "3dgpdx12"; rt3drendering; oglguide9 } -> cgtheory
+
+        cgtheory -> fundamentalscg4 [penwidth=2, arrowhead=normal]
+        cgtheory-> { cgpp3; pdis; digitalimageprocessing3 }
+
+        { fundamentalscg4; cgpp3; pdis; digitalimageprocessing3} -> cgadvanced
+
+        cgadvanced -> { realtimerendering; offlinerendering; cgtech;}
+
+        realtimerendering -> rtr3 [penwidth=2, arrowhead=normal]
+        realtimerendering -> tricks3dgpgurus
+        rtr3 -> graphicsprogrammingmethods -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7
+        { rank=same;rtr3; rtvolumegraphics }
+        rtr3 -> { realtimeshadows; rtvolumegraphics }
+        realtimeshadows -> graphicsprogrammingmethods [style=invis]
+
+        rtr3 -> { d3d; ogl }
+        d3d -> practiald3d11
+        ogl -> oglsuper7 -> { graphicsshaders2; glsl3 } -> ogles3guide2 -> oglinsights -> vulkanguide
+
+        offlinerendering -> pbrt3 [penwidth=2, arrowhead=normal]
+        offlinerendering -> raytracingfromgroundup
+        raytracingfromgroundup -> pbrt3 -> advancedgi2 -> productionvolumerendering
+
+        productionvolumerendering -> cgtech [style=invis]
+
+        cgtech -> { cgmisc; texturingmodeling3; lod; npr; }
+        lod -> "3denginedesignvirtualglobes"
+        texturingmodeling3 -> polygonmeshprocessing -> isosurfaces
+        npr -> npcg
+        
+        polygonmeshprocessing -> npr [style=invis]
+
+        cgmisc -> graphicsgems -> graphicsgems2 -> graphicsgems3 -> graphicsgems4 -> graphicsgems5
+        cgmisc -> blinn1 -> blinn2 -> glassenernotebook1 -> blinn3 -> glassenernotebook2 -> magiccg
+
+        vulkanguide -> cgmisc [style=invis]
+
+        cgtop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        cgbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        cgtop -> cgbegin [style=invis]
+        magiccg -> cgbottom [style=invis]
+    }
+
+    subgraph cluster_audio {
+        fillcolor="#eceef9"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>8. Game Audio</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled", color="#c5cbed"]
+            audiobegin [label="Game Audio Programming"]
+        }
+
+        gameaudioprogramming [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameaudioprogramming.jpg"/></TD></TR><TR><TD>Game Audio<br/>Programming (2016)</TD></TR></TABLE>>]
+        gettingstartedcppaudio [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gettingstartedcppaudio.jpg"/></TD></TR><TR><TD>Getting Started<br/>with C++ Audio Programming<br/>for Game Development (2013)</TD></TR></TABLE>>]
+
+        audiobegin -> { gameaudioprogramming; gettingstartedcppaudio }
+
+        audiotop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        audiobottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        audiotop -> audiobegin [style=invis]
+        { gameaudioprogramming; gettingstartedcppaudio } -> audiobottom [style=invis]
+    }
+
+    subgraph cluster_physics {
+        fillcolor="#f2ecf9"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>9. Game Physics and Animation</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled",color="#d7c5ed"]
+            animbegin [label="Beginning Game Animation Programming"]
+            animadvanced [label="Advanced Game Animation Programming"]
+            phybegin [label="Beginning Game Physics Programming"]
+            phyadvanced [label="Advanced Game Physics Programming"]
+            fluid [label="Fluid Animation/Simulation"]
+        }
+
+        natureofcode [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="natureofcode.jpg"/></TD></TR><TR><TD>The Nature of Code<br/>(2012)</TD></TR></TABLE>>]
+        characteranimation [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="characteranimation.jpg"/></TD></TR><TR><TD>Character Animation<br/>with Direct3D (2011)</TD></TR></TABLE>>]
+        rt3dcharacteranimation [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="rt3dcharacteranimation.jpg"/></TD></TR><TR><TD>Real-time 3D<br/>Character Animation<br/>with Visual C++ (2001)</TD></TR></TABLE>>]
+        computeranimation3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="computeranimation3.jpg"/></TD></TR><TR><TD>Computer Animation<br/>3rd Ed (2012)</TD></TR></TABLE>>]
+        gameik [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameik.jpg"/></TD></TR><TR><TD>Game Inverse<br/>Kinematics (2013)</TD></TR></TABLE>>]
+        physicsbasedanimation [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="physicsbasedanimation.jpg"/></TD></TR><TR><TD>Physics Based<br/>Animation (2005)</TD></TR></TABLE>>]
+        rtcameras [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="rtcameras.jpg"/></TD></TR><TR><TD>Real-Time Cameras<br/>(2009)</TD></TR></TABLE>>]
+
+        physicsforgameprogrammers [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="physicsforgameprogrammers.jpg"/></TD></TR><TR><TD>Physics for Game<br/>Programmers (2003)</TD></TR></TABLE>>]
+        physicsforgamedevelopers2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="physicsforgamedevelopers2.jpg"/></TD></TR><TR><TD>Physics for Game<br/>Developers 2nd Ed (2013)</TD></TR></TABLE>>]
+        physicsmodeling [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="physicsmodeling.jpg"/></TD></TR><TR><TD>Physics Modeling<br/>for Game Programmers (2004)</TD></TR></TABLE>>]
+
+        gamephysicsenginedev2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamephysicsenginedev2.jpg"/></TD></TR><TR><TD>Game Physics Engine<br/>Development 2nd Ed (2010)</TD></TR></TABLE>>]
+        gamephysics2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamephysics2.jpg"/></TD></TR><TR><TD>Game Physics 2nd Ed (2010)</TD></TR></TABLE>>]
+        collisiondetection3denv [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="collisiondetection3denv.jpg"/></TD></TR><TR><TD>Collision Detection<br/>in Interactive 3D<br/>Environments (2003)</TD></TR></TABLE>>]
+        rtcollisiondetection [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="rtcollisiondetection.jpg"/></TD></TR><TR><TD>Real-Time Collision<br/>Detection (2004)</TD></TR></TABLE>>]
+        gamephysicspearls [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamephysicspearls.jpg"/></TD></TR><TR><TD>Game Physics Pearls<br/>(2010)</TD></TR></TABLE>>]
+
+        taofluidanimation [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="taofluidanimation.jpg"/></TD></TR><TR><TD>The Art of<br/>Fluid Animation (2015)</TD></TR></TABLE>>]
+        fluidsimulationforcg2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="fluidsimulationforcg2.jpg"/></TD></TR><TR><TD>Fluid Animation<br/>for Computer Graphics<br/>2nd Ed (2015)</TD></TR></TABLE>>]
+
+        animbegin -> { characteranimation; rt3dcharacteranimation } -> computeranimation3 -> animadvanced
+        animadvanced -> { gameik; physicsbasedanimation; rtcameras}
+        gameik -> rtcameras [style=invis]
+
+        phybegin -> physicsforgameprogrammers
+        phybegin -> physicsforgamedevelopers2
+        physicsforgameprogrammers -> physicsforgamedevelopers2 -> phyadvanced
+        physicsforgameprogrammers -> physicsmodeling -> phyadvanced
+
+        { animbegin; phybegin } -> natureofcode
+
+        phyadvanced -> gamephysicspearls
+        gamephysicspearls -> collisiondetection3denv -> rtcollisiondetection
+        gamephysicspearls -> gamephysicsenginedev2 -> gamephysics2
+
+        { animadvanced; phyadvanced } -> fluid -> taofluidanimation -> fluidsimulationforcg2
+
+        phytop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        phybottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        phytop -> { animbegin; phybegin } [style=invis]
+        fluidsimulationforcg2 -> phybottom [style=invis]
+    }
+
+    subgraph cluster_ai {
+        fillcolor="#f9ecf9"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>10. Game Artificial Intelligence (AI)</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled" color="#edc5ed"]
+            aibegin [label="Beginning Game AI"]
+            aiintermediate [label="Intermediate Game AI"]
+            aimisc [label="Game AI Articles"]
+        }
+
+        aiforgames2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="aiforgames2.jpg"/></TD></TR><TR><TD>Artificial Intelligence<br/>for Games 2nd Ed (2009)</TD></TR></TABLE>>]
+        aiforgd [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="aiforgd.jpg"/></TD></TR><TR><TD>AI for Game<br/>Developers (2004)</TD></TR></TABLE>>]
+        proggameaibyexample [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="proggameaibyexample.jpg"/></TD></TR><TR><TD>Programming Game<br/>AI By Example (2004)</TD></TR></TABLE>>]
+        unityaigp2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unityaigp2.jpg"/></TD></TR><TR><TD>Unity AI Game<br/>Programming 2nd Ed (2015)</TD></TR></TABLE>>]
+
+        aimodernapproach3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="aimodernapproach3.jpg"/></TD></TR><TR><TD>Artificial Intelligence<br/>Modern Approach 3rd Ed (2009)</TD></TR></TABLE>>]
+        behavioralmathforgameai [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="behavioralmathforgameai.jpg"/></TD></TR><TR><TD>Behavioral Mathematics<br/>for Game AI (2009)</TD></TR></TABLE>>]
+
+        {
+            rank=same
+            aigpwisdom [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="aigpwisdom.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom (2002)</TD></TR></TABLE>>]
+            aigpwisdom2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="aigpwisdom2.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom 2 (2003)</TD></TR></TABLE>>]
+            aigpwisdom3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="aigpwisdom3.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom 3 (2006)</TD></TR></TABLE>>]
+            aigpwisdom4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="aigpwisdom4.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom 4 (2008)</TD></TR></TABLE>>]
+        }
+        {
+            rank=same
+            gameaipro [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameaipro.jpg"/></TD></TR><TR><TD>Game AI Pro (2013)</TD></TR></TABLE>>]
+            gameaipro2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameaipro2.jpg"/></TD></TR><TR><TD>Game AI Pro 2 (2015)</TD></TR></TABLE>>]
+        }
+
+        aibegin -> aiforgames2 -> aiintermediate [penwidth=2, arrowhead=normal]
+        aibegin -> { aiforgd; proggameaibyexample; unityaigp2 } -> aiintermediate
+        aiintermediate -> { aimodernapproach3; behavioralmathforgameai } -> aimisc
+        aimisc -> aigpwisdom 
+        aigpwisdom -> aigpwisdom2 -> aigpwisdom3 -> aigpwisdom4
+        aigpwisdom4 -> gameaipro -> gameaipro2
+        aimisc -> aigpwisdom4 [style=invis]
+
+        aitop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        aibottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        aitop -> aibegin [style=invis]
+        gameaipro2 -> aibottom [style=invis]
+    }
+
+    {
+        edge [style=invis]
+        tocbottom -> cstop
+        csbottom -> progtop
+        progbottom -> setop
+        sebottom -> mathtop
+        mathbottom -> gametop
+        gamebottom -> getop
+        gebottom -> cgtop
+        cgbottom -> audiotop
+        audiobottom -> phytop
+        phybottom -> aitop
+    }
+}
