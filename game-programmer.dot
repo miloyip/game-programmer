@@ -24,7 +24,8 @@ digraph {
         {
             node [shape="box", style="rounded,filled", fixedsize=true, width=3, height=0.75, fontsize=15]
 
-            cs          [color="#eac7c7", label="1. Computer Science"]
+            kid         [color="#edc5ce", label=<0. Game Programming<br/>for Kids>]
+            cs          [color="#edc5c5", label="1. Computer Science"]
             proglang    [color="#eddac5", label="2. Programming Languages"]
             softwaredev [color="#ebebc6", label="3. Software Development"]
             math        [color="#d9ebc6", label=<4. Mathematics for<br/>Game Porgramming>]
@@ -32,25 +33,63 @@ digraph {
             gameengine  [color="#c5ede1", label=<6. Game Engine<br/>Development>]
             cg          [color="#c5e1ed", label="7. Computer Graphics"]
             audio       [color="#c5cbed", label="8. Game Audio"]
-            phyanim     [color="#d7c5ed", label=<9. Game Physics and<br/>Animation>]
+            phyanim     [color="#d7c5ed", label=<9. Game Physics<br/> and Animation>]
             ai          [color="#edc5ed", label=<10. Game Artificial<br/>Intelligence>]
-            gameserver  [label=<11. Game Server<br/>Programming>]
+            multiplayer [color="#edc5d7", label=<11. Multiplayer Game<br/>Programming>]
         }
-        cs -> proglang -> softwaredev -> math -> gameprog -> gameengine
-        cg -> audio -> phyanim -> ai -> gameserver [style=invis]
-        gameengine -> { cg; phyanim; ai; audio; gameserver }
+        kid -> cs -> proglang -> softwaredev -> math -> gameprog -> gameengine
+        cg -> audio -> phyanim -> ai -> multiplayer[style=invis]
+        gameengine -> { cg; phyanim; ai; audio; multiplayer}
         cg -> audio [style=invis]
 
-        toctop -> cs [style=invis]
-        gameserver -> tocbottom [style=invis]
+        toctop -> kid [style=invis]
+        multiplayer-> tocbottom [style=invis]
+    }
+
+    subgraph cluster_kid {
+        fillcolor="#f9ecef"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>0. Game Programming for Kids</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled" color="#edc5ce"]
+            age5 [label="Beginning from Age of 5"]
+            age8 [label="Beginning from Age of 8"]
+            kidintermediate [label="Intermediate Game Programming for Kids"]
+        }
+
+        scratchjr [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="scratchjr.jpg"/></TD></TR><TR><TD>The Official<br/>ScratchJr Book (2015)</TD></TR></TABLE>>]
+        
+        codinggamesinscratch [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="codinggamesinscratch.jpg"/></TD></TR><TR><TD>Coding Games<br/>in Scratch<br/>(2015)</TD></TR></TABLE>>]
+        superscratchprogadv [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="superscratchprogadv.jpg"/></TD></TR><TR><TD>Super Scratch<br/>Programming Adventure!<br/>(2013)</TD></TR></TABLE>>]
+        learntoprogramwithscratch [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="learntoprogramwithscratch.jpg"/></TD></TR><TR><TD>Learn to Program<br/> with Scratch<br/>(2014)</TD></TR></TABLE>>]
+        helpyoukidswithcomputercoding [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="helpyoukidswithcomputercoding.jpg"/></TD></TR><TR><TD>Help Your Kids<br/>with Computer Coding<br/>(2015)</TD></TR></TABLE>>]
+        
+        inventgamepython3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="inventgamepython3.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 3rd Ed (2015)</TD></TR></TABLE>>]
+        makinggamespython [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="makinggamespython.jpg"/></TD></TR><TR><TD>Making Games with<br/>Python &amp; Pygame (2012)</TD></TR></TABLE>>]
+        learntoprogramwithminecraft [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="learntoprogramwithminecraft.jpg"/></TD></TR><TR><TD>Learn to Program<br/>with Minecraft (2015)</TD></TR></TABLE>>]
+        adventuresinminecraft [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="adventuresinminecraft.jpg"/></TD></TR><TR><TD>Adventures in<br/>Minecraft (2014)</TD></TR></TABLE>>]
+        "3dgpforkids" [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="3dgpforkids.jpg"/></TD></TR><TR><TD>3D Game Programming<br/>for Kids (2013)</TD></TR></TABLE>>]
+
+        age5 -> scratchjr -> age8
+        age8 -> codinggamesinscratch -> helpyoukidswithcomputercoding -> kidintermediate [penwidth=2, arrowhead=normal]
+        age8 -> superscratchprogadv -> learntoprogramwithscratch -> kidintermediate
+
+        kidintermediate -> inventgamepython3 -> makinggamespython
+        kidintermediate -> learntoprogramwithminecraft -> adventuresinminecraft
+        kidintermediate -> "3dgpforkids"
+
+        kidtop [fixedsize=true,width=8,height=0.1,style=invis, label=""]
+        kidbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        kidtop -> age5 [style=invis]
+        adventuresinminecraft -> kidbottom [style=invis]
     }
 
     subgraph cluster_cs {
-        fillcolor="#f8ecec"
+        fillcolor="#f9ecec"
         label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>1. Computer Science</TD></TR></TABLE>>
 
         {
-            node [shape="box", style="rounded,filled" color="#eac7c7"]
+            node [shape="box", style="rounded,filled" color="#edc5c5"]
             rank=same
             foundation [label="CS Foundation"]
             algorithm [label="Algorithm"]
@@ -100,6 +139,7 @@ digraph {
         tcpppl4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpppl4.jpg"/></TD></TR><TR><TD>The C++ Programming<br/>Language 4th Ed (2014)</TD></TR></TABLE>>]
         cppstandardlibrary2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppstandardlibrary2.jpg"/></TD></TR><TR><TD>The C++ Standard<br/>Library 2nd Ed (2012)</TD></TR></TABLE>>]
         boostcpplibraries2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="boostcpplibraries2.jpg"/></TD></TR><TR><TD>The Boost<br/>C++ Libraries<br/>2nd Ed (2014)</TD></TR></TABLE>>]
+        cppconcurrencyinaction [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppconcurrencyinaction.jpg"/></TD></TR><TR><TD>C++ Concurrency<br/>in Action (2012)</TD></TR></TABLE>>]
 
         effectivestl [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="effectivestl.jpg"/></TD></TR><TR><TD>Effective STL (2001)</TD></TR></TABLE>>]
 
@@ -132,9 +172,11 @@ digraph {
         cppbegin -> tcpppl4
         cppprimer5 -> cpplibrary [penwidth=2, arrowhead=normal]
         tcpppl4 -> cpplibrary
+        
         cpplibrary -> cppstandardlibrary2 [penwidth=2, arrowhead=normal]
         cppstandardlibrary2 -> effectivestl
-        cppstandardlibrary2 -> boostcpplibraries2
+        cppstandardlibrary2 -> boostcpplibraries2 -> cppconcurrencyinaction
+
         cpppractice -> effectivecpp3 -> moreeffectivecpp3 -> effectivemoderncpp [penwidth=2, arrowhead=normal]
         effectivemoderncpp -> optimizedcpp -> cppadvance
         cpppractice -> exceptionalcpp -> moreexceptionalcpp -> exceptionalcppstyle -> cppcodingstandard
@@ -247,7 +289,6 @@ digraph {
         gamecodingcomplete4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamecodingcomplete4.jpg"/></TD></TR><TR><TD>Game Coding<br/>Complete<br/>4th Ed (2012)</TD></TR></TABLE>>]
         gpalgorithmstechniques [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpalgorithmstechniques.jpg"/></TD></TR><TR><TD>Game Programming<BR/>Algorithms and<BR/>Techniques (2013)</TD></TR></TABLE>>]
         gameprogrammingpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gameprogrammingpatterns.jpg"/></TD></TR><TR><TD>Game Programming<br/>Patterns (2014)</TD></TR></TABLE>>]
-        multiplayergp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="multiplayergp.jpg"/></TD></TR><TR><TD>Multiplayer Game<br/>Programming (2015)</TD></TR></TABLE>>]
         crossplatformgp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="crossplatformgp.jpg"/></TD></TR><TR><TD>Cross-Platform Game<br/>Programming (2005)</TD></TR></TABLE>>]
  
         introtogdprodev [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="introtogdprodev.jpg"/></TD></TR><TR><TD>Introduction to Game<br/>Design, Prototyping,<br/>and Development (2014)</TD></TR></TABLE>>]
@@ -288,7 +329,7 @@ digraph {
         cocos2dx -> cocos2dxbyexample2 -> gpintermediate
 
         gpintermediate -> gpalgorithmstechniques -> gameprogrammingpatterns -> gpmisc [penwidth=2, arrowhead=normal]
-        gpintermediate -> { multiplayergp; crossplatformgp }
+        gpintermediate -> crossplatformgp
 
         gpmisc -> gpgemsbest [penwidth=2, arrowhead=normal]
         gpgemsbest -> gpgems
@@ -601,9 +642,34 @@ digraph {
         gameaipro2 -> aibottom [style=invis]
     }
 
+    subgraph cluster_multiplayer {
+        fillcolor="#f3d8e5"
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>11. Multiplayer Game Programming</TD></TR></TABLE>>
+
+        {
+            node [shape="box", style="rounded,filled" color="#edc5d7"]
+            multiplayerbegin [label="Beginning Multiplayer Game Programming"]
+            multiplayermisc [label="Multiplayer Game Articles"]
+        }
+
+        multiplayergp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="multiplayergp.jpg"/></TD></TR><TR><TD>Multiplayer Game<br/>Programming (2015)</TD></TR></TABLE>>]
+        massivelymultiplayergd [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="massivelymultiplayergd.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development (2003)</TD></TR></TABLE>>]
+        massivelymultiplayergd2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="massivelymultiplayergd2.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development 2 (2005)</TD></TR></TABLE>>]
+
+        multiplayerbegin -> multiplayergp -> multiplayermisc
+
+        multiplayermisc -> massivelymultiplayergd -> massivelymultiplayergd2
+
+        multiplayertop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        multiplayerbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        multiplayertop -> multiplayerbegin [style=invis]
+        massivelymultiplayergd2 -> multiplayerbottom [style=invis]
+    }
+
     {
         edge [style=invis]
-        tocbottom -> cstop
+        tocbottom -> kidtop
+        kidbottom -> cstop
         csbottom -> progtop
         progbottom -> setop
         sebottom -> mathtop
@@ -613,5 +679,6 @@ digraph {
         cgbottom -> audiotop
         audiobottom -> phytop
         phybottom -> aitop
+        aibottom -> multiplayertop
     }
 }
