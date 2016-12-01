@@ -32,7 +32,7 @@ digraph {
                 <TR><TD>http://github/miloyip/game-programmer</TD></TR>
                 </TABLE>
             >]
-            tocbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+            tocbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         }
 
         {
@@ -67,13 +67,13 @@ digraph {
 
         legendA1 [label="Recommended Path"]
         legendB1 [label="Normal Path"]
-        legendA2 [label="", height=0.1]
-        legendB2 [label="", height=0.1]
+        legendA2 [label="", height=0.01]
+        legendB2 [label="", height=0.01]
         legendA1 -> legendA2 [penwidth=2, arrowhead=normal]
         legendB1 -> legendB2
 
         legendtop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
-        legendbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        legendbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         legendtop -> { legendA1; legendB1 } [style=invis]
         { legendA2; legendB2 } -> legendbottom [style=invis]
     }
@@ -110,8 +110,8 @@ digraph {
         kidintermediate -> learntoprogramwithminecraft -> adventuresinminecraft
         kidintermediate -> "3dgpforkids"
 
-        kidtop [fixedsize=true,width=8,height=0.1,style=invis, label=""]
-        kidbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        kidtop [fixedsize=true,width=8,height=0.01,style=invis, label=""]
+        kidbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         kidtop -> age5 [style=invis]
         adventuresinminecraft -> kidbottom [style=invis]
     }
@@ -142,8 +142,8 @@ digraph {
         algorithm -> { clrs3; algorithms4 }
         csmath -> concretemaths2 -> computationalscieng
 
-        cstop [fixedsize=true,width=8,height=0.1,style=invis, label=""]
-        csbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        cstop [fixedsize=true,width=8,height=0.01,style=invis, label=""]
+        csbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         cstop -> csmath [style=invis]
         comparch5 -> csbottom [style=invis]
     }
@@ -157,7 +157,7 @@ digraph {
 
             {
                 rank=same
-                cbegin [label="Beginning C"]
+                cbegin [label="C"]
                 lua [label="Lua"]
                 csharp [label="C#"]
             }
@@ -226,9 +226,9 @@ digraph {
 
         csharp -> mvcsharpstepbystep8 -> csharpindepth3 -> clrviacsharp4
 
-        progtop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        progbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        progtop -> cbegin [style=invis]
+        progtop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        progbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        progtop -> { cbegin; csharp; lua } [style=invis]
         moderncppdesign -> progbottom [style=invis]
     }
 
@@ -265,8 +265,8 @@ digraph {
 
         sepractice -> { designpatterns; umldistilled3 } [style=invis]
 
-        setop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        sebottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        setop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        sebottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         setop -> sepractice [style=invis]
         apidesignforcpp -> sebottom [style=invis]
     }
@@ -303,8 +303,8 @@ digraph {
         mathadvanced -> visualizingquaternions
         mathadvanced -> divgradcurl4
 
-        mathtop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        mathbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        mathtop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        mathbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         mathtop -> mathbegin [style=invis]
         geometrictools -> mathbottom [style=invis]
     }
@@ -391,8 +391,8 @@ digraph {
         gpgems4 -> gpgems5
         gpgems5 -> gpgems6 -> gpgems7 -> gpgems8
 
-        gametop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        gamebottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        gametop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        gamebottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         gametop -> { gpbegin; unity } [style=invis]
         gpgems7 -> gamebottom [style=invis]
     }
@@ -442,8 +442,8 @@ digraph {
         geoptimization -> unity5gameoptimization -> videogameoptimization -> hackersdelight2 -> gpgpu
         getool -> gamedevtools -> designinguxgamedevtools
 
-        getop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        gebottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        getop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        gebottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         getop -> gebegin [style=invis]
         gpgpu -> gebottom [style=invis]
     }
@@ -568,8 +568,8 @@ digraph {
 
         vulkanguide -> cgmisc [style=invis]
 
-        cgtop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        cgbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        cgtop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        cgbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         cgtop -> cgbegin [style=invis]
         magiccg -> cgbottom [style=invis]
     }
@@ -588,8 +588,8 @@ digraph {
 
         audiobegin -> { gameaudioprogramming; gettingstartedcppaudio }
 
-        audiotop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        audiobottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        audiotop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        audiobottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         audiotop -> audiobegin [style=invis]
         { gameaudioprogramming; gettingstartedcppaudio } -> audiobottom [style=invis]
     }
@@ -645,8 +645,8 @@ digraph {
 
         { animadvanced; phyadvanced } -> fluid -> taofluidanimation -> fluidsimulationforcg2
 
-        phytop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        phybottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        phytop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        phybottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         phytop -> { animbegin; phybegin } [style=invis]
         fluidsimulationforcg2 -> phybottom [style=invis]
     }
@@ -691,8 +691,8 @@ digraph {
         aigpwisdom4 -> gameaipro -> gameaipro2
         aimisc -> aigpwisdom4 [style=invis]
 
-        aitop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        aibottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        aitop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        aibottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         aitop -> aibegin [style=invis]
         gameaipro2 -> aibottom [style=invis]
     }
@@ -737,8 +737,8 @@ digraph {
 
         multiplayermisc -> massivelymultiplayergd -> massivelymultiplayergd2
 
-        multiplayertop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        multiplayerbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        multiplayertop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
+        multiplayerbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         multiplayertop -> multiplayerbegin [style=invis]
         linuxnetworkinternals -> multiplayerbottom [style=invis]
     }
