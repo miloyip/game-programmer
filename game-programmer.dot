@@ -8,6 +8,7 @@ digraph {
     penwidth=0.5
     labeljust="left"
     imagepath="images"
+    bgcolor="#666666"
 
     style="rounded,filled"
     color="none"
@@ -18,15 +19,21 @@ digraph {
     subgraph cluster_toc {
         style=invis;
 
-        toctop [fixedsize=true,width=8, height=3, shape=plaintext,label=<
-            <TABLE BORDER="0">
-            <TR><TD><FONT FACE="Futura" POINT-SIZE="40">A STUDY PATH FOR</FONT></TD></TR>
-            <TR><TD><FONT FACE="Futura-Bold" POINT-SIZE="40">GAME PROGRAMMER</FONT></TD></TR>
-            <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12</FONT></TD></TR>
-            <TR><TD>http://github/miloyip/game-programmer</TD></TR>
-            </TABLE>
-        >]
-        tocbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        edge [color="#cccccc"]
+
+        {
+            node [fontcolor=white]
+
+            toctop [fixedsize=true,width=8, height=3, shape=plaintext,label=<
+                <TABLE BORDER="0">
+                <TR><TD><FONT FACE="Futura" POINT-SIZE="40">A STUDY PATH FOR</FONT></TD></TR>
+                <TR><TD><FONT FACE="Futura-Bold" POINT-SIZE="40">GAME PROGRAMMER</FONT></TD></TR>
+                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12</FONT></TD></TR>
+                <TR><TD>http://github/miloyip/game-programmer</TD></TR>
+                </TABLE>
+            >]
+            tocbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        }
 
         {
             node [shape="box", style="rounded,filled", fixedsize=true, width=3, height=0.5, fontname="Futura", fontsize=10]
@@ -54,6 +61,7 @@ digraph {
     }
 
     subgraph cluster_legend {
+        fillcolor="#dddddd"
         label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>Legends</TD></TR></TABLE>>
         node [shape=none, fixedsize=true, width=2, height=0.25]
 
@@ -64,7 +72,7 @@ digraph {
         legendA1 -> legendA2 [penwidth=2, arrowhead=normal]
         legendB1 -> legendB2
 
-        legendtop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        legendtop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         legendbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
         legendtop -> { legendA1; legendB1 } [style=invis]
         { legendA2; legendB2 } -> legendbottom [style=invis]
@@ -685,27 +693,49 @@ digraph {
     }
 
     subgraph cluster_multiplayer {
-        fillcolor="#f3d8e5"
+        fillcolor="#f9ebf2"
         label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>11. Multiplayer Game Programming</TD></TR></TABLE>>
 
         {
             node [shape="box", style="rounded,filled" color="#edc5d7"]
             multiplayerbegin [label="Beginning Multiplayer Game Programming"]
             multiplayermisc [label="Multiplayer Game Articles"]
+            serverprog [label="Server Programming"]
+            networkprotocol [label="Network Protocol"]
+            networkprog [label="Network Programming"]
         }
 
         multiplayergp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="multiplayergp.jpg"/></TD></TR><TR><TD>Multiplayer Game<br/>Programming (2015)</TD></TR></TABLE>>]
         massivelymultiplayergd [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="massivelymultiplayergd.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development (2003)</TD></TR></TABLE>>]
         massivelymultiplayergd2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="massivelymultiplayergd2.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development 2 (2005)</TD></TR></TABLE>>]
 
-        multiplayerbegin -> multiplayergp -> multiplayermisc
+        linuxsystemprog2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="linuxsystemprog2.jpg"/></TD></TR><TR><TD>Linux System<br/>Programming 2nd Ed (2013)</TD></TR></TABLE>>]
+        advancedprogunixenv3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="advancedprogunixenv3.jpg"/></TD></TR><TR><TD>Advanced Programming<br/>in the UNIX Environment<br/>3rd Ed (2013)</TD></TR></TABLE>>]
+
+        tcpipillustratedv1_2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpipillustratedv1_2.jpg"/></TD></TR><TR><TD>TCP/IP Illustrated<br/>Vol 1 2nd Ed (2011)</TD></TR></TABLE>>]
+        tcpipillustratedv2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpipillustratedv2.jpg"/></TD></TR><TR><TD>TCP/IP Illustrated<br/>Vol 2 (1995)</TD></TR></TABLE>>]
+        tcpipillustratedv3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpipillustratedv3.jpg"/></TD></TR><TR><TD>TCP/IP Illustrated<br/>Vol 3 (1996)</TD></TR></TABLE>>]
+
+        unixnetworkprogv1_3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unixnetworkprogv1_3.jpg"/></TD></TR><TR><TD>Unix Network Programming<br/>Vol 1 3rd Ed (2003)</TD></TR></TABLE>>]
+        unixnetworkprogv2_2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unixnetworkprogv2_2.jpg"/></TD></TR><TR><TD>Unix Network Programming<br/>Vol 2 2nd Ed (1998)</TD></TR></TABLE>>]
+        linuxnetworkinternals [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="linuxnetworkinternals.jpg"/></TD></TR><TR><TD>Understanding Linux<br/>Network Internals Vol 2 2nd Ed (1998)</TD></TR></TABLE>>]
+
+        multiplayerbegin -> multiplayergp [penwidth=2, arrowhead=normal]
+        multiplayergp -> serverprog
+        multiplayergp -> networkprotocol
+        multiplayergp -> networkprog
+        multiplayergp -> multiplayermisc
+
+        serverprog -> linuxsystemprog2 -> advancedprogunixenv3 
+        networkprotocol -> tcpipillustratedv1_2 -> tcpipillustratedv2 -> tcpipillustratedv3
+        networkprog -> unixnetworkprogv1_3 -> unixnetworkprogv2_2 -> linuxnetworkinternals
 
         multiplayermisc -> massivelymultiplayergd -> massivelymultiplayergd2
 
         multiplayertop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
         multiplayerbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
         multiplayertop -> multiplayerbegin [style=invis]
-        massivelymultiplayergd2 -> multiplayerbottom [style=invis]
+        linuxnetworkinternals -> multiplayerbottom [style=invis]
     }
 
     ccsa [label=<<TABLE BORDER="0"><TR><TD><IMG SRC="CC-BY-SA_icon.png"/></TD></TR></TABLE>>]
