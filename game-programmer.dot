@@ -157,15 +157,18 @@ digraph {
 
             {
                 rank=same
-                cppbegin [label="Beginning C++"]
+                cbegin [label="Beginning C"]
                 lua [label="Lua"]
                 csharp [label="C#"]
             }
 
+            cppbegin [label="Beginning C++"]
             cpppractice [label="C++ Practice"]
             cpplibrary [label="C++ Standard Library"]
             cppadvance [label="Advanced C++"]
         }
+
+        tcpl2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpl2.jpg"/></TD></TR><TR><TD>The C Programming<br/>Language 2nd Ed (1988)</TD></TR></TABLE>>]
 
         cppprimer5 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cppprimer5.jpg"/></TD></TR><TR><TD>C++ Primer<br/>5th Ed (2012)</TD></TR></TABLE>>]
         tcpppl4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpppl4.jpg"/></TD></TR><TR><TD>The C++ Programming<br/>Language 4th Ed (2014)</TD></TR></TABLE>>]
@@ -199,6 +202,8 @@ digraph {
         csharpindepth3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="csharpindepth3.jpg"/></TD></TR><TR><TD>C# in Depth<br/>3rd Ed (2013)</TD></TR></TABLE>>]
         clrviacsharp4 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="clrviacsharp4.jpg"/></TD></TR><TR><TD>CLR via C#<br/>4th Ed (2012)</TD></TR></TABLE>>]
 
+        cbegin -> tcpl2 -> cppbegin [penwidth=2, arrowhead=normal]
+
         cppbegin -> cppprimer5 -> cpppractice [penwidth=2, arrowhead=normal]
 
         cppbegin -> tcpppl4
@@ -223,7 +228,7 @@ digraph {
 
         progtop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
         progbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
-        progtop -> cppbegin [style=invis]
+        progtop -> cbegin [style=invis]
         moderncppdesign -> progbottom [style=invis]
     }
 
