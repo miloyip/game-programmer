@@ -238,25 +238,31 @@ digraph {
 
         {
             node [shape="box", style="rounded,filled", color="#ebebc6"]
-            rank=same
+            sebegin [label="Beginning Software Development"]
             uml [label="UML"]
             sepractice [label="Practice"]
             dp [label="Design Pattern"]
         }
 
+        mythicalmanmonth2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="mythicalmanmonth2.jpg"/></TD></TR><TR><TD>The Mythical Man-Month<br/>2nd Ed (1995)</TD></TR></TABLE>>]
+
         umldistilled3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="umldistilled3.jpg"/></TD></TR><TR><TD>UML Distilled<br/>3rd Ed (2003)</TD></TR></TABLE>>]
         umluserguide2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="umluserguide2.jpg"/></TD></TR><TR><TD>The Unified Modeling<br/>Language User Guide<br/>2nd Ed (2005)</TD></TR></TABLE>>]
-        ooadwa3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="ooadwa3.jpg"/></TD></TR><TR><TD>Object-Oriented Analysis and<br/>Design with Applications 3rd Ed (2007)</TD></TR></TABLE>>]
+        ooadwa3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="ooadwa3.jpg"/></TD></TR><TR><TD>Object-Oriented Analysis<br/>and Design with Applications<br/>3rd Ed (2007)</TD></TR></TABLE>>]
 
         codecomplete2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="codecomplete2.jpg"/></TD></TR><TR><TD>Code Complete 2 (2004)</TD></TR></TABLE>>]
-        apidesignforcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="apidesignforcpp.jpg"/></TD></TR><TR><TD>API Design for C++ (2011)</TD></TR></TABLE>>]
+        apidesignforcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="apidesignforcpp.jpg"/></TD></TR><TR><TD>API Design for C++<br/>(2011)</TD></TR></TABLE>>]
         designpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="designpatterns.jpg"/></TD></TR><TR><TD>Design Patterns (1994)</TD></TR></TABLE>>]
         headfirstdesignpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="headfirstdesignpatterns.jpg"/></TD></TR><TR><TD>Head First<br/>Design Patterns (2004)</TD></TR></TABLE>>]
         practiceofprogramming [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="practiceofprogramming.jpg"/></TD></TR><TR><TD>The Practice of<br/>Porgramming (1999)</TD></TR></TABLE>>]
         cleancode [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="cleancode.jpg"/></TD></TR><TR><TD>Clean Code (2008)</TD></TR></TABLE>>]
         refactoring [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="refactoring.jpg"/></TD></TR><TR><TD>Refactoring (1999)</TD></TR></TABLE>>]
+        workingeffectivelylegacycode [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="workingeffectivelylegacycode.jpg"/></TD></TR><TR><TD>Working Effectively<br/>with Legacy Code <br/>(2004)</TD></TR></TABLE>>]
 
-        sepractice -> codecomplete2 -> practiceofprogramming -> cleancode -> refactoring -> apidesignforcpp  [penwidth=2, arrowhead=normal]
+        sebegin -> mythicalmanmonth2 -> { uml; sepractice; dp } [penwidth=2, arrowhead=normal]
+
+        sepractice -> codecomplete2 -> practiceofprogramming -> cleancode -> refactoring -> workingeffectivelylegacycode  [penwidth=2, arrowhead=normal]
+        refactoring -> apidesignforcpp
 
         dp -> designpatterns [penwidth=2, arrowhead=normal]
         dp -> headfirstdesignpatterns -> designpatterns
@@ -267,7 +273,7 @@ digraph {
 
         setop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         sebottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
-        setop -> sepractice [style=invis]
+        setop -> sebegin [style=invis]
         apidesignforcpp -> sebottom [style=invis]
     }
 
@@ -428,6 +434,7 @@ digraph {
         unity5gameoptimization [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unity5gameoptimization.jpg"/></TD></TR><TR><TD>Unity 5 Game<br/>Optimization (2015)</TD></TR></TABLE>>]
         videogameoptimization [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="videogameoptimization.jpg"/></TD></TR><TR><TD>Video Game<br/>Optimization (2010)</TD></TR></TABLE>>]
         hackersdelight2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="hackersdelight2.jpg"/></TD></TR><TR><TD>Hacker's Delight<br/>2nd Ed (2012)</TD></TR></TABLE>>]
+        modernx86assembly [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="modernx86assembly.jpg"/></TD></TR><TR><TD>Modern X86<br/>Assembly Language<br/>Programming (2014)</TD></TR></TABLE>>]
         gpgpu [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgpu.jpg"/></TD></TR><TR><TD>GPGPU Programming<br/>for Games and Science<br/>(2014)</TD></TR></TABLE>>]
         vectorgamemathprocessors [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="vectorgamemathprocessors.jpg"/></TD></TR><TR><TD>Vector Games<br/>Math Processors<br/>(2002)</TD></TR></TABLE>>]
 
@@ -440,7 +447,7 @@ digraph {
         gameenginearchitecture2 -> "3dgameenginearchitecture" -> gameenginedesign2
         gearticles -> gameenginegems1 -> gameenginegems2 -> gameenginegems3
         gescript -> gamescriptingmastery -> languageimplpatterns -> garbagecollectionhandbook
-        geoptimization -> videogameoptimization -> unity5gameoptimization -> hackersdelight2 -> { gpgpu; vectorgamemathprocessors}
+        geoptimization -> videogameoptimization -> unity5gameoptimization -> hackersdelight2 -> { modernx86assembly; gpgpu; vectorgamemathprocessors}
         getool -> gamedevtools -> designinguxgamedevtools
 
         getop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
