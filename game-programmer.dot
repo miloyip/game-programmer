@@ -429,6 +429,7 @@ digraph {
         videogameoptimization [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="videogameoptimization.jpg"/></TD></TR><TR><TD>Video Game<br/>Optimization (2010)</TD></TR></TABLE>>]
         hackersdelight2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="hackersdelight2.jpg"/></TD></TR><TR><TD>Hacker's Delight<br/>2nd Ed (2012)</TD></TR></TABLE>>]
         gpgpu [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gpgpu.jpg"/></TD></TR><TR><TD>GPGPU Programming<br/>for Games and Science<br/>(2014)</TD></TR></TABLE>>]
+        vectorgamemathprocessors [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="vectorgamemathprocessors.jpg"/></TD></TR><TR><TD>Vector Games<br/>Math Processors<br/>(2002)</TD></TR></TABLE>>]
 
         gamedevtools [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="gamedevtools.jpg"/></TD></TR><TR><TD>Game Development<br/>Tools (2011)</TD></TR></TABLE>>]
         designinguxgamedevtools [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="designinguxgamedevtools.jpg"/></TD></TR><TR><TD>Designing the User<br/>Experience of Game<br/>Development Tools (2015)</TD></TR></TABLE>>]
@@ -439,7 +440,7 @@ digraph {
         gameenginearchitecture2 -> "3dgameenginearchitecture" -> gameenginedesign2
         gearticles -> gameenginegems1 -> gameenginegems2 -> gameenginegems3
         gescript -> gamescriptingmastery -> languageimplpatterns -> garbagecollectionhandbook
-        geoptimization -> unity5gameoptimization -> videogameoptimization -> hackersdelight2 -> gpgpu
+        geoptimization -> videogameoptimization -> unity5gameoptimization -> hackersdelight2 -> { gpgpu; vectorgamemathprocessors}
         getool -> gamedevtools -> designinguxgamedevtools
 
         getop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
