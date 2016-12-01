@@ -1,6 +1,6 @@
 digraph {
     compound=true
-    fontname="Inconsolata"
+    fontname="Futura"
     fontsize=20
     margin="0,0"
     ranksep=0.25
@@ -18,24 +18,31 @@ digraph {
     subgraph cluster_toc {
         style=invis;
 
-        toctop [fixedsize=true,width=8, height=1, shape=plaintext,fontsize=30,label=<<TABLE BORDER="0"><TR><TD>Game Programmer's Study Path</TD></TR></TABLE>>]
+        toctop [fixedsize=true,width=8, height=3, shape=plaintext,label=<
+            <TABLE BORDER="0">
+            <TR><TD><FONT FACE="Futura" POINT-SIZE="40">A STUDY PATH FOR</FONT></TD></TR>
+            <TR><TD><FONT FACE="Futura-Bold" POINT-SIZE="40">GAME PROGRAMMER</FONT></TD></TR>
+            <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12</FONT></TD></TR>
+            <TR><TD>http://github/miloyip/game-programmer</TD></TR>
+            </TABLE>
+        >]
         tocbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
 
         {
-            node [shape="box", style="rounded,filled", fixedsize=true, width=3, height=0.75, fontsize=15]
+            node [shape="box", style="rounded,filled", fixedsize=true, width=3, height=0.5, fontname="Futura", fontsize=10]
 
-            kid         [color="#edc5ce", label=<0. Game Programming<br/>for Kids>]
+            kid         [color="#edc5ce", label=<0. Game Programming for Kids>]
             cs          [color="#edc5c5", label="1. Computer Science"]
             proglang    [color="#eddac5", label="2. Programming Languages"]
             softwaredev [color="#ebebc6", label="3. Software Development"]
-            math        [color="#d9ebc6", label=<4. Mathematics for<br/>Game Porgramming>]
+            math        [color="#d9ebc6", label=<4. Mathematics for Game Porgramming>]
             gameprog    [color="#c5edc5", label="5. Game Programming"]
-            gameengine  [color="#c5ede1", label=<6. Game Engine<br/>Development>]
+            gameengine  [color="#c5ede1", label=<6. Game Engine Development>]
             cg          [color="#c5e1ed", label="7. Computer Graphics"]
             audio       [color="#c5cbed", label="8. Game Audio"]
-            phyanim     [color="#d7c5ed", label=<9. Game Physics<br/> and Animation>]
-            ai          [color="#edc5ed", label=<10. Game Artificial<br/>Intelligence>]
-            multiplayer [color="#edc5d7", label=<11. Multiplayer Game<br/>Programming>]
+            phyanim     [color="#d7c5ed", label=<9. Game Physics and Animation>]
+            ai          [color="#edc5ed", label=<10. Game Artificial Intelligence>]
+            multiplayer [color="#edc5d7", label=<11. Multiplayer Game Programming>]
         }
         kid -> cs -> proglang -> softwaredev -> math -> gameprog -> gameengine
         cg -> audio -> phyanim -> ai -> multiplayer[style=invis]
@@ -43,7 +50,24 @@ digraph {
         cg -> audio [style=invis]
 
         toctop -> kid [style=invis]
-        multiplayer-> tocbottom [style=invis]
+        multiplayer -> tocbottom [style=invis]
+    }
+
+    subgraph cluster_legend {
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>Legends</TD></TR></TABLE>>
+        node [shape=none, fixedsize=true, width=2, height=0.25]
+
+        legendA1 [label="Recommended Path"]
+        legendB1 [label="Normal Path"]
+        legendA2 [label="", height=0.1]
+        legendB2 [label="", height=0.1]
+        legendA1 -> legendA2 [penwidth=2, arrowhead=normal]
+        legendB1 -> legendB2
+
+        legendtop [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        legendbottom [fixedsize=true,width=8,height=0.1,style=invis,label=""]
+        legendtop -> { legendA1; legendB1 } [style=invis]
+        { legendA2; legendB2 } -> legendbottom [style=invis]
     }
 
     subgraph cluster_kid {
@@ -684,9 +708,12 @@ digraph {
         massivelymultiplayergd2 -> multiplayerbottom [style=invis]
     }
 
+    ccsa [label=<<TABLE BORDER="0"><TR><TD><IMG SRC="CC-BY-SA_icon.png"/></TD></TR></TABLE>>]
+
     {
         edge [style=invis]
-        tocbottom -> kidtop
+        tocbottom -> legendtop
+        legendbottom -> kidtop
         kidbottom -> cstop
         csbottom -> progtop
         progbottom -> setop
@@ -698,5 +725,6 @@ digraph {
         audiobottom -> phytop
         phybottom -> aitop
         aibottom -> multiplayertop
+        multiplayerbottom -> ccsa
     }
 }
