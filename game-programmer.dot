@@ -706,19 +706,19 @@ digraph {
         }
 
         multiplayergp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="multiplayergp.jpg"/></TD></TR><TR><TD>Multiplayer Game<br/>Programming (2015)</TD></TR></TABLE>>]
-        massivelymultiplayergd [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="massivelymultiplayergd.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development (2003)</TD></TR></TABLE>>]
-        massivelymultiplayergd2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="massivelymultiplayergd2.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development 2 (2005)</TD></TR></TABLE>>]
+        massivelymultiplayergd [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="massivelymultiplayergd.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development<br/>(2003)</TD></TR></TABLE>>]
+        massivelymultiplayergd2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="massivelymultiplayergd2.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development 2<br/>(2005)</TD></TR></TABLE>>]
 
-        linuxsystemprog2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="linuxsystemprog2.jpg"/></TD></TR><TR><TD>Linux System<br/>Programming 2nd Ed (2013)</TD></TR></TABLE>>]
+        linuxsystemprog2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="linuxsystemprog2.jpg"/></TD></TR><TR><TD>Linux System<br/>Programming<br/>2nd Ed (2013)</TD></TR></TABLE>>]
         advancedprogunixenv3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="advancedprogunixenv3.jpg"/></TD></TR><TR><TD>Advanced Programming<br/>in the UNIX Environment<br/>3rd Ed (2013)</TD></TR></TABLE>>]
 
         tcpipillustratedv1_2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpipillustratedv1_2.jpg"/></TD></TR><TR><TD>TCP/IP Illustrated<br/>Vol 1 2nd Ed (2011)</TD></TR></TABLE>>]
         tcpipillustratedv2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpipillustratedv2.jpg"/></TD></TR><TR><TD>TCP/IP Illustrated<br/>Vol 2 (1995)</TD></TR></TABLE>>]
         tcpipillustratedv3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="tcpipillustratedv3.jpg"/></TD></TR><TR><TD>TCP/IP Illustrated<br/>Vol 3 (1996)</TD></TR></TABLE>>]
 
-        unixnetworkprogv1_3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unixnetworkprogv1_3.jpg"/></TD></TR><TR><TD>Unix Network Programming<br/>Vol 1 3rd Ed (2003)</TD></TR></TABLE>>]
-        unixnetworkprogv2_2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unixnetworkprogv2_2.jpg"/></TD></TR><TR><TD>Unix Network Programming<br/>Vol 2 2nd Ed (1998)</TD></TR></TABLE>>]
-        linuxnetworkinternals [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="linuxnetworkinternals.jpg"/></TD></TR><TR><TD>Understanding Linux<br/>Network Internals Vol 2 2nd Ed (1998)</TD></TR></TABLE>>]
+        unixnetworkprogv1_3 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unixnetworkprogv1_3.jpg"/></TD></TR><TR><TD>Unix Network<br/>Programming<br/>Vol 1 3rd Ed (2003)</TD></TR></TABLE>>]
+        unixnetworkprogv2_2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="unixnetworkprogv2_2.jpg"/></TD></TR><TR><TD>Unix Network<br/>Programming<br/>Vol 2 2nd Ed (1998)</TD></TR></TABLE>>]
+        linuxnetworkinternals [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="linuxnetworkinternals.jpg"/></TD></TR><TR><TD>Understanding Linux<br/>Network Internals<br/>(2006)</TD></TR></TABLE>>]
 
         multiplayerbegin -> multiplayergp [penwidth=2, arrowhead=normal]
         multiplayergp -> serverprog
@@ -738,7 +738,10 @@ digraph {
         linuxnetworkinternals -> multiplayerbottom [style=invis]
     }
 
-    ccsa [label=<<TABLE BORDER="0"><TR><TD><IMG SRC="CC-BY-SA_icon.png"/></TD></TR></TABLE>>]
+    ccsa [fontcolor=white,fontsize=8,label=<<TABLE BORDER="0">
+        <TR><TD><IMG SCALE="TRUE" SRC="CC-BY-SA_icon.png"/></TD></TR>
+        <TR><TD>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</TD></TR>
+        </TABLE>>]
 
     {
         edge [style=invis]
