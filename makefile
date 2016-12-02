@@ -1,6 +1,13 @@
 DOTFILES = $(basename $(wildcard *.dot))
 
-all: $(addsuffix .jpg, $(DOTFILES)) $(addsuffix .svg, $(DOTFILES)) $(addsuffix .pdf, $(DOTFILES))
+all: \
+	$(addsuffix .png, $(DOTFILES)) \
+	$(addsuffix .jpg, $(DOTFILES)) \
+	$(addsuffix .svg, $(DOTFILES)) \
+	$(addsuffix .pdf, $(DOTFILES))
+
+%.png: %.dot
+	dot "$<" -Tpng -o "$@"
 
 %.jpg: %.dot
 	dot "$<" -Tjpg -o "$@"
