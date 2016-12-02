@@ -89,7 +89,7 @@ digraph {
             kidintermediate [label="Intermediate Game Programming for Kids"]
         }
 
-        scratchjr [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="scratchjr.jpg"/></TD></TR><TR><TD>The Official<br/>ScratchJr Book (2015)</TD></TR></TABLE>>]
+        scratchjr [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="scratchjr.jpg"/></TD></TR><TR><TD>The Official<br/>ScratchJr Book (2015)</TD></TR></TABLE>> url="https://www.amazon.com/dp/1593276710/"]
         
         codinggamesinscratch [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="codinggamesinscratch.jpg"/></TD></TR><TR><TD>Coding Games<br/>in Scratch<br/>(2015)</TD></TR></TABLE>>]
         superscratchprogadv [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="superscratchprogadv.jpg"/></TD></TR><TR><TD>Super Scratch<br/>Programming Adventure!<br/>(2013)</TD></TR></TABLE>>]
@@ -252,6 +252,8 @@ digraph {
 
         codecomplete2 [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="codecomplete2.jpg"/></TD></TR><TR><TD>Code Complete 2 (2004)</TD></TR></TABLE>>]
         apidesignforcpp [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="apidesignforcpp.jpg"/></TD></TR><TR><TD>API Design for C++<br/>(2011)</TD></TR></TABLE>>]
+
+        agilesoftwaredev [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="agilesoftwaredev.jpg"/></TD></TR><TR><TD>Agile Software<br/>Development (2002)</TD></TR></TABLE>>]
         designpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="designpatterns.jpg"/></TD></TR><TR><TD>Design Patterns (1994)</TD></TR></TABLE>>]
         headfirstdesignpatterns [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="headfirstdesignpatterns.jpg"/></TD></TR><TR><TD>Head First<br/>Design Patterns (2004)</TD></TR></TABLE>>]
         practiceofprogramming [label=<<TABLE BORDER="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="practiceofprogramming.jpg"/></TD></TR><TR><TD>The Practice of<br/>Porgramming (1999)</TD></TR></TABLE>>]
@@ -264,7 +266,7 @@ digraph {
         sepractice -> codecomplete2 -> practiceofprogramming -> cleancode -> refactoring -> workingeffectivelylegacycode  [penwidth=2, arrowhead=normal]
         refactoring -> apidesignforcpp
 
-        dp -> designpatterns [penwidth=2, arrowhead=normal]
+        dp -> agilesoftwaredev -> designpatterns [penwidth=2, arrowhead=normal]
         dp -> headfirstdesignpatterns -> designpatterns
 
         uml -> umldistilled3 -> umluserguide2 -> ooadwa3
@@ -274,7 +276,7 @@ digraph {
         setop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         sebottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         setop -> sebegin [style=invis]
-        apidesignforcpp -> sebottom [style=invis]
+        workingeffectivelylegacycode -> sebottom [style=invis]
     }
 
     subgraph cluster_math {
