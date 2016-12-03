@@ -1,0 +1,27 @@
+[svg](game-programmer.svg) [pdf](game-programmer.pdf)
+
+![ ](game-programmer.jpg)
+
+## Disclaimer
+
+1. This work (the WORK) was created by Milo Yip (the AUTHOR), who has been a game developer for more than 20 years.
+2. The books shown in the WORK represent knowledge/skills that may/should be acquired by game programmers. There are other important ways of learning, such as practicing, courses, industrial/academic conferences/publications, etc.
+3. The AUTHOR has not been sponsored by any authors/publishers of the books, except that he was the translator for the Chinese version of Game Engine Architecture.
+4. Comments are welcome but the AUTHOR reserved the rights of modification.
+5. The WORK is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
+## Build
+
+* GNU make
+* [Graphviz](http://www.graphviz.org) 2.38
+* [Ghostscript](http://www.ghostscript.com/) 9.16 (ps2pdf)
+* [cpdf](http://community.coherentpdf.com/)
+
+## Acknowledgement
+
+* Windy Wang
+* Stanley Luo
+* Shou Chen
+* Xinz
+* Vczh
+* Hush
