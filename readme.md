@@ -8,7 +8,7 @@
 2. The books shown in the WORK represent knowledge/skills that may/should be acquired by game programmers. There are other important ways of learning, such as practicing, courses, industrial/academic conferences/publications, etc.
 3. The AUTHOR has not been sponsored by any authors/publishers of the books, except that he was the translator for the Chinese version of Game Engine Architecture.
 4. Comments are welcome but the AUTHOR reserved the rights of modification.
-5. The WORK is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+5. The WORK is licensed under [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Build
 

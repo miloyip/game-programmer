@@ -758,7 +758,8 @@ digraph {
     ccsa [fontcolor=white,fontsize=8,label=<<TABLE BORDER="0">
         <TR><TD><IMG SCALE="TRUE" SRC="images/CC-BY-SA_icon.png"/></TD></TR>
         <TR><TD>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</TD></TR>
-        </TABLE>>]
+        </TABLE>>
+        URL = "https://creativecommons.org/licenses/by-sa/4.0/"]
 
     {
         edge [style=invis]
