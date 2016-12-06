@@ -85,8 +85,11 @@ digraph {
 
         {
             node [shape="box", style="rounded,filled" color="#edc5ce"]
-            age5 [label="Beginning from Age of 5"]
-            age8 [label="Beginning from Age of 8"]
+            {
+                rank=same
+                age5 [label="Beginning from Age of 5"]
+                age8 [label="Beginning from Age of 8"]
+            }
             kidintermediate [label="Intermediate Game Programming for Kids"]
         }
 
@@ -113,7 +116,7 @@ digraph {
 
         kidtop [fixedsize=true,width=8,height=0.01,style=invis, label=""]
         kidbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
-        kidtop -> age5 [style=invis]
+        kidtop -> {age5; age8} [style=invis]
         adventuresinminecraft -> kidbottom [style=invis]
     }
 
@@ -129,24 +132,26 @@ digraph {
             csmath [label="Mathematics for CS"]
         }
 
-        csapp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/csapp3.jpg"/></TD></TR><TR><TD>Computer Systems:<br/>A Programmer's<br/>Perspective 3rd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0133001482/"]
-        comparch5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/comparch5.jpg"/></TD></TR><TR><TD>Computer Architecture<br/>5th Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123838738/"]
-        modernos4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/modernos4.jpg"/></TD></TR><TR><TD>Modern Operating<br/>System 4th Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013359162X/"]
+        sicp2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/sicp2.jpg"/></TD></TR><TR><TD>Structure and Interpretation<br/>of Computer Programs<br/>(SICP) 2nd Ed (1996)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0133001482/"]
+        csapp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/csapp3.jpg"/></TD></TR><TR><TD>Computer Systems<br/>(CSAPP) 3rd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0133001482/"]
+        caaqa5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/caaqa5.jpg"/></TD></TR><TR><TD>Computer Architecture<br/>(CAAQA) 5th Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123838738/"]
+        mos4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/mos4.jpg"/></TD></TR><TR><TD>Modern Operating<br/>System (MOS)<br/>4th Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013359162X/"]
         
-        clrs3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/clrs3.jpg"/></TD></TR><TR><TD>Introduction to<br/>Algorithms 3rd Ed (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0262033844/"]
+        clrs3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/clrs3.jpg"/></TD></TR><TR><TD>Introduction to<br/>Algorithms (CLRS)<br/>3rd Ed (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0262033844/"]
         algorithms4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/algorithms4.jpg"/></TD></TR><TR><TD>Algorithms<br/>4th Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/032157351X/"]
         
         concretemaths2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/concretemaths2.jpg"/></TD></TR><TR><TD>Concrete Mathematics<br/>2nd Ed (1994)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201558025/"]
         computationalscieng [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/computationalscieng.jpg"/></TD></TR><TR><TD>Computational Science<br/>and Engineering (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0961408812/"]
 
-        foundation -> csapp3 -> { comparch5; modernos4 }
-        algorithm -> { clrs3; algorithms4 }
+        foundation -> { sicp2; csapp3 } -> { caaqa5; mos4 } [arrowhead=normal, style=solid]
+        algorithm -> clrs3 [arrowhead=normal, style=solid]
+        algorithm -> algorithms4 -> clrs3
         csmath -> concretemaths2 -> computationalscieng
 
         cstop [fixedsize=true,width=8,height=0.01,style=invis, label=""]
         csbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
-        cstop -> csmath [style=invis]
-        comparch5 -> csbottom [style=invis]
+        cstop -> { foundation; csmath; algorithm } [style=invis]
+        caaqa5 -> csbottom [style=invis]
     }
 
     subgraph cluster_proglang {
@@ -169,10 +174,10 @@ digraph {
             cppadvance [label="Advanced C++"]
         }
 
-        tcpl2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tcpl2.jpg"/></TD></TR><TR><TD>The C Programming<br/>Language 2nd Ed (1988)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0131103628/"]
+        tcpl2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tcpl2.jpg"/></TD></TR><TR><TD>The C Programming<br/>Language (TCPL)<br/>2nd Ed (1988)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0131103628/"]
 
-        cppprimer5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cppprimer5.jpg"/></TD></TR><TR><TD>C++ Primer<br/>5th Ed (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321714113/"]
-        tcpppl4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tcpppl4.jpg"/></TD></TR><TR><TD>The C++ Programming<br/>Language 4th Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321563840/"]
+        cppprimer5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cppprimer5.jpg"/></TD></TR><TR><TD>C++ Primer<br/>(CPPP) 5th Ed (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321714113/"]
+        tcpppl4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tcpppl4.jpg"/></TD></TR><TR><TD>The C++ Programming<br/>Language (TCPPPL)<br/>4th Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321563840/"]
         cppstandardlibrary2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cppstandardlibrary2.jpg"/></TD></TR><TR><TD>The C++ Standard<br/>Library 2nd Ed (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321623215/"]
         boostcpplibraries2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/boostcpplibraries2.jpg"/></TD></TR><TR><TD>The Boost C++<br/>Libraries 2nd Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1937434362/"]
         cppconcurrencyinaction [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cppconcurrencyinaction.jpg"/></TD></TR><TR><TD>C++ Concurrency<br/>in Action (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1933988770/"]
@@ -213,11 +218,12 @@ digraph {
         
         cpplibrary -> cppstandardlibrary2 [arrowhead=normal, style=solid]
         cppstandardlibrary2 -> effectivestl
-        cppstandardlibrary2 -> boostcpplibraries2 -> cppconcurrencyinaction
+        cppstandardlibrary2 -> cppconcurrencyinaction -> boostcpplibraries2
 
-        cpppractice -> effectivecpp3 -> moreeffectivecpp3 -> effectivemoderncpp [arrowhead=normal, style=solid]
+        cpppractice -> effectivecpp3 -> effectivemoderncpp -> cppcodingstandard [arrowhead=normal, style=solid]
+        effectivecpp3 -> moreeffectivecpp3 -> effectivemoderncpp
         effectivemoderncpp -> optimizedcpp -> cppadvance
-        cpppractice -> exceptionalcpp -> moreexceptionalcpp -> exceptionalcppstyle -> cppcodingstandard
+        cpppractice -> exceptionalcpp -> moreexceptionalcpp -> exceptionalcppstyle -> cppcodingstandard -> cppadvance
         cppadvance -> elementsofprogramming -> frommathtogeneric
         cppadvance -> { insidecppobjectmodel; cpptemplates }
         insidecppobjectmodel -> imperfectcpp
@@ -240,16 +246,12 @@ digraph {
         {
             node [shape="box", style="rounded,filled", color="#ebebc6"]
             sebegin [label="Beginning Software Development"]
-            uml [label="UML"]
             sepractice [label="Practice"]
             dp [label="Design Pattern"]
+            uml [label="UML"]
         }
 
         mythicalmanmonth2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/mythicalmanmonth2.jpg"/></TD></TR><TR><TD>The Mythical Man-Month<br/>2nd Ed (1995)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201835959/"]
-
-        umldistilled3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/umldistilled3.jpg"/></TD></TR><TR><TD>UML Distilled<br/>3rd Ed (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321193687/"]
-        umluserguide2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/umluserguide2.jpg"/></TD></TR><TR><TD>The Unified Modeling<br/>Language User Guide<br/>2nd Ed (2005)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321267974/"]
-        ooadwa3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/ooadwa3.jpg"/></TD></TR><TR><TD>Object-Oriented Analysis<br/>and Design with Applications<br/>3rd Ed (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/020189551X/"]
 
         codecomplete2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/codecomplete2.jpg"/></TD></TR><TR><TD>Code Complete 2 (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0735619670/"]
         apidesignforcpp [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/apidesignforcpp.jpg"/></TD></TR><TR><TD>API Design for C++<br/>(2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123850037/"]
@@ -262,13 +264,18 @@ digraph {
         refactoring [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/refactoring.jpg"/></TD></TR><TR><TD>Refactoring (1999)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201485672/"]
         workingeffectivelylegacycode [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/workingeffectivelylegacycode.jpg"/></TD></TR><TR><TD>Working Effectively<br/>with Legacy Code <br/>(2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0131177052/"]
 
-        sebegin -> mythicalmanmonth2 -> { uml; sepractice; dp } [arrowhead=normal, style=solid]
+        umldistilled3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/umldistilled3.jpg"/></TD></TR><TR><TD>UML Distilled<br/>3rd Ed (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321193687/"]
+        umluserguide2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/umluserguide2.jpg"/></TD></TR><TR><TD>The Unified Modeling<br/>Language User Guide<br/>2nd Ed (2005)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321267974/"]
+        ooadwa3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/ooadwa3.jpg"/></TD></TR><TR><TD>Object-Oriented Analysis<br/>and Design with Applications<br/>3rd Ed (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/020189551X/"]
 
-        sepractice -> codecomplete2 -> practiceofprogramming -> cleancode -> refactoring -> workingeffectivelylegacycode  [arrowhead=normal, style=solid]
-        refactoring -> apidesignforcpp
+        sebegin -> mythicalmanmonth2 -> { sepractice; dp } [arrowhead=normal, style=solid]
+        mythicalmanmonth2 -> uml
+
+        sepractice -> practiceofprogramming -> refactoring -> codecomplete2 -> { cleancode; workingeffectivelylegacycode } [arrowhead=normal, style=solid]
+        codecomplete2 -> apidesignforcpp
 
         dp -> agilesoftwaredev -> designpatterns [arrowhead=normal, style=solid]
-        dp -> headfirstdesignpatterns -> designpatterns
+        agilesoftwaredev -> headfirstdesignpatterns -> designpatterns
 
         uml -> umldistilled3 -> umluserguide2 -> ooadwa3
 
@@ -277,7 +284,7 @@ digraph {
         setop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         sebottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         setop -> sebegin [style=invis]
-        workingeffectivelylegacycode -> sebottom [style=invis]
+        cleancode -> sebottom [style=invis]
     }
 
     subgraph cluster_math {
@@ -295,8 +302,9 @@ digraph {
         "3dmathprimer2" [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/3dmathprimer2.jpg"/></TD></TR><TR><TD>3D Math Primer for<br/>Graphics and Game<br/>Development 2nd Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568817231/"]
         essentialmaths3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/essentialmaths3.jpg"/></TD></TR><TR><TD>Essential Mathematics<br/>for Games and<br/>Interactive Applications<br/>3rd Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482250926/"]
 
-        geometrictools [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/geometrictools.jpg"/></TD></TR><TR><TD>Geometric Tools for<br/>Computer Graphics<br/>(2002)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1558605940/"]
         geometricalgebra [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/geometricalgebra.jpg"/></TD></TR><TR><TD>Geometric Algebra for<br/>Computer Science (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123749425/"]
+        geometrictools [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/geometrictools.jpg"/></TD></TR><TR><TD>Geometric Tools for<br/>Computer Graphics<br/>(2002)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1558605940/"]
+        computationalgeometry [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/computationalgeometry.jpg"/></TD></TR><TR><TD>Geometric Tools for<br/>Computational Geometry<br/> 3rd Ed (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/3540779736/"]
         visualizingquaternions [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/visualizingquaternions.jpg"/></TD></TR><TR><TD>Visualizing Quaternions<br/>(2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0120884003/"]
         divgradcurl4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/divgradcurl4.jpg"/></TD></TR><TR><TD>Div, Grad, Curl<br/>and all That<br/>4th Ed (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0393925161/"]
 
@@ -307,7 +315,7 @@ digraph {
 
         { foundationsgedmath; "3dmathprimer2"; essentialmaths3 } -> mathadvanced
 
-        mathadvanced -> geometrictools [arrowhead=normal, style=solid]
+        mathadvanced -> geometrictools -> computationalgeometry [arrowhead=normal, style=solid]
         mathadvanced -> geometricalgebra
         mathadvanced -> visualizingquaternions
         mathadvanced -> divgradcurl4
@@ -315,7 +323,7 @@ digraph {
         mathtop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         mathbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         mathtop -> mathbegin [style=invis]
-        geometrictools -> mathbottom [style=invis]
+        computationalgeometry -> mathbottom [style=invis]
     }
 
     subgraph cluster_gameprog {
@@ -346,11 +354,13 @@ digraph {
 
         gpalgorithmstechniques [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpalgorithmstechniques.jpg"/></TD></TR><TR><TD>Game Programming<BR/>Algorithms and<BR/>Techniques (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321940156/"]
         gameprogrammingpatterns [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameprogrammingpatterns.jpg"/></TD></TR><TR><TD>Game Programming<br/>Patterns (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0990582906/"]
+        gpgoldenrules [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpgoldenrules.jpg"/></TD></TR><TR><TD>Game Programming<br/>Golden Rules (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584503068/"]
         crossplatformgp [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/crossplatformgp.jpg"/></TD></TR><TR><TD>Cross-Platform Game<br/>Programming (2005)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584503793/"]
         androidndkgdcookbook [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/androidndkgdcookbook.jpg"/></TD></TR><TR><TD>Android NDK Game<br/>Development Cookbook<br/>(2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1782167781/"]
         buildingfpsgameunity [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/buildingfpsgameunity.jpg"/></TD></TR><TR><TD>Building an FPS<br/>Game with Unity (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/178217480X/"]
         unityvrprojects [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/unityvrprojects.jpg"/></TD></TR><TR><TD>Unity Virtual<br/>Reality Projects (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/178398855X/"]
         agumentedreality [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/agumentedreality.jpg"/></TD></TR><TR><TD>Augmented Reality<br/>(2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321883578/"]
+        practicalaugmentedreality [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/practicalaugmentedreality.jpg"/></TD></TR><TR><TD>Practical Augmented<br/>Reality (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0134094239/"]
 
         {
             rank=same
@@ -388,15 +398,17 @@ digraph {
         cocos2dx -> cocos2dxbyexample2 -> gpintermediate
 
         gpintermediate -> gpalgorithmstechniques -> gameprogrammingpatterns [arrowhead=normal, style=solid]
-        gameprogrammingpatterns -> gpmisc
+        gameprogrammingpatterns -> gpgoldenrules -> gpmisc 
         gpintermediate -> crossplatformgp -> androidndkgdcookbook
         gpintermediate -> buildingfpsgameunity -> unityvrprojects
-        gpintermediate -> agumentedreality
+        gpintermediate -> agumentedreality -> practicalaugmentedreality
 
+        {
+            rank=same; gpgoldenrules; gpmisc 
+        }
         gpmisc -> gpgemsbest
         gpgemsbest -> gpgems
         gpmisc -> beginninggp -> advancedgp
-        beginninggp -> gpgems2 [style=invis]
         gpgems -> gpgems2 -> gpgems3 -> gpgems4
         gpgems4 -> gpgems5
         gpgems5 -> gpgems6 -> gpgems7 -> gpgems8
@@ -422,9 +434,9 @@ digraph {
 
         {
             rank=same
-            gameenginearchitecture2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginearchitecture2.jpg"/></TD></TR><TR><TD>Game Engine<br/>Architecture<br/>2nd Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1466560010/"]
-            "3dgameenginearchitecture" [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/3dgameenginearchitecture.jpg"/></TD></TR><TR><TD>3D Game Engine<br/>Architecture (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/012229064X/"]
-            gameenginedesign2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginedesign2.jpg"/></TD></TR><TR><TD>Game Engine<br/>Design 2nd Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0122290631/"]
+            gameenginearchitecture2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginearchitecture2.jpg"/></TD></TR><TR><TD>Game Engine<br/>Architecture (GEA)<br/>2nd Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1466560010/"]
+            "3dgameenginearchitecture" [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/3dgameenginearchitecture.jpg"/></TD></TR><TR><TD>3D Game Engine<br/>Architecture<br/>(2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/012229064X/"]
+            gameenginedesign2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginedesign2.jpg"/></TD></TR><TR><TD>Game Engine<br/>Design<br/>2nd Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0122290631/"]
         }
         
         gameenginegems1 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginegems1.jpg"/></TD></TR><TR><TD>Game Engine<br/>Gems 1 (2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0763778885/"]
@@ -482,9 +494,9 @@ digraph {
         oglguide9 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/oglguide9.jpg"/></TD></TR><TR><TD>OpenGL Programming<br/>Guide 9th Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0134495497/"]
 
         fundamentalscg4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fundamentalscg4.jpg"/></TD></TR><TR><TD>Fundamentals of<br/>Computer Graphics<br/>4th Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482229390/"]
-        cgpp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cgpp3.jpg"/></TD></TR><TR><TD>Computer Graphics<br/>Principles and Practice<br/>3rd Ed (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321399528/"]
-        pdis [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pdis.jpg"/></TD></TR><TR><TD>Principles of Digital<br/>Image Synthesis (1995)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1558602763/"]
-        digitalimageprocessing3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/digitalimageprocessing3.jpg"/></TD></TR><TR><TD>Digital Image<br/>Processing 3rd Ed (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013168728X/"]
+        cgpp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cgpp3.jpg"/></TD></TR><TR><TD>Computer Graphics<br/>Principles and Practice<br/>(CGP&amp;P) 3rd Ed (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321399528/"]
+        pdis [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pdis.jpg"/></TD></TR><TR><TD>Principles of Digital<br/>Image Synthesis<br/>(PODIS) (1995)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1558602763/"]
+        digitalimageprocessing3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/digitalimageprocessing3.jpg"/></TD></TR><TR><TD>Digital Image<br/>Processing<br/>(DIP) 3rd Ed (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013168728X/"]
 
         graphicsshaders2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/graphicsshaders2.jpg"/></TD></TR><TR><TD>Graphics Shaders<br/>2nd Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814348/"]
         glsl3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/glsl3.jpg"/></TD></TR><TR><TD>OpenGL Shading<br/>Language 3rd Ed (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321637631/"]
@@ -495,7 +507,7 @@ digraph {
 
         practiald3d11 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/practiald3d11.jpg"/></TD></TR><TR><TD>Practical Rendering<br/>and Computation<br/>with Direct3D 11 (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568817207/"]
 
-        rtr3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtr3.jpg"/></TD></TR><TR><TD>Real-Time Rendering<br/>3rd Ed (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814240/"]
+        rtr3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtr3.jpg"/></TD></TR><TR><TD>Real-Time Rendering<br/> (RTR) 3rd Ed (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814240/"]
         tricks3dgpgurus [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tricks3dgpgurus.jpg"/></TD></TR><TR><TD>Tricks of the 3D<br/>Game Programming<br/>Gurus (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
         realtimeshadows [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/realtimeshadows.jpg"/></TD></TR><TR><TD>Real-Time<br/>Shadows (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814380/"]
         rtvolumegraphics [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtvolumegraphics.jpg"/></TD></TR><TR><TD>Real-Time Volume<br/>Graphics (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568812663/"]
@@ -511,7 +523,7 @@ digraph {
         gpupro6 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro6.jpg"/></TD></TR><TR><TD>GPU Pro 6 (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482264617/"]
         gpupro7 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro7.jpg"/></TD></TR><TR><TD>GPU Pro 7 (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/149874253X/"]
 
-        pbrt3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pbrt3.jpg"/></TD></TR><TR><TD>Physically Based<br/>Rendering<br/>3rd Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0128006455/"]
+        pbrt3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pbrt3.jpg"/></TD></TR><TR><TD>Physically Based<br/>Rendering (PBRT)<br/>3rd Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0128006455/"]
         raytracingfromgroundup [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/raytracingfromgroundup.jpg"/></TD></TR><TR><TD>Ray Tracing from<br/>the Ground Up<br/>(2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568812728/"]
         advancedgi2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/advancedgi2.jpg"/></TD></TR><TR><TD>Advanced<br/>Global Illumination<br/>2nd Ed (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568813074/"]
         productionvolumerendering [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/productionvolumerendering.jpg"/></TD></TR><TR><TD>Production Volume<br/>Rendering (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/156881724X/"]
@@ -557,6 +569,7 @@ digraph {
         { rank=same;rtr3; rtvolumegraphics }
         rtr3 -> { realtimeshadows; rtvolumegraphics }
         realtimeshadows -> graphicsprogrammingmethods [style=invis]
+        tricks3dgpgurus -> realtimeshadows [style=invis]
 
         rtr3 -> { d3d; ogl }
         d3d -> practiald3d11
@@ -575,6 +588,9 @@ digraph {
         
         polygonmeshprocessing -> npr [style=invis]
 
+        {
+            rank=same; glassenernotebook2; magiccg
+        }
         cgmisc -> graphicsgems -> graphicsgems2 -> graphicsgems3 -> graphicsgems4 -> graphicsgems5
         cgmisc -> blinn1 -> blinn2 -> glassenernotebook1 -> blinn3 -> glassenernotebook2 -> magiccg
 
@@ -583,7 +599,7 @@ digraph {
         cgtop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         cgbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         cgtop -> cgbegin [style=invis]
-        magiccg -> cgbottom [style=invis]
+        glassenernotebook2 -> cgbottom [style=invis]
     }
 
     subgraph cluster_audio {
@@ -679,7 +695,7 @@ digraph {
         proggameaibyexample [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/proggameaibyexample.jpg"/></TD></TR><TR><TD>Programming Game<br/>AI By Example (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1556220782/"]
         unityaigp2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/unityaigp2.jpg"/></TD></TR><TR><TD>Unity AI Game<br/>Programming 2nd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/178528827X/"]
 
-        aimodernapproach3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/aimodernapproach3.jpg"/></TD></TR><TR><TD>Artificial Intelligence<br/>Modern Approach 3rd Ed (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0136042597/"]
+        aima3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/aima3.jpg"/></TD></TR><TR><TD>Artificial Intelligence<br/>Modern Approach<br/>(AIMA) 3rd Ed (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0136042597/"]
         behavioralmathforgameai [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/behavioralmathforgameai.jpg"/></TD></TR><TR><TD>Behavioral Mathematics<br/>for Game AI (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584506849/"]
 
         {
@@ -695,13 +711,13 @@ digraph {
             gameaipro2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro2.jpg"/></TD></TR><TR><TD>Game AI Pro 2 (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
         }
 
-        aibegin -> aiforgames2 -> aiintermediate [arrowhead=normal, style=solid]
+        aibegin -> aiforgames2 -> aiintermediate -> aima3 [arrowhead=normal, style=solid]
         aibegin -> { aiforgd; proggameaibyexample; unityaigp2 } -> aiintermediate
-        aiintermediate -> { aimodernapproach3; behavioralmathforgameai } -> aimisc
+        aiintermediate -> behavioralmathforgameai -> aimisc
+        aima3 -> aimisc
         aimisc -> aigpwisdom 
         aigpwisdom -> aigpwisdom2 -> aigpwisdom3 -> aigpwisdom4
         aigpwisdom4 -> gameaipro -> gameaipro2
-        aimisc -> aigpwisdom4 [style=invis]
 
         aitop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         aibottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
@@ -726,8 +742,9 @@ digraph {
         massivelymultiplayergd [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/massivelymultiplayergd.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development<br/>(2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584502436/"]
         massivelymultiplayergd2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/massivelymultiplayergd2.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development 2<br/>(2005)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584503904/"]
 
-        linuxsystemprog2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/linuxsystemprog2.jpg"/></TD></TR><TR><TD>Linux System<br/>Programming<br/>2nd Ed (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1449339530/"]
+        progposixthreads [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/progposixthreads.jpg"/></TD></TR><TR><TD>Programming with<br/>POSIX Threads (1997)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201633922/"]
         advancedprogunixenv3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/advancedprogunixenv3.jpg"/></TD></TR><TR><TD>Advanced Programming<br/>in the UNIX Environment<br/>3rd Ed (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321637739/"]
+        linuxsystemprog2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/linuxsystemprog2.jpg"/></TD></TR><TR><TD>Linux System<br/>Programming<br/>2nd Ed (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1449339530/"]
 
         tcpipillustratedv1_2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tcpipillustratedv1_2.jpg"/></TD></TR><TR><TD>TCP/IP Illustrated<br/>Vol 1 2nd Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321336313/"]
         tcpipillustratedv2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tcpipillustratedv2.jpg"/></TD></TR><TR><TD>TCP/IP Illustrated<br/>Vol 2 (1995)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/020163354X/"]
@@ -743,7 +760,7 @@ digraph {
         multiplayergp -> networkprog
         multiplayergp -> multiplayermisc
 
-        serverprog -> linuxsystemprog2 -> advancedprogunixenv3 
+        serverprog -> progposixthreads -> advancedprogunixenv3 -> linuxsystemprog2 
         networkprotocol -> tcpipillustratedv1_2 -> tcpipillustratedv2 -> tcpipillustratedv3
         networkprog -> unixnetworkprogv1_3 -> unixnetworkprogv2_2 -> linuxnetworkinternals
 
@@ -752,7 +769,7 @@ digraph {
         multiplayertop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         multiplayerbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         multiplayertop -> multiplayerbegin [style=invis]
-        linuxnetworkinternals -> multiplayerbottom [style=invis]
+        { linuxsystemprog2; tcpipillustratedv3; linuxnetworkinternals } -> multiplayerbottom [style=invis]
     }
 
     ccsa [fontcolor=white,fontsize=8,label=<<TABLE BORDER="0">
