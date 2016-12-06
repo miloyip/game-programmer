@@ -1,4 +1,4 @@
-[svg](game-programmer.svg) [pdf](game-programmer.pdf)
+[svg](https://miloyip.github.io/game-programmer/game-programmer.svg) [pdf](https://miloyip.github.io/game-programmer/game-programmer.pdf)
 
 ![ ](game-programmer.jpg)
 
