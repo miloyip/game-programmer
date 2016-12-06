@@ -41,7 +41,7 @@ digraph {
             cs          [color="#edc5c5", label="1. Computer Science"]
             proglang    [color="#eddac5", label="2. Programming Languages"]
             softwaredev [color="#ebebc6", label="3. Software Development"]
-            math        [color="#d9ebc6", label=<4. Mathematics for Game Porgramming>]
+            math        [color="#d9ebc6", label=<4. Mathematics for Game Programming>]
             gameprog    [color="#c5edc5", label="5. Game Programming"]
             gameengine  [color="#c5ede1", label=<6. Game Engine Development>]
             cg          [color="#c5e1ed", label="7. Computer Graphics"]
@@ -289,7 +289,7 @@ digraph {
 
     subgraph cluster_math {
         fillcolor="#f2f8ec"
-        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>4. Mathematics for Game Porgramming</TD></TR></TABLE>>
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>4. Mathematics for Game Programming</TD></TR></TABLE>>
 
         {
             node [shape="box", style="rounded,filled", color="#d9ebc6"]
@@ -328,7 +328,7 @@ digraph {
 
     subgraph cluster_gameprog {
         fillcolor="#ecf9ec"
-        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>5. Game Porgramming</TD></TR></TABLE>>
+        label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>5. Game Programming</TD></TR></TABLE>>
 
         {
             node [shape="box", style="rounded,filled", color="#c5edc5"]
