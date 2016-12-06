@@ -51,9 +51,8 @@ digraph {
             multiplayer [color="#edc5d7", label=<11. Multiplayer Game Programming>]
         }
         kid -> cs -> proglang -> softwaredev -> math -> gameprog -> gameengine
-        cg -> audio -> phyanim -> ai -> multiplayer[style=invis]
-        gameengine -> { cg; phyanim; ai; audio; multiplayer}
-        cg -> audio [style=invis]
+        gameengine -> cg -> audio -> phyanim -> ai -> multiplayer[style=invis]
+        gameengine -> { cg; phyanim; ai; audio; multiplayer} [tailport=e, headport=e, constraint=false]
 
         toctop -> kid [style=invis]
         multiplayer -> tocbottom [style=invis]
