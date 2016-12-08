@@ -27,10 +27,10 @@ digraph {
                 <TABLE BORDER="0">
                 <TR><TD><FONT FACE="Futura" POINT-SIZE="40">A STUDY PATH FOR</FONT></TD></TR>
                 <TR><TD><FONT FACE="Futura-Bold" POINT-SIZE="40">GAME PROGRAMMER</FONT></TD></TR>
-                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12</FONT></TD></TR>
-                <TR><TD>http://github/miloyip/game-programmer</TD></TR>
+                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12/8</FONT></TD></TR>
+                <TR><TD>https://github.com/miloyip/game-programmer</TD></TR>
                 </TABLE>
-            > URL="http://github/miloyip/game-programmer"]
+            > URL="https://github.com/miloyip/game-programmer"]
             tocbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         }
 
@@ -435,7 +435,7 @@ digraph {
             rank=same
             gameenginearchitecture2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginearchitecture2.jpg"/></TD></TR><TR><TD>Game Engine<br/>Architecture (GEA)<br/>2nd Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1466560010/"]
             "3dgameenginearchitecture" [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/3dgameenginearchitecture.jpg"/></TD></TR><TR><TD>3D Game Engine<br/>Architecture<br/>(2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/012229064X/"]
-            gameenginedesign2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginedesign2.jpg"/></TD></TR><TR><TD>Game Engine<br/>Design<br/>2nd Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0122290631/"]
+            gameenginedesign2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginedesign2.jpg"/></TD></TR><TR><TD>3D Game Engine<br/>Design<br/>2nd Ed (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0122290631/"]
         }
         
         gameenginegems1 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginegems1.jpg"/></TD></TR><TR><TD>Game Engine<br/>Gems 1 (2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0763778885/"]
