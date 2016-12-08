@@ -28,9 +28,9 @@ digraph {
                 <TR><TD><FONT FACE="Futura" POINT-SIZE="40">A STUDY PATH FOR</FONT></TD></TR>
                 <TR><TD><FONT FACE="Futura-Bold" POINT-SIZE="40">GAME PROGRAMMER</FONT></TD></TR>
                 <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12</FONT></TD></TR>
-                <TR><TD>http://github/miloyip/game-programmer</TD></TR>
+                <TR><TD>https://github.com/miloyip/game-programmer</TD></TR>
                 </TABLE>
-            > URL="http://github/miloyip/game-programmer"]
+            > URL="https://github.com/miloyip/game-programmer"]
             tocbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         }
 
