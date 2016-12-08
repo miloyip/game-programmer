@@ -21,7 +21,7 @@
 
 * Windy Wang
 * Stanley Luo
-* Shou Chen
+* Shuo Chen
 * Xinz
 * Vczh
 * Hush
