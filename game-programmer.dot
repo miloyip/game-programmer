@@ -27,7 +27,7 @@ digraph {
                 <TABLE BORDER="0">
                 <TR><TD><FONT FACE="Futura" POINT-SIZE="40">A STUDY PATH FOR</FONT></TD></TR>
                 <TR><TD><FONT FACE="Futura-Bold" POINT-SIZE="40">GAME PROGRAMMER</FONT></TD></TR>
-                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12/8</FONT></TD></TR>
+                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12/17</FONT></TD></TR>
                 <TR><TD>https://github.com/miloyip/game-programmer</TD></TR>
                 </TABLE>
             > URL="https://github.com/miloyip/game-programmer"]
@@ -303,7 +303,7 @@ digraph {
 
         geometricalgebra [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/geometricalgebra.jpg"/></TD></TR><TR><TD>Geometric Algebra for<br/>Computer Science (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123749425/"]
         geometrictools [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/geometrictools.jpg"/></TD></TR><TR><TD>Geometric Tools for<br/>Computer Graphics<br/>(2002)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1558605940/"]
-        computationalgeometry [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/computationalgeometry.jpg"/></TD></TR><TR><TD>Geometric Tools for<br/>Computational Geometry<br/> 3rd Ed (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/3540779736/"]
+        computationalgeometry [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/computationalgeometry.jpg"/></TD></TR><TR><TD>Computational Geometry<br/> 3rd Ed (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/3540779736/"]
         visualizingquaternions [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/visualizingquaternions.jpg"/></TD></TR><TR><TD>Visualizing Quaternions<br/>(2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0120884003/"]
         divgradcurl4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/divgradcurl4.jpg"/></TD></TR><TR><TD>Div, Grad, Curl<br/>and all That<br/>4th Ed (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0393925161/"]
 
@@ -653,7 +653,7 @@ digraph {
         gamephysicspearls [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gamephysicspearls.jpg"/></TD></TR><TR><TD>Game Physics Pearls<br/>(2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814747/"]
 
         taofluidanimation [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/taofluidanimation.jpg"/></TD></TR><TR><TD>The Art of<br/>Fluid Animation (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1498700209/"]
-        fluidsimulationforcg2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fluidsimulationforcg2.jpg"/></TD></TR><TR><TD>Fluid Animation<br/>for Computer Graphics<br/>2nd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482232839/"]
+        fluidsimulationforcg2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fluidsimulationforcg2.jpg"/></TD></TR><TR><TD>Fluid Simulation<br/>for Computer Graphics<br/>2nd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482232839/"]
 
         animbegin -> { characteranimation; rt3dcharacteranimation } -> computeranimation3 -> animadvanced
         animadvanced -> { gameik; physicsbasedanimation; rtcameras}
