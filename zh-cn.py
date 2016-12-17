@@ -6,16 +6,11 @@ import json
 import re
 import urllib2
 import csv
+import os
 
-def get_isbn_from_douban(douban_url):
-    isbn = ""
-    response = urllib2.urlopen(douban_url)
-    html = response.read()
-    isbn_url = r"ISBN:</span> \d{10,13}"
-    isbn = re.search(isbn_url, html).group()[13:]
-    return isbn
+IMAGE_PATH = './images-zh-cn/{book_index}.jpg'
 
-def get_image(self, isbn, image_filename):
+def get_image(isbn, image_filename):
     """
     :type en_isbn: str
     :rtype: str
@@ -30,28 +25,34 @@ def get_image(self, isbn, image_filename):
         ft.write(image)
 
 def get_book_url(isbn):
-    # TODO: 改为从豆瓣上获取真正的URL
-    return "http://www.douban.com"
     url = "https://api.douban.com/v2/book/isbn/" + isbn
-    response = urllib2.urlopen(url)
-    detail = response.read()
-    return json.loads(detail)["alt"]
+    result = "https://book.douban.com/"
+    try:
+        response = urllib2.urlopen(url)
+        detail = response.read()
+        return json.loads(detail)["alt"]
+    except Exception as e:
+        print isbn
+        print e
+        return result
 
 def get_book_info(book_index):
-    zh = {}
+    title = "未找到中文"
+    zh_isbn = ""
     with open("isbn.csv") as ff:
         spamreader = csv.reader(ff, delimiter=',')
         for line in spamreader:
-            book, en_isbn, zh_title, zh_isbn = line
-            zh[book] = zh_title.strip()
-    title = zh[book_index]
+            if line[0] == book_index:
+                title = line[2].strip()
+                zh_isbn = line[3]
     if title == "未找到中文":
         return None, None
     else:
+        image_path = IMAGE_PATH.format(book_index=book_index.strip('"'))
+
+        if not os.path.exists(image_path):
+            get_image(zh_isbn, image_path)
         return title, get_book_url(zh_isbn)
-
-
-
 LABEL_DICT = {
     "":"",
     "Recommended Path": "推荐路线",
@@ -134,8 +135,6 @@ SECTION_LINE = 'label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>{section_title
 RE_LABEL_LINE = re.compile(r'^\w+ \[label="[\w -=\./\\]*"\]$')
 LABEL_LINE = '{label_index} [label="{label}"]\n'
 RE_CONTENT_LINE = re.compile(r'[\w ]+\[color="#[\w]{6}", label=[<"]\d+\. [\w ()]+[">]\]')
-
-IMAGE_PATH = './images-zh-cn/{book_index}.jpg'
 
 if __name__ == '__main__':
     with open("game-programmer.dot") as en_f, open("game-programmer-zh-cn.dot",'w') as zh_f:
