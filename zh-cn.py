@@ -24,13 +24,13 @@ def get_image(isbn, image_filename):
         image = response.read()
         ft.write(image)
 
-def get_book_url(isbn):
+def get_book_url_year(isbn):
     url = "https://api.douban.com/v2/book/isbn/" + isbn
-    result = "https://book.douban.com/"
+    result = "https://book.douban.com/", ""
     try:
         response = urllib2.urlopen(url)
         detail = response.read()
-        return json.loads(detail)["alt"]
+        return json.loads(detail)["alt"], json.loads(detail)["pubdate"][:4]
     except Exception as e:
         print isbn
         print e
@@ -46,13 +46,15 @@ def get_book_info(book_index):
                 title = line[2].strip()
                 zh_isbn = line[3]
     if title == "未找到中文":
-        return None, None
+        return None, None, None
     else:
         image_path = IMAGE_PATH.format(book_index=book_index.strip('"'))
 
         if not os.path.exists(image_path):
             get_image(zh_isbn, image_path)
-        return title, get_book_url(zh_isbn)
+        book_url, book_year = get_book_url_year(zh_isbn)
+        return title, book_url, book_year
+
 LABEL_DICT = {
     "":"",
     "Recommended Path": "推荐路线",
@@ -129,12 +131,13 @@ SECTION_TITLE_DICT = {
 }
 
 RE_BOOK_LINE = re.compile(r'^\"?\w*\"?\w* \[label=<<TABLE[\S ]* URL="https?:/{2}\w.+"]$')
-BOOK_LINE = '{book_index} [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="{image_path}"/></TD></TR><TR><TD>{book_title}</TD></TR></TABLE>> URL="{url}"]\n'
+BOOK_LINE = '{book_index} [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="{image_path}"/></TD></TR><TR><TD>{book_title}<br/>({book_year})</TD></TR></TABLE>> URL="{url}"]\n'
 RE_SECTION_LINE = re.compile(r'^label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>\d+\.[\w. ()]*</TD></TR></TABLE>>$')
 SECTION_LINE = 'label=<<TABLE BORDER="0" CELLPADDING="10"><TR><TD>{section_title}</TD></TR></TABLE>>\n'
 RE_LABEL_LINE = re.compile(r'^\w+ \[label="[\w -=\./\\]*"\]$')
 LABEL_LINE = '{label_index} [label="{label}"]\n'
 RE_CONTENT_LINE = re.compile(r'[\w ]+\[color="#[\w]{6}", label=[<"]\d+\. [\w ()]+[">]\]')
+
 
 if __name__ == '__main__':
     with open("game-programmer.dot") as en_f, open("game-programmer-zh-cn.dot",'w') as zh_f:
@@ -157,12 +160,12 @@ if __name__ == '__main__':
 
             if book_line_match != None:
                 book_index = line_without_space.split(" ")[0]
-                book_title, book_url = get_book_info(book_index.strip('"'))
+                book_title, book_url, book_year = get_book_info(book_index.strip('"'))
                 if book_title == None or book_url == None:
                     zh_f.write(line)
                 else:
                     image_path = IMAGE_PATH.format(book_index=book_index.strip('"'))
-                    writeline = space_front+ BOOK_LINE.format(book_index=book_index, image_path=image_path, book_title=book_title, url=book_url)
+                    writeline = space_front+ BOOK_LINE.format(book_index=book_index, image_path=image_path, book_title=book_title, book_year=book_year, url=book_url)
                     zh_f.write(writeline)
             elif section_line_match != None:
                 sectionID = re.search(r'\d+\.', line_without_space).group()
