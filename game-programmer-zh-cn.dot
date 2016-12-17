@@ -339,7 +339,7 @@ digraph {
         }
 
         windowsgp2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/windowsgp2.jpg"/></TD></TR><TR><TD>Windows游戏编程大师技巧<br/>(2012)</TD></TR></TABLE>> URL="https://book.douban.com/subject/20282993/"]
-        gamecodingcomplete4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gamecodingcomplete4.jpg"/></TD></TR><TR><TD>游戏编程全接触<br/>(2006)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1454723/"]
+        gamecodingcomplete4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gamecodingcomplete4.jpg"/></TD></TR><TR><TD>游戏编程权威指南<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26787109/"]
  
         introtogdprodev [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/introtogdprodev.jpg"/></TD></TR><TR><TD>Introduction to Game<br/>Design, Prototyping,<br/>and Development (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321933168/"]
         unityinaction [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/unityinaction.jpg"/></TD></TR><TR><TD>Unity5实战<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26877872/"]
