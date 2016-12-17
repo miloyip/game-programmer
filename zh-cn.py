@@ -161,7 +161,7 @@ if __name__ == '__main__':
             if book_line_match != None:
                 book_index = line_without_space.split(" ")[0]
                 book_title, book_url, book_year = get_book_info(book_index.strip('"'))
-                if book_title == None or book_url == None:
+                if book_title == None:
                     zh_f.write(line)
                 else:
                     image_path = IMAGE_PATH.format(book_index=book_index.strip('"'))

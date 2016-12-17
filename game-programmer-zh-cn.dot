@@ -130,7 +130,7 @@ digraph {
         }
 
         sicp2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/sicp2.jpg"/></TD></TR><TR><TD>计算机程序的构造和解释<br/>(2004)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1148282/"]
-        csapp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/csapp3.jpg"/></TD></TR><TR><TD>深入理解计算机系统<br/>（原书第2版）<br/>(2011)</TD></TR></TABLE>> URL="https://book.douban.com/subject/5333562/"]
+        csapp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/csapp3.jpg"/></TD></TR><TR><TD>深入理解计算机系统<br/>(原书第3版)<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26912767/"]
         caaqa5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/caaqa5.jpg"/></TD></TR><TR><TD>计算机体系结构<br/>(2012)</TD></TR></TABLE>> URL="https://book.douban.com/subject/20452387/"]
         mos4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/mos4.jpg"/></TD></TR><TR><TD>现代操作系统（第3版）<br/>(2009)</TD></TR></TABLE>> URL="https://book.douban.com/subject/3852290/"]
         
@@ -295,7 +295,7 @@ digraph {
         }
 
         foundationsgedmath [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/foundationsgedmath.jpg"/></TD></TR><TR><TD>Foundations of Game<br/>Engine Development,<br/>Vol 1: Mathematics<br/>(2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0985811749/"]
-        math3dcpcg3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/math3dcpcg3.jpg"/></TD></TR><TR><TD>3D数学基础<br/>(1900)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1400419/"]
+        math3dcpcg3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/math3dcpcg3.jpg"/></TD></TR><TR><TD>3D游戏与计算机图形学<br/>中的数学方法(第3版)<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26864861/"]
         "3dmathprimer2" [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/3dmathprimer2.jpg"/></TD></TR><TR><TD>3D Math Primer for<br/>Graphics and Game<br/>Development 2nd Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568817231/"]
         essentialmaths3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/essentialmaths3.jpg"/></TD></TR><TR><TD>Essential Mathematics<br/>for Games and<br/>Interactive Applications<br/>3rd Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482250926/"]
 
@@ -342,7 +342,7 @@ digraph {
         gamecodingcomplete4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gamecodingcomplete4.jpg"/></TD></TR><TR><TD>游戏编程全接触<br/>(2006)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1454723/"]
  
         introtogdprodev [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/introtogdprodev.jpg"/></TD></TR><TR><TD>Introduction to Game<br/>Design, Prototyping,<br/>and Development (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321933168/"]
-        unityinaction [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/unityinaction.jpg"/></TD></TR><TR><TD>Unity in Action (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/161729232X/"]
+        unityinaction [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/unityinaction.jpg"/></TD></TR><TR><TD>Unity5实战<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26877872/"]
 
         learninguegd [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learninguegd.jpg"/></TD></TR><TR><TD>Learning Unreal Engine<br/>Game Development<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1784398152/"]
         blueprintsvisualscripting [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/blueprintsvisualscripting.jpg"/></TD></TR><TR><TD>Blueprints Visual Scripting<br/>for Unreal Engine (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1785286013/"]
@@ -641,7 +641,7 @@ digraph {
         rtcameras [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtcameras.jpg"/></TD></TR><TR><TD>Real-Time Cameras<br/>(2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123116341/"]
 
         physicsforgameprogrammers [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/physicsforgameprogrammers.jpg"/></TD></TR><TR><TD>Physics for Game<br/>Programmers (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/159059472X/"]
-        physicsforgamedevelopers2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/physicsforgamedevelopers2.jpg"/></TD></TR><TR><TD>Physics for Game<br/>Developers 2nd Ed (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1449392512/"]
+        physicsforgamedevelopers2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/physicsforgamedevelopers2.jpg"/></TD></TR><TR><TD>游戏开发物理学 第2版<br/>(2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26394564/"]
         physicsmodeling [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/physicsmodeling.jpg"/></TD></TR><TR><TD>Physics Modeling<br/>for Game Programmers (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1592000932/"]
 
         gamephysicsenginedev2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gamephysicsenginedev2.jpg"/></TD></TR><TR><TD>游戏物理引擎开发<br/>(2013)</TD></TR></TABLE>> URL="https://book.douban.com/subject/25821830/"]
