@@ -653,7 +653,7 @@ digraph {
         gamephysicspearls [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gamephysicspearls.jpg"/></TD></TR><TR><TD>Game Physics Pearls<br/>(2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814747/"]
 
         taofluidanimation [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/taofluidanimation.jpg"/></TD></TR><TR><TD>The Art of<br/>Fluid Animation (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1498700209/"]
-        fluidsimulationforcg2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fluidsimulationforcg2.jpg"/></TD></TR><TR><TD>Fluid Animation<br/>for Computer Graphics<br/>2nd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482232839/"]
+        fluidsimulationforcg2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fluidsimulationforcg2.jpg"/></TD></TR><TR><TD>Fluid Simulation<br/>for Computer Graphics<br/>2nd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482232839/"]
 
         animbegin -> { characteranimation; rt3dcharacteranimation } -> computeranimation3 -> animadvanced
         animadvanced -> { gameik; physicsbasedanimation; rtcameras}
