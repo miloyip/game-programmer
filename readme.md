@@ -1,4 +1,5 @@
-[svg](https://miloyip.github.io/game-programmer/game-programmer.svg) [pdf](https://miloyip.github.io/game-programmer/game-programmer.pdf)
+* English [svg](https://miloyip.github.io/game-programmer/game-programmer.svg) [pdf](https://miloyip.github.io/game-programmer/game-programmer.pdf) [jpg](https://miloyip.github.io/game-programmer/game-programmer.jpg) [png](https://miloyip.github.io/game-programmer/game-programmer.png)
+* 简体中文 [svg](https://miloyip.github.io/game-programmer/game-programmer-zh-cn.svg) [pdf](https://miloyip.github.io/game-programmer/game-programmer-zh-cn.pdf) [jpg](https://miloyip.github.io/game-programmer/game-programmer-zh-cn.jpg) [png](https://miloyip.github.io/game-programmer/game-programmer-zh-cn.png) by @tkchu
 
 ![ ](game-programmer.jpg)
 
