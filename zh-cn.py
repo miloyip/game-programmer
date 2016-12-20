@@ -15,6 +15,7 @@ def get_image(isbn, image_filename):
     :type en_isbn: str
     :rtype: str
     """
+    print("get_image(" + isbn + "," + isbn + ")")
     response = urllib2.urlopen(book_url)
     html = response.read()
     re_image_url = r"https://img\d\.doubanio\.com/lpic/s\d*\.jpg"
@@ -25,6 +26,7 @@ def get_image(isbn, image_filename):
         ft.write(image)
 
 def get_book_url_year(isbn):
+    print("get_book_url_year(" + isbn + ")")
     url = "https://api.douban.com/v2/book/isbn/" + isbn
     result = "https://book.douban.com/", ""
     try:
@@ -37,6 +39,7 @@ def get_book_url_year(isbn):
         return result
 
 def get_book_info(book_index):
+    print("get_book_info(" + book_index + ")")
     title = "未找到中文"
     zh_isbn = ""
     with open("isbn.csv") as ff:
