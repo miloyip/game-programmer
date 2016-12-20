@@ -276,12 +276,10 @@ digraph {
 
         uml -> umldistilled3 -> umluserguide2 -> ooadwa3
 
-        sepractice -> { designpatterns; umldistilled3 } [style=invis]
-
         setop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         sebottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         setop -> sebegin [style=invis]
-        cleancode -> sebottom [style=invis]
+        workingeffectivelylegacycode -> sebottom [style=invis]
     }
 
     subgraph cluster_math {
