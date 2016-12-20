@@ -43,10 +43,6 @@
 <path fill="#ecf9f5" stroke="none" stroke-width="0.5" d="M20,-5649C20,-5649 572,-5649 572,-5649 578,-5649 584,-5655 584,-5661 584,-5661 584,-6603 584,-6603 584,-6609 578,-6615 572,-6615 572,-6615 20,-6615 20,-6615 14,-6615 8,-6609 8,-6603 8,-6603 8,-5661 8,-5661 8,-5655 14,-5649 20,-5649"/>
 <text text-anchor="start" x="27.8281" y="-6583" font-family="Futura" font-size="20.00">6. Game Engine Development</text>
 </g>
-<g id="clust43" class="cluster"><title>cluster_cg</title>
-<path fill="#ecf5f9" stroke="none" stroke-width="0.5" d="M20,-3017C20,-3017 572,-3017 572,-3017 578,-3017 584,-3023 584,-3029 584,-3029 584,-5629 584,-5629 584,-5635 578,-5641 572,-5641 572,-5641 20,-5641 20,-5641 14,-5641 8,-5635 8,-5629 8,-5629 8,-3029 8,-3029 8,-3023 14,-3017 20,-3017"/>
-<text text-anchor="start" x="27.668" y="-5609" font-family="Futura" font-size="20.00">7. Computer Graphics (CG)</text>
-</g>
 <g id="clust56" class="cluster"><title>cluster_audio</title>
 <path fill="#eceef9" stroke="none" stroke-width="0.5" d="M20,-2717C20,-2717 572,-2717 572,-2717 578,-2717 584,-2723 584,-2729 584,-2729 584,-2997 584,-2997 584,-3003 578,-3009 572,-3009 572,-3009 20,-3009 20,-3009 14,-3009 8,-3003 8,-2997 8,-2997 8,-2729 8,-2729 8,-2723 14,-2717 20,-2717"/>
 <text text-anchor="start" x="28.3652" y="-2977" font-family="Futura" font-size="20.00">8. Game Audio</text>
@@ -55,13 +51,17 @@
 <path fill="#f2ecf9" stroke="none" stroke-width="0.5" d="M20,-1743C20,-1743 572,-1743 572,-1743 578,-1743 584,-1749 584,-1755 584,-1755 584,-2697 584,-2697 584,-2703 578,-2709 572,-2709 572,-2709 20,-2709 20,-2709 14,-2709 8,-2703 8,-2697 8,-2697 8,-1755 8,-1755 8,-1749 14,-1743 20,-1743"/>
 <text text-anchor="start" x="27.5273" y="-2677" font-family="Futura" font-size="20.00">9. Game Physics and Animation</text>
 </g>
-<g id="clust67" class="cluster"><title>cluster_ai</title>
-<path fill="#f9ecf9" stroke="none" stroke-width="0.5" d="M20,-895C20,-895 572,-895 572,-895 578,-895 584,-901 584,-907 584,-907 584,-1723 584,-1723 584,-1729 578,-1735 572,-1735 572,-1735 20,-1735 20,-1735 14,-1735 8,-1729 8,-1723 8,-1723 8,-907 8,-907 8,-901 14,-895 20,-895"/>
-<text text-anchor="start" x="27.9443" y="-1703" font-family="Futura" font-size="20.00">10. Game Artificial Intelligence (AI)</text>
+<g id="clust43" class="cluster"><title>cluster_cg</title>
+<path fill="#ecf5f9" stroke="none" stroke-width="0.5" d="M20,-3017C20,-3017 572,-3017 572,-3017 578,-3017 584,-3023 584,-3029 584,-3029 584,-5629 584,-5629 584,-5635 578,-5641 572,-5641 572,-5641 20,-5641 20,-5641 14,-5641 8,-5635 8,-5629 8,-5629 8,-3029 8,-3029 8,-3023 14,-3017 20,-3017"/>
+<text text-anchor="start" x="27.668" y="-5609" font-family="Futura" font-size="20.00">7. Computer Graphics (CG)</text>
 </g>
 <g id="clust72" class="cluster"><title>cluster_multiplayer</title>
 <path fill="#f9ebf2" stroke="none" stroke-width="0.5" d="M20,-71C20,-71 572,-71 572,-71 578,-71 584,-77 584,-83 584,-83 584,-875 584,-875 584,-881 578,-887 572,-887 572,-887 20,-887 20,-887 14,-887 8,-881 8,-875 8,-875 8,-83 8,-83 8,-77 14,-71 20,-71"/>
 <text text-anchor="start" x="28.1094" y="-855" font-family="Futura" font-size="20.00">11. Multiplayer Game Programming</text>
+</g>
+<g id="clust67" class="cluster"><title>cluster_ai</title>
+<path fill="#f9ecf9" stroke="none" stroke-width="0.5" d="M20,-895C20,-895 572,-895 572,-895 578,-895 584,-901 584,-907 584,-907 584,-1723 584,-1723 584,-1729 578,-1735 572,-1735 572,-1735 20,-1735 20,-1735 14,-1735 8,-1729 8,-1723 8,-1723 8,-907 8,-907 8,-901 14,-895 20,-895"/>
+<text text-anchor="start" x="27.9443" y="-1703" font-family="Futura" font-size="20.00">10. Game Artificial Intelligence (AI)</text>
 </g>
 <!-- toctop -->
 <g id="node1" class="node"><title>toctop</title>
@@ -69,7 +69,7 @@
 <text text-anchor="start" x="112.955" y="-13677" font-family="Futura" font-size="40.00" fill="white">A STUDY PATH FOR</text>
 <text text-anchor="start" x="63.76" y="-13618" font-family="Futura-Bold" font-size="40.00" fill="white">GAME PROGRAMMER</text>
 <text text-anchor="start" x="258.224" y="-13575" font-family="Futura" font-size="20.00" fill="white">Milo Yip</text>
-<text text-anchor="start" x="240.133" y="-13548.4" font-family="Futura" font-size="20.00" fill="white">2016/12/17</text>
+<text text-anchor="start" x="239.205" y="-13548.4" font-family="Futura" font-size="20.00" fill="white">2016/12/20</text>
 <text text-anchor="start" x="195.19" y="-13524" font-family="Helvetica-Light" font-size="10.00" fill="white">https://github.com/miloyip/game&#45;programmer</text>
 </a>
 </g>
@@ -201,27 +201,27 @@
 <!-- multiplayer&#45;&gt;tocbottom -->
 <!-- legendA1 -->
 <g id="node15" class="node"><title>legendA1</title>
-<text text-anchor="middle" x="141" y="-12744" font-family="Helvetica-Light" font-size="10.00">Recommended Path</text>
+<text text-anchor="middle" x="218" y="-12744" font-family="Helvetica-Light" font-size="10.00">Recommended Path</text>
 </g>
 <!-- legendA2 -->
 <g id="node17" class="node"><title>legendA2</title>
 </g>
 <!-- legendA1&#45;&gt;legendA2 -->
 <g id="edge19" class="edge"><title>legendA1&#45;&gt;legendA2</title>
-<path fill="none" stroke="black" d="M141,-12737.7C141,-12729.5 141,-12716.9 141,-12708.8"/>
-<polygon fill="black" stroke="black" points="143.625,-12708.6 141,-12701.1 138.375,-12708.6 143.625,-12708.6"/>
+<path fill="none" stroke="black" d="M218,-12737.7C218,-12729.5 218,-12716.9 218,-12708.8"/>
+<polygon fill="black" stroke="black" points="220.625,-12708.6 218,-12701.1 215.375,-12708.6 220.625,-12708.6"/>
 </g>
 <!-- legendB1 -->
 <g id="node16" class="node"><title>legendB1</title>
-<text text-anchor="middle" x="296" y="-12744" font-family="Helvetica-Light" font-size="10.00">Optional Path</text>
+<text text-anchor="middle" x="373" y="-12744" font-family="Helvetica-Light" font-size="10.00">Optional Path</text>
 </g>
 <!-- legendB2 -->
 <g id="node18" class="node"><title>legendB2</title>
 </g>
 <!-- legendB1&#45;&gt;legendB2 -->
 <g id="edge20" class="edge"><title>legendB1&#45;&gt;legendB2</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M296,-12737.7C296,-12729.5 296,-12716.9 296,-12708.8"/>
-<polygon fill="black" stroke="black" points="296,-12701.1 299.375,-12708.6 296,-12704.8 296,-12708.6 296,-12708.6 296,-12708.6 296,-12704.8 292.625,-12708.6 296,-12701.1 296,-12701.1"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M373,-12737.7C373,-12729.5 373,-12716.9 373,-12708.8"/>
+<polygon fill="black" stroke="black" points="373,-12701.1 376.375,-12708.6 373,-12704.8 373,-12708.6 373,-12708.6 373,-12708.6 373,-12704.8 369.625,-12708.6 373,-12701.1 373,-12701.1"/>
 </g>
 <!-- legendbottom -->
 <!-- legendA2&#45;&gt;legendbottom -->
@@ -610,17 +610,17 @@
 <!-- mvcsharpstepbystep8 -->
 <g id="node79" class="node"><title>mvcsharpstepbystep8</title>
 <g id="a_node79"><a xlink:href="https://www.amazon.com/dp/1509301046/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/mvcsharpstepbystep8.jpg" width="78.72px" height="96px" preserveAspectRatio="xMinYMin meet" x="402.64" y="-11252"/>
-<text text-anchor="start" x="399.115" y="-11144" font-family="Helvetica-Light" font-size="10.00">Microsoft Visual C#</text>
-<text text-anchor="start" x="413.105" y="-11134" font-family="Helvetica-Light" font-size="10.00">Step by Step</text>
-<text text-anchor="start" x="411.71" y="-11124" font-family="Helvetica-Light" font-size="10.00">8th Ed (2015)</text>
+<image xlink:href="images/mvcsharpstepbystep8.jpg" width="78.72px" height="96px" preserveAspectRatio="xMinYMin meet" x="401.64" y="-11252"/>
+<text text-anchor="start" x="398.115" y="-11144" font-family="Helvetica-Light" font-size="10.00">Microsoft Visual C#</text>
+<text text-anchor="start" x="412.105" y="-11134" font-family="Helvetica-Light" font-size="10.00">Step by Step</text>
+<text text-anchor="start" x="410.71" y="-11124" font-family="Helvetica-Light" font-size="10.00">8th Ed (2015)</text>
 </a>
 </g>
 </g>
 <!-- csharp&#45;&gt;mvcsharpstepbystep8 -->
 <g id="edge87" class="edge"><title>csharp&#45;&gt;mvcsharpstepbystep8</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M405.266,-11275.7C406.608,-11272.5 408.086,-11268.9 409.655,-11265.2"/>
-<polygon fill="black" stroke="black" points="412.567,-11258.2 412.781,-11266.5 411.118,-11261.7 409.669,-11265.2 409.669,-11265.2 409.669,-11265.2 411.118,-11261.7 406.556,-11263.8 412.567,-11258.2 412.567,-11258.2"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M405.101,-11275.7C406.413,-11272.5 407.857,-11268.9 409.39,-11265.2"/>
+<polygon fill="black" stroke="black" points="412.236,-11258.2 412.517,-11266.5 410.815,-11261.7 409.394,-11265.2 409.394,-11265.2 409.394,-11265.2 410.815,-11261.7 406.271,-11263.9 412.236,-11258.2 412.236,-11258.2"/>
 </g>
 <!-- cppbegin -->
 <g id="node52" class="node"><title>cppbegin</title>
@@ -710,49 +710,49 @@
 </g>
 <!-- cppadvance -->
 <g id="node55" class="node"><title>cppadvance</title>
-<path fill="#eddac5" stroke="#eddac5" stroke-width="0.5" d="M352.831,-10134C352.831,-10134 291.169,-10134 291.169,-10134 285.169,-10134 279.169,-10128 279.169,-10122 279.169,-10122 279.169,-10110 279.169,-10110 279.169,-10104 285.169,-10098 291.169,-10098 291.169,-10098 352.831,-10098 352.831,-10098 358.831,-10098 364.831,-10104 364.831,-10110 364.831,-10110 364.831,-10122 364.831,-10122 364.831,-10128 358.831,-10134 352.831,-10134"/>
-<text text-anchor="middle" x="322" y="-10113" font-family="Helvetica-Light" font-size="10.00">Advanced C++</text>
+<path fill="#eddac5" stroke="#eddac5" stroke-width="0.5" d="M340.831,-10134C340.831,-10134 279.169,-10134 279.169,-10134 273.169,-10134 267.169,-10128 267.169,-10122 267.169,-10122 267.169,-10110 267.169,-10110 267.169,-10104 273.169,-10098 279.169,-10098 279.169,-10098 340.831,-10098 340.831,-10098 346.831,-10098 352.831,-10104 352.831,-10110 352.831,-10110 352.831,-10122 352.831,-10122 352.831,-10128 346.831,-10134 340.831,-10134"/>
+<text text-anchor="middle" x="310" y="-10113" font-family="Helvetica-Light" font-size="10.00">Advanced C++</text>
 </g>
 <!-- insidecppobjectmodel -->
 <g id="node71" class="node"><title>insidecppobjectmodel</title>
 <g id="a_node71"><a xlink:href="https://www.amazon.com/dp/0201834545/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/insidecppobjectmodel.jpg" width="74.6453px" height="96px" preserveAspectRatio="xMinYMin meet" x="129.677" y="-10074"/>
-<text text-anchor="start" x="133.445" y="-9966" font-family="Helvetica-Light" font-size="10.00">Inside the C++</text>
-<text text-anchor="start" x="120.875" y="-9956" font-family="Helvetica-Light" font-size="10.00">Object Model (1996)</text>
+<image xlink:href="images/insidecppobjectmodel.jpg" width="74.6453px" height="96px" preserveAspectRatio="xMinYMin meet" x="126.677" y="-10074"/>
+<text text-anchor="start" x="130.445" y="-9966" font-family="Helvetica-Light" font-size="10.00">Inside the C++</text>
+<text text-anchor="start" x="117.875" y="-9956" font-family="Helvetica-Light" font-size="10.00">Object Model (1996)</text>
 </a>
 </g>
 </g>
 <!-- cppadvance&#45;&gt;insidecppobjectmodel -->
 <g id="edge81" class="edge"><title>cppadvance&#45;&gt;insidecppobjectmodel</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M279.13,-10100.5C265.481,-10095 250.652,-10088.1 238,-10080 235.816,-10078.6 233.637,-10077.1 231.469,-10075.6"/>
-<polygon fill="black" stroke="black" points="225.008,-10070.9 233.057,-10072.6 228.038,-10073.1 231.068,-10075.3 231.068,-10075.3 231.068,-10075.3 228.038,-10073.1 229.08,-10078.1 225.008,-10070.9 225.008,-10070.9"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M267.517,-10097.9C256.561,-10092.8 245.036,-10086.7 235,-10080 232.711,-10078.5 230.424,-10076.9 228.146,-10075.2"/>
+<polygon fill="black" stroke="black" points="222.146,-10070.7 230.169,-10072.5 225.143,-10073 228.141,-10075.2 228.141,-10075.2 228.141,-10075.2 225.143,-10073 226.113,-10077.9 222.146,-10070.7 222.146,-10070.7"/>
 </g>
 <!-- cpptemplates -->
 <g id="node73" class="node"><title>cpptemplates</title>
 <g id="a_node73"><a xlink:href="https://www.amazon.com/dp/0201734842/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/cpptemplates.jpg" width="69.8357px" height="96px" preserveAspectRatio="xMinYMin meet" x="269.082" y="-10069"/>
-<text text-anchor="start" x="253.775" y="-9961" font-family="Helvetica-Light" font-size="10.00">C++ Templates (2002)</text>
+<image xlink:href="images/cpptemplates.jpg" width="69.8357px" height="96px" preserveAspectRatio="xMinYMin meet" x="266.082" y="-10069"/>
+<text text-anchor="start" x="250.775" y="-9961" font-family="Helvetica-Light" font-size="10.00">C++ Templates (2002)</text>
 </a>
 </g>
 </g>
 <!-- cppadvance&#45;&gt;cpptemplates -->
 <g id="edge82" class="edge"><title>cppadvance&#45;&gt;cpptemplates</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M318.865,-10097.6C318.061,-10093.1 317.148,-10088 316.177,-10082.7"/>
-<polygon fill="black" stroke="black" points="314.824,-10075.1 319.475,-10081.9 315.489,-10078.8 316.153,-10082.5 316.153,-10082.5 316.153,-10082.5 315.489,-10078.8 312.832,-10083.1 314.824,-10075.1 314.824,-10075.1"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M308.432,-10097.6C308.031,-10093.1 307.574,-10088 307.089,-10082.7"/>
+<polygon fill="black" stroke="black" points="306.412,-10075.1 310.446,-10082.3 306.748,-10078.9 307.085,-10082.6 307.085,-10082.6 307.085,-10082.6 306.748,-10078.9 303.723,-10082.9 306.412,-10075.1 306.412,-10075.1"/>
 </g>
 <!-- elementsofprogramming -->
 <g id="node74" class="node"><title>elementsofprogramming</title>
 <g id="a_node74"><a xlink:href="https://www.amazon.com/dp//" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/elementsofprogramming.jpg" width="62.9098px" height="96px" preserveAspectRatio="xMinYMin meet" x="410.545" y="-10074"/>
-<text text-anchor="start" x="415.88" y="-9966" font-family="Helvetica-Light" font-size="10.00">Elements of</text>
-<text text-anchor="start" x="395.975" y="-9956" font-family="Helvetica-Light" font-size="10.00">Programming (2009)</text>
+<image xlink:href="images/elementsofprogramming.jpg" width="62.9098px" height="96px" preserveAspectRatio="xMinYMin meet" x="407.545" y="-10074"/>
+<text text-anchor="start" x="412.88" y="-9966" font-family="Helvetica-Light" font-size="10.00">Elements of</text>
+<text text-anchor="start" x="392.975" y="-9956" font-family="Helvetica-Light" font-size="10.00">Programming (2009)</text>
 </a>
 </g>
 </g>
 <!-- cppadvance&#45;&gt;elementsofprogramming -->
 <g id="edge79" class="edge"><title>cppadvance&#45;&gt;elementsofprogramming</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M345.737,-10097.9C353.281,-10092.4 361.587,-10086 369,-10080 371.89,-10077.6 374.821,-10075.2 377.766,-10072.7"/>
-<polygon fill="black" stroke="black" points="383.82,-10067.6 380.28,-10075 380.959,-10070 378.098,-10072.5 378.098,-10072.5 378.098,-10072.5 380.959,-10070 375.916,-10069.9 383.82,-10067.6 383.82,-10067.6"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M339.397,-10097.9C348.161,-10092.5 357.651,-10086.3 366,-10080 368.903,-10077.8 371.83,-10075.6 374.757,-10073.2"/>
+<polygon fill="black" stroke="black" points="380.757,-10068.4 377.043,-10075.7 377.839,-10070.7 374.922,-10073.1 374.922,-10073.1 374.922,-10073.1 377.839,-10070.7 372.801,-10070.5 380.757,-10068.4 380.757,-10068.4"/>
 </g>
 <!-- tcpl2&#45;&gt;cppbegin -->
 <g id="edge57" class="edge"><title>tcpl2&#45;&gt;cppbegin</title>
@@ -832,35 +832,35 @@
 <!-- exceptionalcppstyle -->
 <g id="node65" class="node"><title>exceptionalcppstyle</title>
 <g id="a_node65"><a xlink:href="https://www.amazon.com/dp/0201760428/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/exceptionalcppstyle.jpg" width="75.992px" height="96px" preserveAspectRatio="xMinYMin meet" x="418.004" y="-10428"/>
-<text text-anchor="start" x="418.28" y="-10320" font-family="Helvetica-Light" font-size="10.00">Exceptional C++</text>
-<text text-anchor="start" x="429.325" y="-10310" font-family="Helvetica-Light" font-size="10.00">Style (2004)</text>
+<image xlink:href="images/exceptionalcppstyle.jpg" width="75.992px" height="96px" preserveAspectRatio="xMinYMin meet" x="419.004" y="-10428"/>
+<text text-anchor="start" x="419.28" y="-10320" font-family="Helvetica-Light" font-size="10.00">Exceptional C++</text>
+<text text-anchor="start" x="430.325" y="-10310" font-family="Helvetica-Light" font-size="10.00">Style (2004)</text>
 </a>
 </g>
 </g>
 <!-- moreexceptionalcpp&#45;&gt;exceptionalcppstyle -->
 <g id="edge76" class="edge"><title>moreexceptionalcpp&#45;&gt;exceptionalcppstyle</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M458.234,-10451.7C458.147,-10448.4 458.059,-10445.2 457.971,-10441.9"/>
-<polygon fill="black" stroke="black" points="457.767,-10434.4 461.344,-10441.8 457.869,-10438.1 457.97,-10441.9 457.97,-10441.9 457.97,-10441.9 457.869,-10438.1 454.596,-10442 457.767,-10434.4 457.767,-10434.4"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M458.675,-10451.7C458.61,-10448.4 458.544,-10445.2 458.479,-10441.9"/>
+<polygon fill="black" stroke="black" points="458.326,-10434.4 461.852,-10441.8 458.402,-10438.1 458.478,-10441.9 458.478,-10441.9 458.478,-10441.9 458.402,-10438.1 455.103,-10442 458.326,-10434.4 458.326,-10434.4"/>
 </g>
 <!-- cppcodingstandard -->
 <g id="node66" class="node"><title>cppcodingstandard</title>
 <g id="a_node66"><a xlink:href="https://www.amazon.com/dp/0321113586/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/cppcodingstandard.jpg" width="77.184px" height="96px" preserveAspectRatio="xMinYMin meet" x="410.408" y="-10278"/>
-<text text-anchor="start" x="421.01" y="-10170" font-family="Helvetica-Light" font-size="10.00">C++ Coding</text>
-<text text-anchor="start" x="410.19" y="-10160" font-family="Helvetica-Light" font-size="10.00">Standards (2004)</text>
+<image xlink:href="images/cppcodingstandard.jpg" width="77.184px" height="96px" preserveAspectRatio="xMinYMin meet" x="398.408" y="-10278"/>
+<text text-anchor="start" x="409.01" y="-10170" font-family="Helvetica-Light" font-size="10.00">C++ Coding</text>
+<text text-anchor="start" x="398.19" y="-10160" font-family="Helvetica-Light" font-size="10.00">Standards (2004)</text>
 </a>
 </g>
 </g>
 <!-- exceptionalcppstyle&#45;&gt;cppcodingstandard -->
 <g id="edge77" class="edge"><title>exceptionalcppstyle&#45;&gt;cppcodingstandard</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M452.909,-10301.7C452.757,-10298.4 452.603,-10295.2 452.45,-10291.9"/>
-<polygon fill="black" stroke="black" points="452.093,-10284.4 455.819,-10291.7 452.27,-10288.1 452.447,-10291.9 452.447,-10291.9 452.447,-10291.9 452.27,-10288.1 449.076,-10292 452.093,-10284.4 452.093,-10284.4"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M448.169,-10301.7C447.734,-10298.4 447.295,-10295.2 446.857,-10291.9"/>
+<polygon fill="black" stroke="black" points="445.837,-10284.4 450.186,-10291.4 446.339,-10288.1 446.841,-10291.8 446.841,-10291.8 446.841,-10291.8 446.339,-10288.1 443.497,-10292.3 445.837,-10284.4 445.837,-10284.4"/>
 </g>
 <!-- cppcodingstandard&#45;&gt;cppadvance -->
 <g id="edge78" class="edge"><title>cppcodingstandard&#45;&gt;cppadvance</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M390.661,-10156.5C388.78,-10154.9 386.891,-10153.4 385,-10152 378.366,-10147 370.919,-10142.2 363.531,-10137.8"/>
-<polygon fill="black" stroke="black" points="356.788,-10134 364.976,-10134.8 360.048,-10135.9 363.308,-10137.7 363.308,-10137.7 363.308,-10137.7 360.048,-10135.9 361.639,-10140.6 356.788,-10134 356.788,-10134"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M378.661,-10156.5C376.78,-10154.9 374.891,-10153.4 373,-10152 366.366,-10147 358.919,-10142.2 351.531,-10137.8"/>
+<polygon fill="black" stroke="black" points="344.788,-10134 352.976,-10134.8 348.048,-10135.9 351.308,-10137.7 351.308,-10137.7 351.308,-10137.7 348.048,-10135.9 349.639,-10140.6 344.788,-10134 344.788,-10134"/>
 </g>
 <!-- moreeffectivecpp3 -->
 <g id="node68" class="node"><title>moreeffectivecpp3</title>
@@ -879,86 +879,86 @@
 <!-- effectivemoderncpp -->
 <g id="node69" class="node"><title>effectivemoderncpp</title>
 <g id="a_node69"><a xlink:href="https://www.amazon.com/dp/1491903996/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/effectivemoderncpp.jpg" width="74.2605px" height="96px" preserveAspectRatio="xMinYMin meet" x="284.87" y="-10428"/>
-<text text-anchor="start" x="284.21" y="-10320" font-family="Helvetica-Light" font-size="10.00">Effective Modern</text>
-<text text-anchor="start" x="295.95" y="-10310" font-family="Helvetica-Light" font-size="10.00">C++ (2014)</text>
+<image xlink:href="images/effectivemoderncpp.jpg" width="74.2605px" height="96px" preserveAspectRatio="xMinYMin meet" x="274.87" y="-10428"/>
+<text text-anchor="start" x="274.21" y="-10320" font-family="Helvetica-Light" font-size="10.00">Effective Modern</text>
+<text text-anchor="start" x="285.95" y="-10310" font-family="Helvetica-Light" font-size="10.00">C++ (2014)</text>
 </a>
 </g>
 </g>
 <!-- effectivecpp3&#45;&gt;effectivemoderncpp -->
 <g id="edge68" class="edge"><title>effectivecpp3&#45;&gt;effectivemoderncpp</title>
-<path fill="none" stroke="black" d="M275.491,-10601.9C272.896,-10596 270.667,-10590 269,-10584 253.29,-10527.5 252.554,-10508.3 269,-10452 270.024,-10448.5 271.247,-10445 272.628,-10441.5"/>
-<polygon fill="black" stroke="black" points="275.119,-10442.4 275.672,-10434.4 270.296,-10440.3 275.119,-10442.4"/>
+<path fill="none" stroke="black" d="M275.491,-10601.9C272.896,-10596 270.667,-10590 269,-10584 253.29,-10527.5 255.112,-10509 269,-10452 269.867,-10448.4 270.915,-10444.9 272.105,-10441.3"/>
+<polygon fill="black" stroke="black" points="274.657,-10442 274.737,-10434 269.72,-10440.2 274.657,-10442"/>
 </g>
 <!-- moreeffectivecpp3&#45;&gt;effectivemoderncpp -->
 <g id="edge71" class="edge"><title>moreeffectivecpp3&#45;&gt;effectivemoderncpp</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M328.143,-10451.7C327.904,-10448.4 327.662,-10445.2 327.421,-10441.9"/>
-<polygon fill="black" stroke="black" points="326.86,-10434.4 330.782,-10441.6 327.138,-10438.1 327.416,-10441.9 327.416,-10441.9 327.416,-10441.9 327.138,-10438.1 324.051,-10442.1 326.86,-10434.4 326.86,-10434.4"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M323.728,-10451.7C323.271,-10448.4 322.81,-10445.2 322.35,-10441.9"/>
+<polygon fill="black" stroke="black" points="321.279,-10434.4 325.674,-10441.3 321.806,-10438.1 322.332,-10441.8 322.332,-10441.8 322.332,-10441.8 321.806,-10438.1 318.991,-10442.3 321.279,-10434.4 321.279,-10434.4"/>
 </g>
 <!-- effectivemoderncpp&#45;&gt;cppcodingstandard -->
 <g id="edge69" class="edge"><title>effectivemoderncpp&#45;&gt;cppcodingstandard</title>
-<path fill="none" stroke="black" d="M378.074,-10301.7C381.301,-10297.9 384.553,-10294.1 387.798,-10290.3"/>
-<polygon fill="black" stroke="black" points="389.994,-10291.8 392.886,-10284.4 386.01,-10288.4 389.994,-10291.8"/>
+<path fill="none" stroke="black" d="M367.191,-10301.7C370.367,-10297.9 373.568,-10294.1 376.762,-10290.3"/>
+<polygon fill="black" stroke="black" points="378.936,-10291.8 381.77,-10284.4 374.925,-10288.4 378.936,-10291.8"/>
 </g>
 <!-- optimizedcpp -->
 <g id="node70" class="node"><title>optimizedcpp</title>
 <g id="a_node70"><a xlink:href="https://www.amazon.com/dp/1491922060/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/optimizedcpp.jpg" width="73.2986px" height="96px" preserveAspectRatio="xMinYMin meet" x="285.351" y="-10278"/>
-<text text-anchor="start" x="287.345" y="-10170" font-family="Helvetica-Light" font-size="10.00">Optimized C++</text>
-<text text-anchor="start" x="307.55" y="-10160" font-family="Helvetica-Light" font-size="10.00">(2016)</text>
+<image xlink:href="images/optimizedcpp.jpg" width="73.2986px" height="96px" preserveAspectRatio="xMinYMin meet" x="273.351" y="-10278"/>
+<text text-anchor="start" x="275.345" y="-10170" font-family="Helvetica-Light" font-size="10.00">Optimized C++</text>
+<text text-anchor="start" x="295.55" y="-10160" font-family="Helvetica-Light" font-size="10.00">(2016)</text>
 </a>
 </g>
 </g>
 <!-- effectivemoderncpp&#45;&gt;optimizedcpp -->
 <g id="edge72" class="edge"><title>effectivemoderncpp&#45;&gt;optimizedcpp</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M322,-10301.7C322,-10298.4 322,-10295.2 322,-10291.9"/>
-<polygon fill="black" stroke="black" points="322,-10284.4 325.375,-10291.9 322,-10288.1 322,-10291.9 322,-10291.9 322,-10291.9 322,-10288.1 318.625,-10291.9 322,-10284.4 322,-10284.4"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M311.117,-10301.7C311.073,-10298.4 311.03,-10295.2 310.986,-10291.9"/>
+<polygon fill="black" stroke="black" points="310.884,-10284.4 314.36,-10291.8 310.934,-10288.1 310.985,-10291.9 310.985,-10291.9 310.985,-10291.9 310.934,-10288.1 307.61,-10291.9 310.884,-10284.4 310.884,-10284.4"/>
 </g>
 <!-- optimizedcpp&#45;&gt;cppadvance -->
 <g id="edge73" class="edge"><title>optimizedcpp&#45;&gt;cppadvance</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M322,-10152C322,-10148.5 322,-10145.1 322,-10141.9"/>
-<polygon fill="black" stroke="black" points="322,-10134.3 325.375,-10141.8 322,-10138 322,-10141.8 322,-10141.8 322,-10141.8 322,-10138 318.625,-10141.8 322,-10134.3 322,-10134.3"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M310,-10152C310,-10148.5 310,-10145.1 310,-10141.9"/>
+<polygon fill="black" stroke="black" points="310,-10134.3 313.375,-10141.8 310,-10138 310,-10141.8 310,-10141.8 310,-10141.8 310,-10138 306.625,-10141.8 310,-10134.3 310,-10134.3"/>
 </g>
 <!-- imperfectcpp -->
 <g id="node72" class="node"><title>imperfectcpp</title>
 <g id="a_node72"><a xlink:href="https://www.amazon.com/dp/0321228774/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/imperfectcpp.jpg" width="76.5691px" height="96px" preserveAspectRatio="xMinYMin meet" x="121.215" y="-9914"/>
-<text text-anchor="start" x="110.575" y="-9806" font-family="Helvetica-Light" font-size="10.00">Imperfect C++ (2004)</text>
+<image xlink:href="images/imperfectcpp.jpg" width="76.5691px" height="96px" preserveAspectRatio="xMinYMin meet" x="118.215" y="-9914"/>
+<text text-anchor="start" x="107.575" y="-9806" font-family="Helvetica-Light" font-size="10.00">Imperfect C++ (2004)</text>
 </a>
 </g>
 </g>
 <!-- insidecppobjectmodel&#45;&gt;imperfectcpp -->
 <g id="edge83" class="edge"><title>insidecppobjectmodel&#45;&gt;imperfectcpp</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M163.584,-9947.67C163.242,-9941.13 162.895,-9934.48 162.551,-9927.92"/>
-<polygon fill="black" stroke="black" points="162.151,-9920.26 165.913,-9927.58 162.347,-9924.01 162.543,-9927.75 162.543,-9927.75 162.543,-9927.75 162.347,-9924.01 159.172,-9927.93 162.151,-9920.26 162.151,-9920.26"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M160.584,-9947.67C160.242,-9941.13 159.895,-9934.48 159.551,-9927.92"/>
+<polygon fill="black" stroke="black" points="159.151,-9920.26 162.913,-9927.58 159.347,-9924.01 159.543,-9927.75 159.543,-9927.75 159.543,-9927.75 159.347,-9924.01 156.172,-9927.93 159.151,-9920.26 159.151,-9920.26"/>
 </g>
 <!-- moderncppdesign -->
 <g id="node76" class="node"><title>moderncppdesign</title>
 <g id="a_node76"><a xlink:href="https://www.amazon.com/dp/0201704315/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/moderncppdesign.jpg" width="77.376px" height="96px" preserveAspectRatio="xMinYMin meet" x="261.812" y="-9914"/>
-<text text-anchor="start" x="238.52" y="-9806" font-family="Helvetica-Light" font-size="10.00">Modern C++ Design (2001)</text>
+<image xlink:href="images/moderncppdesign.jpg" width="77.376px" height="96px" preserveAspectRatio="xMinYMin meet" x="258.812" y="-9914"/>
+<text text-anchor="start" x="235.52" y="-9806" font-family="Helvetica-Light" font-size="10.00">Modern C++ Design (2001)</text>
 </a>
 </g>
 </g>
 <!-- cpptemplates&#45;&gt;moderncppdesign -->
 <g id="edge84" class="edge"><title>cpptemplates&#45;&gt;moderncppdesign</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M302.431,-9952.97C302.214,-9944.7 301.991,-9936.16 301.772,-9927.77"/>
-<polygon fill="black" stroke="black" points="301.571,-9920.11 305.141,-9927.52 301.67,-9923.86 301.768,-9927.61 301.768,-9927.61 301.768,-9927.61 301.67,-9923.86 298.394,-9927.69 301.571,-9920.11 301.571,-9920.11"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M299.431,-9952.97C299.214,-9944.7 298.991,-9936.16 298.772,-9927.77"/>
+<polygon fill="black" stroke="black" points="298.571,-9920.11 302.141,-9927.52 298.67,-9923.86 298.768,-9927.61 298.768,-9927.61 298.768,-9927.61 298.67,-9923.86 295.394,-9927.69 298.571,-9920.11 298.571,-9920.11"/>
 </g>
 <!-- frommathtogeneric -->
 <g id="node75" class="node"><title>frommathtogeneric</title>
 <g id="a_node75"><a xlink:href="https://www.amazon.com/dp/0321942043/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/frommathtogeneric.jpg" width="74.8377px" height="96px" preserveAspectRatio="xMinYMin meet" x="410.081" y="-9924"/>
-<text text-anchor="start" x="406.19" y="-9816" font-family="Helvetica-Light" font-size="10.00">From Mathematics</text>
-<text text-anchor="start" x="392.58" y="-9806" font-family="Helvetica-Light" font-size="10.00">to Generic Programming</text>
-<text text-anchor="start" x="433.05" y="-9796" font-family="Helvetica-Light" font-size="10.00">(2014)</text>
+<image xlink:href="images/frommathtogeneric.jpg" width="74.8377px" height="96px" preserveAspectRatio="xMinYMin meet" x="407.081" y="-9924"/>
+<text text-anchor="start" x="403.19" y="-9816" font-family="Helvetica-Light" font-size="10.00">From Mathematics</text>
+<text text-anchor="start" x="389.58" y="-9806" font-family="Helvetica-Light" font-size="10.00">to Generic Programming</text>
+<text text-anchor="start" x="430.05" y="-9796" font-family="Helvetica-Light" font-size="10.00">(2014)</text>
 </a>
 </g>
 </g>
 <!-- elementsofprogramming&#45;&gt;frommathtogeneric -->
 <g id="edge80" class="edge"><title>elementsofprogramming&#45;&gt;frommathtogeneric</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M444.135,-9947.67C444.242,-9944.38 444.351,-9941.06 444.459,-9937.74"/>
-<polygon fill="black" stroke="black" points="444.712,-9930 447.841,-9937.61 444.59,-9933.75 444.467,-9937.5 444.467,-9937.5 444.467,-9937.5 444.59,-9933.75 441.094,-9937.39 444.712,-9930 444.712,-9930"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M441.135,-9947.67C441.242,-9944.38 441.351,-9941.06 441.459,-9937.74"/>
+<polygon fill="black" stroke="black" points="441.712,-9930 444.841,-9937.61 441.59,-9933.75 441.467,-9937.5 441.467,-9937.5 441.467,-9937.5 441.59,-9933.75 438.094,-9937.39 441.712,-9930 441.712,-9930"/>
 </g>
 <!-- progbottom -->
 <!-- moderncppdesign&#45;&gt;progbottom -->
@@ -987,8 +987,8 @@
 </g>
 <!-- mvcsharpstepbystep8&#45;&gt;csharpindepth3 -->
 <g id="edge88" class="edge"><title>mvcsharpstepbystep8&#45;&gt;csharpindepth3</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M442.459,-11115.8C442.48,-11112.5 442.502,-11109.2 442.523,-11105.9"/>
-<polygon fill="black" stroke="black" points="442.573,-11098.3 445.899,-11105.8 442.549,-11102.1 442.524,-11105.8 442.524,-11105.8 442.524,-11105.8 442.549,-11102.1 439.149,-11105.8 442.573,-11098.3 442.573,-11098.3"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M441.918,-11115.8C441.961,-11112.5 442.004,-11109.2 442.047,-11105.9"/>
+<polygon fill="black" stroke="black" points="442.146,-11098.3 445.423,-11105.9 442.097,-11102.1 442.048,-11105.8 442.048,-11105.8 442.048,-11105.8 442.097,-11102.1 438.673,-11105.8 442.146,-11098.3 442.146,-11098.3"/>
 </g>
 <!-- clrviacsharp4 -->
 <g id="node81" class="node"><title>clrviacsharp4</title>
@@ -1011,33 +1011,33 @@
 <!-- progbottom&#45;&gt;setop -->
 <!-- sebegin -->
 <g id="node84" class="node"><title>sebegin</title>
-<path fill="#ebebc6" stroke="#ebebc6" stroke-width="0.5" d="M366.81,-9684C366.81,-9684 225.19,-9684 225.19,-9684 219.19,-9684 213.19,-9678 213.19,-9672 213.19,-9672 213.19,-9660 213.19,-9660 213.19,-9654 219.19,-9648 225.19,-9648 225.19,-9648 366.81,-9648 366.81,-9648 372.81,-9648 378.81,-9654 378.81,-9660 378.81,-9660 378.81,-9672 378.81,-9672 378.81,-9678 372.81,-9684 366.81,-9684"/>
-<text text-anchor="middle" x="296" y="-9663" font-family="Helvetica-Light" font-size="10.00">Beginning Software Development</text>
+<path fill="#ebebc6" stroke="#ebebc6" stroke-width="0.5" d="M361.81,-9684C361.81,-9684 220.19,-9684 220.19,-9684 214.19,-9684 208.19,-9678 208.19,-9672 208.19,-9672 208.19,-9660 208.19,-9660 208.19,-9654 214.19,-9648 220.19,-9648 220.19,-9648 361.81,-9648 361.81,-9648 367.81,-9648 373.81,-9654 373.81,-9660 373.81,-9660 373.81,-9672 373.81,-9672 373.81,-9678 367.81,-9684 361.81,-9684"/>
+<text text-anchor="middle" x="291" y="-9663" font-family="Helvetica-Light" font-size="10.00">Beginning Software Development</text>
 </g>
 <!-- mythicalmanmonth2 -->
 <g id="node88" class="node"><title>mythicalmanmonth2</title>
 <g id="a_node88"><a xlink:href="https://www.amazon.com/dp/0201835959/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/mythicalmanmonth2.jpg" width="64.6413px" height="96px" preserveAspectRatio="xMinYMin meet" x="263.679" y="-9624"/>
-<text text-anchor="start" x="240.98" y="-9516" font-family="Helvetica-Light" font-size="10.00">The Mythical Man&#45;Month</text>
-<text text-anchor="start" x="264.045" y="-9506" font-family="Helvetica-Light" font-size="10.00">2nd Ed (1995)</text>
+<image xlink:href="images/mythicalmanmonth2.jpg" width="64.6413px" height="96px" preserveAspectRatio="xMinYMin meet" x="225.679" y="-9624"/>
+<text text-anchor="start" x="202.98" y="-9516" font-family="Helvetica-Light" font-size="10.00">The Mythical Man&#45;Month</text>
+<text text-anchor="start" x="226.045" y="-9506" font-family="Helvetica-Light" font-size="10.00">2nd Ed (1995)</text>
 </a>
 </g>
 </g>
 <!-- sebegin&#45;&gt;mythicalmanmonth2 -->
 <g id="edge94" class="edge"><title>sebegin&#45;&gt;mythicalmanmonth2</title>
-<path fill="none" stroke="black" d="M296,-9647.58C296,-9644.61 296,-9641.36 296,-9637.92"/>
-<polygon fill="black" stroke="black" points="298.625,-9637.65 296,-9630.15 293.375,-9637.65 298.625,-9637.65"/>
+<path fill="none" stroke="black" d="M285.252,-9647.58C284.217,-9644.44 283.081,-9641 281.88,-9637.36"/>
+<polygon fill="black" stroke="black" points="284.342,-9636.45 279.499,-9630.15 279.356,-9638.09 284.342,-9636.45"/>
 </g>
 <!-- sepractice -->
 <g id="node85" class="node"><title>sepractice</title>
-<path fill="#ebebc6" stroke="#ebebc6" stroke-width="0.5" d="M311,-9480C311,-9480 281,-9480 281,-9480 275,-9480 269,-9474 269,-9468 269,-9468 269,-9456 269,-9456 269,-9450 275,-9444 281,-9444 281,-9444 311,-9444 311,-9444 317,-9444 323,-9450 323,-9456 323,-9456 323,-9468 323,-9468 323,-9474 317,-9480 311,-9480"/>
-<text text-anchor="middle" x="296" y="-9459" font-family="Helvetica-Light" font-size="10.00">Practice</text>
+<path fill="#ebebc6" stroke="#ebebc6" stroke-width="0.5" d="M257,-9480C257,-9480 227,-9480 227,-9480 221,-9480 215,-9474 215,-9468 215,-9468 215,-9456 215,-9456 215,-9450 221,-9444 227,-9444 227,-9444 257,-9444 257,-9444 263,-9444 269,-9450 269,-9456 269,-9456 269,-9468 269,-9468 269,-9474 263,-9480 257,-9480"/>
+<text text-anchor="middle" x="242" y="-9459" font-family="Helvetica-Light" font-size="10.00">Practice</text>
 </g>
 <!-- designpatterns -->
 <g id="node92" class="node"><title>designpatterns</title>
 <g id="a_node92"><a xlink:href="https://www.amazon.com/dp//" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/designpatterns.jpg" width="75.6961px" height="96px" preserveAspectRatio="xMinYMin meet" x="401.152" y="-9100"/>
-<text text-anchor="start" x="387.505" y="-8992" font-family="Helvetica-Light" font-size="10.00">Design Patterns (1994)</text>
+<image xlink:href="images/designpatterns.jpg" width="75.6961px" height="96px" preserveAspectRatio="xMinYMin meet" x="196.152" y="-9100"/>
+<text text-anchor="start" x="182.505" y="-8992" font-family="Helvetica-Light" font-size="10.00">Design Patterns (1994)</text>
 </a>
 </g>
 </g>
@@ -1045,194 +1045,194 @@
 <!-- practiceofprogramming -->
 <g id="node94" class="node"><title>practiceofprogramming</title>
 <g id="a_node94"><a xlink:href="https://www.amazon.com/dp/020161586X/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/practiceofprogramming.jpg" width="76.7615px" height="96px" preserveAspectRatio="xMinYMin meet" x="257.619" y="-9420"/>
-<text text-anchor="start" x="262.37" y="-9312" font-family="Helvetica-Light" font-size="10.00">The Practice of</text>
-<text text-anchor="start" x="249.975" y="-9302" font-family="Helvetica-Light" font-size="10.00">Programming (1999)</text>
+<image xlink:href="images/practiceofprogramming.jpg" width="76.7615px" height="96px" preserveAspectRatio="xMinYMin meet" x="265.619" y="-9420"/>
+<text text-anchor="start" x="270.37" y="-9312" font-family="Helvetica-Light" font-size="10.00">The Practice of</text>
+<text text-anchor="start" x="257.975" y="-9302" font-family="Helvetica-Light" font-size="10.00">Programming (1999)</text>
 </a>
 </g>
 </g>
 <!-- sepractice&#45;&gt;practiceofprogramming -->
 <g id="edge98" class="edge"><title>sepractice&#45;&gt;practiceofprogramming</title>
-<path fill="none" stroke="black" d="M296,-9443.58C296,-9440.61 296,-9437.36 296,-9433.92"/>
-<polygon fill="black" stroke="black" points="298.625,-9433.65 296,-9426.15 293.375,-9433.65 298.625,-9433.65"/>
+<path fill="none" stroke="black" d="M252.8,-9443.58C254.844,-9440.28 257.097,-9436.65 259.482,-9432.8"/>
+<polygon fill="black" stroke="black" points="261.887,-9433.91 263.608,-9426.15 257.425,-9431.14 261.887,-9433.91"/>
 </g>
 <!-- umldistilled3 -->
 <g id="node98" class="node"><title>umldistilled3</title>
 <g id="a_node98"><a xlink:href="https://www.amazon.com/dp/0321193687/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/umldistilled3.jpg" width="73.8758px" height="96px" preserveAspectRatio="xMinYMin meet" x="132.062" y="-9420"/>
-<text text-anchor="start" x="139.28" y="-9312" font-family="Helvetica-Light" font-size="10.00">UML Distilled</text>
-<text text-anchor="start" x="138.25" y="-9302" font-family="Helvetica-Light" font-size="10.00">3rd Ed (2003)</text>
+<image xlink:href="images/umldistilled3.jpg" width="73.8758px" height="96px" preserveAspectRatio="xMinYMin meet" x="127.062" y="-9420"/>
+<text text-anchor="start" x="134.28" y="-9312" font-family="Helvetica-Light" font-size="10.00">UML Distilled</text>
+<text text-anchor="start" x="133.25" y="-9302" font-family="Helvetica-Light" font-size="10.00">3rd Ed (2003)</text>
 </a>
 </g>
 </g>
 <!-- sepractice&#45;&gt;umldistilled3 -->
 <!-- dp -->
 <g id="node86" class="node"><title>dp</title>
-<path fill="#ebebc6" stroke="#ebebc6" stroke-width="0.5" d="M436.311,-9480C436.311,-9480 377.689,-9480 377.689,-9480 371.689,-9480 365.689,-9474 365.689,-9468 365.689,-9468 365.689,-9456 365.689,-9456 365.689,-9450 371.689,-9444 377.689,-9444 377.689,-9444 436.311,-9444 436.311,-9444 442.311,-9444 448.311,-9450 448.311,-9456 448.311,-9456 448.311,-9468 448.311,-9468 448.311,-9474 442.311,-9480 436.311,-9480"/>
-<text text-anchor="middle" x="407" y="-9459" font-family="Helvetica-Light" font-size="10.00">Design Pattern</text>
+<path fill="#ebebc6" stroke="#ebebc6" stroke-width="0.5" d="M463.311,-9480C463.311,-9480 404.689,-9480 404.689,-9480 398.689,-9480 392.689,-9474 392.689,-9468 392.689,-9468 392.689,-9456 392.689,-9456 392.689,-9450 398.689,-9444 404.689,-9444 404.689,-9444 463.311,-9444 463.311,-9444 469.311,-9444 475.311,-9450 475.311,-9456 475.311,-9456 475.311,-9468 475.311,-9468 475.311,-9474 469.311,-9480 463.311,-9480"/>
+<text text-anchor="middle" x="434" y="-9459" font-family="Helvetica-Light" font-size="10.00">Design Pattern</text>
 </g>
 <!-- agilesoftwaredev -->
 <g id="node91" class="node"><title>agilesoftwaredev</title>
 <g id="a_node91"><a xlink:href="https://www.amazon.com/dp/0135974445/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/agilesoftwaredev.jpg" width="75.992px" height="96px" preserveAspectRatio="xMinYMin meet" x="401.004" y="-9420"/>
-<text text-anchor="start" x="406.86" y="-9312" font-family="Helvetica-Light" font-size="10.00">Agile Software</text>
-<text text-anchor="start" x="393.43" y="-9302" font-family="Helvetica-Light" font-size="10.00">Development (2002)</text>
+<image xlink:href="images/agilesoftwaredev.jpg" width="75.992px" height="96px" preserveAspectRatio="xMinYMin meet" x="396.004" y="-9265"/>
+<text text-anchor="start" x="401.86" y="-9157" font-family="Helvetica-Light" font-size="10.00">Agile Software</text>
+<text text-anchor="start" x="388.43" y="-9147" font-family="Helvetica-Light" font-size="10.00">Development (2002)</text>
 </a>
 </g>
 </g>
 <!-- dp&#45;&gt;agilesoftwaredev -->
 <g id="edge104" class="edge"><title>dp&#45;&gt;agilesoftwaredev</title>
-<path fill="none" stroke="black" d="M412.574,-9443.58C413.578,-9440.44 414.679,-9437 415.843,-9433.36"/>
-<polygon fill="black" stroke="black" points="418.367,-9434.09 418.153,-9426.15 413.367,-9432.49 418.367,-9434.09"/>
+<path fill="none" stroke="black" d="M475.31,-9448.15C485.451,-9442.94 495.084,-9435.77 501,-9426 531.399,-9375.82 519.753,-9349.59 501,-9294 499.144,-9288.5 496.792,-9283.07 494.087,-9277.77"/>
+<polygon fill="black" stroke="black" points="496.369,-9276.47 490.483,-9271.14 491.756,-9278.98 496.369,-9276.47"/>
+</g>
+<!-- headfirstdesignpatterns -->
+<g id="node93" class="node"><title>headfirstdesignpatterns</title>
+<g id="a_node93"><a xlink:href="https://www.amazon.com/dp/0596007124/" xlink:title="&lt;TABLE&gt;">
+<image xlink:href="images/headfirstdesignpatterns.jpg" width="82.944px" height="96px" preserveAspectRatio="xMinYMin meet" x="392.528" y="-9420"/>
+<text text-anchor="start" x="410.94" y="-9312" font-family="Helvetica-Light" font-size="10.00">Head First</text>
+<text text-anchor="start" x="382.505" y="-9302" font-family="Helvetica-Light" font-size="10.00">Design Patterns (2004)</text>
+</a>
+</g>
+</g>
+<!-- dp&#45;&gt;headfirstdesignpatterns -->
+<g id="edge106" class="edge"><title>dp&#45;&gt;headfirstdesignpatterns</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M434,-9443.58C434,-9440.61 434,-9437.36 434,-9433.92"/>
+<polygon fill="black" stroke="black" points="434,-9426.15 437.375,-9433.65 434,-9429.9 434,-9433.65 434,-9433.65 434,-9433.65 434,-9429.9 430.625,-9433.65 434,-9426.15 434,-9426.15"/>
 </g>
 <!-- uml -->
 <g id="node87" class="node"><title>uml</title>
-<path fill="#ebebc6" stroke="#ebebc6" stroke-width="0.5" d="M215,-9480C215,-9480 185,-9480 185,-9480 179,-9480 173,-9474 173,-9468 173,-9468 173,-9456 173,-9456 173,-9450 179,-9444 185,-9444 185,-9444 215,-9444 215,-9444 221,-9444 227,-9450 227,-9456 227,-9456 227,-9468 227,-9468 227,-9474 221,-9480 215,-9480"/>
-<text text-anchor="middle" x="200" y="-9459" font-family="Helvetica-Light" font-size="10.00">UML</text>
+<path fill="#ebebc6" stroke="#ebebc6" stroke-width="0.5" d="M185,-9480C185,-9480 155,-9480 155,-9480 149,-9480 143,-9474 143,-9468 143,-9468 143,-9456 143,-9456 143,-9450 149,-9444 155,-9444 155,-9444 185,-9444 185,-9444 191,-9444 197,-9450 197,-9456 197,-9456 197,-9468 197,-9468 197,-9474 191,-9480 185,-9480"/>
+<text text-anchor="middle" x="170" y="-9459" font-family="Helvetica-Light" font-size="10.00">UML</text>
 </g>
 <!-- uml&#45;&gt;umldistilled3 -->
 <g id="edge108" class="edge"><title>uml&#45;&gt;umldistilled3</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M194.6,-9443.58C193.628,-9440.44 192.561,-9437 191.433,-9433.36"/>
-<polygon fill="black" stroke="black" points="189.196,-9426.15 194.64,-9432.31 190.306,-9429.73 191.417,-9433.31 191.417,-9433.31 191.417,-9433.31 190.306,-9429.73 188.193,-9434.31 189.196,-9426.15 189.196,-9426.15"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M168.955,-9443.58C168.771,-9440.52 168.571,-9437.18 168.359,-9433.64"/>
+<polygon fill="black" stroke="black" points="167.909,-9426.15 171.727,-9433.43 168.134,-9429.89 168.358,-9433.63 168.358,-9433.63 168.358,-9433.63 168.134,-9429.89 164.989,-9433.84 167.909,-9426.15 167.909,-9426.15"/>
 </g>
 <!-- mythicalmanmonth2&#45;&gt;sepractice -->
 <g id="edge95" class="edge"><title>mythicalmanmonth2&#45;&gt;sepractice</title>
-<path fill="none" stroke="black" d="M296,-9497.98C296,-9494.47 296,-9491.07 296,-9487.85"/>
-<polygon fill="black" stroke="black" points="298.625,-9487.8 296,-9480.3 293.375,-9487.8 298.625,-9487.8"/>
+<path fill="none" stroke="black" d="M247.596,-9497.98C247.035,-9494.47 246.491,-9491.07 245.977,-9487.85"/>
+<polygon fill="black" stroke="black" points="248.545,-9487.29 244.768,-9480.3 243.361,-9488.12 248.545,-9487.29"/>
 </g>
 <!-- mythicalmanmonth2&#45;&gt;dp -->
 <g id="edge96" class="edge"><title>mythicalmanmonth2&#45;&gt;dp</title>
-<path fill="none" stroke="black" d="M361.211,-9504.25C368.726,-9497.48 375.996,-9490.93 382.446,-9485.12"/>
-<polygon fill="black" stroke="black" points="384.308,-9486.98 388.123,-9480.01 380.794,-9483.08 384.308,-9486.98"/>
+<path fill="none" stroke="black" d="M323.036,-9526.05C347.953,-9511.89 375.511,-9496.23 396.931,-9484.06"/>
+<polygon fill="black" stroke="black" points="398.434,-9486.23 403.658,-9480.24 395.841,-9481.66 398.434,-9486.23"/>
 </g>
 <!-- mythicalmanmonth2&#45;&gt;uml -->
 <g id="edge97" class="edge"><title>mythicalmanmonth2&#45;&gt;uml</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M233.576,-9497.98C229.534,-9493.76 225.642,-9489.71 222.031,-9485.95"/>
-<polygon fill="black" stroke="black" points="216.605,-9480.3 224.234,-9483.37 219.202,-9483 221.8,-9485.71 221.8,-9485.71 221.8,-9485.71 219.202,-9483 219.365,-9488.05 216.605,-9480.3 216.605,-9480.3"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M200.778,-9497.98C197.073,-9493.76 193.505,-9489.71 190.195,-9485.95"/>
+<polygon fill="black" stroke="black" points="185.222,-9480.3 192.71,-9483.7 187.699,-9483.11 190.176,-9485.93 190.176,-9485.93 190.176,-9485.93 187.699,-9483.11 187.643,-9488.16 185.222,-9480.3 185.222,-9480.3"/>
 </g>
 <!-- codecomplete2 -->
 <g id="node89" class="node"><title>codecomplete2</title>
 <g id="a_node89"><a xlink:href="https://www.amazon.com/dp/0735619670/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/codecomplete2.jpg" width="78.72px" height="96px" preserveAspectRatio="xMinYMin meet" x="256.64" y="-9100"/>
-<text text-anchor="start" x="240.705" y="-8992" font-family="Helvetica-Light" font-size="10.00">Code Complete 2 (2004)</text>
+<image xlink:href="images/codecomplete2.jpg" width="78.72px" height="96px" preserveAspectRatio="xMinYMin meet" x="331.64" y="-9100"/>
+<text text-anchor="start" x="315.705" y="-8992" font-family="Helvetica-Light" font-size="10.00">Code Complete 2 (2004)</text>
 </a>
 </g>
 </g>
 <!-- apidesignforcpp -->
 <g id="node90" class="node"><title>apidesignforcpp</title>
 <g id="a_node90"><a xlink:href="https://www.amazon.com/dp/0123850037/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/apidesignforcpp.jpg" width="77.76px" height="96px" preserveAspectRatio="xMinYMin meet" x="130.12" y="-8945"/>
-<text text-anchor="start" x="125.17" y="-8837" font-family="Helvetica-Light" font-size="10.00">API Design for C++</text>
-<text text-anchor="start" x="154.55" y="-8827" font-family="Helvetica-Light" font-size="10.00">(2011)</text>
+<image xlink:href="images/apidesignforcpp.jpg" width="77.76px" height="96px" preserveAspectRatio="xMinYMin meet" x="167.12" y="-8945"/>
+<text text-anchor="start" x="162.17" y="-8837" font-family="Helvetica-Light" font-size="10.00">API Design for C++</text>
+<text text-anchor="start" x="191.55" y="-8827" font-family="Helvetica-Light" font-size="10.00">(2011)</text>
 </a>
 </g>
 </g>
 <!-- codecomplete2&#45;&gt;apidesignforcpp -->
 <g id="edge103" class="edge"><title>codecomplete2&#45;&gt;apidesignforcpp</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M247.624,-8983.82C240.552,-8975.02 233.213,-8965.89 225.988,-8956.9"/>
-<polygon fill="black" stroke="black" points="221.261,-8951.02 228.59,-8954.75 223.61,-8953.94 225.959,-8956.86 225.959,-8956.86 225.959,-8956.86 223.61,-8953.94 223.329,-8958.98 221.261,-8951.02 221.261,-8951.02"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M311.938,-8983.68C307.986,-8980.3 303.99,-8977.05 300,-8974 288.921,-8965.54 282.965,-8965.79 269.555,-8956.04"/>
+<polygon fill="black" stroke="black" points="263.315,-8951.2 271.308,-8953.13 266.276,-8953.5 269.238,-8955.8 269.238,-8955.8 269.238,-8955.8 266.276,-8953.5 267.168,-8958.46 263.315,-8951.2 263.315,-8951.2"/>
 </g>
 <!-- cleancode -->
 <g id="node95" class="node"><title>cleancode</title>
 <g id="a_node95"><a xlink:href="https://www.amazon.com/dp/0132350882/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/cleancode.jpg" width="74.2605px" height="96px" preserveAspectRatio="xMinYMin meet" x="258.87" y="-8940"/>
-<text text-anchor="start" x="253.485" y="-8832" font-family="Helvetica-Light" font-size="10.00">Clean Code (2008)</text>
+<image xlink:href="images/cleancode.jpg" width="74.2605px" height="96px" preserveAspectRatio="xMinYMin meet" x="295.87" y="-8940"/>
+<text text-anchor="start" x="290.485" y="-8832" font-family="Helvetica-Light" font-size="10.00">Clean Code (2008)</text>
 </a>
 </g>
 </g>
 <!-- codecomplete2&#45;&gt;cleancode -->
 <g id="edge101" class="edge"><title>codecomplete2&#45;&gt;cleancode</title>
-<path fill="none" stroke="black" d="M296,-8983.82C296,-8973.95 296,-8963.66 296,-8953.63"/>
-<polygon fill="black" stroke="black" points="298.625,-8953.52 296,-8946.02 293.375,-8953.52 298.625,-8953.52"/>
+<path fill="none" stroke="black" d="M356.525,-8983.82C354.129,-8973.85 351.63,-8963.46 349.194,-8953.33"/>
+<polygon fill="black" stroke="black" points="351.74,-8952.69 347.434,-8946.02 346.636,-8953.92 351.74,-8952.69"/>
 </g>
 <!-- workingeffectivelylegacycode -->
 <g id="node97" class="node"><title>workingeffectivelylegacycode</title>
 <g id="a_node97"><a xlink:href="https://www.amazon.com/dp/0131177052/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/workingeffectivelylegacycode.jpg" width="72.3367px" height="96px" preserveAspectRatio="xMinYMin meet" x="386.832" y="-8950"/>
-<text text-anchor="start" x="380.67" y="-8842" font-family="Helvetica-Light" font-size="10.00">Working Effectively</text>
-<text text-anchor="start" x="381.04" y="-8832" font-family="Helvetica-Light" font-size="10.00">with Legacy Code </text>
-<text text-anchor="start" x="408.55" y="-8822" font-family="Helvetica-Light" font-size="10.00">(2004)</text>
+<image xlink:href="images/workingeffectivelylegacycode.jpg" width="72.3367px" height="96px" preserveAspectRatio="xMinYMin meet" x="423.832" y="-8950"/>
+<text text-anchor="start" x="417.67" y="-8842" font-family="Helvetica-Light" font-size="10.00">Working Effectively</text>
+<text text-anchor="start" x="418.04" y="-8832" font-family="Helvetica-Light" font-size="10.00">with Legacy Code </text>
+<text text-anchor="start" x="445.55" y="-8822" font-family="Helvetica-Light" font-size="10.00">(2004)</text>
 </a>
 </g>
 </g>
 <!-- codecomplete2&#45;&gt;workingeffectivelylegacycode -->
 <g id="edge102" class="edge"><title>codecomplete2&#45;&gt;workingeffectivelylegacycode</title>
-<path fill="none" stroke="black" d="M344.376,-8983.82C350.071,-8976.73 355.939,-8969.43 361.781,-8962.16"/>
-<polygon fill="black" stroke="black" points="364.025,-8963.56 366.678,-8956.07 359.933,-8960.27 364.025,-8963.56"/>
+<path fill="none" stroke="black" d="M404.901,-8983.82C408.733,-8977.01 412.676,-8970.01 416.607,-8963.03"/>
+<polygon fill="black" stroke="black" points="419.136,-8963.89 420.53,-8956.07 414.562,-8961.32 419.136,-8963.89"/>
 </g>
 <!-- agilesoftwaredev&#45;&gt;designpatterns -->
 <g id="edge105" class="edge"><title>agilesoftwaredev&#45;&gt;designpatterns</title>
-<path fill="none" stroke="black" d="M497.195,-9294.88C500.696,-9288.79 503.718,-9282.46 506,-9276 527.021,-9216.49 526.174,-9193.8 506,-9134 503.56,-9126.77 500.263,-9119.66 496.433,-9112.81"/>
-<polygon fill="black" stroke="black" points="498.514,-9111.18 492.437,-9106.06 493.995,-9113.85 498.514,-9111.18"/>
+<path fill="none" stroke="black" d="M376.563,-9138.96C374.085,-9137.19 371.562,-9135.53 369,-9134 341.797,-9117.74 327.265,-9132.16 300,-9116 297.252,-9114.37 294.546,-9112.6 291.892,-9110.7"/>
+<polygon fill="black" stroke="black" points="293.36,-9108.52 285.795,-9106.09 290.193,-9112.71 293.36,-9108.52"/>
 </g>
-<!-- headfirstdesignpatterns -->
-<g id="node93" class="node"><title>headfirstdesignpatterns</title>
-<g id="a_node93"><a xlink:href="https://www.amazon.com/dp/0596007124/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/headfirstdesignpatterns.jpg" width="82.944px" height="96px" preserveAspectRatio="xMinYMin meet" x="397.528" y="-9265"/>
-<text text-anchor="start" x="415.94" y="-9157" font-family="Helvetica-Light" font-size="10.00">Head First</text>
-<text text-anchor="start" x="387.505" y="-9147" font-family="Helvetica-Light" font-size="10.00">Design Patterns (2004)</text>
-</a>
-</g>
-</g>
-<!-- agilesoftwaredev&#45;&gt;headfirstdesignpatterns -->
-<g id="edge106" class="edge"><title>agilesoftwaredev&#45;&gt;headfirstdesignpatterns</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M439,-9293.67C439,-9288.77 439,-9283.8 439,-9278.85"/>
-<polygon fill="black" stroke="black" points="439,-9271.11 442.375,-9278.61 439,-9274.86 439,-9278.61 439,-9278.61 439,-9278.61 439,-9274.86 435.625,-9278.61 439,-9271.11 439,-9271.11"/>
-</g>
-<!-- headfirstdesignpatterns&#45;&gt;designpatterns -->
-<g id="edge107" class="edge"><title>headfirstdesignpatterns&#45;&gt;designpatterns</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M439,-9138.82C439,-9130.56 439,-9122.08 439,-9113.78"/>
-<polygon fill="black" stroke="black" points="439,-9106.21 442.375,-9113.71 439,-9109.96 439,-9113.71 439,-9113.71 439,-9113.71 439,-9109.96 435.625,-9113.71 439,-9106.21 439,-9106.21"/>
+<!-- headfirstdesignpatterns&#45;&gt;agilesoftwaredev -->
+<g id="edge107" class="edge"><title>headfirstdesignpatterns&#45;&gt;agilesoftwaredev</title>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M434,-9293.67C434,-9288.77 434,-9283.8 434,-9278.85"/>
+<polygon fill="black" stroke="black" points="434,-9271.11 437.375,-9278.61 434,-9274.86 434,-9278.61 434,-9278.61 434,-9278.61 434,-9274.86 430.625,-9278.61 434,-9271.11 434,-9271.11"/>
 </g>
 <!-- refactoring -->
 <g id="node96" class="node"><title>refactoring</title>
 <g id="a_node96"><a xlink:href="https://www.amazon.com/dp/0201485672/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/refactoring.jpg" width="75.7996px" height="96px" preserveAspectRatio="xMinYMin meet" x="258.1" y="-9260"/>
-<text text-anchor="start" x="254.315" y="-9152" font-family="Helvetica-Light" font-size="10.00">Refactoring (1999)</text>
+<image xlink:href="images/refactoring.jpg" width="75.7996px" height="96px" preserveAspectRatio="xMinYMin meet" x="268.1" y="-9260"/>
+<text text-anchor="start" x="264.315" y="-9152" font-family="Helvetica-Light" font-size="10.00">Refactoring (1999)</text>
 </a>
 </g>
 </g>
 <!-- practiceofprogramming&#45;&gt;refactoring -->
 <g id="edge99" class="edge"><title>practiceofprogramming&#45;&gt;refactoring</title>
-<path fill="none" stroke="black" d="M296,-9293.67C296,-9287.13 296,-9280.48 296,-9273.92"/>
-<polygon fill="black" stroke="black" points="298.625,-9273.76 296,-9266.26 293.375,-9273.76 298.625,-9273.76"/>
+<path fill="none" stroke="black" d="M304.854,-9293.67C304.939,-9287.13 305.026,-9280.48 305.112,-9273.92"/>
+<polygon fill="black" stroke="black" points="307.739,-9273.8 305.212,-9266.26 302.489,-9273.73 307.739,-9273.8"/>
 </g>
 <!-- sebottom -->
 <!-- cleancode&#45;&gt;sebottom -->
 <!-- refactoring&#45;&gt;codecomplete2 -->
 <g id="edge100" class="edge"><title>refactoring&#45;&gt;codecomplete2</title>
-<path fill="none" stroke="black" d="M296,-9143.82C296,-9133.95 296,-9123.66 296,-9113.63"/>
-<polygon fill="black" stroke="black" points="298.625,-9113.52 296,-9106.02 293.375,-9113.52 298.625,-9113.52"/>
+<path fill="none" stroke="black" d="M330.759,-9143.82C334.898,-9133.75 339.216,-9123.26 343.42,-9113.04"/>
+<polygon fill="black" stroke="black" points="345.884,-9113.95 346.31,-9106.02 341.029,-9111.95 345.884,-9113.95"/>
 </g>
 <!-- umluserguide2 -->
 <g id="node99" class="node"><title>umluserguide2</title>
 <g id="a_node99"><a xlink:href="https://www.amazon.com/dp/0321267974/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/umluserguide2.jpg" width="72.7214px" height="96px" preserveAspectRatio="xMinYMin meet" x="120.139" y="-9270"/>
-<text text-anchor="start" x="108.71" y="-9162" font-family="Helvetica-Light" font-size="10.00">The Unified Modeling</text>
-<text text-anchor="start" x="106.76" y="-9152" font-family="Helvetica-Light" font-size="10.00">Language User Guide</text>
-<text text-anchor="start" x="124.545" y="-9142" font-family="Helvetica-Light" font-size="10.00">2nd Ed (2005)</text>
+<image xlink:href="images/umluserguide2.jpg" width="72.7214px" height="96px" preserveAspectRatio="xMinYMin meet" x="88.1393" y="-9270"/>
+<text text-anchor="start" x="76.71" y="-9162" font-family="Helvetica-Light" font-size="10.00">The Unified Modeling</text>
+<text text-anchor="start" x="74.76" y="-9152" font-family="Helvetica-Light" font-size="10.00">Language User Guide</text>
+<text text-anchor="start" x="92.545" y="-9142" font-family="Helvetica-Light" font-size="10.00">2nd Ed (2005)</text>
 </a>
 </g>
 </g>
 <!-- umldistilled3&#45;&gt;umluserguide2 -->
 <g id="edge109" class="edge"><title>umldistilled3&#45;&gt;umluserguide2</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M163.449,-9293.67C163.17,-9290.38 162.888,-9287.06 162.606,-9283.74"/>
-<polygon fill="black" stroke="black" points="161.948,-9276 165.946,-9283.19 162.265,-9279.74 162.583,-9283.47 162.583,-9283.47 162.583,-9283.47 162.265,-9279.74 159.22,-9283.76 161.948,-9276 161.948,-9276"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M146.92,-9293.67C146.037,-9290.29 145.145,-9286.88 144.253,-9283.47"/>
+<polygon fill="black" stroke="black" points="142.301,-9276 147.463,-9282.4 143.249,-9279.63 144.198,-9283.26 144.198,-9283.26 144.198,-9283.26 143.249,-9279.63 140.933,-9284.11 142.301,-9276 142.301,-9276"/>
 </g>
 <!-- ooadwa3 -->
 <g id="node100" class="node"><title>ooadwa3</title>
 <g id="a_node100"><a xlink:href="https://www.amazon.com/dp/020189551X/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/ooadwa3.jpg" width="72.5291px" height="96px" preserveAspectRatio="xMinYMin meet" x="108.735" y="-9110"/>
-<text text-anchor="start" x="88.875" y="-9002" font-family="Helvetica-Light" font-size="10.00">Object&#45;Oriented Analysis</text>
-<text text-anchor="start" x="79.705" y="-8992" font-family="Helvetica-Light" font-size="10.00">and Design with Applications</text>
-<text text-anchor="start" x="114.25" y="-8982" font-family="Helvetica-Light" font-size="10.00">3rd Ed (2007)</text>
+<image xlink:href="images/ooadwa3.jpg" width="72.5291px" height="96px" preserveAspectRatio="xMinYMin meet" x="50.7355" y="-9110"/>
+<text text-anchor="start" x="30.875" y="-9002" font-family="Helvetica-Light" font-size="10.00">Object&#45;Oriented Analysis</text>
+<text text-anchor="start" x="21.705" y="-8992" font-family="Helvetica-Light" font-size="10.00">and Design with Applications</text>
+<text text-anchor="start" x="56.25" y="-8982" font-family="Helvetica-Light" font-size="10.00">3rd Ed (2007)</text>
 </a>
 </g>
 </g>
 <!-- umluserguide2&#45;&gt;ooadwa3 -->
 <g id="edge110" class="edge"><title>umluserguide2&#45;&gt;ooadwa3</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M151.111,-9133.78C150.885,-9130.53 150.658,-9127.27 150.431,-9124.01"/>
-<polygon fill="black" stroke="black" points="149.902,-9116.41 153.79,-9123.65 150.162,-9120.15 150.423,-9123.89 150.423,-9123.89 150.423,-9123.89 150.162,-9120.15 147.056,-9124.12 149.902,-9116.41 149.902,-9116.41"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M107.556,-9133.78C106.775,-9130.44 105.989,-9127.09 105.203,-9123.73"/>
+<polygon fill="black" stroke="black" points="103.488,-9116.41 108.484,-9122.94 104.343,-9120.06 105.198,-9123.71 105.198,-9123.71 105.198,-9123.71 104.343,-9120.06 101.912,-9124.48 103.488,-9116.41 103.488,-9116.41"/>
 </g>
 <!-- setop&#45;&gt;sebegin -->
 <!-- mathtop -->
@@ -1596,17 +1596,17 @@
 <!-- gpgemsbest -->
 <g id="node139" class="node"><title>gpgemsbest</title>
 <g id="a_node139"><a xlink:href="https://www.amazon.com/dp/1584505710/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gpgemsbest.jpg" width="69.8357px" height="96px" preserveAspectRatio="xMinYMin meet" x="38.0822" y="-7078"/>
-<text text-anchor="start" x="42.43" y="-6970" font-family="Helvetica-Light" font-size="10.00">Best of Game</text>
-<text text-anchor="start" x="42.815" y="-6960" font-family="Helvetica-Light" font-size="10.00">Programming</text>
-<text text-anchor="start" x="43.825" y="-6950" font-family="Helvetica-Light" font-size="10.00">Gems (2008)</text>
+<image xlink:href="images/gpgemsbest.jpg" width="69.8357px" height="96px" preserveAspectRatio="xMinYMin meet" x="37.0822" y="-7078"/>
+<text text-anchor="start" x="41.43" y="-6970" font-family="Helvetica-Light" font-size="10.00">Best of Game</text>
+<text text-anchor="start" x="41.815" y="-6960" font-family="Helvetica-Light" font-size="10.00">Programming</text>
+<text text-anchor="start" x="42.825" y="-6950" font-family="Helvetica-Light" font-size="10.00">Gems (2008)</text>
 </a>
 </g>
 </g>
 <!-- gpmisc&#45;&gt;gpgemsbest -->
 <g id="edge156" class="edge"><title>gpmisc&#45;&gt;gpgemsbest</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M191.002,-7149.75C177.417,-7134.12 156.443,-7109.99 135.925,-7086.39"/>
-<polygon fill="black" stroke="black" points="131.003,-7080.73 138.471,-7084.17 133.463,-7083.56 135.924,-7086.39 135.924,-7086.39 135.924,-7086.39 133.463,-7083.56 133.377,-7088.6 131.003,-7080.73 131.003,-7080.73"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M190.889,-7149.75C177.139,-7134.05 155.875,-7109.77 135.111,-7086.06"/>
+<polygon fill="black" stroke="black" points="130.131,-7080.37 137.612,-7083.79 132.602,-7083.19 135.073,-7086.02 135.073,-7086.02 135.073,-7086.02 132.602,-7083.19 132.534,-7088.24 130.131,-7080.37 130.131,-7080.37"/>
 </g>
 <!-- beginninggp -->
 <g id="node140" class="node"><title>beginninggp</title>
@@ -1749,16 +1749,16 @@
 <!-- gpgems -->
 <g id="node142" class="node"><title>gpgems</title>
 <g id="a_node142"><a xlink:href="https://www.amazon.com/dp/1584500492/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gpgems.jpg" width="72.6349px" height="96px" preserveAspectRatio="xMinYMin meet" x="33.6825" y="-6918"/>
-<text text-anchor="start" x="24.81" y="-6810" font-family="Helvetica-Light" font-size="10.00">Game Programming</text>
-<text text-anchor="start" x="40.825" y="-6800" font-family="Helvetica-Light" font-size="10.00">Gems (2000)</text>
+<image xlink:href="images/gpgems.jpg" width="72.6349px" height="96px" preserveAspectRatio="xMinYMin meet" x="32.6825" y="-6918"/>
+<text text-anchor="start" x="23.81" y="-6810" font-family="Helvetica-Light" font-size="10.00">Game Programming</text>
+<text text-anchor="start" x="39.825" y="-6800" font-family="Helvetica-Light" font-size="10.00">Gems (2000)</text>
 </a>
 </g>
 </g>
 <!-- gpgemsbest&#45;&gt;gpgems -->
 <g id="edge157" class="edge"><title>gpgemsbest&#45;&gt;gpgems</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M71.6229,-6941.77C71.5588,-6938.5 71.4944,-6935.21 71.4301,-6931.94"/>
-<polygon fill="black" stroke="black" points="71.2808,-6924.32 74.8022,-6931.75 71.3543,-6928.07 71.4279,-6931.82 71.4279,-6931.82 71.4279,-6931.82 71.3543,-6928.07 68.0535,-6931.88 71.2808,-6924.32 71.2808,-6924.32"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M70.6229,-6941.77C70.5588,-6938.5 70.4944,-6935.21 70.4301,-6931.94"/>
+<polygon fill="black" stroke="black" points="70.2808,-6924.32 73.8022,-6931.75 70.3543,-6928.07 70.4279,-6931.82 70.4279,-6931.82 70.4279,-6931.82 70.3543,-6928.07 67.0535,-6931.88 70.2808,-6924.32 70.2808,-6924.32"/>
 </g>
 <!-- advancedgp -->
 <g id="node141" class="node"><title>advancedgp</title>
@@ -1777,44 +1777,44 @@
 <!-- gpgems2 -->
 <g id="node143" class="node"><title>gpgems2</title>
 <g id="a_node143"><a xlink:href="https://www.amazon.com/dp/1584500549/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gpgems2.jpg" width="76.7595px" height="96px" preserveAspectRatio="xMinYMin meet" x="158.62" y="-6918"/>
-<text text-anchor="start" x="151.81" y="-6810" font-family="Helvetica-Light" font-size="10.00">Game Programming</text>
-<text text-anchor="start" x="167.825" y="-6800" font-family="Helvetica-Light" font-size="10.00">Gems (2001)</text>
+<image xlink:href="images/gpgems2.jpg" width="76.7595px" height="96px" preserveAspectRatio="xMinYMin meet" x="157.62" y="-6918"/>
+<text text-anchor="start" x="150.81" y="-6810" font-family="Helvetica-Light" font-size="10.00">Game Programming</text>
+<text text-anchor="start" x="166.825" y="-6800" font-family="Helvetica-Light" font-size="10.00">Gems (2001)</text>
 </a>
 </g>
 </g>
 <!-- gpgems&#45;&gt;gpgems2 -->
 <g id="edge160" class="edge"><title>gpgems&#45;&gt;gpgems2</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M128.043,-6858C129.053,-6858 130.063,-6858 131.073,-6858"/>
-<polygon fill="black" stroke="black" points="138.818,-6858 131.318,-6861.38 135.068,-6858 131.318,-6858 131.318,-6858 131.318,-6858 135.068,-6858 131.317,-6854.63 138.818,-6858 138.818,-6858"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M127.043,-6858C128.053,-6858 129.063,-6858 130.073,-6858"/>
+<polygon fill="black" stroke="black" points="137.818,-6858 130.318,-6861.38 134.068,-6858 130.318,-6858 130.318,-6858 130.318,-6858 134.068,-6858 130.317,-6854.63 137.818,-6858 137.818,-6858"/>
 </g>
 <!-- gpgems3 -->
 <g id="node144" class="node"><title>gpgems3</title>
 <g id="a_node144"><a xlink:href="https://www.amazon.com/dp/1584502339/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gpgems3.jpg" width="76.5691px" height="96px" preserveAspectRatio="xMinYMin meet" x="285.715" y="-6918"/>
-<text text-anchor="start" x="278.81" y="-6810" font-family="Helvetica-Light" font-size="10.00">Game Programming</text>
-<text text-anchor="start" x="294.825" y="-6800" font-family="Helvetica-Light" font-size="10.00">Gems (2002)</text>
+<image xlink:href="images/gpgems3.jpg" width="76.5691px" height="96px" preserveAspectRatio="xMinYMin meet" x="284.715" y="-6918"/>
+<text text-anchor="start" x="277.81" y="-6810" font-family="Helvetica-Light" font-size="10.00">Game Programming</text>
+<text text-anchor="start" x="293.825" y="-6800" font-family="Helvetica-Light" font-size="10.00">Gems (2002)</text>
 </a>
 </g>
 </g>
 <!-- gpgems2&#45;&gt;gpgems3 -->
 <g id="edge161" class="edge"><title>gpgems2&#45;&gt;gpgems3</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M255.043,-6858C256.053,-6858 257.063,-6858 258.073,-6858"/>
-<polygon fill="black" stroke="black" points="265.818,-6858 258.318,-6861.38 262.068,-6858 258.318,-6858 258.318,-6858 258.318,-6858 262.068,-6858 258.317,-6854.63 265.818,-6858 265.818,-6858"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M254.043,-6858C255.053,-6858 256.063,-6858 257.073,-6858"/>
+<polygon fill="black" stroke="black" points="264.818,-6858 257.318,-6861.38 261.068,-6858 257.318,-6858 257.318,-6858 257.318,-6858 261.068,-6858 257.317,-6854.63 264.818,-6858 264.818,-6858"/>
 </g>
 <!-- gpgems4 -->
 <g id="node145" class="node"><title>gpgems4</title>
 <g id="a_node145"><a xlink:href="https://www.amazon.com/dp/1584502959/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gpgems4.jpg" width="76.5691px" height="96px" preserveAspectRatio="xMinYMin meet" x="412.715" y="-6918"/>
-<text text-anchor="start" x="405.81" y="-6810" font-family="Helvetica-Light" font-size="10.00">Game Programming</text>
-<text text-anchor="start" x="421.825" y="-6800" font-family="Helvetica-Light" font-size="10.00">Gems (2004)</text>
+<image xlink:href="images/gpgems4.jpg" width="76.5691px" height="96px" preserveAspectRatio="xMinYMin meet" x="411.715" y="-6918"/>
+<text text-anchor="start" x="404.81" y="-6810" font-family="Helvetica-Light" font-size="10.00">Game Programming</text>
+<text text-anchor="start" x="420.825" y="-6800" font-family="Helvetica-Light" font-size="10.00">Gems (2004)</text>
 </a>
 </g>
 </g>
 <!-- gpgems3&#45;&gt;gpgems4 -->
 <g id="edge162" class="edge"><title>gpgems3&#45;&gt;gpgems4</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M382.043,-6858C383.053,-6858 384.063,-6858 385.073,-6858"/>
-<polygon fill="black" stroke="black" points="392.818,-6858 385.318,-6861.38 389.068,-6858 385.318,-6858 385.318,-6858 385.318,-6858 389.068,-6858 385.317,-6854.63 392.818,-6858 392.818,-6858"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M381.043,-6858C382.053,-6858 383.063,-6858 384.073,-6858"/>
+<polygon fill="black" stroke="black" points="391.818,-6858 384.318,-6861.38 388.068,-6858 384.318,-6858 384.318,-6858 384.318,-6858 388.068,-6858 384.317,-6854.63 391.818,-6858 391.818,-6858"/>
 </g>
 <!-- gpgems5 -->
 <g id="node146" class="node"><title>gpgems5</title>
@@ -1827,7 +1827,7 @@
 </g>
 <!-- gpgems4&#45;&gt;gpgems5 -->
 <g id="edge163" class="edge"><title>gpgems4&#45;&gt;gpgems5</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M392.937,-6795.08C390.988,-6793.97 389.008,-6792.94 387,-6792 300.786,-6751.67 258.471,-6812.49 170.349,-6774.77"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M391.937,-6795.08C389.988,-6793.97 388.008,-6792.94 386,-6792 300.185,-6751.83 258.054,-6812.34 170.318,-6774.76"/>
 <polygon fill="black" stroke="black" points="163.367,-6771.62 171.591,-6771.63 166.784,-6773.16 170.202,-6774.71 170.202,-6774.71 170.202,-6774.71 166.784,-6773.16 168.813,-6777.78 163.367,-6771.62 163.367,-6771.62"/>
 </g>
 <!-- gpgems6 -->
@@ -2422,13 +2422,13 @@
 </g>
 <!-- cgmisc -->
 <g id="node184" class="node"><title>cgmisc</title>
-<path fill="#c5e1ed" stroke="#c5e1ed" stroke-width="0.5" d="M261.801,-3890C261.801,-3890 218.199,-3890 218.199,-3890 212.199,-3890 206.199,-3884 206.199,-3878 206.199,-3878 206.199,-3866 206.199,-3866 206.199,-3860 212.199,-3854 218.199,-3854 218.199,-3854 261.801,-3854 261.801,-3854 267.801,-3854 273.801,-3860 273.801,-3866 273.801,-3866 273.801,-3878 273.801,-3878 273.801,-3884 267.801,-3890 261.801,-3890"/>
-<text text-anchor="middle" x="240" y="-3869" font-family="Helvetica-Light" font-size="10.00">CG Articles</text>
+<path fill="#c5e1ed" stroke="#c5e1ed" stroke-width="0.5" d="M262.801,-3890C262.801,-3890 219.199,-3890 219.199,-3890 213.199,-3890 207.199,-3884 207.199,-3878 207.199,-3878 207.199,-3866 207.199,-3866 207.199,-3860 213.199,-3854 219.199,-3854 219.199,-3854 262.801,-3854 262.801,-3854 268.801,-3854 274.801,-3860 274.801,-3866 274.801,-3866 274.801,-3878 274.801,-3878 274.801,-3884 268.801,-3890 262.801,-3890"/>
+<text text-anchor="middle" x="241" y="-3869" font-family="Helvetica-Light" font-size="10.00">CG Articles</text>
 </g>
 <!-- cgtech&#45;&gt;cgmisc -->
 <g id="edge243" class="edge"><title>cgtech&#45;&gt;cgmisc</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M375.502,-4308.82C356.351,-4292.78 329.947,-4267.01 317,-4238 265.692,-4123.02 329.465,-4075.56 290,-3956 282.849,-3934.33 269.241,-3912.33 258.025,-3896.43"/>
-<polygon fill="black" stroke="black" points="253.391,-3890 260.516,-3894.11 255.585,-3893.04 257.779,-3896.08 257.779,-3896.08 257.779,-3896.08 255.585,-3893.04 255.042,-3898.06 253.391,-3890 253.391,-3890"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M375.502,-4308.82C356.351,-4292.78 329.947,-4267.01 317,-4238 265.692,-4123.02 328.933,-4075.74 290,-3956 282.982,-3934.42 269.647,-3912.41 258.658,-3896.48"/>
+<polygon fill="black" stroke="black" points="254.118,-3890.05 261.2,-3894.23 256.28,-3893.11 258.442,-3896.17 258.442,-3896.17 258.442,-3896.17 256.28,-3893.11 255.685,-3898.12 254.118,-3890.05 254.118,-3890.05"/>
 </g>
 <!-- texturingmodeling3 -->
 <g id="node218" class="node"><title>texturingmodeling3</title>
@@ -2461,16 +2461,16 @@
 <!-- npr -->
 <g id="node223" class="node"><title>npr</title>
 <g id="a_node223"><a xlink:href="https://www.amazon.com/dp/1568811330/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/npr.jpg" width="61.3707px" height="96px" preserveAspectRatio="xMinYMin meet" x="342.315" y="-3932"/>
-<text text-anchor="start" x="332.245" y="-3824" font-family="Helvetica-Light" font-size="10.00">Non&#45;Photorealistic</text>
-<text text-anchor="start" x="333.82" y="-3814" font-family="Helvetica-Light" font-size="10.00">Rendering (2001)</text>
+<image xlink:href="images/npr.jpg" width="61.3707px" height="96px" preserveAspectRatio="xMinYMin meet" x="341.315" y="-3932"/>
+<text text-anchor="start" x="331.245" y="-3824" font-family="Helvetica-Light" font-size="10.00">Non&#45;Photorealistic</text>
+<text text-anchor="start" x="332.82" y="-3814" font-family="Helvetica-Light" font-size="10.00">Rendering (2001)</text>
 </a>
 </g>
 </g>
 <!-- cgtech&#45;&gt;npr -->
 <g id="edge246" class="edge"><title>cgtech&#45;&gt;npr</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M375.661,-4308.91C356.777,-4292.93 331.08,-4267.2 320,-4238 314.938,-4224.66 322.42,-3958.01 323,-3956 324.052,-3952.36 325.307,-3948.71 326.72,-3945.09"/>
-<polygon fill="black" stroke="black" points="329.622,-3938.17 329.834,-3946.39 328.172,-3941.63 326.722,-3945.09 326.722,-3945.09 326.722,-3945.09 328.172,-3941.63 323.609,-3943.78 329.622,-3938.17 329.622,-3938.17"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M375.661,-4308.91C356.777,-4292.93 331.08,-4267.2 320,-4238 314.943,-4224.67 322.425,-3958.02 323,-3956 324.004,-3952.46 325.197,-3948.92 326.538,-3945.4"/>
+<polygon fill="black" stroke="black" points="329.488,-3938.22 329.76,-3946.44 328.063,-3941.69 326.638,-3945.16 326.638,-3945.16 326.638,-3945.16 328.063,-3941.69 323.516,-3943.88 329.488,-3938.22 329.488,-3938.22"/>
 </g>
 <!-- graphicsgems -->
 <g id="node225" class="node"><title>graphicsgems</title>
@@ -2482,8 +2482,8 @@
 </g>
 <!-- cgmisc&#45;&gt;graphicsgems -->
 <g id="edge252" class="edge"><title>cgmisc&#45;&gt;graphicsgems</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M235.038,-3853.75C230.231,-3837.03 222.628,-3810.59 215.403,-3785.47"/>
-<polygon fill="black" stroke="black" points="213.278,-3778.08 218.594,-3784.35 214.314,-3781.68 215.351,-3785.29 215.351,-3785.29 215.351,-3785.29 214.314,-3781.68 212.107,-3786.22 213.278,-3778.08 213.278,-3778.08"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M235.925,-3853.75C231.009,-3837.03 223.233,-3810.59 215.844,-3785.47"/>
+<polygon fill="black" stroke="black" points="213.67,-3778.08 219.025,-3784.32 214.729,-3781.68 215.787,-3785.27 215.787,-3785.27 215.787,-3785.27 214.729,-3781.68 212.549,-3786.23 213.67,-3778.08 213.67,-3778.08"/>
 </g>
 <!-- blinn1 -->
 <g id="node230" class="node"><title>blinn1</title>
@@ -2497,8 +2497,8 @@
 </g>
 <!-- cgmisc&#45;&gt;blinn1 -->
 <g id="edge257" class="edge"><title>cgmisc&#45;&gt;blinn1</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M251.502,-3853.75C261.313,-3839.03 276.147,-3816.78 290.984,-3794.52"/>
-<polygon fill="black" stroke="black" points="295.164,-3788.25 293.812,-3796.37 293.084,-3791.37 291.004,-3794.49 291.004,-3794.49 291.004,-3794.49 293.084,-3791.37 288.196,-3792.62 295.164,-3788.25 295.164,-3788.25"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M252.39,-3853.75C262.104,-3839.03 276.793,-3816.78 291.484,-3794.52"/>
+<polygon fill="black" stroke="black" points="295.623,-3788.25 294.308,-3796.37 293.558,-3791.38 291.492,-3794.51 291.492,-3794.51 291.492,-3794.51 293.558,-3791.38 288.675,-3792.65 295.623,-3788.25 295.623,-3788.25"/>
 </g>
 <!-- rt3drendering&#45;&gt;cgtheory -->
 <g id="edge196" class="edge"><title>rt3drendering&#45;&gt;cgtheory</title>
@@ -2707,28 +2707,28 @@
 <!-- gpupro -->
 <g id="node207" class="node"><title>gpupro</title>
 <g id="a_node207"><a xlink:href="https://www.amazon.com/dp/1568814720/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gpupro.jpg" width="74.2605px" height="96px" preserveAspectRatio="xMinYMin meet" x="28.8697" y="-4077"/>
-<text text-anchor="start" x="30.805" y="-3969" font-family="Helvetica-Light" font-size="10.00">GPU Pro (2010)</text>
+<image xlink:href="images/gpupro.jpg" width="74.2605px" height="96px" preserveAspectRatio="xMinYMin meet" x="29.8697" y="-4077"/>
+<text text-anchor="start" x="31.805" y="-3969" font-family="Helvetica-Light" font-size="10.00">GPU Pro (2010)</text>
 </a>
 </g>
 </g>
 <!-- gpugems3&#45;&gt;gpupro -->
 <g id="edge216" class="edge"><title>gpugems3&#45;&gt;gpupro</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M66.5933,-4110.8C66.549,-4104.25 66.5036,-4097.54 66.4588,-4090.9"/>
-<polygon fill="black" stroke="black" points="66.4064,-4083.14 69.8321,-4090.62 66.4318,-4086.89 66.4571,-4090.64 66.4571,-4090.64 66.4571,-4090.64 66.4318,-4086.89 63.0822,-4090.67 66.4064,-4083.14 66.4064,-4083.14"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M67,-4110.8C67,-4104.25 67,-4097.54 67,-4090.9"/>
+<polygon fill="black" stroke="black" points="67,-4083.14 70.3751,-4090.64 67,-4086.89 67.0001,-4090.64 67.0001,-4090.64 67.0001,-4090.64 67,-4086.89 63.6251,-4090.64 67,-4083.14 67,-4083.14"/>
 </g>
 <!-- gpupro2 -->
 <g id="node208" class="node"><title>gpupro2</title>
 <g id="a_node208"><a xlink:href="https://www.amazon.com/dp/1568817185/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gpupro2.jpg" width="78.72px" height="96px" preserveAspectRatio="xMinYMin meet" x="26.64" y="-3927"/>
-<text text-anchor="start" x="26.635" y="-3819" font-family="Helvetica-Light" font-size="10.00">GPU Pro 2 (2011)</text>
+<image xlink:href="images/gpupro2.jpg" width="78.72px" height="96px" preserveAspectRatio="xMinYMin meet" x="27.64" y="-3927"/>
+<text text-anchor="start" x="27.635" y="-3819" font-family="Helvetica-Light" font-size="10.00">GPU Pro 2 (2011)</text>
 </a>
 </g>
 </g>
 <!-- gpupro&#45;&gt;gpupro2 -->
 <g id="edge217" class="edge"><title>gpupro&#45;&gt;gpupro2</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M66,-3960.8C66,-3954.25 66,-3947.54 66,-3940.9"/>
-<polygon fill="black" stroke="black" points="66,-3933.14 69.3751,-3940.64 66,-3936.89 66.0001,-3940.64 66.0001,-3940.64 66.0001,-3940.64 66,-3936.89 62.6251,-3940.64 66,-3933.14 66,-3933.14"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M67,-3960.8C67,-3954.25 67,-3947.54 67,-3940.9"/>
+<polygon fill="black" stroke="black" points="67,-3933.14 70.3751,-3940.64 67,-3936.89 67.0001,-3940.64 67.0001,-3940.64 67.0001,-3940.64 67,-3936.89 63.6251,-3940.64 67,-3933.14 67,-3933.14"/>
 </g>
 <!-- gpupro3 -->
 <g id="node209" class="node"><title>gpupro3</title>
@@ -2740,8 +2740,8 @@
 </g>
 <!-- gpupro2&#45;&gt;gpupro3 -->
 <g id="edge218" class="edge"><title>gpupro2&#45;&gt;gpupro3</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M66,-3810.97C66,-3802.7 66,-3794.16 66,-3785.77"/>
-<polygon fill="black" stroke="black" points="66,-3778.11 69.3751,-3785.61 66,-3781.86 66.0001,-3785.61 66.0001,-3785.61 66.0001,-3785.61 66,-3781.86 62.6251,-3785.61 66,-3778.11 66,-3778.11"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M66.6076,-3810.97C66.5536,-3802.7 66.4978,-3794.16 66.4429,-3785.77"/>
+<polygon fill="black" stroke="black" points="66.3929,-3778.11 69.8169,-3785.59 66.4174,-3781.86 66.442,-3785.61 66.442,-3785.61 66.442,-3785.61 66.4174,-3781.86 63.0671,-3785.63 66.3929,-3778.11 66.3929,-3778.11"/>
 </g>
 <!-- gpupro4 -->
 <g id="node210" class="node"><title>gpupro4</title>
@@ -2861,15 +2861,15 @@
 <!-- isosurfaces -->
 <g id="node222" class="node"><title>isosurfaces</title>
 <g id="a_node222"><a xlink:href="https://www.amazon.com/dp/1466570970/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/isosurfaces.jpg" width="75.2224px" height="96px" preserveAspectRatio="xMinYMin meet" x="462.389" y="-3927"/>
-<text text-anchor="start" x="458.225" y="-3819" font-family="Helvetica-Light" font-size="10.00">Isosurfaces (2013)</text>
+<image xlink:href="images/isosurfaces.jpg" width="75.2224px" height="96px" preserveAspectRatio="xMinYMin meet" x="461.389" y="-3927"/>
+<text text-anchor="start" x="457.225" y="-3819" font-family="Helvetica-Light" font-size="10.00">Isosurfaces (2013)</text>
 </a>
 </g>
 </g>
 <!-- polygonmeshprocessing&#45;&gt;isosurfaces -->
 <g id="edge249" class="edge"><title>polygonmeshprocessing&#45;&gt;isosurfaces</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M436.892,-3955.65C440.972,-3950.31 445.098,-3944.91 449.184,-3939.56"/>
-<polygon fill="black" stroke="black" points="453.957,-3933.3 452.088,-3941.31 451.681,-3936.28 449.406,-3939.27 449.406,-3939.27 449.406,-3939.27 451.681,-3936.28 446.723,-3937.22 453.957,-3933.3 453.957,-3933.3"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M436.451,-3955.65C440.494,-3950.31 444.584,-3944.91 448.634,-3939.56"/>
+<polygon fill="black" stroke="black" points="453.365,-3933.3 451.53,-3941.32 451.102,-3936.29 448.839,-3939.28 448.839,-3939.28 448.839,-3939.28 451.102,-3936.29 446.147,-3937.25 453.365,-3933.3 453.365,-3933.3"/>
 </g>
 <!-- polygonmeshprocessing&#45;&gt;npr -->
 <!-- npcg -->
@@ -2884,8 +2884,8 @@
 </g>
 <!-- npr&#45;&gt;npcg -->
 <g id="edge250" class="edge"><title>npr&#45;&gt;npcg</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M420.823,-3805.67C423.632,-3801.83 426.47,-3797.96 429.306,-3794.08"/>
-<polygon fill="black" stroke="black" points="433.758,-3788 432.051,-3796.05 431.543,-3791.03 429.328,-3794.05 429.328,-3794.05 429.328,-3794.05 431.543,-3791.03 426.604,-3792.06 433.758,-3788 433.758,-3788"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M420.25,-3805.67C423.084,-3801.83 425.947,-3797.96 428.809,-3794.08"/>
+<polygon fill="black" stroke="black" points="433.3,-3788 431.559,-3796.04 431.072,-3791.02 428.845,-3794.03 428.845,-3794.03 428.845,-3794.03 431.072,-3791.02 426.13,-3792.03 433.3,-3788 433.3,-3788"/>
 </g>
 <!-- graphicsgems2 -->
 <g id="node226" class="node"><title>graphicsgems2</title>
@@ -3023,31 +3023,31 @@
 <!-- gameaudioprogramming -->
 <g id="node239" class="node"><title>gameaudioprogramming</title>
 <g id="a_node239"><a xlink:href="https://www.amazon.com/dp/149874673X/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gameaudioprogramming.jpg" width="63.6794px" height="96px" preserveAspectRatio="xMinYMin meet" x="191.16" y="-2867"/>
-<text text-anchor="start" x="194.935" y="-2759" font-family="Helvetica-Light" font-size="10.00">Game Audio</text>
-<text text-anchor="start" x="176.975" y="-2749" font-family="Helvetica-Light" font-size="10.00">Programming (2016)</text>
+<image xlink:href="images/gameaudioprogramming.jpg" width="63.6794px" height="96px" preserveAspectRatio="xMinYMin meet" x="190.16" y="-2867"/>
+<text text-anchor="start" x="193.935" y="-2759" font-family="Helvetica-Light" font-size="10.00">Game Audio</text>
+<text text-anchor="start" x="175.975" y="-2749" font-family="Helvetica-Light" font-size="10.00">Programming (2016)</text>
 </a>
 </g>
 </g>
 <!-- audiobegin&#45;&gt;gameaudioprogramming -->
 <g id="edge266" class="edge"><title>audiobegin&#45;&gt;gameaudioprogramming</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M283.946,-2895.66C280.674,-2890.96 276.918,-2885.55 272.911,-2879.79"/>
-<polygon fill="black" stroke="black" points="268.477,-2873.41 275.529,-2877.64 270.617,-2876.49 272.758,-2879.57 272.758,-2879.57 272.758,-2879.57 270.617,-2876.49 269.987,-2881.5 268.477,-2873.41 268.477,-2873.41"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M283.78,-2895.66C280.464,-2890.96 276.657,-2885.55 272.595,-2879.79"/>
+<polygon fill="black" stroke="black" points="268.1,-2873.41 275.179,-2877.6 270.26,-2876.48 272.42,-2879.54 272.42,-2879.54 272.42,-2879.54 270.26,-2876.48 269.661,-2881.49 268.1,-2873.41 268.1,-2873.41"/>
 </g>
 <!-- gettingstartedcppaudio -->
 <g id="node240" class="node"><title>gettingstartedcppaudio</title>
 <g id="a_node240"><a xlink:href="https://www.amazon.com/dp/1849699097/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gettingstartedcppaudio.jpg" width="77.952px" height="96px" preserveAspectRatio="xMinYMin meet" x="331.524" y="-2872"/>
-<text text-anchor="start" x="336.51" y="-2764" font-family="Helvetica-Light" font-size="10.00">Getting Started</text>
-<text text-anchor="start" x="303.985" y="-2754" font-family="Helvetica-Light" font-size="10.00">with C++ Audio Programming</text>
-<text text-anchor="start" x="302.7" y="-2744" font-family="Helvetica-Light" font-size="10.00">for Game Development (2013)</text>
+<image xlink:href="images/gettingstartedcppaudio.jpg" width="77.952px" height="96px" preserveAspectRatio="xMinYMin meet" x="330.524" y="-2872"/>
+<text text-anchor="start" x="335.51" y="-2764" font-family="Helvetica-Light" font-size="10.00">Getting Started</text>
+<text text-anchor="start" x="302.985" y="-2754" font-family="Helvetica-Light" font-size="10.00">with C++ Audio Programming</text>
+<text text-anchor="start" x="301.7" y="-2744" font-family="Helvetica-Light" font-size="10.00">for Game Development (2013)</text>
 </a>
 </g>
 </g>
 <!-- audiobegin&#45;&gt;gettingstartedcppaudio -->
 <g id="edge267" class="edge"><title>audiobegin&#45;&gt;gettingstartedcppaudio</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M308.22,-2895.66C310.59,-2892.3 313.212,-2888.58 315.998,-2884.62"/>
-<polygon fill="black" stroke="black" points="320.5,-2878.24 318.938,-2886.31 318.339,-2881.3 316.179,-2884.37 316.179,-2884.37 316.179,-2884.37 318.339,-2881.3 313.42,-2882.42 320.5,-2878.24 320.5,-2878.24"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M308.054,-2895.66C310.393,-2892.3 312.98,-2888.58 315.728,-2884.62"/>
+<polygon fill="black" stroke="black" points="320.169,-2878.24 318.658,-2886.32 318.028,-2881.32 315.887,-2884.4 315.887,-2884.4 315.887,-2884.4 318.028,-2881.32 313.116,-2882.47 320.169,-2878.24 320.169,-2878.24"/>
 </g>
 <!-- audiobottom -->
 <!-- gameaudioprogramming&#45;&gt;audiobottom -->
@@ -3149,16 +3149,16 @@
 <!-- rtcameras -->
 <g id="node254" class="node"><title>rtcameras</title>
 <g id="a_node254"><a xlink:href="https://www.amazon.com/dp/0123116341/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/rtcameras.jpg" width="77.952px" height="96px" preserveAspectRatio="xMinYMin meet" x="47.024" y="-2053"/>
-<text text-anchor="start" x="41.825" y="-1945" font-family="Helvetica-Light" font-size="10.00">Real&#45;Time Cameras</text>
-<text text-anchor="start" x="71.55" y="-1935" font-family="Helvetica-Light" font-size="10.00">(2009)</text>
+<image xlink:href="images/rtcameras.jpg" width="77.952px" height="96px" preserveAspectRatio="xMinYMin meet" x="45.024" y="-2053"/>
+<text text-anchor="start" x="39.825" y="-1945" font-family="Helvetica-Light" font-size="10.00">Real&#45;Time Cameras</text>
+<text text-anchor="start" x="69.55" y="-1935" font-family="Helvetica-Light" font-size="10.00">(2009)</text>
 </a>
 </g>
 </g>
 <!-- animadvanced&#45;&gt;rtcameras -->
 <g id="edge278" class="edge"><title>animadvanced&#45;&gt;rtcameras</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M141.476,-2231.72C140.226,-2194.91 136.59,-2109.85 129,-2082 127.586,-2076.81 125.865,-2071.56 123.934,-2066.35"/>
-<polygon fill="black" stroke="black" points="121.181,-2059.26 127.044,-2065.03 122.54,-2062.76 123.898,-2066.25 123.898,-2066.25 123.898,-2066.25 122.54,-2062.76 120.753,-2067.48 121.181,-2059.26 121.181,-2059.26"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M141.523,-2231.99C140.357,-2195.31 136.863,-2109.85 129,-2082 127.525,-2076.78 125.728,-2071.5 123.711,-2066.27"/>
+<polygon fill="black" stroke="black" points="120.833,-2059.16 126.777,-2064.85 122.241,-2062.64 123.649,-2066.11 123.649,-2066.11 123.649,-2066.11 122.241,-2062.64 120.521,-2067.38 120.833,-2059.16 120.833,-2059.16"/>
 </g>
 <!-- phybegin -->
 <g id="node245" class="node"><title>phybegin</title>
@@ -3225,16 +3225,16 @@
 <!-- taofluidanimation -->
 <g id="node263" class="node"><title>taofluidanimation</title>
 <g id="a_node263"><a xlink:href="https://www.amazon.com/dp/1498700209/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/taofluidanimation.jpg" width="63.6794px" height="96px" preserveAspectRatio="xMinYMin meet" x="204.16" y="-2053"/>
-<text text-anchor="start" x="214.23" y="-1945" font-family="Helvetica-Light" font-size="10.00">The Art of</text>
-<text text-anchor="start" x="185.705" y="-1935" font-family="Helvetica-Light" font-size="10.00">Fluid Animation (2015)</text>
+<image xlink:href="images/taofluidanimation.jpg" width="63.6794px" height="96px" preserveAspectRatio="xMinYMin meet" x="203.16" y="-2053"/>
+<text text-anchor="start" x="213.23" y="-1945" font-family="Helvetica-Light" font-size="10.00">The Art of</text>
+<text text-anchor="start" x="184.705" y="-1935" font-family="Helvetica-Light" font-size="10.00">Fluid Animation (2015)</text>
 </a>
 </g>
 </g>
 <!-- fluid&#45;&gt;taofluidanimation -->
 <g id="edge295" class="edge"><title>fluid&#45;&gt;taofluidanimation</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M330.047,-2129.75C319.112,-2113.96 302.171,-2089.51 285.664,-2065.69"/>
-<polygon fill="black" stroke="black" points="281.254,-2059.32 288.299,-2063.56 283.389,-2062.4 285.525,-2065.48 285.525,-2065.48 285.525,-2065.48 283.389,-2062.4 282.751,-2067.41 281.254,-2059.32 281.254,-2059.32"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M329.934,-2129.75C318.896,-2113.96 301.796,-2089.51 285.133,-2065.69"/>
+<polygon fill="black" stroke="black" points="280.681,-2059.32 287.745,-2063.53 282.83,-2062.39 284.979,-2065.47 284.979,-2065.47 284.979,-2065.47 282.83,-2062.39 282.213,-2067.4 280.681,-2059.32 280.681,-2059.32"/>
 </g>
 <!-- computeranimation3 -->
 <g id="node251" class="node"><title>computeranimation3</title>
@@ -3358,8 +3358,8 @@
 </g>
 <!-- taofluidanimation&#45;&gt;fluidsimulationforcg2 -->
 <g id="edge296" class="edge"><title>taofluidanimation&#45;&gt;fluidsimulationforcg2</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M234.762,-1926.82C234.669,-1921.91 234.575,-1916.93 234.48,-1911.95"/>
-<polygon fill="black" stroke="black" points="234.332,-1904.15 237.849,-1911.58 234.403,-1907.9 234.474,-1911.65 234.474,-1911.65 234.474,-1911.65 234.403,-1907.9 231.1,-1911.71 234.332,-1904.15 234.332,-1904.15"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M234.175,-1926.82C234.113,-1921.91 234.05,-1916.93 233.987,-1911.95"/>
+<polygon fill="black" stroke="black" points="233.888,-1904.15 237.358,-1911.61 233.935,-1907.9 233.983,-1911.65 233.983,-1911.65 233.983,-1911.65 233.935,-1907.9 230.608,-1911.69 233.888,-1904.15 233.888,-1904.15"/>
 </g>
 <!-- phybottom -->
 <!-- fluidsimulationforcg2&#45;&gt;phybottom -->
@@ -3470,16 +3470,16 @@
 <!-- aigpwisdom -->
 <g id="node276" class="node"><title>aigpwisdom</title>
 <g id="a_node276"><a xlink:href="https://www.amazon.com/dp//" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/aigpwisdom.jpg" width="76.5691px" height="96px" preserveAspectRatio="xMinYMin meet" x="35.7154" y="-1180"/>
-<text text-anchor="start" x="22.695" y="-1072" font-family="Helvetica-Light" font-size="10.00">AI Game Programming</text>
-<text text-anchor="start" x="40.105" y="-1062" font-family="Helvetica-Light" font-size="10.00">Wisdom (2002)</text>
+<image xlink:href="images/aigpwisdom.jpg" width="76.5691px" height="96px" preserveAspectRatio="xMinYMin meet" x="34.7154" y="-1180"/>
+<text text-anchor="start" x="21.695" y="-1072" font-family="Helvetica-Light" font-size="10.00">AI Game Programming</text>
+<text text-anchor="start" x="39.105" y="-1062" font-family="Helvetica-Light" font-size="10.00">Wisdom (2002)</text>
 </a>
 </g>
 </g>
 <!-- aimisc&#45;&gt;aigpwisdom -->
 <g id="edge312" class="edge"><title>aimisc&#45;&gt;aigpwisdom</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M77.3033,-1203.58C77.181,-1200.52 77.0472,-1197.18 76.9058,-1193.64"/>
-<polygon fill="black" stroke="black" points="76.6059,-1186.15 80.2781,-1193.51 76.7558,-1189.89 76.9058,-1193.64 76.9058,-1193.64 76.9058,-1193.64 76.7558,-1189.89 73.5335,-1193.78 76.6059,-1186.15 76.6059,-1186.15"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M77.1291,-1203.58C76.9762,-1200.52 76.809,-1197.18 76.6322,-1193.64"/>
+<polygon fill="black" stroke="black" points="76.2574,-1186.15 80.0028,-1193.47 76.4447,-1189.89 76.632,-1193.64 76.632,-1193.64 76.632,-1193.64 76.4447,-1189.89 73.2612,-1193.81 76.2574,-1186.15 76.2574,-1186.15"/>
 </g>
 <!-- aiforgames2&#45;&gt;aiintermediate -->
 <g id="edge301" class="edge"><title>aiforgames2&#45;&gt;aiintermediate</title>
@@ -3514,44 +3514,44 @@
 <!-- aigpwisdom2 -->
 <g id="node277" class="node"><title>aigpwisdom2</title>
 <g id="a_node277"><a xlink:href="https://www.amazon.com/dp//" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/aigpwisdom2.jpg" width="76.5691px" height="96px" preserveAspectRatio="xMinYMin meet" x="168.715" y="-1180"/>
-<text text-anchor="start" x="155.695" y="-1072" font-family="Helvetica-Light" font-size="10.00">AI Game Programming</text>
-<text text-anchor="start" x="168.935" y="-1062" font-family="Helvetica-Light" font-size="10.00">Wisdom 2 (2003)</text>
+<image xlink:href="images/aigpwisdom2.jpg" width="76.5691px" height="96px" preserveAspectRatio="xMinYMin meet" x="167.715" y="-1180"/>
+<text text-anchor="start" x="154.695" y="-1072" font-family="Helvetica-Light" font-size="10.00">AI Game Programming</text>
+<text text-anchor="start" x="167.935" y="-1062" font-family="Helvetica-Light" font-size="10.00">Wisdom 2 (2003)</text>
 </a>
 </g>
 </g>
 <!-- aigpwisdom&#45;&gt;aigpwisdom2 -->
 <g id="edge313" class="edge"><title>aigpwisdom&#45;&gt;aigpwisdom2</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M135.045,-1120C136.046,-1120 137.048,-1120 138.049,-1120"/>
-<polygon fill="black" stroke="black" points="145.726,-1120 138.226,-1123.38 141.976,-1120 138.226,-1120 138.226,-1120 138.226,-1120 141.976,-1120 138.226,-1116.63 145.726,-1120 145.726,-1120"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M134.045,-1120C135.046,-1120 136.048,-1120 137.049,-1120"/>
+<polygon fill="black" stroke="black" points="144.726,-1120 137.226,-1123.38 140.976,-1120 137.226,-1120 137.226,-1120 137.226,-1120 140.976,-1120 137.226,-1116.63 144.726,-1120 144.726,-1120"/>
 </g>
 <!-- aigpwisdom3 -->
 <g id="node278" class="node"><title>aigpwisdom3</title>
 <g id="a_node278"><a xlink:href="https://www.amazon.com/dp//" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/aigpwisdom3.jpg" width="76.8px" height="96px" preserveAspectRatio="xMinYMin meet" x="301.6" y="-1180"/>
-<text text-anchor="start" x="288.695" y="-1072" font-family="Helvetica-Light" font-size="10.00">AI Game Programming</text>
-<text text-anchor="start" x="301.935" y="-1062" font-family="Helvetica-Light" font-size="10.00">Wisdom 3 (2006)</text>
+<image xlink:href="images/aigpwisdom3.jpg" width="76.8px" height="96px" preserveAspectRatio="xMinYMin meet" x="300.6" y="-1180"/>
+<text text-anchor="start" x="287.695" y="-1072" font-family="Helvetica-Light" font-size="10.00">AI Game Programming</text>
+<text text-anchor="start" x="300.935" y="-1062" font-family="Helvetica-Light" font-size="10.00">Wisdom 3 (2006)</text>
 </a>
 </g>
 </g>
 <!-- aigpwisdom2&#45;&gt;aigpwisdom3 -->
 <g id="edge314" class="edge"><title>aigpwisdom2&#45;&gt;aigpwisdom3</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M268.045,-1120C269.046,-1120 270.048,-1120 271.049,-1120"/>
-<polygon fill="black" stroke="black" points="278.726,-1120 271.226,-1123.38 274.976,-1120 271.226,-1120 271.226,-1120 271.226,-1120 274.976,-1120 271.226,-1116.63 278.726,-1120 278.726,-1120"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M267.045,-1120C268.046,-1120 269.048,-1120 270.049,-1120"/>
+<polygon fill="black" stroke="black" points="277.726,-1120 270.226,-1123.38 273.976,-1120 270.226,-1120 270.226,-1120 270.226,-1120 273.976,-1120 270.226,-1116.63 277.726,-1120 277.726,-1120"/>
 </g>
 <!-- aigpwisdom4 -->
 <g id="node279" class="node"><title>aigpwisdom4</title>
 <g id="a_node279"><a xlink:href="https://www.amazon.com/dp//" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/aigpwisdom4.jpg" width="72.3367px" height="96px" preserveAspectRatio="xMinYMin meet" x="436.832" y="-1180"/>
-<text text-anchor="start" x="421.695" y="-1072" font-family="Helvetica-Light" font-size="10.00">AI Game Programming</text>
-<text text-anchor="start" x="434.935" y="-1062" font-family="Helvetica-Light" font-size="10.00">Wisdom 4 (2008)</text>
+<image xlink:href="images/aigpwisdom4.jpg" width="72.3367px" height="96px" preserveAspectRatio="xMinYMin meet" x="435.832" y="-1180"/>
+<text text-anchor="start" x="420.695" y="-1072" font-family="Helvetica-Light" font-size="10.00">AI Game Programming</text>
+<text text-anchor="start" x="433.935" y="-1062" font-family="Helvetica-Light" font-size="10.00">Wisdom 4 (2008)</text>
 </a>
 </g>
 </g>
 <!-- aigpwisdom3&#45;&gt;aigpwisdom4 -->
 <g id="edge315" class="edge"><title>aigpwisdom3&#45;&gt;aigpwisdom4</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M401.045,-1120C402.046,-1120 403.048,-1120 404.049,-1120"/>
-<polygon fill="black" stroke="black" points="411.726,-1120 404.226,-1123.38 407.976,-1120 404.226,-1120 404.226,-1120 404.226,-1120 407.976,-1120 404.226,-1116.63 411.726,-1120 411.726,-1120"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M400.045,-1120C401.046,-1120 402.048,-1120 403.049,-1120"/>
+<polygon fill="black" stroke="black" points="410.726,-1120 403.226,-1123.38 406.976,-1120 403.226,-1120 403.226,-1120 403.226,-1120 406.976,-1120 403.226,-1116.63 410.726,-1120 410.726,-1120"/>
 </g>
 <!-- gameaipro -->
 <g id="node280" class="node"><title>gameaipro</title>
@@ -3563,8 +3563,8 @@
 </g>
 <!-- aigpwisdom4&#45;&gt;gameaipro -->
 <g id="edge316" class="edge"><title>aigpwisdom4&#45;&gt;gameaipro</title>
-<path fill="none" stroke="black" stroke-dasharray="1,5" d="M411.825,-1057.64C409.9,-1056.37 407.957,-1055.15 406,-1054 383.866,-1041.01 372.056,-1048.48 346.822,-1036"/>
-<polygon fill="black" stroke="black" points="340.102,-1032.38 348.306,-1032.97 343.403,-1034.16 346.703,-1035.94 346.703,-1035.94 346.703,-1035.94 343.403,-1034.16 345.1,-1038.91 340.102,-1032.38 340.102,-1032.38"/>
+<path fill="none" stroke="black" stroke-dasharray="1,5" d="M410.817,-1057.65C408.895,-1056.37 406.954,-1055.15 405,-1054 383.235,-1041.15 371.623,-1048.37 346.737,-1035.96"/>
+<polygon fill="black" stroke="black" points="340.109,-1032.36 348.311,-1032.98 343.405,-1034.15 346.7,-1035.94 346.7,-1035.94 346.7,-1035.94 343.405,-1034.15 345.089,-1038.91 340.109,-1032.36 340.109,-1032.36"/>
 </g>
 <!-- gameaipro2 -->
 <g id="node281" class="node"><title>gameaipro2</title>

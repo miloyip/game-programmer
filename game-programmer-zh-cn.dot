@@ -25,7 +25,7 @@ digraph {
 
             toctop [fixedsize=true,width=8, height=3, shape=plaintext,label=<
                 <TABLE BORDER="0">
-<TR><TD><FONT FACE="Futura" POINT-SIZE="40">游戏程序员的</FONT></TD></TR><TR><TD><FONT FACE="Futura" POINT-SIZE="40">学习之路</FONT></TD></TR>                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12/18</FONT></TD></TR>
+<TR><TD><FONT FACE="Futura" POINT-SIZE="40">游戏程序员的</FONT></TD></TR><TR><TD><FONT FACE="Futura" POINT-SIZE="40">学习之路</FONT></TD></TR>                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12/20</FONT></TD></TR>
                 <TR><TD>https://github.com/miloyip/game-programmer</TD></TR>
                 </TABLE>
             > URL="https://github.com/miloyip/game-programmer"]
@@ -174,7 +174,7 @@ digraph {
         tcpl2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/tcpl2.jpg"/></TD></TR><TR><TD>C程序设计语言<br/>(2004)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1139336/"]
 
         cppprimer5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/cppprimer5.jpg"/></TD></TR><TR><TD>C++ Primer 中文版<br/>（第 5 版）<br/>(2013)</TD></TR></TABLE>> URL="https://book.douban.com/subject/25708312/"]
-        tcpppl4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/tcpppl4.jpg"/></TD></TR><TR><TD>C++程序设计语言<br/>(2010)</TD></TR></TABLE>> URL="https://book.douban.com/subject/4604591/"]
+        tcpppl4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/tcpppl4.jpg"/></TD></TR><TR><TD>C++ 程序设计语言（原书第 4 版）<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26857943/"]
         cppstandardlibrary2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/cppstandardlibrary2.jpg"/></TD></TR><TR><TD>C++标准库（第2版）<br/>(2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26419721/"]
         boostcpplibraries2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/boostcpplibraries2.jpg"/></TD></TR><TR><TD>The Boost C++<br/>Libraries 2nd Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1937434362/"]
         cppconcurrencyinaction [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/cppconcurrencyinaction.jpg"/></TD></TR><TR><TD>C++并发编程实战<br/>(2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26386925/"]
@@ -201,7 +201,7 @@ digraph {
         programminginlua4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/programminginlua4.jpg"/></TD></TR><TR><TD>LUA程序设计(第2版)<br/>(2008)</TD></TR></TABLE>> URL="https://book.douban.com/subject/3076942/"]
         luaprogramminggems [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/luaprogramminggems.jpg"/></TD></TR><TR><TD>Lua Programming<br/>Gems (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/8590379841/"]
 
-        mvcsharpstepbystep8 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/mvcsharpstepbystep8.jpg"/></TD></TR><TR><TD>Visual C#从入门到精通(第8版) <br/>()</TD></TR></TABLE>> URL="https://book.douban.com/"]
+        mvcsharpstepbystep8 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/mvcsharpstepbystep8.jpg"/></TD></TR><TR><TD>Visual C#从入门到精通(第8版) <br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26937762/"]
         csharpindepth3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/csharpindepth3.jpg"/></TD></TR><TR><TD>深入理解C#（第3版）<br/>(2014)</TD></TR></TABLE>> URL="https://book.douban.com/subject/25843328/"]
         clrviacsharp4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/clrviacsharp4.jpg"/></TD></TR><TR><TD>CLR via C#（第4版）<br/>(2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26285940/"]
 
@@ -272,7 +272,7 @@ digraph {
         codecomplete2 -> apidesignforcpp
 
         dp -> agilesoftwaredev -> designpatterns [arrowhead=normal, style=solid]
-        agilesoftwaredev -> headfirstdesignpatterns -> designpatterns
+        dp -> headfirstdesignpatterns -> agilesoftwaredev
 
         uml -> umldistilled3 -> umluserguide2 -> ooadwa3
 
