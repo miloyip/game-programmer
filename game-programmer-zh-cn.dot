@@ -25,7 +25,7 @@ digraph {
 
             toctop [fixedsize=true,width=8, height=3, shape=plaintext,label=<
                 <TABLE BORDER="0">
-<TR><TD><FONT FACE="Futura" POINT-SIZE="40">游戏程序员的</FONT></TD></TR><TR><TD><FONT FACE="Futura" POINT-SIZE="40">学习之路</FONT></TD></TR>                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12/18</FONT></TD></TR>
+<TR><TD><FONT FACE="Futura" POINT-SIZE="40">游戏程序员的</FONT></TD></TR><TR><TD><FONT FACE="Futura" POINT-SIZE="40">学习之路</FONT></TD></TR>                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12/20</FONT></TD></TR>
                 <TR><TD>https://github.com/miloyip/game-programmer</TD></TR>
                 </TABLE>
             > URL="https://github.com/miloyip/game-programmer"]
@@ -91,12 +91,12 @@ digraph {
         }
 
         scratchjr [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/scratchjr.jpg"/></TD></TR><TR><TD>The Official<br/>ScratchJr Book (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593276710/"]
-
+        
         codinggamesinscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/codinggamesinscratch.jpg"/></TD></TR><TR><TD>Coding Games<br/>in Scratch<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1465439358/"]
         superscratchprogadv [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/superscratchprogadv.jpg"/></TD></TR><TR><TD>Super Scratch<br/>Programming Adventure!<br/>(2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593275315/"]
         learntoprogramwithscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithscratch.jpg"/></TD></TR><TR><TD>Learn to Program<br/> with Scratch<br/>(2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593275439/"]
         helpyoukidswithcomputercoding [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/helpyoukidswithcomputercoding.jpg"/></TD></TR><TR><TD>Help Your Kids<br/>with Computer Coding<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/146541956X/"]
-
+        
         inventgamepython3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython3.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 3rd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1503212300/"]
         makinggamespython [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/makinggamespython.jpg"/></TD></TR><TR><TD>Making Games with<br/>Python &amp; Pygame (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1469901730/"]
         learntoprogramwithminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithminecraft.jpg"/></TD></TR><TR><TD>Learn to Program<br/>with Minecraft (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593276702/"]
@@ -133,10 +133,10 @@ digraph {
         csapp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/csapp3.jpg"/></TD></TR><TR><TD>深入理解计算机系统<br/>(原书第3版)<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26912767/"]
         caaqa5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/caaqa5.jpg"/></TD></TR><TR><TD>计算机体系结构<br/>(2012)</TD></TR></TABLE>> URL="https://book.douban.com/subject/20452387/"]
         mos4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/mos4.jpg"/></TD></TR><TR><TD>现代操作系统（第3版）<br/>(2009)</TD></TR></TABLE>> URL="https://book.douban.com/subject/3852290/"]
-
+        
         clrs3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/clrs3.jpg"/></TD></TR><TR><TD>算法导论（原书第3版）<br/>(2012)</TD></TR></TABLE>> URL="https://book.douban.com/subject/20432061/"]
         algorithms4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/algorithms4.jpg"/></TD></TR><TR><TD>算法（第4版）<br/>(2012)</TD></TR></TABLE>> URL="https://book.douban.com/subject/19952400/"]
-
+        
         concretemaths2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/concretemaths2.jpg"/></TD></TR><TR><TD>具体数学<br/>(2013)</TD></TR></TABLE>> URL="https://book.douban.com/subject/21323941/"]
         computationalscieng [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/computationalscieng.jpg"/></TD></TR><TR><TD>Computational Science<br/>and Engineering (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0961408812/"]
 
@@ -174,7 +174,7 @@ digraph {
         tcpl2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/tcpl2.jpg"/></TD></TR><TR><TD>C程序设计语言<br/>(2004)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1139336/"]
 
         cppprimer5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/cppprimer5.jpg"/></TD></TR><TR><TD>C++ Primer 中文版<br/>（第 5 版）<br/>(2013)</TD></TR></TABLE>> URL="https://book.douban.com/subject/25708312/"]
-        tcpppl4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/tcpppl4.jpg"/></TD></TR><TR><TD>C++ 程序设计语言<br/>（原书第 4 版）<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26857943/"]
+        tcpppl4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/tcpppl4.jpg"/></TD></TR><TR><TD>C++ 程序设计语言（原书第 4 版）<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26857943/"]
         cppstandardlibrary2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/cppstandardlibrary2.jpg"/></TD></TR><TR><TD>C++标准库（第2版）<br/>(2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26419721/"]
         boostcpplibraries2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/boostcpplibraries2.jpg"/></TD></TR><TR><TD>The Boost C++<br/>Libraries 2nd Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1937434362/"]
         cppconcurrencyinaction [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/cppconcurrencyinaction.jpg"/></TD></TR><TR><TD>C++并发编程实战<br/>(2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26386925/"]
@@ -212,7 +212,7 @@ digraph {
         cppbegin -> tcpppl4
         cppprimer5 -> cpplibrary [arrowhead=normal, style=solid]
         tcpppl4 -> cpplibrary
-
+        
         cpplibrary -> cppstandardlibrary2 [arrowhead=normal, style=solid]
         cppstandardlibrary2 -> effectivestl
         cppstandardlibrary2 -> cppconcurrencyinaction -> boostcpplibraries2
@@ -272,7 +272,7 @@ digraph {
         codecomplete2 -> apidesignforcpp
 
         dp -> agilesoftwaredev -> designpatterns [arrowhead=normal, style=solid]
-        agilesoftwaredev -> headfirstdesignpatterns -> designpatterns
+        dp -> headfirstdesignpatterns -> agilesoftwaredev
 
         uml -> umldistilled3 -> umluserguide2 -> ooadwa3
 
@@ -340,7 +340,7 @@ digraph {
 
         windowsgp2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/windowsgp2.jpg"/></TD></TR><TR><TD>Windows游戏编程大师技巧<br/>(2012)</TD></TR></TABLE>> URL="https://book.douban.com/subject/20282993/"]
         gamecodingcomplete4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gamecodingcomplete4.jpg"/></TD></TR><TR><TD>游戏编程权威指南<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26787109/"]
-
+ 
         introtogdprodev [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/introtogdprodev.jpg"/></TD></TR><TR><TD>Introduction to Game<br/>Design, Prototyping,<br/>and Development (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321933168/"]
         unityinaction [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/unityinaction.jpg"/></TD></TR><TR><TD>Unity5实战<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26877872/"]
 
@@ -395,13 +395,13 @@ digraph {
         cocos2dx -> cocos2dxbyexample2 -> gpintermediate
 
         gpintermediate -> gpalgorithmstechniques -> gameprogrammingpatterns [arrowhead=normal, style=solid]
-        gameprogrammingpatterns -> gpgoldenrules -> gpmisc
+        gameprogrammingpatterns -> gpgoldenrules -> gpmisc 
         gpintermediate -> crossplatformgp -> androidndkgdcookbook
         gpintermediate -> buildingfpsgameunity -> unityvrprojects
         gpintermediate -> agumentedreality -> practicalaugmentedreality
 
         {
-            rank=same; gpgoldenrules; gpmisc
+            rank=same; gpgoldenrules; gpmisc 
         }
         gpmisc -> gpgemsbest
         gpgemsbest -> gpgems
@@ -435,11 +435,11 @@ digraph {
             "3dgameenginearchitecture" [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/3dgameenginearchitecture.jpg"/></TD></TR><TR><TD>3D Game Engine<br/>Architecture<br/>(2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/012229064X/"]
             gameenginedesign2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginedesign2.jpg"/></TD></TR><TR><TD>3D Game Engine<br/>Design<br/>2nd Ed (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0122290631/"]
         }
-
+        
         gameenginegems1 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginegems1.jpg"/></TD></TR><TR><TD>Game Engine<br/>Gems 1 (2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0763778885/"]
         gameenginegems2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginegems2.jpg"/></TD></TR><TR><TD>Game Engine<br/>Gems 2 (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814372/"]
         gameenginegems3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameenginegems3.jpg"/></TD></TR><TR><TD>Game Engine<br/>Gems 3 (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1498755658/"]
-
+        
         gamescriptingmastery [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gamescriptingmastery.jpg"/></TD></TR><TR><TD>游戏脚本高级编程<br/>(2006)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1927405/"]
         languageimplpatterns [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/languageimplpatterns.jpg"/></TD></TR><TR><TD>编程语言实现模式<br/>(2012)</TD></TR></TABLE>> URL="https://book.douban.com/subject/10482195/"]
         garbagecollectionhandbook [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/garbagecollectionhandbook.jpg"/></TD></TR><TR><TD>垃圾回收算法手册：<br/>自动内存管理的艺术<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26740958/"]
@@ -548,7 +548,7 @@ digraph {
 
         magiccg [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/magiccg.jpg"/></TD></TR><TR><TD>The Magic of<br/>Computer Graphics (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568815778/"]
 
-        cgbegin -> "3dgpdx12"
+        cgbegin -> "3dgpdx12" 
         cgbegin -> { rt3drendering; oglguide9 }
 
         { "3dgpdx12"; rt3drendering; oglguide9 } -> cgtheory
@@ -582,7 +582,7 @@ digraph {
         lod -> "3denginedesignvirtualglobes"
         texturingmodeling3 -> polygonmeshprocessing -> isosurfaces
         npr -> npcg
-
+        
         polygonmeshprocessing -> npr [style=invis]
 
         {
@@ -712,7 +712,7 @@ digraph {
         aibegin -> { aiforgd; proggameaibyexample; unityaigp2 } -> aiintermediate
         aiintermediate -> behavioralmathforgameai -> aimisc
         aima3 -> aimisc
-        aimisc -> aigpwisdom
+        aimisc -> aigpwisdom 
         aigpwisdom -> aigpwisdom2 -> aigpwisdom3 -> aigpwisdom4
         aigpwisdom4 -> gameaipro -> gameaipro2
 
@@ -757,7 +757,7 @@ digraph {
         multiplayergp -> networkprog
         multiplayergp -> multiplayermisc
 
-        serverprog -> progposixthreads -> advancedprogunixenv3 -> linuxsystemprog2
+        serverprog -> progposixthreads -> advancedprogunixenv3 -> linuxsystemprog2 
         networkprotocol -> tcpipillustratedv1_2 -> tcpipillustratedv2 -> tcpipillustratedv3
         networkprog -> unixnetworkprogv1_3 -> unixnetworkprogv2_2 -> linuxnetworkinternals
 
