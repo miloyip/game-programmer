@@ -690,7 +690,8 @@ digraph {
         proggameaibyexample [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/proggameaibyexample.jpg"/></TD></TR><TR><TD>游戏人工智能编程<br/>案例精粹<br/>(2012)</TD></TR></TABLE>> URL="https://book.douban.com/subject/19930152/"]
         unityaigp2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/unityaigp2.jpg"/></TD></TR><TR><TD>Unity人工智能游戏开发(第2版) <br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26911454/"]
 
-        aima3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/aima3.jpg"/></TD></TR><TR><TD>人工智能<br/>(2004)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1230487/"]
+        aima3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/
+        .jpg"/></TD></TR><TR><TD>人工智能<br/>(2013)</TD></TR></TABLE>> URL="https://book.douban.com/subject/25796281/"]
         behavioralmathforgameai [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/behavioralmathforgameai.jpg"/></TD></TR><TR><TD>Behavioral Mathematics<br/>for Game AI (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584506849/"]
 
         {
