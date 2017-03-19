@@ -22,4 +22,5 @@ all: \
 	cpdf -stamp-on link.pdf main.pdf -o $@
 	rm main.pdf main.ps2 link.ps2 link.pdf
 
-clean: rm *.jpg *.svg
+clean: 
+	rm *.jpg *.svg
