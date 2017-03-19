@@ -23,4 +23,4 @@ all: \
 	rm main.pdf main.ps2 link.ps2 link.pdf
 
 clean: 
-	rm *.jpg *.svg
+	rm -f *.jpg *.svg *.pdf *.png
