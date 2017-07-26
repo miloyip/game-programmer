@@ -27,7 +27,7 @@ digraph {
                 <TABLE BORDER="0">
                 <TR><TD><FONT FACE="Futura" POINT-SIZE="40">A STUDY PATH FOR</FONT></TD></TR>
                 <TR><TD><FONT FACE="Futura-Bold" POINT-SIZE="40">GAME PROGRAMMER</FONT></TD></TR>
-                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12/20</FONT></TD></TR>
+                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2017/7/26</FONT></TD></TR>
                 <TR><TD>https://github.com/miloyip/game-programmer</TD></TR>
                 </TABLE>
             > URL="https://github.com/miloyip/game-programmer"]
@@ -196,7 +196,7 @@ digraph {
         insidecppobjectmodel [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/insidecppobjectmodel.jpg"/></TD></TR><TR><TD>Inside the C++<br/>Object Model (1996)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201834545/"]
         imperfectcpp [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/imperfectcpp.jpg"/></TD></TR><TR><TD>Imperfect C++ (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321228774/"]
         cpptemplates [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cpptemplates.jpg"/></TD></TR><TR><TD>C++ Templates (2002)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201734842/"]
-        elementsofprogramming [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/elementsofprogramming.jpg"/></TD></TR><TR><TD>Elements of<br/>Programming (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
+        elementsofprogramming [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/elementsofprogramming.jpg"/></TD></TR><TR><TD>Elements of<br/>Programming (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/032163537X/"]
         frommathtogeneric [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/frommathtogeneric.jpg"/></TD></TR><TR><TD>From Mathematics<br/>to Generic Programming<br/>(2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321942043/"]
         moderncppdesign [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/moderncppdesign.jpg"/></TD></TR><TR><TD>Modern C++ Design (2001)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201704315/"]
 
@@ -256,7 +256,7 @@ digraph {
         apidesignforcpp [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/apidesignforcpp.jpg"/></TD></TR><TR><TD>API Design for C++<br/>(2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123850037/"]
 
         agilesoftwaredev [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/agilesoftwaredev.jpg"/></TD></TR><TR><TD>Agile Software<br/>Development (2002)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0135974445/"]
-        designpatterns [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/designpatterns.jpg"/></TD></TR><TR><TD>Design Patterns (1994)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
+        designpatterns [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/designpatterns.jpg"/></TD></TR><TR><TD>Design Patterns (1994)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201633612/"]
         headfirstdesignpatterns [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/headfirstdesignpatterns.jpg"/></TD></TR><TR><TD>Head First<br/>Design Patterns (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0596007124/"]
         practiceofprogramming [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/practiceofprogramming.jpg"/></TD></TR><TR><TD>The Practice of<br/>Programming (1999)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/020161586X/"]
         cleancode [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cleancode.jpg"/></TD></TR><TR><TD>Clean Code (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0132350882/"]
@@ -505,7 +505,7 @@ digraph {
         practiald3d11 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/practiald3d11.jpg"/></TD></TR><TR><TD>Practical Rendering<br/>and Computation<br/>with Direct3D 11 (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568817207/"]
 
         rtr3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtr3.jpg"/></TD></TR><TR><TD>Real-Time Rendering<br/> (RTR) 3rd Ed (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814240/"]
-        tricks3dgpgurus [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tricks3dgpgurus.jpg"/></TD></TR><TR><TD>Tricks of the 3D<br/>Game Programming<br/>Gurus (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
+        tricks3dgpgurus [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tricks3dgpgurus.jpg"/></TD></TR><TR><TD>Tricks of the 3D<br/>Game Programming<br/>Gurus (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0672318350/"]
         realtimeshadows [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/realtimeshadows.jpg"/></TD></TR><TR><TD>Real-Time<br/>Shadows (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814380/"]
         rtvolumegraphics [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtvolumegraphics.jpg"/></TD></TR><TR><TD>Real-Time Volume<br/>Graphics (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568812663/"]
         graphicsprogrammingmethods [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/graphicsprogrammingmethods.jpg"/></TD></TR><TR><TD>Graphics Programming<br/>Methods (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584502991/"]
@@ -519,6 +519,7 @@ digraph {
         gpupro5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro5.jpg"/></TD></TR><TR><TD>GPU Pro 5 (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482208636/"]
         gpupro6 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro6.jpg"/></TD></TR><TR><TD>GPU Pro 6 (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482264617/"]
         gpupro7 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro7.jpg"/></TD></TR><TR><TD>GPU Pro 7 (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/149874253X/"]
+        gpuzen [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpuzen.jpg"/></TD></TR><TR><TD>GPU Zen (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0998822892/"]
 
         pbrt3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pbrt3.jpg"/></TD></TR><TR><TD>Physically Based<br/>Rendering (PBRT)<br/>3rd Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0128006455/"]
         raytracingfromgroundup [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/raytracingfromgroundup.jpg"/></TD></TR><TR><TD>Ray Tracing from<br/>the Ground Up<br/>(2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568812728/"]
@@ -562,7 +563,7 @@ digraph {
 
         realtimerendering -> rtr3 [arrowhead=normal, style=solid]
         realtimerendering -> tricks3dgpgurus
-        rtr3 -> graphicsprogrammingmethods -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7
+        rtr3 -> graphicsprogrammingmethods -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7 -> gpuzen
         { rank=same;rtr3; rtvolumegraphics }
         rtr3 -> { realtimeshadows; rtvolumegraphics }
         realtimeshadows -> graphicsprogrammingmethods [style=invis]
@@ -596,7 +597,7 @@ digraph {
         cgtop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         cgbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         cgtop -> cgbegin [style=invis]
-        glassenernotebook2 -> cgbottom [style=invis]
+        gpuzen -> cgbottom [style=invis]
     }
 
     subgraph cluster_audio {
@@ -644,12 +645,14 @@ digraph {
         physicsforgamedevelopers2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/physicsforgamedevelopers2.jpg"/></TD></TR><TR><TD>Physics for Game<br/>Developers 2nd Ed (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1449392512/"]
         physicsmodeling [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/physicsmodeling.jpg"/></TD></TR><TR><TD>Physics Modeling<br/>for Game Programmers (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1592000932/"]
 
+        fpbma [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fpbma.jpg"/></TD></TR><TR><TD>Foundations of Physically<br/>Based Modeling and<br/>Animation (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482234602/"]
         gamephysicsenginedev2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gamephysicsenginedev2.jpg"/></TD></TR><TR><TD>Game Physics Engine<br/>Development 2nd Ed (2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123819768/"]
         gamephysics2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gamephysics2.jpg"/></TD></TR><TR><TD>Game Physics 2nd Ed (2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123749034/"]
         collisiondetection3denv [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/collisiondetection3denv.jpg"/></TD></TR><TR><TD>Collision Detection<br/>in Interactive 3D<br/>Environments (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/155860801X/"]
         rtcollisiondetection [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtcollisiondetection.jpg"/></TD></TR><TR><TD>Real-Time Collision<br/>Detection (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1558607323/"]
         gamephysicspearls [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gamephysicspearls.jpg"/></TD></TR><TR><TD>Game Physics Pearls<br/>(2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814747/"]
 
+        fluidenginedev [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fluidenginedev.jpg"/></TD></TR><TR><TD>Fluid Engine Development (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1498719929/"]
         taofluidanimation [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/taofluidanimation.jpg"/></TD></TR><TR><TD>The Art of<br/>Fluid Animation (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1498700209/"]
         fluidsimulationforcg2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fluidsimulationforcg2.jpg"/></TD></TR><TR><TD>Fluid Simulation<br/>for Computer Graphics<br/>2nd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482232839/"]
 
@@ -664,11 +667,11 @@ digraph {
 
         { animbegin; phybegin } -> natureofcode
 
-        phyadvanced -> gamephysicspearls
+        phyadvanced -> fpbma -> gamephysicspearls
         gamephysicspearls -> collisiondetection3denv -> rtcollisiondetection
         gamephysicspearls -> gamephysicsenginedev2 -> gamephysics2
 
-        { animadvanced; phyadvanced } -> fluid -> taofluidanimation -> fluidsimulationforcg2
+        { animadvanced; phyadvanced } -> fluid -> fluidenginedev -> taofluidanimation -> fluidsimulationforcg2
 
         phytop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         phybottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
@@ -697,15 +700,16 @@ digraph {
 
         {
             rank=same
-            aigpwisdom [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/aigpwisdom.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom (2002)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
-            aigpwisdom2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/aigpwisdom2.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom 2 (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
-            aigpwisdom3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/aigpwisdom3.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom 3 (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
-            aigpwisdom4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/aigpwisdom4.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom 4 (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
+            aigpwisdom [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/aigpwisdom.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom (2002)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584500778/"]
+            aigpwisdom2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/aigpwisdom2.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom 2 (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584502894/"]
+            aigpwisdom3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/aigpwisdom3.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom 3 (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584504579/"]
+            aigpwisdom4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/aigpwisdom4.jpg"/></TD></TR><TR><TD>AI Game Programming<br/>Wisdom 4 (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584505230/"]
         }
         {
             rank=same
-            gameaipro [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro.jpg"/></TD></TR><TR><TD>Game AI Pro (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
-            gameaipro2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro2.jpg"/></TD></TR><TR><TD>Game AI Pro 2 (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp//"]
+            gameaipro [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro.jpg"/></TD></TR><TR><TD>Game AI Pro (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1466565969/"]
+            gameaipro2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro2.jpg"/></TD></TR><TR><TD>Game AI Pro 2 (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482254794/"]
+            gameaipro3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro3.jpg"/></TD></TR><TR><TD>Game AI Pro 3 (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482254794/"]
         }
 
         aibegin -> aiforgames2 -> aiintermediate -> aima3 [arrowhead=normal, style=solid]
@@ -714,12 +718,12 @@ digraph {
         aima3 -> aimisc
         aimisc -> aigpwisdom 
         aigpwisdom -> aigpwisdom2 -> aigpwisdom3 -> aigpwisdom4
-        aigpwisdom4 -> gameaipro -> gameaipro2
+        aigpwisdom4 -> gameaipro -> gameaipro2 -> gameaipro3
 
         aitop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         aibottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         aitop -> aibegin [style=invis]
-        gameaipro2 -> aibottom [style=invis]
+        gameaipro3 -> aibottom [style=invis]
     }
 
     subgraph cluster_multiplayer {
