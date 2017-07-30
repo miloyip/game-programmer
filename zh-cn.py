@@ -1,12 +1,18 @@
+#!/usr/bin/env python
 # -*- coding:utf8 -*-
 """
 读取game-programmer.dot将其转换为中文版的game-programmer-zh-cn.dot
 """
-import json
-import re
-import urllib2
+from __future__ import print_function
 import csv
+import json
 import os
+import re
+try:
+    from urllib.request import urlopen  # Python 3
+except ImportError:
+    from urllib2 import urlopen         # Python 2
+
 
 IMAGE_PATH = './images-zh-cn/{book_index}.jpg'
 
@@ -16,12 +22,12 @@ def get_image(isbn, image_filename):
     :rtype: str
     """
     print("get_image(" + isbn + "," + isbn + ")")
-    response = urllib2.urlopen(book_url)
+    response = urlopen(book_url)
     html = response.read()
     re_image_url = r"https://img\d\.doubanio\.com/lpic/s\d*\.jpg"
     image_url = re.search(re_image_url, html).group()
     with open(image_filename, 'w') as ft:
-        response = urllib2.urlopen(image_url)
+        response = urlopen(image_url)
         image = response.read()
         ft.write(image)
 
@@ -30,12 +36,12 @@ def get_book_url_year(isbn):
     url = "https://api.douban.com/v2/book/isbn/" + isbn
     result = "https://book.douban.com/", ""
     try:
-        response = urllib2.urlopen(url)
+        response = urlopen(url)
         detail = response.read()
         return json.loads(detail)["alt"], json.loads(detail)["pubdate"][:4]
     except Exception as e:
-        print isbn
-        print e
+        print(isbn)
+        print(e)
         return result
 
 def get_book_info(book_index):
@@ -161,25 +167,25 @@ if __name__ == '__main__':
             label_line_match = RE_LABEL_LINE.match(line_without_space)
             content_line_match = RE_CONTENT_LINE.match(line_without_space)
 
-            if book_line_match != None:
+            if book_line_match is not None:
                 book_index = line_without_space.split(" ")[0]
                 book_title, book_url, book_year = get_book_info(book_index.strip('"'))
-                if book_title == None:
+                if book_title is None:
                     zh_f.write(line)
                 else:
                     image_path = IMAGE_PATH.format(book_index=book_index.strip('"'))
                     writeline = space_front+ BOOK_LINE.format(book_index=book_index, image_path=image_path, book_title=book_title, book_year=book_year, url=book_url)
                     zh_f.write(writeline)
-            elif section_line_match != None:
+            elif section_line_match is not None:
                 sectionID = re.search(r'\d+\.', line_without_space).group()
                 writeline = space_front + SECTION_LINE.format(section_title=SECTION_TITLE_DICT[sectionID])
                 zh_f.write(writeline)
-            elif label_line_match != None:
+            elif label_line_match is not None:
                 label_index = label_line_match.group().split(' ')[0]
                 en_label_content = re.search(r'label="[\w -=\./\\]*"', line_without_space).group()[7:-1]
                 writeline = space_front + LABEL_LINE.format(label_index=label_index, label=LABEL_DICT[en_label_content])
                 zh_f.write(writeline)
-            elif content_line_match != None:
+            elif content_line_match is not None:
                 sectionID = line_without_space.split('.')[0][37:] + '.'
                 section_title =SECTION_TITLE_DICT[sectionID]
                 if '<' in line_without_space:
