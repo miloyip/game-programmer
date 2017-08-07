@@ -27,7 +27,7 @@ digraph {
                 <TABLE BORDER="0">
                 <TR><TD><FONT FACE="Futura" POINT-SIZE="40">A STUDY PATH FOR</FONT></TD></TR>
                 <TR><TD><FONT FACE="Futura-Bold" POINT-SIZE="40">GAME PROGRAMMER</FONT></TD></TR>
-                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2017/7/26</FONT></TD></TR>
+                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2017/8/7</FONT></TD></TR>
                 <TR><TD>https://github.com/miloyip/game-programmer</TD></TR>
                 </TABLE>
             > URL="https://github.com/miloyip/game-programmer"]
@@ -509,9 +509,19 @@ digraph {
         realtimeshadows [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/realtimeshadows.jpg"/></TD></TR><TR><TD>Real-Time<br/>Shadows (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814380/"]
         rtvolumegraphics [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtvolumegraphics.jpg"/></TD></TR><TR><TD>Real-Time Volume<br/>Graphics (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568812663/"]
         graphicsprogrammingmethods [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/graphicsprogrammingmethods.jpg"/></TD></TR><TR><TD>Graphics Programming<br/>Methods (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584502991/"]
+
+        shaderx [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx.jpg"/></TD></TR><TR><TD>ShaderX (1996)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1556220413/"]
+        shaderx2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx2.jpg"/></TD></TR><TR><TD>ShaderX2 (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1556229887/"]
+        shaderx3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx3.jpg"/></TD></TR><TR><TD>ShaderX3 (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584503572/"]
+        shaderx4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx4.jpg"/></TD></TR><TR><TD>ShaderX4 (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584504250/"]
+        shaderx5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx5.jpg"/></TD></TR><TR><TD>ShaderX5 (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584504994/"]
+        shaderx6 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx6.jpg"/></TD></TR><TR><TD>ShaderX6 (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584505443/"]
+        shaderx7 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx7.jpg"/></TD></TR><TR><TD>ShaderX7 (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584505982/"]
+ 
         gpugems [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpugems.jpg"/></TD></TR><TR><TD>GPU Gems (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321228324/"]
         gpugems2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpugems2.jpg"/></TD></TR><TR><TD>GPU Gems 2 (2005)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321335597/"]
         gpugems3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpugems3.jpg"/></TD></TR><TR><TD>GPU Gems 3 (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321515269/"]
+        
         gpupro [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro.jpg"/></TD></TR><TR><TD>GPU Pro (2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814720/"]
         gpupro2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro2.jpg"/></TD></TR><TR><TD>GPU Pro 2 (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568817185/"]
         gpupro3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro3.jpg"/></TD></TR><TR><TD>GPU Pro 3 (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1439887829/"]
@@ -519,6 +529,7 @@ digraph {
         gpupro5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro5.jpg"/></TD></TR><TR><TD>GPU Pro 5 (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482208636/"]
         gpupro6 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro6.jpg"/></TD></TR><TR><TD>GPU Pro 6 (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482264617/"]
         gpupro7 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro7.jpg"/></TD></TR><TR><TD>GPU Pro 7 (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/149874253X/"]
+        
         gpuzen [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpuzen.jpg"/></TD></TR><TR><TD>GPU Zen (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0998822892/"]
 
         pbrt3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pbrt3.jpg"/></TD></TR><TR><TD>Physically Based<br/>Rendering (PBRT)<br/>3rd Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0128006455/"]
@@ -563,8 +574,10 @@ digraph {
 
         realtimerendering -> rtr3 [arrowhead=normal, style=solid]
         realtimerendering -> tricks3dgpgurus
-        rtr3 -> graphicsprogrammingmethods -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7 -> gpuzen
-        { rank=same;rtr3; rtvolumegraphics }
+        rtr3 -> graphicsprogrammingmethods -> shaderx -> shaderx2 -> shaderx3 -> shaderx4 -> shaderx5 -> shaderx6 -> shaderx7 -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7 -> gpuzen
+        { rank=same; rtr3; rtvolumegraphics }
+        { rank=same; gpupro; gpupro2; gpupro3; gpupro4 }
+        { rank=same; gpupro5; gpupro6; gpupro7; gpuzen }
         rtr3 -> { realtimeshadows; rtvolumegraphics }
         realtimeshadows -> graphicsprogrammingmethods [style=invis]
         tricks3dgpgurus -> realtimeshadows [style=invis]
