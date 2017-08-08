@@ -90,17 +90,17 @@ digraph {
             kidintermediate [label="中级孩童游戏编程"]
         }
 
-        scratchjr [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/scratchjr.jpg"/></TD></TR><TR><TD>动手玩转ScratchJr编程 (2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26906848/"]
+        scratchjr [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images-zh-cn/scratchjr.jpg"/></TD></TR><TR><TD>动手玩转ScratchJr编程 (2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26906848/"]
         
         codinggamesinscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/codinggamesinscratch.jpg"/></TD></TR><TR><TD>Coding Games<br/>in Scratch<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1465439358/"]
-        superscratchprogadv [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/superscratchprogadv.jpg"/></TD></TR><TR><TD>Scratch超人漫游记 (2017)</TD></TR></TABLE>> URL="https://book.douban.com/subject/27072003/"]
-        learntoprogramwithscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithscratch.jpg"/></TD></TR><TR><TD>动手玩转Scratch2.0编程 (2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26658602/"]
+        superscratchprogadv [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images-zh-cn/superscratchprogadv.jpg"/></TD></TR><TR><TD>Scratch超人漫游记 (2017)</TD></TR></TABLE>> URL="https://book.douban.com/subject/27072003/"]
+        learntoprogramwithscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images-zh-cn/learntoprogramwithscratch.jpg"/></TD></TR><TR><TD>动手玩转Scratch2.0编程 (2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26658602/"]
         helpyoukidswithcomputercoding [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/helpyoukidswithcomputercoding.jpg"/></TD></TR><TR><TD>Help Your Kids<br/>with Computer Coding<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/146541956X/"]
         
         inventgamepython3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython3.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 3rd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1503212300/"]
         makinggamespython [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/makinggamespython.jpg"/></TD></TR><TR><TD>Making Games with<br/>Python &amp; Pygame (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1469901730/"]
         learntoprogramwithminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithminecraft.jpg"/></TD></TR><TR><TD>Learn to Program<br/>with Minecraft (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593276702/"]
-        adventuresinminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/adventuresinminecraft.jpg"/></TD></TR><TR><TD>零基础学Minecraft编程<br/>(2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26613247/"]
+        adventuresinminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images-zh-cn/adventuresinminecraft.jpg"/></TD></TR><TR><TD>零基础学Minecraft编程<br/>(2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26613247/"]
         "3dgpforkids" [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/3dgpforkids.jpg"/></TD></TR><TR><TD>3D Game Programming<br/>for Kids (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1937785440/"]
 
         age5 -> scratchjr -> age8
