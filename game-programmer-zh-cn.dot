@@ -25,7 +25,7 @@ digraph {
 
             toctop [fixedsize=true,width=8, height=3, shape=plaintext,label=<
                 <TABLE BORDER="0">
-<TR><TD><FONT FACE="Futura" POINT-SIZE="40">游戏程序员的</FONT></TD></TR><TR><TD><FONT FACE="Futura" POINT-SIZE="40">学习之路</FONT></TD></TR>                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2016/12/20</FONT></TD></TR>
+<TR><TD><FONT FACE="Futura" POINT-SIZE="40">游戏程序员的</FONT></TD></TR><TR><TD><FONT FACE="Futura" POINT-SIZE="40">学习之路</FONT></TD></TR>                <TR><TD><FONT FACE="Futura" POINT-SIZE="20">Milo Yip<br/>2017/8/7</FONT></TD></TR>
                 <TR><TD>https://github.com/miloyip/game-programmer</TD></TR>
                 </TABLE>
             > URL="https://github.com/miloyip/game-programmer"]
@@ -90,11 +90,11 @@ digraph {
             kidintermediate [label="中级孩童游戏编程"]
         }
 
-        scratchjr [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/scratchjr.jpg"/></TD></TR><TR><TD>The Official<br/>ScratchJr Book (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593276710/"]
+        scratchjr [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/scratchjr.jpg"/></TD></TR><TR><TD>动手玩转ScratchJr编程 (2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26906848/"]
         
         codinggamesinscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/codinggamesinscratch.jpg"/></TD></TR><TR><TD>Coding Games<br/>in Scratch<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1465439358/"]
-        superscratchprogadv [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/superscratchprogadv.jpg"/></TD></TR><TR><TD>Super Scratch<br/>Programming Adventure!<br/>(2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593275315/"]
-        learntoprogramwithscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithscratch.jpg"/></TD></TR><TR><TD>Learn to Program<br/> with Scratch<br/>(2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593275439/"]
+        superscratchprogadv [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/superscratchprogadv.jpg"/></TD></TR><TR><TD>Scratch超人漫游记 (2017)</TD></TR></TABLE>> URL="https://book.douban.com/subject/27072003/"]
+        learntoprogramwithscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithscratch.jpg"/></TD></TR><TR><TD>动手玩转Scratch2.0编程 (2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26658602/"]
         helpyoukidswithcomputercoding [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/helpyoukidswithcomputercoding.jpg"/></TD></TR><TR><TD>Help Your Kids<br/>with Computer Coding<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/146541956X/"]
         
         inventgamepython3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython3.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 3rd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1503212300/"]
@@ -347,7 +347,7 @@ digraph {
 
         cocos2dxbyexample2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cocos2dxbyexample2.jpg"/></TD></TR><TR><TD>Cocos2d-X<br/>by Example (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1785288857/"]
 
-        gpalgorithmstechniques [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpalgorithmstechniques.jpg"/></TD></TR><TR><TD>Game Programming<BR/>Algorithms and<BR/>Techniques (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321940156/"]
+        gpalgorithmstechniques [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gpalgorithmstechniques.jpg"/></TD></TR><TR><TD>游戏编程算法与技巧<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26906838/"]
         gameprogrammingpatterns [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gameprogrammingpatterns.jpg"/></TD></TR><TR><TD>游戏编程模式<br/>(2016)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26880704/"]
         gpgoldenrules [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpgoldenrules.jpg"/></TD></TR><TR><TD>Game Programming<br/>Golden Rules (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584503068/"]
         crossplatformgp [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/crossplatformgp.jpg"/></TD></TR><TR><TD>Cross-Platform Game<br/>Programming (2005)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584503793/"]
@@ -507,9 +507,19 @@ digraph {
         realtimeshadows [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/realtimeshadows.jpg"/></TD></TR><TR><TD>实时阴影技术<br/>(2013)</TD></TR></TABLE>> URL="https://book.douban.com/subject/25908680/"]
         rtvolumegraphics [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtvolumegraphics.jpg"/></TD></TR><TR><TD>Real-Time Volume<br/>Graphics (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568812663/"]
         graphicsprogrammingmethods [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/graphicsprogrammingmethods.jpg"/></TD></TR><TR><TD>Graphics Programming<br/>Methods (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584502991/"]
+
+        shaderx [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx.jpg"/></TD></TR><TR><TD>ShaderX (1996)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1556220413/"]
+        shaderx2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx2.jpg"/></TD></TR><TR><TD>ShaderX2 (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1556229887/"]
+        shaderx3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx3.jpg"/></TD></TR><TR><TD>ShaderX3 (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584503572/"]
+        shaderx4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx4.jpg"/></TD></TR><TR><TD>ShaderX4 (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584504250/"]
+        shaderx5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx5.jpg"/></TD></TR><TR><TD>ShaderX5 (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584504994/"]
+        shaderx6 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx6.jpg"/></TD></TR><TR><TD>ShaderX6 (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584505443/"]
+        shaderx7 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/shaderx7.jpg"/></TD></TR><TR><TD>ShaderX7 (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584505982/"]
+ 
         gpugems [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gpugems.jpg"/></TD></TR><TR><TD>GPU精粹<br/>(2006)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1480239/"]
         gpugems2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gpugems2.jpg"/></TD></TR><TR><TD>GPU精粹2<br/>(2007)</TD></TR></TABLE>> URL="https://book.douban.com/subject/2144796/"]
         gpugems3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gpugems3.jpg"/></TD></TR><TR><TD>GPU精粹3<br/>(2010)</TD></TR></TABLE>> URL="https://book.douban.com/subject/4851196/"]
+        
         gpupro [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro.jpg"/></TD></TR><TR><TD>GPU Pro (2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814720/"]
         gpupro2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro2.jpg"/></TD></TR><TR><TD>GPU Pro 2 (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568817185/"]
         gpupro3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro3.jpg"/></TD></TR><TR><TD>GPU Pro 3 (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1439887829/"]
@@ -517,6 +527,8 @@ digraph {
         gpupro5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro5.jpg"/></TD></TR><TR><TD>GPU Pro 5 (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482208636/"]
         gpupro6 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro6.jpg"/></TD></TR><TR><TD>GPU Pro 6 (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482264617/"]
         gpupro7 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpupro7.jpg"/></TD></TR><TR><TD>GPU Pro 7 (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/149874253X/"]
+        
+        gpuzen [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpuzen.jpg"/></TD></TR><TR><TD>GPU Zen (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0998822892/"]
 
         pbrt3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pbrt3.jpg"/></TD></TR><TR><TD>Physically Based<br/>Rendering (PBRT)<br/>3rd Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0128006455/"]
         raytracingfromgroundup [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/raytracingfromgroundup.jpg"/></TD></TR><TR><TD>光线跟踪算法技术<br/>(2011)</TD></TR></TABLE>> URL="https://book.douban.com/subject/6028258/"]
@@ -560,8 +572,10 @@ digraph {
 
         realtimerendering -> rtr3 [arrowhead=normal, style=solid]
         realtimerendering -> tricks3dgpgurus
-        rtr3 -> graphicsprogrammingmethods -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7
-        { rank=same;rtr3; rtvolumegraphics }
+        rtr3 -> graphicsprogrammingmethods -> shaderx -> shaderx2 -> shaderx3 -> shaderx4 -> shaderx5 -> shaderx6 -> shaderx7 -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7 -> gpuzen
+        { rank=same; rtr3; rtvolumegraphics }
+        { rank=same; gpupro; gpupro2; gpupro3; gpupro4 }
+        { rank=same; gpupro5; gpupro6; gpupro7; gpuzen }
         rtr3 -> { realtimeshadows; rtvolumegraphics }
         realtimeshadows -> graphicsprogrammingmethods [style=invis]
         tricks3dgpgurus -> realtimeshadows [style=invis]
@@ -594,7 +608,7 @@ digraph {
         cgtop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         cgbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         cgtop -> cgbegin [style=invis]
-        glassenernotebook2 -> cgbottom [style=invis]
+        gpuzen -> cgbottom [style=invis]
     }
 
     subgraph cluster_audio {
@@ -642,12 +656,14 @@ digraph {
         physicsforgamedevelopers2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/physicsforgamedevelopers2.jpg"/></TD></TR><TR><TD>游戏开发物理学 第2版<br/>(2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26394564/"]
         physicsmodeling [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/physicsmodeling.jpg"/></TD></TR><TR><TD>Physics Modeling<br/>for Game Programmers (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1592000932/"]
 
+        fpbma [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fpbma.jpg"/></TD></TR><TR><TD>Foundations of Physically<br/>Based Modeling and<br/>Animation (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482234602/"]
         gamephysicsenginedev2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/gamephysicsenginedev2.jpg"/></TD></TR><TR><TD>游戏物理引擎开发<br/>(2013)</TD></TR></TABLE>> URL="https://book.douban.com/subject/25821830/"]
         gamephysics2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gamephysics2.jpg"/></TD></TR><TR><TD>Game Physics 2nd Ed (2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123749034/"]
         collisiondetection3denv [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/collisiondetection3denv.jpg"/></TD></TR><TR><TD>Collision Detection<br/>in Interactive 3D<br/>Environments (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/155860801X/"]
         rtcollisiondetection [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/rtcollisiondetection.jpg"/></TD></TR><TR><TD>实时碰撞检测算法技术<br/>(2010)</TD></TR></TABLE>> URL="https://book.douban.com/subject/4861957/"]
         gamephysicspearls [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gamephysicspearls.jpg"/></TD></TR><TR><TD>Game Physics Pearls<br/>(2010)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814747/"]
 
+        fluidenginedev [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fluidenginedev.jpg"/></TD></TR><TR><TD>Fluid Engine Development (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1498719929/"]
         taofluidanimation [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/taofluidanimation.jpg"/></TD></TR><TR><TD>The Art of<br/>Fluid Animation (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1498700209/"]
         fluidsimulationforcg2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fluidsimulationforcg2.jpg"/></TD></TR><TR><TD>Fluid Simulation<br/>for Computer Graphics<br/>2nd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482232839/"]
 
@@ -662,11 +678,11 @@ digraph {
 
         { animbegin; phybegin } -> natureofcode
 
-        phyadvanced -> gamephysicspearls
+        phyadvanced -> fpbma -> gamephysicspearls
         gamephysicspearls -> collisiondetection3denv -> rtcollisiondetection
         gamephysicspearls -> gamephysicsenginedev2 -> gamephysics2
 
-        { animadvanced; phyadvanced } -> fluid -> taofluidanimation -> fluidsimulationforcg2
+        { animadvanced; phyadvanced } -> fluid -> fluidenginedev -> taofluidanimation -> fluidsimulationforcg2
 
         phytop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         phybottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
@@ -704,6 +720,7 @@ digraph {
             rank=same
             gameaipro [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro.jpg"/></TD></TR><TR><TD>Game AI Pro (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1466565969/"]
             gameaipro2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro2.jpg"/></TD></TR><TR><TD>Game AI Pro 2 (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482254794/"]
+            gameaipro3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro3.jpg"/></TD></TR><TR><TD>Game AI Pro 3 (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482254794/"]
         }
 
         aibegin -> aiforgames2 -> aiintermediate -> aima3 [arrowhead=normal, style=solid]
@@ -712,12 +729,12 @@ digraph {
         aima3 -> aimisc
         aimisc -> aigpwisdom 
         aigpwisdom -> aigpwisdom2 -> aigpwisdom3 -> aigpwisdom4
-        aigpwisdom4 -> gameaipro -> gameaipro2
+        aigpwisdom4 -> gameaipro -> gameaipro2 -> gameaipro3
 
         aitop [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         aibottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         aitop -> aibegin [style=invis]
-        gameaipro2 -> aibottom [style=invis]
+        gameaipro3 -> aibottom [style=invis]
     }
 
     subgraph cluster_multiplayer {
