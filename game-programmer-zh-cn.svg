@@ -277,24 +277,23 @@
 <!-- age5 -->
 <g id="node21" class="node">
 <title>age5</title>
-<path fill="#edc5ce" stroke="#edc5ce" stroke-width=".5" d="M221.1076,-13206C221.1076,-13206 183.9845,-13206 183.9845,-13206 177.9845,-13206 171.9845,-13200 171.9845,-13194 171.9845,-13194 171.9845,-13182 171.9845,-13182 171.9845,-13176 177.9845,-13170 183.9845,-13170 183.9845,-13170 221.1076,-13170 221.1076,-13170 227.1076,-13170 233.1076,-13176 233.1076,-13182 233.1076,-13182 233.1076,-13194 233.1076,-13194 233.1076,-13200 227.1076,-13206 221.1076,-13206"/>
-<text text-anchor="middle" x="202.546" y="-13187" font-family="Helvetica-Light" font-size="10.00" fill="#000000">从5岁开始</text>
+<path fill="#edc5ce" stroke="#edc5ce" stroke-width=".5" d="M220.1076,-13206C220.1076,-13206 182.9845,-13206 182.9845,-13206 176.9845,-13206 170.9845,-13200 170.9845,-13194 170.9845,-13194 170.9845,-13182 170.9845,-13182 170.9845,-13176 176.9845,-13170 182.9845,-13170 182.9845,-13170 220.1076,-13170 220.1076,-13170 226.1076,-13170 232.1076,-13176 232.1076,-13182 232.1076,-13182 232.1076,-13194 232.1076,-13194 232.1076,-13200 226.1076,-13206 220.1076,-13206"/>
+<text text-anchor="middle" x="201.546" y="-13187" font-family="Helvetica-Light" font-size="10.00" fill="#000000">从5岁开始</text>
 </g>
 <!-- scratchjr -->
 <g id="node24" class="node">
 <title>scratchjr</title>
-<g id="a_node24"><a xlink:href="https://www.amazon.com/dp/1593276710/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/scratchjr.jpg" width="72.7214px" height="96px" preserveAspectRatio="xMinYMin meet" x="138.185" y="-13141"/>
-<text text-anchor="start" x="149.346" y="-13033" font-family="Helvetica-Light" font-size="10.00" fill="#000000">The Official</text>
-<text text-anchor="start" x="124.526" y="-13023" font-family="Helvetica-Light" font-size="10.00" fill="#000000">ScratchJr Book (2015)</text>
+<g id="a_node24"><a xlink:href="https://book.douban.com/subject/26906848/" xlink:title="&lt;TABLE&gt;">
+<image xlink:href="images/scratchjr.jpg" width="72.7214px" height="96px" preserveAspectRatio="xMinYMin meet" x="122.185" y="-13138"/>
+<text text-anchor="start" x="91.311" y="-13030" font-family="Helvetica-Light" font-size="10.00" fill="#000000">动手玩转ScratchJr编程 (2016)</text>
 </a>
 </g>
 </g>
 <!-- age5&#45;&gt;scratchjr -->
 <g id="edge25" class="edge">
 <title>age5&#45;&gt;scratchjr</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M197.7962,-13169.8489C196.6163,-13165.3398 195.2776,-13160.2244 193.853,-13154.7801"/>
-<polygon fill="#000000" stroke="#000000" points="191.8637,-13147.1782 197.0275,-13153.5795 192.8131,-13150.8061 193.7624,-13154.4339 193.7624,-13154.4339 193.7624,-13154.4339 192.8131,-13150.8061 190.4974,-13155.2883 191.8637,-13147.1782 191.8637,-13147.1782"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M194.2517,-13169.8489C192.0233,-13164.3039 189.4264,-13157.8418 186.6683,-13150.9788"/>
+<polygon fill="#000000" stroke="#000000" points="183.8643,-13144.0013 189.7926,-13149.7019 185.2627,-13147.4809 186.661,-13150.9604 186.661,-13150.9604 186.661,-13150.9604 185.2627,-13147.4809 183.5294,-13152.2189 183.8643,-13144.0013 183.8643,-13144.0013"/>
 </g>
 <!-- age8 -->
 <g id="node22" class="node">
@@ -306,142 +305,138 @@
 <g id="node25" class="node">
 <title>codinggamesinscratch</title>
 <g id="a_node25"><a xlink:href="https://www.amazon.com/dp/1465439358/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/codinggamesinscratch.jpg" width="80.256px" height="96px" preserveAspectRatio="xMinYMin meet" x="263.418" y="-13146"/>
-<text text-anchor="start" x="269.651" y="-13038" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Coding Games</text>
-<text text-anchor="start" x="281.036" y="-13028" font-family="Helvetica-Light" font-size="10.00" fill="#000000">in Scratch</text>
-<text text-anchor="start" x="289.096" y="-13018" font-family="Helvetica-Light" font-size="10.00" fill="#000000">(2015)</text>
+<image xlink:href="images/codinggamesinscratch.jpg" width="80.256px" height="96px" preserveAspectRatio="xMinYMin meet" x="264.418" y="-13146"/>
+<text text-anchor="start" x="270.651" y="-13038" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Coding Games</text>
+<text text-anchor="start" x="282.036" y="-13028" font-family="Helvetica-Light" font-size="10.00" fill="#000000">in Scratch</text>
+<text text-anchor="start" x="290.096" y="-13018" font-family="Helvetica-Light" font-size="10.00" fill="#000000">(2015)</text>
 </a>
 </g>
 </g>
 <!-- age8&#45;&gt;codinggamesinscratch -->
 <g id="edge27" class="edge">
 <title>age8&#45;&gt;codinggamesinscratch</title>
-<path fill="none" stroke="#000000" d="M303.546,-13169.8489C303.546,-13166.7335 303.546,-13163.3287 303.546,-13159.726"/>
-<polygon fill="#000000" stroke="#000000" points="306.1711,-13159.5822 303.546,-13152.0822 300.9211,-13159.5822 306.1711,-13159.5822"/>
+<path fill="none" stroke="#000000" d="M303.7157,-13169.8489C303.7448,-13166.7335 303.7766,-13163.3287 303.8103,-13159.726"/>
+<polygon fill="#000000" stroke="#000000" points="306.4364,-13159.6064 303.8817,-13152.0822 301.1866,-13159.5573 306.4364,-13159.6064"/>
 </g>
 <!-- superscratchprogadv -->
 <g id="node26" class="node">
 <title>superscratchprogadv</title>
-<g id="a_node26"><a xlink:href="https://www.amazon.com/dp/1593275315/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/superscratchprogadv.jpg" width="67.3347px" height="96px" preserveAspectRatio="xMinYMin meet" x="404.879" y="-13146"/>
-<text text-anchor="start" x="406.591" y="-13038" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Super Scratch</text>
-<text text-anchor="start" x="382.331" y="-13028" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Programming Adventure!</text>
-<text text-anchor="start" x="424.096" y="-13018" font-family="Helvetica-Light" font-size="10.00" fill="#000000">(2013)</text>
+<g id="a_node26"><a xlink:href="https://book.douban.com/subject/27072003/" xlink:title="&lt;TABLE&gt;">
+<image xlink:href="images/superscratchprogadv.jpg" width="67.3347px" height="96px" preserveAspectRatio="xMinYMin meet" x="414.879" y="-13138"/>
+<text text-anchor="start" x="390.476" y="-13030" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Scratch超人漫游记 (2017)</text>
 </a>
 </g>
 </g>
 <!-- age8&#45;&gt;superscratchprogadv -->
 <g id="edge30" class="edge">
 <title>age8&#45;&gt;superscratchprogadv</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M334.2384,-13172.9464C343.6253,-13167.8584 353.9006,-13161.7923 366.2865,-13152.7743"/>
-<polygon fill="#000000" stroke="#000000" points="372.5417,-13148.1014 368.553,-13155.2939 369.5374,-13150.3457 366.5331,-13152.59 366.5331,-13152.59 366.5331,-13152.59 369.5374,-13150.3457 364.5133,-13149.8862 372.5417,-13148.1014 372.5417,-13148.1014"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M334.1517,-13172.8424C345.3047,-13166.8594 357.8053,-13159.6005 368.546,-13152 370.3935,-13150.6927 372.2463,-13149.3489 374.0999,-13147.9752"/>
+<polygon fill="#000000" stroke="#000000" points="380.3979,-13143.1981 376.462,-13150.4196 377.4101,-13145.4644 374.4224,-13147.7306 374.4224,-13147.7306 374.4224,-13147.7306 377.4101,-13145.4644 372.3828,-13145.0416 380.3979,-13143.1981 380.3979,-13143.1981"/>
 </g>
 <!-- kidintermediate -->
 <g id="node23" class="node">
 <title>kidintermediate</title>
-<path fill="#edc5ce" stroke="#edc5ce" stroke-width=".5" d="M339.546,-12832C339.546,-12832 267.546,-12832 267.546,-12832 261.546,-12832 255.546,-12826 255.546,-12820 255.546,-12820 255.546,-12808 255.546,-12808 255.546,-12802 261.546,-12796 267.546,-12796 267.546,-12796 339.546,-12796 339.546,-12796 345.546,-12796 351.546,-12802 351.546,-12808 351.546,-12808 351.546,-12820 351.546,-12820 351.546,-12826 345.546,-12832 339.546,-12832"/>
-<text text-anchor="middle" x="303.546" y="-12813" font-family="Helvetica-Light" font-size="10.00" fill="#000000">中级孩童游戏编程</text>
+<path fill="#edc5ce" stroke="#edc5ce" stroke-width=".5" d="M336.546,-12832C336.546,-12832 264.546,-12832 264.546,-12832 258.546,-12832 252.546,-12826 252.546,-12820 252.546,-12820 252.546,-12808 252.546,-12808 252.546,-12802 258.546,-12796 264.546,-12796 264.546,-12796 336.546,-12796 336.546,-12796 342.546,-12796 348.546,-12802 348.546,-12808 348.546,-12808 348.546,-12820 348.546,-12820 348.546,-12826 342.546,-12832 336.546,-12832"/>
+<text text-anchor="middle" x="300.546" y="-12813" font-family="Helvetica-Light" font-size="10.00" fill="#000000">中级孩童游戏编程</text>
 </g>
 <!-- inventgamepython3 -->
 <g id="node29" class="node">
 <title>inventgamepython3</title>
 <g id="a_node29"><a xlink:href="https://www.amazon.com/dp/1503212300/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/inventgamepython3.jpg" width="76.8px" height="96px" preserveAspectRatio="xMinYMin meet" x="132.146" y="-12772"/>
-<text text-anchor="start" x="134.046" y="-12664" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Invent Your Own</text>
-<text text-anchor="start" x="120.536" y="-12654" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Computer Games with</text>
-<text text-anchor="start" x="123.121" y="-12644" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Python 3rd Ed (2015)</text>
+<image xlink:href="images/inventgamepython3.jpg" width="76.8px" height="96px" preserveAspectRatio="xMinYMin meet" x="130.146" y="-12772"/>
+<text text-anchor="start" x="132.046" y="-12664" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Invent Your Own</text>
+<text text-anchor="start" x="118.536" y="-12654" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Computer Games with</text>
+<text text-anchor="start" x="121.121" y="-12644" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Python 3rd Ed (2015)</text>
 </a>
 </g>
 </g>
 <!-- kidintermediate&#45;&gt;inventgamepython3 -->
 <g id="edge33" class="edge">
 <title>kidintermediate&#45;&gt;inventgamepython3</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M267.801,-12795.823C258.5984,-12790.5469 248.9325,-12784.4528 240.546,-12778 239.2084,-12776.9708 237.8712,-12775.9171 236.5362,-12774.8421"/>
-<polygon fill="#000000" stroke="#000000" points="230.7033,-12770.0031 238.6305,-12772.1942 233.5894,-12772.3974 236.4756,-12774.7918 236.4756,-12774.7918 236.4756,-12774.7918 233.5894,-12772.3974 234.3207,-12777.3893 230.7033,-12770.0031 230.7033,-12770.0031"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M264.7695,-12795.8638C255.5671,-12790.5874 245.9093,-12784.4829 237.546,-12778 236.5187,-12777.2036 235.4918,-12776.3923 234.4663,-12775.5677"/>
+<polygon fill="#000000" stroke="#000000" points="228.6137,-12770.7101 236.5403,-12772.9031 231.4993,-12773.1051 234.3848,-12775.5002 234.3848,-12775.5002 234.3848,-12775.5002 231.4993,-12773.1051 232.2293,-12778.0972 228.6137,-12770.7101 228.6137,-12770.7101"/>
 </g>
 <!-- learntoprogramwithminecraft -->
 <g id="node31" class="node">
 <title>learntoprogramwithminecraft</title>
 <g id="a_node31"><a xlink:href="https://www.amazon.com/dp/1593276702/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/learntoprogramwithminecraft.jpg" width="73.2986px" height="96px" preserveAspectRatio="xMinYMin meet" x="266.897" y="-12767"/>
-<text text-anchor="start" x="264.646" y="-12659" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Learn to Program</text>
-<text text-anchor="start" x="256.586" y="-12649" font-family="Helvetica-Light" font-size="10.00" fill="#000000">with Minecraft (2015)</text>
+<image xlink:href="images/learntoprogramwithminecraft.jpg" width="73.2986px" height="96px" preserveAspectRatio="xMinYMin meet" x="263.897" y="-12767"/>
+<text text-anchor="start" x="261.646" y="-12659" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Learn to Program</text>
+<text text-anchor="start" x="253.586" y="-12649" font-family="Helvetica-Light" font-size="10.00" fill="#000000">with Minecraft (2015)</text>
 </a>
 </g>
 </g>
 <!-- kidintermediate&#45;&gt;learntoprogramwithminecraft -->
 <g id="edge35" class="edge">
 <title>kidintermediate&#45;&gt;learntoprogramwithminecraft</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M303.546,-12795.8489C303.546,-12791.3398 303.546,-12786.2244 303.546,-12780.7801"/>
-<polygon fill="#000000" stroke="#000000" points="303.546,-12773.1782 306.9211,-12780.6782 303.5461,-12776.9282 303.5461,-12780.6782 303.5461,-12780.6782 303.5461,-12780.6782 303.5461,-12776.9282 300.1711,-12780.6783 303.546,-12773.1782 303.546,-12773.1782"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M300.546,-12795.8489C300.546,-12791.3398 300.546,-12786.2244 300.546,-12780.7801"/>
+<polygon fill="#000000" stroke="#000000" points="300.546,-12773.1782 303.9211,-12780.6782 300.5461,-12776.9282 300.5461,-12780.6782 300.5461,-12780.6782 300.5461,-12780.6782 300.5461,-12776.9282 297.1711,-12780.6783 300.546,-12773.1782 300.546,-12773.1782"/>
 </g>
 <!-- 3dgpforkids -->
 <g id="node33" class="node">
 <title>3dgpforkids</title>
 <g id="a_node33"><a xlink:href="https://www.amazon.com/dp/1937785440/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/3dgpforkids.jpg" width="80.064px" height="96px" preserveAspectRatio="xMinYMin meet" x="396.014" y="-12767"/>
-<text text-anchor="start" x="383.076" y="-12659" font-family="Helvetica-Light" font-size="10.00" fill="#000000">3D Game Programming</text>
-<text text-anchor="start" x="402.981" y="-12649" font-family="Helvetica-Light" font-size="10.00" fill="#000000">for Kids (2013)</text>
+<image xlink:href="images/3dgpforkids.jpg" width="80.064px" height="96px" preserveAspectRatio="xMinYMin meet" x="393.014" y="-12767"/>
+<text text-anchor="start" x="380.076" y="-12659" font-family="Helvetica-Light" font-size="10.00" fill="#000000">3D Game Programming</text>
+<text text-anchor="start" x="399.981" y="-12649" font-family="Helvetica-Light" font-size="10.00" fill="#000000">for Kids (2013)</text>
 </a>
 </g>
 </g>
 <!-- kidintermediate&#45;&gt;3dgpforkids -->
 <g id="edge37" class="edge">
 <title>kidintermediate&#45;&gt;3dgpforkids</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M339.9368,-12795.9722C349.2849,-12790.6949 359.0842,-12784.5629 367.546,-12778 367.6725,-12777.9019 367.7989,-12777.8036 367.9253,-12777.7051"/>
-<polygon fill="#000000" stroke="#000000" points="373.5977,-12773.1256 369.8822,-12780.4629 370.6799,-12775.4812 367.7621,-12777.8369 367.7621,-12777.8369 367.7621,-12777.8369 370.6799,-12775.4812 365.642,-12775.2109 373.5977,-12773.1256 373.5977,-12773.1256"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M336.9368,-12795.9722C346.2849,-12790.6949 356.0842,-12784.5629 364.546,-12778 364.6725,-12777.9019 364.7989,-12777.8036 364.9253,-12777.7051"/>
+<polygon fill="#000000" stroke="#000000" points="370.5977,-12773.1256 366.8822,-12780.4629 367.6799,-12775.4812 364.7621,-12777.8369 364.7621,-12777.8369 364.7621,-12777.8369 367.6799,-12775.4812 362.642,-12775.2109 370.5977,-12773.1256 370.5977,-12773.1256"/>
 </g>
 <!-- scratchjr&#45;&gt;age8 -->
 <g id="edge26" class="edge">
 <title>scratchjr&#45;&gt;age8</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M234.6341,-13147.1267C236.5954,-13148.8028 238.5681,-13150.4314 240.546,-13152 248.4112,-13158.2378 257.4842,-13164.0804 266.251,-13169.1694"/>
-<polygon fill="#000000" stroke="#000000" points="272.8703,-13172.9082 264.6801,-13172.1583 269.6051,-13171.0639 266.34,-13169.2196 266.34,-13169.2196 266.34,-13169.2196 269.6051,-13171.0639 267.9998,-13166.281 272.8703,-13172.9082 272.8703,-13172.9082"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M230.8153,-13144.1138C234.4001,-13146.8344 237.9884,-13149.4771 241.546,-13152 249.24,-13157.4563 257.8118,-13162.8369 266.0675,-13167.7084"/>
+<polygon fill="#000000" stroke="#000000" points="272.9017,-13171.6713 264.7206,-13170.8287 269.6576,-13169.7902 266.4136,-13167.9091 266.4136,-13167.9091 266.4136,-13167.9091 269.6576,-13169.7902 268.1066,-13164.9894 272.9017,-13171.6713 272.9017,-13171.6713"/>
 </g>
 <!-- helpyoukidswithcomputercoding -->
 <g id="node28" class="node">
 <title>helpyoukidswithcomputercoding</title>
 <g id="a_node28"><a xlink:href="https://www.amazon.com/dp/146541956X/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/helpyoukidswithcomputercoding.jpg" width="80.448px" height="96px" preserveAspectRatio="xMinYMin meet" x="263.322" y="-12986"/>
-<text text-anchor="start" x="270.391" y="-12878" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Help Your Kids</text>
-<text text-anchor="start" x="253.261" y="-12868" font-family="Helvetica-Light" font-size="10.00" fill="#000000">with Computer Coding</text>
-<text text-anchor="start" x="289.096" y="-12858" font-family="Helvetica-Light" font-size="10.00" fill="#000000">(2015)</text>
+<image xlink:href="images/helpyoukidswithcomputercoding.jpg" width="80.448px" height="96px" preserveAspectRatio="xMinYMin meet" x="258.322" y="-12986"/>
+<text text-anchor="start" x="265.391" y="-12878" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Help Your Kids</text>
+<text text-anchor="start" x="248.261" y="-12868" font-family="Helvetica-Light" font-size="10.00" fill="#000000">with Computer Coding</text>
+<text text-anchor="start" x="284.096" y="-12858" font-family="Helvetica-Light" font-size="10.00" fill="#000000">(2015)</text>
 </a>
 </g>
 </g>
 <!-- codinggamesinscratch&#45;&gt;helpyoukidswithcomputercoding -->
 <g id="edge28" class="edge">
 <title>codinggamesinscratch&#45;&gt;helpyoukidswithcomputercoding</title>
-<path fill="none" stroke="#000000" d="M303.546,-13009.8899C303.546,-13006.4641 303.546,-13003.0162 303.546,-12999.5719"/>
-<polygon fill="#000000" stroke="#000000" points="306.1711,-12999.5472 303.546,-12992.0473 300.9211,-12999.5473 306.1711,-12999.5472"/>
+<path fill="none" stroke="#000000" d="M301.8794,-13009.8899C301.7509,-13006.4641 301.6216,-13003.0162 301.4925,-12999.5719"/>
+<polygon fill="#000000" stroke="#000000" points="304.1146,-12999.4436 301.2103,-12992.0473 298.8683,-12999.6404 304.1146,-12999.4436"/>
 </g>
 <!-- learntoprogramwithscratch -->
 <g id="node27" class="node">
 <title>learntoprogramwithscratch</title>
-<g id="a_node27"><a xlink:href="https://www.amazon.com/dp/1593275439/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/learntoprogramwithscratch.jpg" width="72.7214px" height="96px" preserveAspectRatio="xMinYMin meet" x="399.185" y="-12986"/>
-<text text-anchor="start" x="396.646" y="-12878" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Learn to Program</text>
-<text text-anchor="start" x="406.646" y="-12868" font-family="Helvetica-Light" font-size="10.00" fill="#000000"> with Scratch</text>
-<text text-anchor="start" x="421.096" y="-12858" font-family="Helvetica-Light" font-size="10.00" fill="#000000">(2014)</text>
+<g id="a_node27"><a xlink:href="https://book.douban.com/subject/26658602/" xlink:title="&lt;TABLE&gt;">
+<image xlink:href="images/learntoprogramwithscratch.jpg" width="72.7214px" height="96px" preserveAspectRatio="xMinYMin meet" x="413.185" y="-12978"/>
+<text text-anchor="start" x="379.526" y="-12870" font-family="Helvetica-Light" font-size="10.00" fill="#000000">动手玩转Scratch2.0编程 (2015)</text>
 </a>
 </g>
 </g>
 <!-- superscratchprogadv&#45;&gt;learntoprogramwithscratch -->
 <g id="edge31" class="edge">
 <title>superscratchprogadv&#45;&gt;learntoprogramwithscratch</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M437.2127,-13009.8899C437.1485,-13006.4641 437.0838,-13003.0162 437.0192,-12999.5719"/>
-<polygon fill="#000000" stroke="#000000" points="436.8782,-12992.0473 440.3933,-12999.4827 436.9485,-12995.7966 437.0189,-12999.546 437.0189,-12999.546 437.0189,-12999.546 436.9485,-12995.7966 433.6444,-12999.6093 436.8782,-12992.0473 436.8782,-12992.0473"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M448.9412,-13017.7638C448.9949,-13009.1838 449.0502,-13000.3344 449.1046,-12991.6348"/>
+<polygon fill="#000000" stroke="#000000" points="449.152,-12984.0389 452.48,-12991.5598 449.1285,-12987.7888 449.1051,-12991.5387 449.1051,-12991.5387 449.1051,-12991.5387 449.1285,-12987.7888 445.7301,-12991.5176 449.152,-12984.0389 449.152,-12984.0389"/>
 </g>
 <!-- learntoprogramwithscratch&#45;&gt;kidintermediate -->
 <g id="edge32" class="edge">
 <title>learntoprogramwithscratch&#45;&gt;kidintermediate</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M377.4677,-12856.498C374.8491,-12854.2413 372.2038,-12852.0653 369.546,-12850 363.0757,-12844.972 355.8096,-12840.245 348.5271,-12835.9738"/>
-<polygon fill="#000000" stroke="#000000" points="341.8568,-12832.1838 350.045,-12832.9546 345.1172,-12834.0364 348.3777,-12835.889 348.3777,-12835.889 348.3777,-12835.889 345.1172,-12834.0364 346.7104,-12838.8234 341.8568,-12832.1838 341.8568,-12832.1838"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M375.526,-12857.8594C371.8573,-12855.146 368.1856,-12852.5122 364.546,-12850 357.5575,-12845.1763 349.873,-12840.4256 342.3276,-12836.0364"/>
+<polygon fill="#000000" stroke="#000000" points="335.4613,-12832.1155 343.6479,-12832.9039 338.7178,-12833.9751 341.9743,-12835.8347 341.9743,-12835.8347 341.9743,-12835.8347 338.7178,-12833.9751 340.3006,-12838.7655 335.4613,-12832.1155 335.4613,-12832.1155"/>
 </g>
 <!-- helpyoukidswithcomputercoding&#45;&gt;kidintermediate -->
 <g id="edge29" class="edge">
 <title>helpyoukidswithcomputercoding&#45;&gt;kidintermediate</title>
-<path fill="none" stroke="#000000" d="M303.546,-12849.9271C303.546,-12846.3808 303.546,-12842.9503 303.546,-12839.7083"/>
-<polygon fill="#000000" stroke="#000000" points="306.1711,-12839.5792 303.546,-12832.0792 300.9211,-12839.5792 306.1711,-12839.5792"/>
+<path fill="none" stroke="#000000" d="M299.8745,-12849.9271C299.9408,-12846.3808 300.0049,-12842.9503 300.0655,-12839.7083"/>
+<polygon fill="#000000" stroke="#000000" points="302.6924,-12839.627 300.2081,-12832.0792 297.4433,-12839.5288 302.6924,-12839.627"/>
 </g>
 <!-- makinggamespython -->
 <g id="node30" class="node">
@@ -456,8 +451,8 @@
 <!-- inventgamepython3&#45;&gt;makinggamespython -->
 <g id="edge34" class="edge">
 <title>inventgamepython3&#45;&gt;makinggamespython</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M168.7333,-12635.8498C168.6325,-12631.8945 168.5311,-12627.9142 168.4301,-12623.9494"/>
-<polygon fill="#000000" stroke="#000000" points="168.2366,-12616.3546 171.8016,-12623.7661 168.3321,-12620.1034 168.4277,-12623.8521 168.4277,-12623.8521 168.4277,-12623.8521 168.3321,-12620.1034 165.0538,-12623.9381 168.2366,-12616.3546 168.2366,-12616.3546"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M167.6396,-12635.8498C167.5893,-12631.8945 167.5386,-12627.9142 167.488,-12623.9494"/>
+<polygon fill="#000000" stroke="#000000" points="167.3913,-12616.3546 170.8617,-12623.8109 167.4391,-12620.1043 167.4869,-12623.854 167.4869,-12623.854 167.4869,-12623.854 167.4391,-12620.1043 164.1122,-12623.897 167.3913,-12616.3546 167.3913,-12616.3546"/>
 </g>
 <!-- adventuresinminecraft -->
 <g id="node32" class="node">
@@ -472,8 +467,8 @@
 <!-- learntoprogramwithminecraft&#45;&gt;adventuresinminecraft -->
 <g id="edge36" class="edge">
 <title>learntoprogramwithminecraft&#45;&gt;adventuresinminecraft</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M303.546,-12640.8729C303.546,-12635.9233 303.546,-12630.9064 303.546,-12625.9035"/>
-<polygon fill="#000000" stroke="#000000" points="303.546,-12618.0652 306.9211,-12625.5652 303.5461,-12621.8152 303.5461,-12625.5652 303.5461,-12625.5652 303.5461,-12625.5652 303.5461,-12621.8152 300.1711,-12625.5653 303.546,-12618.0652 303.546,-12618.0652"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M301.8096,-12640.8729C301.9042,-12635.9233 302,-12630.9064 302.0956,-12625.9035"/>
+<polygon fill="#000000" stroke="#000000" points="302.2454,-12618.0652 305.4764,-12625.6284 302.1737,-12621.8145 302.102,-12625.5638 302.102,-12625.5638 302.102,-12625.5638 302.1737,-12621.8145 298.7276,-12625.4993 302.2454,-12618.0652 302.2454,-12618.0652"/>
 </g>
 <!-- kidbottom -->
 <!-- adventuresinminecraft&#45;&gt;kidbottom -->
@@ -2188,8 +2183,8 @@
 <!-- gearticles -->
 <g id="node153" class="node">
 <title>gearticles</title>
-<path fill="#c5ede1" stroke="#c5ede1" stroke-width=".5" d="M113.546,-6872C113.546,-6872 61.546,-6872 61.546,-6872 55.546,-6872 49.546,-6866 49.546,-6860 49.546,-6860 49.546,-6848 49.546,-6848 49.546,-6842 55.546,-6836 61.546,-6836 61.546,-6836 113.546,-6836 113.546,-6836 119.546,-6836 125.546,-6842 125.546,-6848 125.546,-6848 125.546,-6860 125.546,-6860 125.546,-6866 119.546,-6872 113.546,-6872"/>
-<text text-anchor="middle" x="87.546" y="-6853" font-family="Helvetica-Light" font-size="10.00" fill="#000000">游戏引擎文选</text>
+<path fill="#c5ede1" stroke="#c5ede1" stroke-width=".5" d="M149.546,-6872C149.546,-6872 97.546,-6872 97.546,-6872 91.546,-6872 85.546,-6866 85.546,-6860 85.546,-6860 85.546,-6848 85.546,-6848 85.546,-6842 91.546,-6836 97.546,-6836 97.546,-6836 149.546,-6836 149.546,-6836 155.546,-6836 161.546,-6842 161.546,-6848 161.546,-6848 161.546,-6860 161.546,-6860 161.546,-6866 155.546,-6872 149.546,-6872"/>
+<text text-anchor="middle" x="123.546" y="-6853" font-family="Helvetica-Light" font-size="10.00" fill="#000000">游戏引擎文选</text>
 </g>
 <!-- gameenginegems1 -->
 <g id="node160" class="node">
@@ -2204,14 +2199,14 @@
 <!-- gearticles&#45;&gt;gameenginegems1 -->
 <g id="edge175" class="edge">
 <title>gearticles&#45;&gt;gameenginegems1</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M85.1074,-6835.8846C84.6055,-6832.1564 84.0482,-6828.0165 83.4573,-6823.6265"/>
-<polygon fill="#000000" stroke="#000000" points="82.4347,-6816.0306 86.7803,-6823.0132 82.9351,-6819.747 83.4354,-6823.4635 83.4354,-6823.4635 83.4354,-6823.4635 82.9351,-6819.747 80.0906,-6823.9138 82.4347,-6816.0306 82.4347,-6816.0306"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M114.8367,-6835.8846C112.9568,-6831.9745 110.8593,-6827.6117 108.6336,-6822.9823"/>
+<polygon fill="#000000" stroke="#000000" points="105.2915,-6816.0306 111.583,-6821.3276 106.9164,-6819.4103 108.5412,-6822.79 108.5412,-6822.79 108.5412,-6822.79 106.9164,-6819.4103 105.4995,-6824.2524 105.2915,-6816.0306 105.2915,-6816.0306"/>
 </g>
 <!-- gescript -->
 <g id="node154" class="node">
 <title>gescript</title>
-<path fill="#c5ede1" stroke="#c5ede1" stroke-width=".5" d="M235.546,-6872C235.546,-6872 203.546,-6872 203.546,-6872 197.546,-6872 191.546,-6866 191.546,-6860 191.546,-6860 191.546,-6848 191.546,-6848 191.546,-6842 197.546,-6836 203.546,-6836 203.546,-6836 235.546,-6836 235.546,-6836 241.546,-6836 247.546,-6842 247.546,-6848 247.546,-6848 247.546,-6860 247.546,-6860 247.546,-6866 241.546,-6872 235.546,-6872"/>
-<text text-anchor="middle" x="219.546" y="-6853" font-family="Helvetica-Light" font-size="10.00" fill="#000000">脚本引擎</text>
+<path fill="#c5ede1" stroke="#c5ede1" stroke-width=".5" d="M247.546,-6872C247.546,-6872 215.546,-6872 215.546,-6872 209.546,-6872 203.546,-6866 203.546,-6860 203.546,-6860 203.546,-6848 203.546,-6848 203.546,-6842 209.546,-6836 215.546,-6836 215.546,-6836 247.546,-6836 247.546,-6836 253.546,-6836 259.546,-6842 259.546,-6848 259.546,-6848 259.546,-6860 259.546,-6860 259.546,-6866 253.546,-6872 247.546,-6872"/>
+<text text-anchor="middle" x="231.546" y="-6853" font-family="Helvetica-Light" font-size="10.00" fill="#000000">脚本引擎</text>
 </g>
 <!-- gamescriptingmastery -->
 <g id="node163" class="node">
@@ -2226,14 +2221,14 @@
 <!-- gescript&#45;&gt;gamescriptingmastery -->
 <g id="edge178" class="edge">
 <title>gescript&#45;&gt;gamescriptingmastery</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M216.2365,-6835.8846C215.6683,-6832.7747 215.0478,-6829.3784 214.3922,-6825.7894"/>
-<polygon fill="#000000" stroke="#000000" points="213.0023,-6818.1818 217.6703,-6824.9531 213.6763,-6821.8707 214.3503,-6825.5597 214.3503,-6825.5597 214.3503,-6825.5597 213.6763,-6821.8707 211.0302,-6826.1663 213.0023,-6818.1818 213.0023,-6818.1818"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M226.1462,-6835.8846C225.1949,-6832.6929 224.1536,-6829.1995 223.0525,-6825.5057"/>
+<polygon fill="#000000" stroke="#000000" points="220.8694,-6818.1818 226.2463,-6824.4052 221.9407,-6821.7756 223.0119,-6825.3693 223.0119,-6825.3693 223.0119,-6825.3693 221.9407,-6821.7756 219.7776,-6826.3334 220.8694,-6818.1818 220.8694,-6818.1818"/>
 </g>
 <!-- geoptimization -->
 <g id="node155" class="node">
 <title>geoptimization</title>
-<path fill="#c5ede1" stroke="#c5ede1" stroke-width=".5" d="M328.546,-6872C328.546,-6872 298.546,-6872 298.546,-6872 292.546,-6872 286.546,-6866 286.546,-6860 286.546,-6860 286.546,-6848 286.546,-6848 286.546,-6842 292.546,-6836 298.546,-6836 298.546,-6836 328.546,-6836 328.546,-6836 334.546,-6836 340.546,-6842 340.546,-6848 340.546,-6848 340.546,-6860 340.546,-6860 340.546,-6866 334.546,-6872 328.546,-6872"/>
-<text text-anchor="middle" x="313.546" y="-6853" font-family="Helvetica-Light" font-size="10.00" fill="#000000">优化</text>
+<path fill="#c5ede1" stroke="#c5ede1" stroke-width=".5" d="M318.546,-6872C318.546,-6872 288.546,-6872 288.546,-6872 282.546,-6872 276.546,-6866 276.546,-6860 276.546,-6860 276.546,-6848 276.546,-6848 276.546,-6842 282.546,-6836 288.546,-6836 288.546,-6836 318.546,-6836 318.546,-6836 324.546,-6836 330.546,-6842 330.546,-6848 330.546,-6848 330.546,-6860 330.546,-6860 330.546,-6866 324.546,-6872 318.546,-6872"/>
+<text text-anchor="middle" x="303.546" y="-6853" font-family="Helvetica-Light" font-size="10.00" fill="#000000">优化</text>
 </g>
 <!-- videogameoptimization -->
 <g id="node167" class="node">
@@ -2248,14 +2243,14 @@
 <!-- geoptimization&#45;&gt;videogameoptimization -->
 <g id="edge181" class="edge">
 <title>geoptimization&#45;&gt;videogameoptimization</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M315.9846,-6835.8846C316.4865,-6832.1564 317.0438,-6828.0165 317.6348,-6823.6265"/>
-<polygon fill="#000000" stroke="#000000" points="318.6573,-6816.0306 321.0014,-6823.9138 318.157,-6819.747 317.6566,-6823.4635 317.6566,-6823.4635 317.6566,-6823.4635 318.157,-6819.747 314.3118,-6823.0132 318.6573,-6816.0306 318.6573,-6816.0306"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M307.7265,-6835.8846C308.5869,-6832.1564 309.5422,-6828.0165 310.5553,-6823.6265"/>
+<polygon fill="#000000" stroke="#000000" points="312.3082,-6816.0306 313.9102,-6824.0974 311.4649,-6819.6845 310.6217,-6823.3385 310.6217,-6823.3385 310.6217,-6823.3385 311.4649,-6819.6845 307.3331,-6822.5796 312.3082,-6816.0306 312.3082,-6816.0306"/>
 </g>
 <!-- getool -->
 <g id="node156" class="node">
 <title>getool</title>
-<path fill="#c5ede1" stroke="#c5ede1" stroke-width=".5" d="M425.546,-6872C425.546,-6872 393.546,-6872 393.546,-6872 387.546,-6872 381.546,-6866 381.546,-6860 381.546,-6860 381.546,-6848 381.546,-6848 381.546,-6842 387.546,-6836 393.546,-6836 393.546,-6836 425.546,-6836 425.546,-6836 431.546,-6836 437.546,-6842 437.546,-6848 437.546,-6848 437.546,-6860 437.546,-6860 437.546,-6866 431.546,-6872 425.546,-6872"/>
-<text text-anchor="middle" x="409.546" y="-6853" font-family="Helvetica-Light" font-size="10.00" fill="#000000">工具开发</text>
+<path fill="#c5ede1" stroke="#c5ede1" stroke-width=".5" d="M439.546,-6872C439.546,-6872 407.546,-6872 407.546,-6872 401.546,-6872 395.546,-6866 395.546,-6860 395.546,-6860 395.546,-6848 395.546,-6848 395.546,-6842 401.546,-6836 407.546,-6836 407.546,-6836 439.546,-6836 439.546,-6836 445.546,-6836 451.546,-6842 451.546,-6848 451.546,-6848 451.546,-6860 451.546,-6860 451.546,-6866 445.546,-6872 439.546,-6872"/>
+<text text-anchor="middle" x="423.546" y="-6853" font-family="Helvetica-Light" font-size="10.00" fill="#000000">工具开发</text>
 </g>
 <!-- gamedevtools -->
 <g id="node172" class="node">
@@ -2270,32 +2265,32 @@
 <!-- getool&#45;&gt;gamedevtools -->
 <g id="edge187" class="edge">
 <title>getool&#45;&gt;gamedevtools</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M418.2554,-6835.8846C420.1352,-6831.9745 422.2327,-6827.6117 424.4584,-6822.9823"/>
-<polygon fill="#000000" stroke="#000000" points="427.8006,-6816.0306 427.5925,-6824.2524 426.1757,-6819.4103 424.5508,-6822.79 424.5508,-6822.79 424.5508,-6822.79 426.1757,-6819.4103 421.5091,-6821.3276 427.8006,-6816.0306 427.8006,-6816.0306"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M429.8167,-6835.8846C431.1388,-6832.0654 432.6103,-6827.8143 434.1713,-6823.3048"/>
+<polygon fill="#000000" stroke="#000000" points="436.6893,-6816.0306 437.4252,-6824.222 435.4626,-6819.5743 434.2359,-6823.118 434.2359,-6823.118 434.2359,-6823.118 435.4626,-6819.5743 431.0466,-6822.0139 436.6893,-6816.0306 436.6893,-6816.0306"/>
 </g>
 <!-- gameenginearchitecture2&#45;&gt;gearticles -->
 <g id="edge169" class="edge">
 <title>gameenginearchitecture2&#45;&gt;gearticles</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M221.4186,-6928.6061C190.7921,-6911.5382 154.041,-6891.0571 126.7996,-6875.8757"/>
-<polygon fill="#000000" stroke="#000000" points="120.0882,-6872.1355 128.2825,-6872.8384 123.3639,-6873.961 126.6395,-6875.7865 126.6395,-6875.7865 126.6395,-6875.7865 123.3639,-6873.961 124.9966,-6878.7346 120.0882,-6872.1355 120.0882,-6872.1355"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M221.4574,-6921.1571C199.354,-6905.9965 174.9644,-6889.2677 156.0567,-6876.299"/>
+<polygon fill="#000000" stroke="#000000" points="149.8659,-6872.0528 157.9599,-6873.5118 152.9584,-6874.1739 156.0509,-6876.295 156.0509,-6876.295 156.0509,-6876.295 152.9584,-6874.1739 154.1419,-6879.0783 149.8659,-6872.0528 149.8659,-6872.0528"/>
 </g>
 <!-- gameenginearchitecture2&#45;&gt;gescript -->
 <g id="edge170" class="edge">
 <title>gameenginearchitecture2&#45;&gt;gescript</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M241.3771,-6892.9321C238.5864,-6887.9553 235.8977,-6883.1605 233.4182,-6878.7387"/>
-<polygon fill="#000000" stroke="#000000" points="229.7093,-6872.1246 236.3214,-6877.0156 231.5435,-6875.3955 233.3776,-6878.6663 233.3776,-6878.6663 233.3776,-6878.6663 231.5435,-6875.3955 230.4339,-6880.3171 229.7093,-6872.1246 229.7093,-6872.1246"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M249.0109,-6892.9321C246.8314,-6888.0738 244.7298,-6883.3889 242.7857,-6879.0551"/>
+<polygon fill="#000000" stroke="#000000" points="239.6767,-6872.1246 245.8258,-6877.5862 241.2116,-6875.5461 242.7465,-6878.9676 242.7465,-6878.9676 242.7465,-6878.9676 241.2116,-6875.5461 239.6671,-6880.349 239.6767,-6872.1246 239.6767,-6872.1246"/>
 </g>
 <!-- gameenginearchitecture2&#45;&gt;geoptimization -->
 <g id="edge171" class="edge">
 <title>gameenginearchitecture2&#45;&gt;geoptimization</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M301.1751,-6892.9321C302.6812,-6888.1923 304.1348,-6883.6175 305.4836,-6879.3729"/>
-<polygon fill="#000000" stroke="#000000" points="307.7868,-6872.1246 308.732,-6880.2945 306.6511,-6875.6985 305.5155,-6879.2724 305.5155,-6879.2724 305.5155,-6879.2724 306.6511,-6875.6985 302.2989,-6878.2503 307.7868,-6872.1246 307.7868,-6872.1246"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M294.8136,-6892.9321C295.8501,-6888.3108 296.8515,-6883.8464 297.7834,-6879.6918"/>
+<polygon fill="#000000" stroke="#000000" points="299.4807,-6872.1246 301.1323,-6880.1815 298.6599,-6875.7837 297.8392,-6879.4428 297.8392,-6879.4428 297.8392,-6879.4428 298.6599,-6875.7837 294.546,-6878.7041 299.4807,-6872.1246 299.4807,-6872.1246"/>
 </g>
 <!-- gameenginearchitecture2&#45;&gt;getool -->
 <g id="edge172" class="edge">
 <title>gameenginearchitecture2&#45;&gt;getool</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M337.7179,-6894.8036C339.6477,-6893.1479 341.5922,-6891.5424 343.546,-6890 352.9581,-6882.5696 364.1152,-6875.8358 374.5526,-6870.2556"/>
-<polygon fill="#000000" stroke="#000000" points="381.2819,-6866.7594 376.1825,-6873.2121 377.9542,-6868.4883 374.6265,-6870.2172 374.6265,-6870.2172 374.6265,-6870.2172 377.9542,-6868.4883 373.0705,-6867.2223 381.2819,-6866.7594 381.2819,-6866.7594"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M337.5649,-6894.602C339.5393,-6893.0051 341.5347,-6891.4666 343.546,-6890 357.0829,-6880.1294 373.7571,-6872.0947 388.373,-6866.1405"/>
+<polygon fill="#000000" stroke="#000000" points="395.3601,-6863.3857 389.6207,-6869.2765 391.8714,-6864.7612 388.3828,-6866.1367 388.3828,-6866.1367 388.3828,-6866.1367 391.8714,-6864.7612 387.1448,-6862.9969 395.3601,-6863.3857 395.3601,-6863.3857"/>
 </g>
 <!-- 3dgameenginearchitecture -->
 <g id="node158" class="node">
@@ -3596,34 +3591,34 @@
 <g id="node247" class="node">
 <title>gameaudioprogramming</title>
 <g id="a_node247"><a xlink:href="https://www.amazon.com/dp/149874673X/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gameaudioprogramming.jpg" width="63.6794px" height="96px" preserveAspectRatio="xMinYMin meet" x="198.706" y="-3101"/>
-<text text-anchor="start" x="202.481" y="-2993" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Game Audio</text>
-<text text-anchor="start" x="184.521" y="-2983" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Programming (2016)</text>
+<image xlink:href="images/gameaudioprogramming.jpg" width="63.6794px" height="96px" preserveAspectRatio="xMinYMin meet" x="197.706" y="-3101"/>
+<text text-anchor="start" x="201.481" y="-2993" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Game Audio</text>
+<text text-anchor="start" x="183.521" y="-2983" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Programming (2016)</text>
 </a>
 </g>
 </g>
 <!-- audiobegin&#45;&gt;gameaudioprogramming -->
 <g id="edge272" class="edge">
 <title>audiobegin&#45;&gt;gameaudioprogramming</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M291.1626,-3129.8489C287.8765,-3125.0324 284.1185,-3119.524 280.1191,-3113.662"/>
-<polygon fill="#000000" stroke="#000000" points="275.6956,-3107.1782 282.7105,-3111.4716 277.8091,-3110.276 279.9225,-3113.3737 279.9225,-3113.3737 279.9225,-3113.3737 277.8091,-3110.276 277.1345,-3115.2758 275.6956,-3107.1782 275.6956,-3107.1782"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M290.9929,-3129.8489C287.6619,-3125.0324 283.8523,-3119.524 279.7982,-3113.662"/>
+<polygon fill="#000000" stroke="#000000" points="275.3141,-3107.1782 282.3561,-3111.427 277.4472,-3110.2625 279.5802,-3113.3467 279.5802,-3113.3467 279.5802,-3113.3467 277.4472,-3110.2625 276.8044,-3115.2665 275.3141,-3107.1782 275.3141,-3107.1782"/>
 </g>
 <!-- gettingstartedcppaudio -->
 <g id="node248" class="node">
 <title>gettingstartedcppaudio</title>
 <g id="a_node248"><a xlink:href="https://www.amazon.com/dp/1849699097/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/gettingstartedcppaudio.jpg" width="77.952px" height="96px" preserveAspectRatio="xMinYMin meet" x="339.07" y="-3106"/>
-<text text-anchor="start" x="344.056" y="-2998" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Getting Started</text>
-<text text-anchor="start" x="311.531" y="-2988" font-family="Helvetica-Light" font-size="10.00" fill="#000000">with C++ Audio Programming</text>
-<text text-anchor="start" x="310.246" y="-2978" font-family="Helvetica-Light" font-size="10.00" fill="#000000">for Game Development (2013)</text>
+<image xlink:href="images/gettingstartedcppaudio.jpg" width="77.952px" height="96px" preserveAspectRatio="xMinYMin meet" x="338.07" y="-3106"/>
+<text text-anchor="start" x="343.056" y="-2998" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Getting Started</text>
+<text text-anchor="start" x="310.531" y="-2988" font-family="Helvetica-Light" font-size="10.00" fill="#000000">with C++ Audio Programming</text>
+<text text-anchor="start" x="309.246" y="-2978" font-family="Helvetica-Light" font-size="10.00" fill="#000000">for Game Development (2013)</text>
 </a>
 </g>
 </g>
 <!-- audiobegin&#45;&gt;gettingstartedcppaudio -->
 <g id="edge273" class="edge">
 <title>audiobegin&#45;&gt;gettingstartedcppaudio</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M316.0991,-3129.8489C318.5372,-3126.3236 321.2315,-3122.4277 324.0905,-3118.2938"/>
-<polygon fill="#000000" stroke="#000000" points="328.3864,-3112.0822 326.8961,-3120.1705 326.2533,-3115.1665 324.1202,-3118.2507 324.1202,-3118.2507 324.1202,-3118.2507 326.2533,-3115.1665 321.3444,-3116.331 328.3864,-3112.0822 328.3864,-3112.0822"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M315.9295,-3129.8489C318.3346,-3126.3236 320.9925,-3122.4277 323.8129,-3118.2938"/>
+<polygon fill="#000000" stroke="#000000" points="328.0507,-3112.0822 326.6118,-3120.1798 325.9373,-3115.1799 323.8238,-3118.2777 323.8238,-3118.2777 323.8238,-3118.2777 325.9373,-3115.1799 321.0358,-3116.3756 328.0507,-3112.0822 328.0507,-3112.0822"/>
 </g>
 <!-- audiobottom -->
 <!-- gameaudioprogramming&#45;&gt;audiobottom -->
@@ -4312,24 +4307,24 @@
 <!-- multiplayermisc -->
 <g id="node296" class="node">
 <title>multiplayermisc</title>
-<path fill="#edc5d7" stroke="#edc5d7" stroke-width=".5" d="M147.546,-658C147.546,-658 75.546,-658 75.546,-658 69.546,-658 63.546,-652 63.546,-646 63.546,-646 63.546,-634 63.546,-634 63.546,-628 69.546,-622 75.546,-622 75.546,-622 147.546,-622 147.546,-622 153.546,-622 159.546,-628 159.546,-634 159.546,-634 159.546,-646 159.546,-646 159.546,-652 153.546,-658 147.546,-658"/>
-<text text-anchor="middle" x="111.546" y="-639" font-family="Helvetica-Light" font-size="10.00" fill="#000000">多人游戏编程文选</text>
+<path fill="#edc5d7" stroke="#edc5d7" stroke-width=".5" d="M149.546,-658C149.546,-658 77.546,-658 77.546,-658 71.546,-658 65.546,-652 65.546,-646 65.546,-646 65.546,-634 65.546,-634 65.546,-628 71.546,-622 77.546,-622 77.546,-622 149.546,-622 149.546,-622 155.546,-622 161.546,-628 161.546,-634 161.546,-634 161.546,-646 161.546,-646 161.546,-652 155.546,-658 149.546,-658"/>
+<text text-anchor="middle" x="113.546" y="-639" font-family="Helvetica-Light" font-size="10.00" fill="#000000">多人游戏编程文选</text>
 </g>
 <!-- massivelymultiplayergd -->
 <g id="node301" class="node">
 <title>massivelymultiplayergd</title>
 <g id="a_node301"><a xlink:href="https://book.douban.com/subject/1940567/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="./images-zh-cn/massivelymultiplayergd.jpg" width="69.1469px" height="96px" preserveAspectRatio="xMinYMin meet" x="44.9726" y="-591"/>
-<text text-anchor="start" x="29.546" y="-483" font-family="Helvetica-Light" font-size="10.00" fill="#000000">大型多人在线游戏开发</text>
-<text text-anchor="start" x="65.096" y="-473" font-family="Helvetica-Light" font-size="10.00" fill="#000000">(2006)</text>
+<image xlink:href="./images-zh-cn/massivelymultiplayergd.jpg" width="69.1469px" height="96px" preserveAspectRatio="xMinYMin meet" x="48.9726" y="-591"/>
+<text text-anchor="start" x="33.546" y="-483" font-family="Helvetica-Light" font-size="10.00" fill="#000000">大型多人在线游戏开发</text>
+<text text-anchor="start" x="69.096" y="-473" font-family="Helvetica-Light" font-size="10.00" fill="#000000">(2006)</text>
 </a>
 </g>
 </g>
 <!-- multiplayermisc&#45;&gt;massivelymultiplayergd -->
 <g id="edge343" class="edge">
 <title>multiplayermisc&#45;&gt;massivelymultiplayergd</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M106.2619,-621.6706C104.8073,-616.6252 103.1341,-610.8213 101.3495,-604.6308"/>
-<polygon fill="#000000" stroke="#000000" points="99.2097,-597.2086 104.5303,-603.4801 100.2486,-600.8118 101.2874,-604.4151 101.2874,-604.4151 101.2874,-604.4151 100.2486,-600.8118 98.0444,-605.35 99.2097,-597.2086 99.2097,-597.2086"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M108.5921,-621.6706C107.2285,-616.6252 105.6599,-610.8213 103.9868,-604.6308"/>
+<polygon fill="#000000" stroke="#000000" points="101.9808,-597.2086 107.1958,-603.5682 102.9592,-600.8287 103.9377,-604.4488 103.9377,-604.4488 103.9377,-604.4488 102.9592,-600.8287 100.6796,-605.3294 101.9808,-597.2086 101.9808,-597.2086"/>
 </g>
 <!-- serverprog -->
 <g id="node297" class="node">
@@ -4402,8 +4397,8 @@
 <!-- multiplayergp&#45;&gt;multiplayermisc -->
 <g id="edge333" class="edge">
 <title>multiplayergp&#45;&gt;multiplayermisc</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M245.4186,-711.1198C215.3008,-695.1197 179.2603,-675.9732 152.1649,-661.5788"/>
-<polygon fill="#000000" stroke="#000000" points="145.478,-658.0264 153.6848,-658.5646 148.7897,-659.7857 152.1014,-661.5451 152.1014,-661.5451 152.1014,-661.5451 148.7897,-659.7857 150.518,-664.5256 145.478,-658.0264 145.478,-658.0264"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M245.5074,-710.8424C215.9544,-694.9771 180.7477,-676.0767 154.1351,-661.7899"/>
+<polygon fill="#000000" stroke="#000000" points="147.2167,-658.0758 155.4211,-658.6497 150.5207,-659.8496 153.8247,-661.6233 153.8247,-661.6233 153.8247,-661.6233 150.5207,-659.8496 152.2283,-664.597 147.2167,-658.0758 147.2167,-658.0758"/>
 </g>
 <!-- multiplayergp&#45;&gt;serverprog -->
 <g id="edge330" class="edge">
@@ -4437,8 +4432,8 @@
 <!-- massivelymultiplayergd&#45;&gt;massivelymultiplayergd2 -->
 <g id="edge344" class="edge">
 <title>massivelymultiplayergd&#45;&gt;massivelymultiplayergd2</title>
-<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M77.5123,-460.668C77.3058,-453.7298 77.0949,-446.6438 76.8856,-439.6085"/>
-<polygon fill="#000000" stroke="#000000" points="76.6592,-432.0036 80.2559,-439.3999 76.7708,-435.752 76.8824,-439.5003 76.8824,-439.5003 76.8824,-439.5003 76.7708,-435.752 73.5089,-439.6007 76.6592,-432.0036 76.6592,-432.0036"/>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M79.8854,-460.668C79.5137,-453.7298 79.1341,-446.6438 78.7572,-439.6085"/>
+<polygon fill="#000000" stroke="#000000" points="78.3498,-432.0036 82.1213,-439.3123 78.5504,-435.7482 78.7511,-439.4929 78.7511,-439.4929 78.7511,-439.4929 78.5504,-435.7482 75.3809,-439.6735 78.3498,-432.0036 78.3498,-432.0036"/>
 </g>
 <!-- advancedprogunixenv3 -->
 <g id="node304" class="node">
