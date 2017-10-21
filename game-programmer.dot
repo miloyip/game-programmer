@@ -131,9 +131,9 @@ digraph {
             csmath [label="Mathematics for CS"]
         }
 
-        sicp2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/sicp2.jpg"/></TD></TR><TR><TD>Structure and Interpretation<br/>of Computer Programs<br/>(SICP) 2nd Ed (1996)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0133001482/"]
-        csapp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/csapp3.jpg"/></TD></TR><TR><TD>Computer Systems<br/>(CSAPP) 3rd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0133001482/"]
-        caaqa5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/caaqa5.jpg"/></TD></TR><TR><TD>Computer Architecture<br/>(CAAQA) 5th Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0123838738/"]
+        sicp2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/sicp2.jpg"/></TD></TR><TR><TD>Structure and Interpretation<br/>of Computer Programs<br/>(SICP) 2nd Ed (1996)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0262510871/"]
+        csapp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/csapp3.jpg"/></TD></TR><TR><TD>Computer Systems<br/>(CSAPP) 3rd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013409266X/"]
+        caaqa5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/caaqa5.jpg"/></TD></TR><TR><TD>Computer Architecture<br/>(CAAQA) 5th Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/012383872X/"]
         mos4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/mos4.jpg"/></TD></TR><TR><TD>Modern Operating<br/>System (MOS)<br/>4th Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013359162X/"]
         
         clrs3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/clrs3.jpg"/></TD></TR><TR><TD>Introduction to<br/>Algorithms (CLRS)<br/>3rd Ed (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0262033844/"]
