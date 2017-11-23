@@ -99,7 +99,7 @@ digraph {
         learntoprogramwithscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithscratch.jpg"/></TD></TR><TR><TD>Learn to Program<br/> with Scratch<br/>(2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593275439/"]
         helpyoukidswithcomputercoding [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/helpyoukidswithcomputercoding.jpg"/></TD></TR><TR><TD>Help Your Kids<br/>with Computer Coding<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/146541956X/"]
         
-        inventgamepython3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython3.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 4th Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593277954/"]
+        inventgamepython4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython4.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 4th Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593277954/"]
         makinggamespython [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/makinggamespython.jpg"/></TD></TR><TR><TD>Making Games with<br/>Python &amp; Pygame (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1469901730/"]
         learntoprogramwithminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithminecraft.jpg"/></TD></TR><TR><TD>Learn to Program<br/>with Minecraft (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593276702/"]
         adventuresinminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/adventuresinminecraft.jpg"/></TD></TR><TR><TD>Adventures in<br/>Minecraft (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/111894691X/"]
@@ -109,7 +109,7 @@ digraph {
         age8 -> codinggamesinscratch -> helpyoukidswithcomputercoding -> kidintermediate [arrowhead=normal, style=solid]
         age8 -> superscratchprogadv -> learntoprogramwithscratch -> kidintermediate
 
-        kidintermediate -> inventgamepython3 -> makinggamespython
+        kidintermediate -> inventgamepython4 -> makinggamespython
         kidintermediate -> learntoprogramwithminecraft -> adventuresinminecraft
         kidintermediate -> "3dgpforkids"
 
@@ -195,7 +195,7 @@ digraph {
 
         insidecppobjectmodel [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/insidecppobjectmodel.jpg"/></TD></TR><TR><TD>Inside the C++<br/>Object Model (1996)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201834545/"]
         imperfectcpp [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/imperfectcpp.jpg"/></TD></TR><TR><TD>Imperfect C++ (2004)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321228774/"]
-        cpptemplates [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cpptemplates.jpg"/></TD></TR><TR><TD>C++ Templates 2nd Ed (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321714121/"]
+        cpptemplates2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cpptemplates2.jpg"/></TD></TR><TR><TD>C++ Templates 2nd Ed (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321714121/"]
         elementsofprogramming [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/elementsofprogramming.jpg"/></TD></TR><TR><TD>Elements of<br/>Programming (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/032163537X/"]
         frommathtogeneric [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/frommathtogeneric.jpg"/></TD></TR><TR><TD>From Mathematics<br/>to Generic Programming<br/>(2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321942043/"]
         moderncppdesign [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/moderncppdesign.jpg"/></TD></TR><TR><TD>Modern C++ Design (2001)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201704315/"]
@@ -224,9 +224,9 @@ digraph {
         effectivemoderncpp -> optimizedcpp -> cppadvance
         cpppractice -> exceptionalcpp -> moreexceptionalcpp -> exceptionalcppstyle -> cppcodingstandard -> cppadvance
         cppadvance -> elementsofprogramming -> frommathtogeneric
-        cppadvance -> { insidecppobjectmodel; cpptemplates }
+        cppadvance -> { insidecppobjectmodel; cpptemplates2 }
         insidecppobjectmodel -> imperfectcpp
-        cpptemplates -> moderncppdesign
+        cpptemplates2 -> moderncppdesign
 
         lua -> programminginlua4 -> luaprogramminggems
 
