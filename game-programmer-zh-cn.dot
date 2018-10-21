@@ -718,7 +718,7 @@ digraph {
         }
         {
             rank=same
-            gameaipro [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro.jpg"/></TD></TR><TR><TD>Game AI Pro (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1466565969/"]
+            gameaipro [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images-zh-cn/gameaipro.jpg"/></TD></TR><TR><TD>游戏人工智能（2017）</TD></TR></TABLE>> URL="https://book.douban.com/subject/27154117/"]
             gameaipro2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro2.jpg"/></TD></TR><TR><TD>Game AI Pro 2 (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482254794/"]
             gameaipro3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro3.jpg"/></TD></TR><TR><TD>Game AI Pro 3 (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482254794/"]
         }
