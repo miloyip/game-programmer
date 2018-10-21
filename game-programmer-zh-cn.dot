@@ -750,7 +750,7 @@ digraph {
             networkprog [label="网络编程"]
         }
 
-        multiplayergp [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/multiplayergp.jpg"/></TD></TR><TR><TD>Multiplayer Game<br/>Programming (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0134034309/"]
+        multiplayergp [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images-zh-cn/multiplayergp.jpg"/></TD></TR><TR><TD>网络多人游戏架构与编程<br/>(2017)</TD></TR></TABLE>> URL="https://book.douban.com/subject/27135506/"]
         massivelymultiplayergd [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/massivelymultiplayergd.jpg"/></TD></TR><TR><TD>大型多人在线游戏开发<br/>(2006)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1940567/"]
         massivelymultiplayergd2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/massivelymultiplayergd2.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development 2<br/>(2005)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584503904/"]
 
