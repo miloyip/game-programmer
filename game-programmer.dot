@@ -99,7 +99,7 @@ digraph {
         learntoprogramwithscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithscratch.jpg"/></TD></TR><TR><TD>Learn to Program<br/> with Scratch<br/>(2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593275439/"]
         helpyoukidswithcomputercoding [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/helpyoukidswithcomputercoding.jpg"/></TD></TR><TR><TD>Help Your Kids<br/>with Computer Coding<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/146541956X/"]
         
-        inventgamepython4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython4.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 4th Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593277954/"]
+        inventgamepython [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 4th Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593277954/"]
         makinggamespython [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/makinggamespython.jpg"/></TD></TR><TR><TD>Making Games with<br/>Python &amp; Pygame (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1469901730/"]
         learntoprogramwithminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithminecraft.jpg"/></TD></TR><TR><TD>Learn to Program<br/>with Minecraft (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593276702/"]
         adventuresinminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/adventuresinminecraft.jpg"/></TD></TR><TR><TD>Adventures in<br/>Minecraft 2nd Ed (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1119439582/"]
@@ -109,7 +109,7 @@ digraph {
         age8 -> codinggamesinscratch -> helpyoukidswithcomputercoding -> kidintermediate [arrowhead=normal, style=solid]
         age8 -> superscratchprogadv -> learntoprogramwithscratch -> kidintermediate
 
-        kidintermediate -> inventgamepython4 -> makinggamespython
+        kidintermediate -> inventgamepython -> makinggamespython
         kidintermediate -> learntoprogramwithminecraft -> adventuresinminecraft
         kidintermediate -> "3dgpforkids"
 
