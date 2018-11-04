@@ -133,7 +133,7 @@ digraph {
 
         sicp2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/sicp2.jpg"/></TD></TR><TR><TD>Structure and Interpretation<br/>of Computer Programs<br/>(SICP) 2nd Ed (1996)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0262510871/"]
         csapp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/csapp3.jpg"/></TD></TR><TR><TD>Computer Systems<br/>(CSAPP) 3rd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013409266X/"]
-        caaqa5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/caaqa5.jpg"/></TD></TR><TR><TD>Computer Architecture<br/>(CAAQA) 6th Ed (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0128119055/"]
+        caaqa6 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/caaqa.jpg"/></TD></TR><TR><TD>Computer Architecture<br/>(CAAQA) 6th Ed (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0128119055/"]
         mos4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/mos4.jpg"/></TD></TR><TR><TD>Modern Operating<br/>System (MOS)<br/>4th Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013359162X/"]
         
         clrs3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/clrs3.jpg"/></TD></TR><TR><TD>Introduction to<br/>Algorithms (CLRS)<br/>3rd Ed (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0262033844/"]
@@ -142,7 +142,7 @@ digraph {
         concretemaths2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/concretemaths2.jpg"/></TD></TR><TR><TD>Concrete Mathematics<br/>2nd Ed (1994)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201558025/"]
         computationalscieng [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/computationalscieng.jpg"/></TD></TR><TR><TD>Computational Science<br/>and Engineering (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0961408812/"]
 
-        foundation -> { sicp2; csapp3 } -> { caaqa5; mos4 } [arrowhead=normal, style=solid]
+        foundation -> { sicp2; csapp3 } -> { caaqa6; mos4 } [arrowhead=normal, style=solid]
         algorithm -> clrs3 [arrowhead=normal, style=solid]
         algorithm -> algorithms4 -> clrs3
         csmath -> concretemaths2 -> computationalscieng
@@ -150,7 +150,7 @@ digraph {
         cstop [fixedsize=true,width=8,height=0.01,style=invis, label=""]
         csbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         cstop -> { foundation; csmath; algorithm } [style=invis]
-        caaqa5 -> csbottom [style=invis]
+        caaqa6 -> csbottom [style=invis]
     }
 
     subgraph cluster_proglang {
