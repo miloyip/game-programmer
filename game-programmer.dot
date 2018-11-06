@@ -504,7 +504,7 @@ digraph {
 
         practiald3d11 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/practiald3d11.jpg"/></TD></TR><TR><TD>Practical Rendering<br/>and Computation<br/>with Direct3D 11 (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568817207/"]
 
-        rtr3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtr3.jpg"/></TD></TR><TR><TD>Real-Time Rendering<br/> (RTR) 3rd Ed (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814240/"]
+        rtr4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtr.jpg"/></TD></TR><TR><TD>Real-Time Rendering<br/> (RTR) 4rd Ed (2018)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1138627003/"]
         tricks3dgpgurus [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tricks3dgpgurus.jpg"/></TD></TR><TR><TD>Tricks of the 3D<br/>Game Programming<br/>Gurus (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0672318350/"]
         realtimeshadows [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/realtimeshadows.jpg"/></TD></TR><TR><TD>Real-Time<br/>Shadows (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814380/"]
         rtvolumegraphics [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtvolumegraphics.jpg"/></TD></TR><TR><TD>Real-Time Volume<br/>Graphics (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568812663/"]
@@ -572,17 +572,17 @@ digraph {
 
         cgadvanced -> { realtimerendering; offlinerendering; cgtech;}
 
-        realtimerendering -> rtr3 [arrowhead=normal, style=solid]
+        realtimerendering -> rtr4 [arrowhead=normal, style=solid]
         realtimerendering -> tricks3dgpgurus
-        rtr3 -> graphicsprogrammingmethods -> shaderx -> shaderx2 -> shaderx3 -> shaderx4 -> shaderx5 -> shaderx6 -> shaderx7 -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7 -> gpuzen
-        { rank=same; rtr3; rtvolumegraphics }
+        rtr4 -> graphicsprogrammingmethods -> shaderx -> shaderx2 -> shaderx3 -> shaderx4 -> shaderx5 -> shaderx6 -> shaderx7 -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7 -> gpuzen
+        { rank=same; rtr4; rtvolumegraphics }
         { rank=same; gpupro; gpupro2; gpupro3; gpupro4 }
         { rank=same; gpupro5; gpupro6; gpupro7; gpuzen }
-        rtr3 -> { realtimeshadows; rtvolumegraphics }
+        rtr4 -> { realtimeshadows; rtvolumegraphics }
         realtimeshadows -> graphicsprogrammingmethods [style=invis]
         tricks3dgpgurus -> realtimeshadows [style=invis]
 
-        rtr3 -> { d3d; ogl }
+        rtr4 -> { d3d; ogl }
         d3d -> practiald3d11
         ogl -> oglsuper7 -> { graphicsshaders2; glsl3 } -> ogles3guide2 -> oglinsights -> vulkanguide
 

@@ -2673,19 +2673,19 @@
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M447.5303,-5609.3191C468.2691,-5604.4567 492.7342,-5595.4872 509.1544,-5579 550.0024,-5537.9853 540.1544,-5510.3858 540.1544,-5452.5 540.1544,-5452.5 540.1544,-5452.5 540.1544,-5126.5 540.1544,-5026.6866 575.625,-4992.7905 534.1544,-4902 521.1541,-4873.5388 494.5273,-4850.0227 472.1597,-4834.1014"/>
 <polygon fill="#000000" stroke="#000000" points="465.9787,-4829.8143 474.065,-4831.3155 469.0601,-4831.9516 472.1415,-4834.0888 472.1415,-4834.0888 472.1415,-4834.0888 469.0601,-4831.9516 470.218,-4836.862 465.9787,-4829.8143 465.9787,-4829.8143"/>
 </g>
-<!-- rtr3 -->
+<!-- rtr4 -->
 <g id="node199" class="node">
-<title>rtr3</title>
-<g id="a_node199"><a xlink:href="https://www.amazon.com/dp/1568814240/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/rtr3.jpg" width="62.9098px" height="96px" preserveAspectRatio="xMinYMin meet" x="171.7" y="-5513.5"/>
+<title>rtr4</title>
+<g id="a_node199"><a xlink:href="https://www.amazon.com/dp/1138627003/" xlink:title="&lt;TABLE&gt;">
+<image xlink:href="images/rtr.jpg" width="74.0681px" height="96px" preserveAspectRatio="xMinYMin meet" x="166.12" y="-5513.5"/>
 <text text-anchor="start" x="157.1544" y="-5405.5" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Real&#45;Time Rendering</text>
-<text text-anchor="start" x="157.1544" y="-5394.5" font-family="Helvetica-Light" font-size="10.00" fill="#000000"> (RTR) 3rd Ed (2008)</text>
+<text text-anchor="start" x="157.1544" y="-5394.5" font-family="Helvetica-Light" font-size="10.00" fill="#000000"> (RTR) 4rd Ed (2018)</text>
 </a>
 </g>
 </g>
-<!-- realtimerendering&#45;&gt;rtr3 -->
+<!-- realtimerendering&#45;&gt;rtr4 -->
 <g id="edge208" class="edge">
-<title>realtimerendering&#45;&gt;rtr3</title>
+<title>realtimerendering&#45;&gt;rtr4</title>
 <path fill="none" stroke="#000000" d="M203.1544,-5542.5945C203.1544,-5538.0222 203.1544,-5532.835 203.1544,-5527.3144"/>
 <polygon fill="#000000" stroke="#000000" points="205.7795,-5527.1059 203.1544,-5519.6059 200.5295,-5527.106 205.7795,-5527.1059"/>
 </g>
@@ -3006,15 +3006,15 @@
 <polygon fill="#000000" stroke="#000000" points="242.2699,-4569.2225 245.5458,-4576.7663 242.2205,-4572.9722 242.1711,-4576.7219 242.1711,-4576.7219 242.1711,-4576.7219 242.2205,-4572.9722 238.7964,-4576.6774 242.2699,-4569.2225 242.2699,-4569.2225"/>
 </g>
 <!-- vulkanguide&#45;&gt;cgmisc -->
-<!-- rtr3&#45;&gt;d3d -->
+<!-- rtr4&#45;&gt;d3d -->
 <g id="edge233" class="edge">
-<title>rtr3&#45;&gt;d3d</title>
+<title>rtr4&#45;&gt;d3d</title>
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M204.8045,-5385.2606C205.4108,-5360.5523 206.0614,-5334.0392 206.524,-5315.1898"/>
 <polygon fill="#000000" stroke="#000000" points="206.71,-5307.6083 209.8999,-5315.1889 206.618,-5311.3572 206.5259,-5315.1061 206.5259,-5315.1061 206.5259,-5315.1061 206.618,-5311.3572 203.152,-5315.0232 206.71,-5307.6083 206.71,-5307.6083"/>
 </g>
-<!-- rtr3&#45;&gt;ogl -->
+<!-- rtr4&#45;&gt;ogl -->
 <g id="edge234" class="edge">
-<title>rtr3&#45;&gt;ogl</title>
+<title>rtr4&#45;&gt;ogl</title>
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M246.8807,-5385.2606C263.2355,-5360.1111 280.8064,-5333.0917 293.1,-5314.1874"/>
 <polygon fill="#000000" stroke="#000000" points="297.3785,-5307.6083 296.119,-5315.7357 295.3341,-5310.752 293.2896,-5313.8958 293.2896,-5313.8958 293.2896,-5313.8958 295.3341,-5310.752 290.4603,-5312.0558 297.3785,-5307.6083 297.3785,-5307.6083"/>
 </g>
@@ -3028,9 +3028,9 @@
 </a>
 </g>
 </g>
-<!-- rtr3&#45;&gt;realtimeshadows -->
+<!-- rtr4&#45;&gt;realtimeshadows -->
 <g id="edge229" class="edge">
-<title>rtr3&#45;&gt;realtimeshadows</title>
+<title>rtr4&#45;&gt;realtimeshadows</title>
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M151.1779,-5385.2606C145.4582,-5377.8613 139.6134,-5370.3001 133.84,-5362.8313"/>
 <polygon fill="#000000" stroke="#000000" points="129.0114,-5356.5849 136.2686,-5360.4546 131.3049,-5359.5518 133.5984,-5362.5187 133.5984,-5362.5187 133.5984,-5362.5187 131.3049,-5359.5518 130.9281,-5364.5829 129.0114,-5356.5849 129.0114,-5356.5849"/>
 </g>
@@ -3044,9 +3044,9 @@
 </a>
 </g>
 </g>
-<!-- rtr3&#45;&gt;rtvolumegraphics -->
+<!-- rtr4&#45;&gt;rtvolumegraphics -->
 <g id="edge230" class="edge">
-<title>rtr3&#45;&gt;rtvolumegraphics</title>
+<title>rtr4&#45;&gt;rtvolumegraphics</title>
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M261.1974,-5452.5C262.2075,-5452.5 263.2176,-5452.5 264.2277,-5452.5"/>
 <polygon fill="#000000" stroke="#000000" points="271.9719,-5452.5 264.472,-5455.8751 268.2219,-5452.5 264.4719,-5452.5001 264.4719,-5452.5001 264.4719,-5452.5001 268.2219,-5452.5 264.4719,-5449.1251 271.9719,-5452.5 271.9719,-5452.5"/>
 </g>
@@ -3060,9 +3060,9 @@
 </a>
 </g>
 </g>
-<!-- rtr3&#45;&gt;graphicsprogrammingmethods -->
+<!-- rtr4&#45;&gt;graphicsprogrammingmethods -->
 <g id="edge210" class="edge">
-<title>rtr3&#45;&gt;graphicsprogrammingmethods</title>
+<title>rtr4&#45;&gt;graphicsprogrammingmethods</title>
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M180.9679,-5385.4805C178.5685,-5377.5949 176.2434,-5369.6389 174.1544,-5362 156.7206,-5298.2485 168.0833,-5277.3576 141.1544,-5217 138.7011,-5211.5013 135.8915,-5205.9948 132.8492,-5200.5646"/>
 <polygon fill="#000000" stroke="#000000" points="128.8806,-5193.7334 135.5665,-5198.523 130.7644,-5196.9759 132.6482,-5200.2184 132.6482,-5200.2184 132.6482,-5200.2184 130.7644,-5196.9759 129.7299,-5201.9138 128.8806,-5193.7334 128.8806,-5193.7334"/>
 </g>
