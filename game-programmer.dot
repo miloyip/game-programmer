@@ -493,7 +493,7 @@ digraph {
         fundamentalscg4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fundamentalscg4.jpg"/></TD></TR><TR><TD>Fundamentals of<br/>Computer Graphics<br/>4th Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482229390/"]
         cgpp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cgpp3.jpg"/></TD></TR><TR><TD>Computer Graphics<br/>Principles and Practice<br/>(CGP&amp;P) 3rd Ed (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321399528/"]
         pdis [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pdis.jpg"/></TD></TR><TR><TD>Principles of Digital<br/>Image Synthesis<br/>(PODIS) (1995)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1558602763/"]
-        digitalimageprocessing3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/digitalimageprocessing3.jpg"/></TD></TR><TR><TD>Digital Image<br/>Processing<br/>(DIP) 3rd Ed (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013168728X/"]
+        digitalimageprocessing4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/digitalimageprocessing4.jpg"/></TD></TR><TR><TD>Digital Image<br/>Processing<br/>(DIP) 4rd Ed (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0133356728/"]
 
         graphicsshaders2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/graphicsshaders2.jpg"/></TD></TR><TR><TD>Graphics Shaders<br/>2nd Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814348/"]
         glsl3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/glsl3.jpg"/></TD></TR><TR><TD>OpenGL Shading<br/>Language 3rd Ed (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321637631/"]
@@ -566,9 +566,9 @@ digraph {
         { "3dgpdx12"; rt3drendering; oglguide9 } -> cgtheory
 
         cgtheory -> fundamentalscg4 [arrowhead=normal, style=solid]
-        cgtheory-> { cgpp3; pdis; digitalimageprocessing3 }
+        cgtheory-> { cgpp3; pdis; digitalimageprocessing4 }
 
-        { fundamentalscg4; cgpp3; pdis; digitalimageprocessing3} -> cgadvanced
+        { fundamentalscg4; cgpp3; pdis; digitalimageprocessing4} -> cgadvanced
 
         cgadvanced -> { realtimerendering; offlinerendering; cgtech;}
 

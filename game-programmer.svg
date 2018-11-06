@@ -2614,20 +2614,20 @@
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M325.7685,-5813.6986C331.8141,-5808.1384 338.3558,-5801.9288 344.1544,-5796 344.2718,-5795.88 344.3893,-5795.7598 344.5068,-5795.6394"/>
 <polygon fill="#000000" stroke="#000000" points="349.8257,-5790.122 347.0502,-5797.864 347.223,-5792.8218 344.6204,-5795.5216 344.6204,-5795.5216 344.6204,-5795.5216 347.223,-5792.8218 342.1906,-5793.1792 349.8257,-5790.122 349.8257,-5790.122"/>
 </g>
-<!-- digitalimageprocessing3 -->
+<!-- digitalimageprocessing4 -->
 <g id="node191" class="node">
-<title>digitalimageprocessing3</title>
-<g id="a_node191"><a xlink:href="https://www.amazon.com/dp/013168728X/" xlink:title="&lt;TABLE&gt;">
-<image xlink:href="images/digitalimageprocessing3.jpg" width="68.0837px" height="96px" preserveAspectRatio="xMinYMin meet" x="501.113" y="-5789.5"/>
+<title>digitalimageprocessing4</title>
+<g id="a_node191"><a xlink:href="https://www.amazon.com/dp/0133356728/" xlink:title="&lt;TABLE&gt;">
+<image xlink:href="images/digitalimageprocessing4.jpg" width="77.184px" height="96px" preserveAspectRatio="xMinYMin meet" x="496.562" y="-5789.5"/>
 <text text-anchor="start" x="506.1544" y="-5681.5" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Digital Image</text>
 <text text-anchor="start" x="510.6544" y="-5670.5" font-family="Helvetica-Light" font-size="10.00" fill="#000000">Processing</text>
-<text text-anchor="start" x="492.6544" y="-5659.5" font-family="Helvetica-Light" font-size="10.00" fill="#000000">(DIP) 3rd Ed (2007)</text>
+<text text-anchor="start" x="492.6544" y="-5659.5" font-family="Helvetica-Light" font-size="10.00" fill="#000000">(DIP) 4rd Ed (2017)</text>
 </a>
 </g>
 </g>
-<!-- cgtheory&#45;&gt;digitalimageprocessing3 -->
+<!-- cgtheory&#45;&gt;digitalimageprocessing4 -->
 <g id="edge200" class="edge">
-<title>cgtheory&#45;&gt;digitalimageprocessing3</title>
+<title>cgtheory&#45;&gt;digitalimageprocessing4</title>
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M358.7378,-5824.2152C396.4898,-5818.0999 444.148,-5808.9528 470.1108,-5796.6111"/>
 <polygon fill="#000000" stroke="#000000" points="476.8321,-5793.0453 471.7885,-5799.5417 473.5194,-5794.8028 470.2067,-5796.5603 470.2067,-5796.5603 470.2067,-5796.5603 473.5194,-5794.8028 468.625,-5793.5788 476.8321,-5793.0453 476.8321,-5793.0453"/>
 </g>
@@ -2913,9 +2913,9 @@
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M408.1544,-5650.8277C408.1544,-5647.281 408.1544,-5643.8535 408.1544,-5640.6167"/>
 <polygon fill="#000000" stroke="#000000" points="408.1544,-5633.0041 411.5295,-5640.504 408.1545,-5636.7541 408.1545,-5640.5041 408.1545,-5640.5041 408.1545,-5640.5041 408.1545,-5636.7541 404.7795,-5640.5041 408.1544,-5633.0041 408.1544,-5633.0041"/>
 </g>
-<!-- digitalimageprocessing3&#45;&gt;cgadvanced -->
+<!-- digitalimageprocessing4&#45;&gt;cgadvanced -->
 <g id="edge204" class="edge">
-<title>digitalimageprocessing3&#45;&gt;cgadvanced</title>
+<title>digitalimageprocessing4&#45;&gt;cgadvanced</title>
 <path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M476.7838,-5654.9085C475.2495,-5653.5693 473.7054,-5652.2643 472.1544,-5651 466.0773,-5646.0464 459.2265,-5641.3953 452.3244,-5637.1871"/>
 <polygon fill="#000000" stroke="#000000" points="445.4319,-5633.1317 453.6076,-5634.0262 448.664,-5635.0334 451.8961,-5636.9351 451.8961,-5636.9351 451.8961,-5636.9351 448.664,-5635.0334 450.1845,-5639.8439 445.4319,-5633.1317 445.4319,-5633.1317"/>
 </g>
