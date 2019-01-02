@@ -97,7 +97,7 @@ digraph {
         learntoprogramwithscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images-zh-cn/learntoprogramwithscratch.jpg"/></TD></TR><TR><TD>动手玩转Scratch2.0编程 (2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26658602/"]
         helpyoukidswithcomputercoding [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/helpyoukidswithcomputercoding.jpg"/></TD></TR><TR><TD>Help Your Kids<br/>with Computer Coding<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/146541956X/"]
         
-        inventgamepython3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython3.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 3rd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1503212300/"]
+        inventgamepython4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython4.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 4th Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593277954/"]
         makinggamespython [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/makinggamespython.jpg"/></TD></TR><TR><TD>Making Games with<br/>Python &amp; Pygame (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1469901730/"]
         learntoprogramwithminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithminecraft.jpg"/></TD></TR><TR><TD>Learn to Program<br/>with Minecraft (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593276702/"]
         adventuresinminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images-zh-cn/adventuresinminecraft.jpg"/></TD></TR><TR><TD>零基础学Minecraft编程<br/>(2015)</TD></TR></TABLE>> URL="https://book.douban.com/subject/26613247/"]
@@ -107,7 +107,7 @@ digraph {
         age8 -> codinggamesinscratch -> helpyoukidswithcomputercoding -> kidintermediate [arrowhead=normal, style=solid]
         age8 -> superscratchprogadv -> learntoprogramwithscratch -> kidintermediate
 
-        kidintermediate -> inventgamepython3 -> makinggamespython
+        kidintermediate -> inventgamepython4 -> makinggamespython
         kidintermediate -> learntoprogramwithminecraft -> adventuresinminecraft
         kidintermediate -> "3dgpforkids"
 
@@ -718,7 +718,7 @@ digraph {
         }
         {
             rank=same
-            gameaipro [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro.jpg"/></TD></TR><TR><TD>Game AI Pro (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1466565969/"]
+            gameaipro [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images-zh-cn/gameaipro.jpg"/></TD></TR><TR><TD>游戏人工智能（2017）</TD></TR></TABLE>> URL="https://book.douban.com/subject/27154117/"]
             gameaipro2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro2.jpg"/></TD></TR><TR><TD>Game AI Pro 2 (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482254794/"]
             gameaipro3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gameaipro3.jpg"/></TD></TR><TR><TD>Game AI Pro 3 (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482254794/"]
         }
@@ -750,7 +750,7 @@ digraph {
             networkprog [label="网络编程"]
         }
 
-        multiplayergp [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/multiplayergp.jpg"/></TD></TR><TR><TD>Multiplayer Game<br/>Programming (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0134034309/"]
+        multiplayergp [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images-zh-cn/multiplayergp.jpg"/></TD></TR><TR><TD>网络多人游戏架构与编程<br/>(2017)</TD></TR></TABLE>> URL="https://book.douban.com/subject/27135506/"]
         massivelymultiplayergd [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="./images-zh-cn/massivelymultiplayergd.jpg"/></TD></TR><TR><TD>大型多人在线游戏开发<br/>(2006)</TD></TR></TABLE>> URL="https://book.douban.com/subject/1940567/"]
         massivelymultiplayergd2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/massivelymultiplayergd2.jpg"/></TD></TR><TR><TD>Massively Multiplayer<br/>Game Development 2<br/>(2005)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1584503904/"]
 
