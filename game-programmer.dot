@@ -99,17 +99,17 @@ digraph {
         learntoprogramwithscratch [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithscratch.jpg"/></TD></TR><TR><TD>Learn to Program<br/> with Scratch<br/>(2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593275439/"]
         helpyoukidswithcomputercoding [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/helpyoukidswithcomputercoding.jpg"/></TD></TR><TR><TD>Help Your Kids<br/>with Computer Coding<br/>(2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/146541956X/"]
         
-        inventgamepython4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython4.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 4th Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593277954/"]
+        inventgamepython [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/inventgamepython.jpg"/></TD></TR><TR><TD>Invent Your Own<br/>Computer Games with<br/>Python 4th Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593277954/"]
         makinggamespython [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/makinggamespython.jpg"/></TD></TR><TR><TD>Making Games with<br/>Python &amp; Pygame (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1469901730/"]
         learntoprogramwithminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/learntoprogramwithminecraft.jpg"/></TD></TR><TR><TD>Learn to Program<br/>with Minecraft (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1593276702/"]
-        adventuresinminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/adventuresinminecraft.jpg"/></TD></TR><TR><TD>Adventures in<br/>Minecraft (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/111894691X/"]
-        "3dgpforkids" [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/3dgpforkids.jpg"/></TD></TR><TR><TD>3D Game Programming<br/>for Kids (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1937785440/"]
+        adventuresinminecraft [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/adventuresinminecraft.jpg"/></TD></TR><TR><TD>Adventures in<br/>Minecraft 2nd Ed (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1119439582/"]
+        "3dgpforkids" [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/3dgpforkids.jpg"/></TD></TR><TR><TD>3D Game Programming<br/>for Kids 2nd Ed (2018)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1680502700/"]
 
         age5 -> scratchjr -> age8
         age8 -> codinggamesinscratch -> helpyoukidswithcomputercoding -> kidintermediate [arrowhead=normal, style=solid]
         age8 -> superscratchprogadv -> learntoprogramwithscratch -> kidintermediate
 
-        kidintermediate -> inventgamepython4 -> makinggamespython
+        kidintermediate -> inventgamepython -> makinggamespython
         kidintermediate -> learntoprogramwithminecraft -> adventuresinminecraft
         kidintermediate -> "3dgpforkids"
 
@@ -133,7 +133,7 @@ digraph {
 
         sicp2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/sicp2.jpg"/></TD></TR><TR><TD>Structure and Interpretation<br/>of Computer Programs<br/>(SICP) 2nd Ed (1996)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0262510871/"]
         csapp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/csapp3.jpg"/></TD></TR><TR><TD>Computer Systems<br/>(CSAPP) 3rd Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013409266X/"]
-        caaqa5 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/caaqa5.jpg"/></TD></TR><TR><TD>Computer Architecture<br/>(CAAQA) 5th Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/012383872X/"]
+        caaqa6 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/caaqa.jpg"/></TD></TR><TR><TD>Computer Architecture<br/>(CAAQA) 6th Ed (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0128119055/"]
         mos4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/mos4.jpg"/></TD></TR><TR><TD>Modern Operating<br/>System (MOS)<br/>4th Ed (2014)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013359162X/"]
         
         clrs3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/clrs3.jpg"/></TD></TR><TR><TD>Introduction to<br/>Algorithms (CLRS)<br/>3rd Ed (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0262033844/"]
@@ -142,7 +142,7 @@ digraph {
         concretemaths2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/concretemaths2.jpg"/></TD></TR><TR><TD>Concrete Mathematics<br/>2nd Ed (1994)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0201558025/"]
         computationalscieng [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/computationalscieng.jpg"/></TD></TR><TR><TD>Computational Science<br/>and Engineering (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0961408812/"]
 
-        foundation -> { sicp2; csapp3 } -> { caaqa5; mos4 } [arrowhead=normal, style=solid]
+        foundation -> { sicp2; csapp3 } -> { caaqa6; mos4 } [arrowhead=normal, style=solid]
         algorithm -> clrs3 [arrowhead=normal, style=solid]
         algorithm -> algorithms4 -> clrs3
         csmath -> concretemaths2 -> computationalscieng
@@ -150,7 +150,7 @@ digraph {
         cstop [fixedsize=true,width=8,height=0.01,style=invis, label=""]
         csbottom [fixedsize=true,width=8,height=0.01,style=invis,label=""]
         cstop -> { foundation; csmath; algorithm } [style=invis]
-        caaqa5 -> csbottom [style=invis]
+        caaqa6 -> csbottom [style=invis]
     }
 
     subgraph cluster_proglang {
@@ -493,7 +493,7 @@ digraph {
         fundamentalscg4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/fundamentalscg4.jpg"/></TD></TR><TR><TD>Fundamentals of<br/>Computer Graphics<br/>4th Ed (2015)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1482229390/"]
         cgpp3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/cgpp3.jpg"/></TD></TR><TR><TD>Computer Graphics<br/>Principles and Practice<br/>(CGP&amp;P) 3rd Ed (2013)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321399528/"]
         pdis [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pdis.jpg"/></TD></TR><TR><TD>Principles of Digital<br/>Image Synthesis<br/>(PODIS) (1995)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1558602763/"]
-        digitalimageprocessing3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/digitalimageprocessing3.jpg"/></TD></TR><TR><TD>Digital Image<br/>Processing<br/>(DIP) 3rd Ed (2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/013168728X/"]
+        digitalimageprocessing4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/digitalimageprocessing4.jpg"/></TD></TR><TR><TD>Digital Image<br/>Processing<br/>(DIP) 4rd Ed (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0133356728/"]
 
         graphicsshaders2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/graphicsshaders2.jpg"/></TD></TR><TR><TD>Graphics Shaders<br/>2nd Ed (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814348/"]
         glsl3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/glsl3.jpg"/></TD></TR><TR><TD>OpenGL Shading<br/>Language 3rd Ed (2009)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0321637631/"]
@@ -504,7 +504,7 @@ digraph {
 
         practiald3d11 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/practiald3d11.jpg"/></TD></TR><TR><TD>Practical Rendering<br/>and Computation<br/>with Direct3D 11 (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568817207/"]
 
-        rtr3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtr3.jpg"/></TD></TR><TR><TD>Real-Time Rendering<br/> (RTR) 3rd Ed (2008)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814240/"]
+        rtr4 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtr.jpg"/></TD></TR><TR><TD>Real-Time Rendering<br/> (RTR) 4rd Ed (2018)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1138627003/"]
         tricks3dgpgurus [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/tricks3dgpgurus.jpg"/></TD></TR><TR><TD>Tricks of the 3D<br/>Game Programming<br/>Gurus (2003)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0672318350/"]
         realtimeshadows [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/realtimeshadows.jpg"/></TD></TR><TR><TD>Real-Time<br/>Shadows (2011)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568814380/"]
         rtvolumegraphics [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/rtvolumegraphics.jpg"/></TD></TR><TR><TD>Real-Time Volume<br/>Graphics (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568812663/"]
@@ -566,23 +566,23 @@ digraph {
         { "3dgpdx12"; rt3drendering; oglguide9 } -> cgtheory
 
         cgtheory -> fundamentalscg4 [arrowhead=normal, style=solid]
-        cgtheory-> { cgpp3; pdis; digitalimageprocessing3 }
+        cgtheory-> { cgpp3; pdis; digitalimageprocessing4 }
 
-        { fundamentalscg4; cgpp3; pdis; digitalimageprocessing3} -> cgadvanced
+        { fundamentalscg4; cgpp3; pdis; digitalimageprocessing4} -> cgadvanced
 
         cgadvanced -> { realtimerendering; offlinerendering; cgtech;}
 
-        realtimerendering -> rtr3 [arrowhead=normal, style=solid]
+        realtimerendering -> rtr4 [arrowhead=normal, style=solid]
         realtimerendering -> tricks3dgpgurus
-        rtr3 -> graphicsprogrammingmethods -> shaderx -> shaderx2 -> shaderx3 -> shaderx4 -> shaderx5 -> shaderx6 -> shaderx7 -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7 -> gpuzen
-        { rank=same; rtr3; rtvolumegraphics }
+        rtr4 -> graphicsprogrammingmethods -> shaderx -> shaderx2 -> shaderx3 -> shaderx4 -> shaderx5 -> shaderx6 -> shaderx7 -> gpugems -> gpugems2 -> gpugems3 -> gpupro -> gpupro2 -> gpupro3 -> gpupro4 -> gpupro5 -> gpupro6 -> gpupro7 -> gpuzen
+        { rank=same; rtr4; rtvolumegraphics }
         { rank=same; gpupro; gpupro2; gpupro3; gpupro4 }
         { rank=same; gpupro5; gpupro6; gpupro7; gpuzen }
-        rtr3 -> { realtimeshadows; rtvolumegraphics }
+        rtr4 -> { realtimeshadows; rtvolumegraphics }
         realtimeshadows -> graphicsprogrammingmethods [style=invis]
         tricks3dgpgurus -> realtimeshadows [style=invis]
 
-        rtr3 -> { d3d; ogl }
+        rtr4 -> { d3d; ogl }
         d3d -> practiald3d11
         ogl -> oglsuper7 -> { graphicsshaders2; glsl3 } -> ogles3guide2 -> oglinsights -> vulkanguide
 
