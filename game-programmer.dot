@@ -532,7 +532,7 @@ digraph {
         
         gpuzen [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/gpuzen.jpg"/></TD></TR><TR><TD>GPU Zen (2017)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0998822892/"]
 
-        pbrt3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pbrt3.jpg"/></TD></TR><TR><TD>Physically Based<br/>Rendering (PBRT)<br/>3rd Ed (2016)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/0128006455/"]
+        pbrt3 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/pbrt3.jpg"/></TD></TR><TR><TD>Physically Based<br/>Rendering (PBRT)<br/>3rd Ed (2016)</TD></TR></TABLE>> URL="http://www.pbr-book.org/"]
         raytracingfromgroundup [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/raytracingfromgroundup.jpg"/></TD></TR><TR><TD>Ray Tracing from<br/>the Ground Up<br/>(2007)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568812728/"]
         advancedgi2 [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/advancedgi2.jpg"/></TD></TR><TR><TD>Advanced<br/>Global Illumination<br/>2nd Ed (2006)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/1568813074/"]
         productionvolumerendering [label=<<TABLE BORDER="0" CELLSPACING="0"><TR><TD WIDTH="100" HEIGHT="100" FIXEDSIZE="TRUE"><IMG SCALE="TRUE" SRC="images/productionvolumerendering.jpg"/></TD></TR><TR><TD>Production Volume<br/>Rendering (2012)</TD></TR></TABLE>> URL="https://www.amazon.com/dp/156881724X/"]
