@@ -21,7 +21,7 @@ def get_image(isbn, image_filename):
     :type en_isbn: str
     :rtype: str
     """
-    print("get_image(" + isbn + "," + isbn + ")")
+    print("get_image(" + isbn + "," + image_filename + ")")
     response = urlopen(book_url)
     html = response.read()
     re_image_url = r"https://img\d\.doubanio\.com/lpic/s\d*\.jpg"
